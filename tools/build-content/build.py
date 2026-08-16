@@ -22,9 +22,11 @@ import gen_abilities        # noqa: E402
 import gen_heroes           # noqa: E402
 import gen_stacking         # noqa: E402
 import gen_stats            # noqa: E402
+import gen_encounters       # noqa: E402
+import gen_codex            # noqa: E402
 
 
-def cross_check(units, items, recipes, abilities, heroes):
+def cross_check(units, items, recipes, abilities, heroes, encounters=None, codex=None):
     """Every reference inside the generated set must resolve."""
     errors = []
 
@@ -49,6 +51,26 @@ def cross_check(units, items, recipes, abilities, heroes):
                 errors.append("heroes.lua: %s references missing ability %s" % (key, a))
         if not h["topLevelAbilities"]:
             errors.append("heroes.lua: %s has no top-level abilities" % key)
+
+    for key, e in (encounters or {}).items():
+        if key not in units:
+            errors.append("encounters.lua: %s is not a unit" % key)
+        for m in e.get("minionTypes", []):
+            if m not in units:
+                errors.append("encounters.lua: %s summons missing unit %s" % (key, m))
+
+    for key, h in ((codex or {}).get("hunt") or {}).items():
+        if key not in units:
+            errors.append("codex.lua: hunt target %s is not a unit" % key)
+        for o in h.get("objectives", []):
+            if o.get("kind") == "item" and o["item"] not in items:
+                errors.append("codex.lua: %s needs missing item %s" % (key, o["item"]))
+    for cid, chain in ((codex or {}).get("chronicle") or {}).items():
+        for step in chain["steps"]:
+            req = step.get("requires")
+            if req and req.get("kind") == "boss" and req["unit"] not in units:
+                errors.append("codex.lua: chronicle %s references missing unit %s"
+                              % (cid, req["unit"]))
 
     # every equippable item names a slot; every data-only item does not
     for key, it in items.items():
@@ -92,8 +114,21 @@ def main():
     print("  stacking.lua           %d slots over %d effect kinds, %d sources"
           % (len(stacking["slots"]), len(stacking["byKind"]), len(stacking["bySource"])))
 
+    encounters = gen_encounters.build()
+    hooks = sum(1 for v in encounters.values() if v.get("needsScriptedHook"))
+    print("  encounters.lua         %d boss scaffolds (%d need scripted hooks)"
+          % (len(encounters), hooks))
+
+    codex, review = gen_codex.build()
+    full = sum(1 for e in codex["hunt"].values() if e["confidence"] >= 0.999)
+    print("  codex.lua              %d hunts (%d fully structured), %d chronicle chains"
+          % (len(codex["hunt"]), full, len(codex["chronicle"])))
+    if review:
+        print("     %d hunts have unstructured steps (kept verbatim as freeform)"
+              % len(review))
+
     print("\n== cross-checking generated set ==")
-    errors = cross_check(units, items, recipes, abilities, heroes)
+    errors = cross_check(units, items, recipes, abilities, heroes, encounters, codex)
     for e in errors[:25]:
         print("  ERROR %s" % e)
     if errors:

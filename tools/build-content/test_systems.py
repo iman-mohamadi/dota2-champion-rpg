@@ -365,6 +365,107 @@ def test_persistence():
     check("level 1 earns none", int(per * 0 + 0.0001), 0)
 
 
+
+
+# ------------------------------------------------------- encounters/codex
+
+def test_encounters():
+    print("\n== encounters: scaffolds are honest about what is authored ==")
+    import gen_encounters
+    d = gen_encounters.build()
+    bosses = [b for b in C.raw("bosses.json") if b["type"] == "Boss"]
+    check("one scaffold per boss", len(d), len(bosses))
+    check("none claim to be authored",
+          sum(1 for v in d.values() if v.get("authored")), 0)
+    check("scripted hooks flagged",
+          sum(1 for v in d.values() if v.get("needsScriptedHook")), 6)
+
+    print("\n== difficulty modes match docs/00 §3.8 ==")
+    m = list(d.values())[0]["modes"]
+    check("practice: boss takes 300% damage", m["practice"]["damageTaken"], 3.0)
+    check("practice: boss deals 75% less", m["practice"]["damageDealt"], 0.25)
+    check("practice: no drops", m["practice"]["drops"], False)
+    check("hard: +50% drop rate", m["hard"]["dropRateBonus"], 0.50)
+
+    print("\n== party scaling: 8-10 players reduce add HP by 25% (patch 64b) ==")
+    ps = list(d.values())[0]["partyScaling"]
+    check("8-10 addHealth", ps["8-10"]["addHealth"], -0.25)
+
+    def scaling_for(table, size):
+        """Mirror of Encounter:ScalingFor."""
+        for rng, mods in table.items():
+            if "-" in rng:
+                lo, hi = rng.split("-")
+                if int(lo) <= size <= int(hi):
+                    return mods
+            elif int(rng) == size:
+                return mods
+        return {}
+
+    check("size 9 matches the 8-10 band", scaling_for(ps, 9).get("addHealth"), -0.25)
+    check("size 4 matches nothing", scaling_for(ps, 4), {})
+
+    print("\n== empowered stat sets come from the data ==")
+    # Three bosses carry the empoweredStats KEY, but Gaia's value is an empty
+    # table upstream, so only two have a usable set. docs/00 reported 3 from a
+    # key-presence count; the generator emits only non-empty ones.
+    raw = C.raw("bosses.json")
+    check("entries with the key present", len([b for b in raw if "empoweredStats" in b]), 3)
+    check("of which non-empty", len([b for b in raw if b.get("empoweredStats")]), 2)
+    emp = [v for v in d.values() if v.get("empowered")]
+    check("bosses with a usable empowered set", len(emp), 2)
+    ag = d[C.unit_key("Underlord Agareth")]
+    check("Agareth empowered damageResist", ag["empowered"]["damageResist"], 75.0)
+
+
+def test_codex():
+    print("\n== codex: hunt objectives parsed from boss conditions ==")
+    import gen_codex
+    d, review = gen_codex.build()
+    hunt = d["hunt"]
+    check("one hunt per boss", len(hunt),
+          len([b for b in C.raw("bosses.json") if b["type"] == "Boss"]))
+    full = sum(1 for e in hunt.values() if e["confidence"] >= 0.999)
+    check("fully structured hunts", full, 47)
+    check("needing review", len(review), 5)
+    check("raw text always preserved",
+          sum(1 for e in hunt.values() if e.get("rawConditions") is None
+              or e["rawConditions"]), len(hunt))
+
+    print("\n== specific parses ==")
+    ag = hunt[C.unit_key("Underlord Agareth")]
+    kinds = [o["kind"] for o in ag["objectives"]]
+    check("Agareth requires a level", "level" in kinds, True)
+    lvl = [o for o in ag["objectives"] if o["kind"] == "level"][0]
+    check("Agareth level 100", lvl["min"], 100)
+
+    beriel = hunt[C.unit_key("Demon Lord Beriel")]
+    items = [o for o in beriel["objectives"] if o["kind"] == "item"]
+    check("Beriel needs Red Magic Stone x6", items[0]["count"], 6)
+    check("  with a location hint kept separate",
+          "Area 7" in (items[0].get("locationHint") or ""), True)
+
+    nat = hunt[C.unit_key("Protector of Nature")]
+    it = [o for o in nat["objectives"] if o["kind"] == "item"][0]
+    check("Protector of Nature: Ancient Branch x3", it["count"], 3)
+    check("  location hint 'at big tree'", it.get("locationHint"), "at big tree")
+
+    print("\n== unparseable steps are kept verbatim, never guessed ==")
+    ff = [o for e in hunt.values() for o in e["objectives"] if o["kind"] == "freeform"]
+    check("freeform objectives", len(ff), 5)
+    texts = {o["text"] for o in ff}
+    check("'Orb of the Sea' left alone (item is 'Orb of the Deep Sea')",
+          "Orb of the Sea" in texts, True)
+
+    print("\n== chronicle chains ==")
+    ch = d["chronicle"]
+    check("chains", len(ch), 2)
+    check("Hell Invasion has 4 steps", len(ch["hell_invasion"]["steps"]), 4)
+    check("last step is Agareth",
+          ch["hell_invasion"]["steps"][-1]["requires"]["unit"],
+          C.unit_key("Underlord Agareth"))
+
+
 def main():
     test_stacking()
     test_inventory()
@@ -372,6 +473,8 @@ def main():
     test_loot()
     test_stats()
     test_persistence()
+    test_encounters()
+    test_codex()
     print("\n%s" % ("ALL PASS" if not FAILED else "%d FAILURES: %s" % (len(FAILED), FAILED)))
     return 1 if FAILED else 0
 

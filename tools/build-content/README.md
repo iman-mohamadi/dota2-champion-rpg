@@ -22,6 +22,8 @@ python3 tools/build-content/test_systems.py  # systems-layer rules
 | `gen_heroes.py` | `npc_heroes_custom.txt`, `herolist.txt`, `data/heroes.lua` for 37 classes |
 | `gen_stacking.py` | `data/stacking.lua` — the Type-A/B/C/D slot table |
 | `gen_stats.py` | `data/stats.lua` — the 34-field stat vocabulary |
+| `gen_encounters.py` | `data/encounters.lua` — 52 boss scaffolds |
+| `gen_codex.py` | `data/codex.lua` — Hunt objectives parsed from boss conditions, plus Chronicle chains |
 | `build.py` | orchestrator |
 | `test_formulas.py` | asserts the maths against docs/05 |
 | `test_systems.py` | asserts the systems-layer rules (stacking, inventory, crafting, loot) |
@@ -63,6 +65,15 @@ python3 tools/build-content/test_systems.py  # systems-layer rules
   is a one-line change if in-game testing says otherwise.
 - **Persistence needs a JSON codec injected** (`Persistence.json`) and an
   endpoint set. Saving is refused outright rather than silently sending nil.
+- **Encounter definitions are scaffolds, not fights.** Phase HP thresholds,
+  ability timings and mechanic specifics are not in the source data and are not
+  invented. Every definition carries `authored = false`; 6 are flagged as
+  needing a scripted hook (Agareth's mini-game, Lazarus's second form, Styrix's
+  out-of-zone leash heal, Ancient Ent, Death Fiend's Fog, Beriel's wave gate).
+- **Codex Hunt parsing is 90% structured** (47 of 52). The remaining 5 are
+  genuine world-state prose and one upstream naming inconsistency
+  ("Orb of the Sea" vs the real item "Orb of the Deep Sea"). They are kept
+  verbatim as `freeform` rather than guess-matched.
 - Ability KV entries are **stubs**, all pointing at one placeholder script. The
   data entry next to each is the spec to implement it from; 324 carry the
   original handler name and 164 carry recovered coefficients.
