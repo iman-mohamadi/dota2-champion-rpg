@@ -1,0 +1,38 @@
+{
+ "units": {
+  "version": 2,
+  "count": 1286,
+  "custom": 1231,
+  "withName": 1258
+ },
+ "items": {
+  "version": 2,
+  "count": 1292,
+  "custom": 1019,
+  "withName": 1292
+ },
+ "abilities": {
+  "version": 2,
+  "count": 1944,
+  "custom": 1911,
+  "withName": 1932
+ },
+ "buffs": {
+  "version": 2,
+  "count": 564,
+  "custom": 472,
+  "withName": 5
+ },
+ "doodads": {
+  "version": 2,
+  "count": 452,
+  "custom": 336,
+  "withName": 0
+ },
+ "upgrades": {
+  "version": 2,
+  "count": 2,
+  "custom": 1,
+  "withName": 0
+ }
+}

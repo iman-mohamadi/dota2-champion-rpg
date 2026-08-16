@@ -1,0 +1,40 @@
+[
+ {
+  "baseId": "Rhra",
+  "id": "Rhra",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "glvl": 1,
+   "gba1": 600.0,
+   "gnam": {
+    "1": "Sniper"
+   },
+   "gmo1": 0.0,
+   "gar1": {
+    "1": "ReplaceableTextures\\CommandButtons\\BTNSniperT.blp"
+   },
+   "gcls": "",
+   "gef1": "ratr"
+  }
+ },
+ {
+  "baseId": "Rhra",
+  "id": "R000",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "glvl": 1,
+   "gba1": 400.0,
+   "gnam": {
+    "1": "Blaster"
+   },
+   "gmo1": 0.0,
+   "gar1": {
+    "1": "ReplaceableTextures\\CommandButtons\\BTNHeroBlaster.blp"
+   },
+   "gcls": "",
+   "gef1": "ratr"
+  }
+ }
+]

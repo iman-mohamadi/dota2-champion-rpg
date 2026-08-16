@@ -1,0 +1,94 @@
+{
+ "terrain": {
+  "version": 11,
+  "tileset": "Y",
+  "customTilesets": true,
+  "groundTilesets": [
+   "Ydrt",
+   "Alvd",
+   "Ysqd",
+   "Nice",
+   "Drds",
+   "cNc1",
+   "Vcbp",
+   "Vrck",
+   "Dlav",
+   "Yrtl",
+   "cAc2",
+   "cAc1",
+   "Adrg",
+   "Vcrp",
+   "Adrd",
+   "cOc1"
+  ],
+  "cliffTilesets": [
+   "CYdi",
+   "CYsq"
+  ],
+  "gridWidth": 481,
+  "gridHeight": 481,
+  "cellsX": 480,
+  "cellsY": 480,
+  "worldUnitsX": 61440,
+  "worldUnitsY": 61440,
+  "centerOffsetX": -30208.0,
+  "centerOffsetY": -31744.0,
+  "boundsMinX": -30208.0,
+  "boundsMinY": -31744.0,
+  "boundsMaxX": 31232.0,
+  "boundsMaxY": 29696.0
+ },
+ "mapInfo": {
+  "w3iVersion": 25,
+  "saves": 32191,
+  "editorVersion": 6052,
+  "name": "|c0000bfffThe World RPG|r v0.65b",
+  "author": "developer",
+  "description": "Original by: Keekero\r\nCompatible version: v0.62a ~",
+  "recommendedPlayers": "10",
+  "cameraBounds": [
+   -29440.0,
+   -31232.0,
+   30720.0,
+   29440.0,
+   -29440.0,
+   29440.0,
+   30720.0,
+   -31232.0
+  ],
+  "cameraComplements": [
+   2,
+   0,
+   2,
+   0
+  ],
+  "playableWidth": 478,
+  "playableHeight": 478,
+  "flags": "0xfc68",
+  "tileset": "Y"
+ },
+ "terrainStats": {
+  "heightMin": 3042,
+  "heightMax": 15039,
+  "waterMin": 8135,
+  "waterMax": 9728,
+  "groundTextureHistogram": {
+   "Ydrt": 149508,
+   "Alvd": 13190,
+   "Ysqd": 1168,
+   "Nice": 942,
+   "Drds": 5178,
+   "cNc1": 5680,
+   "Vcbp": 2466,
+   "Vrck": 6934,
+   "Dlav": 2802,
+   "Yrtl": 2389,
+   "cAc2": 1522,
+   "cAc1": 6233,
+   "Adrg": 16933,
+   "Vcrp": 291,
+   "Adrd": 1530,
+   "cOc1": 14595
+  }
+ }
+}

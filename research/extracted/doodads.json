@@ -1,0 +1,7703 @@
+[
+ {
+  "baseId": "KOdr",
+  "id": "KOdr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmas": 5.0
+  }
+ },
+ {
+  "baseId": "IRcy",
+  "id": "IRcy",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dimc": 1,
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "LWw0",
+  "id": "LWw0",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.1,
+   "dmas": 10.0,
+   "dvg1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 127
+   }
+  }
+ },
+ {
+  "baseId": "LRrk",
+  "id": "LRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.5,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "LSin",
+  "id": "LSin",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "YOfn",
+  "id": "YOfn",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YSta",
+  "id": "YSta",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "YScd",
+  "id": "YScd",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0
+  }
+ },
+ {
+  "baseId": "YOst",
+  "id": "YOst",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "YSco",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "NRrk",
+  "id": "NRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.5,
+   "dmis": 2.5
+  }
+ },
+ {
+  "baseId": "NRwr",
+  "id": "NRwr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.5
+  }
+ },
+ {
+  "baseId": "IRrs",
+  "id": "IRrs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 1.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "NRic",
+  "id": "NRic",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "GPsh",
+  "id": "GPsh",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "NObt",
+  "id": "NObt",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "NOok",
+  "id": "NOok",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dvr1": {
+    "1": 55
+   },
+   "dvg1": {
+    "1": 135
+   }
+  }
+ },
+ {
+  "baseId": "LOsk",
+  "id": "LOsk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "none",
+   "dmis": 0.01,
+   "dvr1": {
+    "3": 100,
+    "2": 100,
+    "1": 100,
+    "4": 100
+   },
+   "dvg1": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100
+   },
+   "dvb1": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100
+   }
+  }
+ },
+ {
+  "baseId": "NOfg",
+  "id": "NOfg",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.75
+  }
+ },
+ {
+  "baseId": "NPth",
+  "id": "NPth",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.75,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "YS10",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS09",
+  "id": "YS09",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS11",
+  "id": "YS11",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS05",
+  "id": "YS05",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS04",
+  "id": "YS04",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS03",
+  "id": "YS03",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS08",
+  "id": "YS08",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS07",
+  "id": "YS07",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS06",
+  "id": "YS06",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS13",
+  "id": "YS13",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS15",
+  "id": "YS15",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS12",
+  "id": "YS12",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS14",
+  "id": "YS14",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS02",
+  "id": "YS02",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS00",
+  "id": "YS00",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "YS01",
+  "id": "YS01",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "ARrk",
+  "id": "ARrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.5,
+   "dmis": 0.5,
+   "dptx": "none",
+   "dtil": "A,V"
+  }
+ },
+ {
+  "baseId": "GRrk",
+  "id": "GRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.5,
+   "dmis": 1.25,
+   "dptx": "none",
+   "dtil": "G,V"
+  }
+ },
+ {
+  "baseId": "BRrk",
+  "id": "BRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.5,
+   "dmis": 1.25
+  }
+ },
+ {
+  "baseId": "LOsw",
+  "id": "LOsw",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ZZcd",
+  "id": "ZZcd",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dvb1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   }
+  }
+ },
+ {
+  "baseId": "GSah",
+  "id": "GSah",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "DSah",
+  "id": "DSah",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "XOcl",
+  "id": "XOcl",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.01,
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.5,
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "dvr1": {
+    "1": 200
+   }
+  }
+ },
+ {
+  "baseId": "XOmr",
+  "id": "XOmr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dvr1": {
+    "2": 155,
+    "1": 0
+   },
+   "dmis": 0.01,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "DSp0",
+  "id": "DSp0",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dtil": "D,*"
+  }
+ },
+ {
+  "baseId": "GSp0",
+  "id": "GSp0",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dtil": "G,*"
+  }
+ },
+ {
+  "baseId": "DSp9",
+  "id": "DSp9",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dtil": "D,*",
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "GSp9",
+  "id": "GSp9",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dtil": "G,*"
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "VSvb",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 1.5,
+   "dmis": 1.5
+  }
+ },
+ {
+  "baseId": "YOsw",
+  "id": "YOsw",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "DRrk",
+  "id": "DRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.5,
+   "dmis": 1.2,
+   "dptx": "none",
+   "dvg1": {
+    "1": 25,
+    "2": 25,
+    "3": 25,
+    "4": 25,
+    "5": 25,
+    "6": 25,
+    "7": 25,
+    "8": 25,
+    "9": 25,
+    "10": 25
+   },
+   "dvb1": {
+    "1": 15,
+    "2": 15,
+    "3": 15,
+    "4": 15,
+    "5": 15,
+    "6": 15,
+    "7": 15,
+    "8": 15,
+    "9": 15,
+    "10": 15
+   },
+   "dvr1": {
+    "9": 105,
+    "1": 105,
+    "2": 105,
+    "3": 105,
+    "4": 105,
+    "5": 105,
+    "6": 105,
+    "7": 105,
+    "8": 105,
+    "10": 105
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "ZPsh",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "ZPfw",
+  "id": "ZPfw",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dmis": 1.0,
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "APms",
+  "id": "APms",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmas": 2.0,
+   "dmis": 1.2
+  }
+ },
+ {
+  "baseId": "JOgr",
+  "id": "JOgr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmas": 4.0,
+   "dmis": 0.01,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ASpr",
+  "id": "ASpr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Ruins\\Props\\DalaranRuinTower2\\DalaranRuinTower2.mdl",
+   "dmas": 15.0,
+   "dvr1": {
+    "1": 155
+   },
+   "dvb1": {
+    "1": 155
+   },
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "AOsk",
+  "id": "AOsk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.5,
+   "dvr1": {
+    "1": 205
+   },
+   "dvb1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "AOgs",
+  "id": "AOgs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 2.5,
+   "dvb1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 155
+   },
+   "dptx": "none",
+   "dvg1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "APct",
+  "id": "APct",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 1.2
+  }
+ },
+ {
+  "baseId": "LOwb",
+  "id": "LOwb",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.5
+  }
+ },
+ {
+  "baseId": "YPfs",
+  "id": "YPfs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "YObw",
+  "id": "YObw",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "NOfp",
+  "id": "NOfp",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "ZWsf",
+  "id": "ZWsf",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "GSar",
+  "id": "GSar",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "LOgr",
+  "id": "LOgr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 0.01,
+   "dfil": "war3mapImported\\ozs_shizhu_A015.mdl",
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "AObr",
+  "id": "AObr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 2.0,
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "LOsh",
+  "id": "LOsh",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 1.25
+  }
+ },
+ {
+  "baseId": "OOsk",
+  "id": "OOsk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.25,
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "LOfl",
+  "id": "LOfl",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.5,
+   "dvg1": {
+    "1": 25
+   },
+   "dvr1": {
+    "1": 25
+   },
+   "dvb1": {
+    "1": 25
+   }
+  }
+ },
+ {
+  "baseId": "AOsr",
+  "id": "AOsr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.5,
+   "dmis": 1.25
+  }
+ },
+ {
+  "baseId": "LOic",
+  "id": "LOic",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "LZth",
+  "id": "LZth",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dfil": "ToxicField.mdl",
+   "dtil": "*",
+   "dmis": 0.01,
+   "dmas": 2.5,
+   "dptx": "none",
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LSeb",
+  "id": "LSeb",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 2.0,
+   "dvr1": {
+    "1": 85,
+    "2": 85
+   },
+   "dvg1": {
+    "2": 85,
+    "1": 85
+   },
+   "dvb1": {
+    "1": 125,
+    "2": 125
+   }
+  }
+ },
+ {
+  "baseId": "YOr2",
+  "id": "YOr2",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "YSca",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "YScr",
+  "id": "YScr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "LOhc",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "BRcr",
+  "id": "BRcr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "DRfc",
+  "id": "DRfc",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dmis": 2.0,
+   "dptx": "none",
+   "dvg1": {
+    "1": 125
+   },
+   "dvb1": {
+    "1": 125
+   }
+  }
+ },
+ {
+  "baseId": "GRfc",
+  "id": "GRfc",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 2.0,
+   "dmas": 4.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ASra",
+  "id": "ASra",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0
+  }
+ },
+ {
+  "baseId": "LSra",
+  "id": "LSra",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0
+  }
+ },
+ {
+  "baseId": "BSra",
+  "id": "BSra",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0
+  }
+ },
+ {
+  "baseId": "ZWfs",
+  "id": "ZWfs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "ZWbg",
+  "id": "ZWbg",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dmis": 2.5
+  }
+ },
+ {
+  "baseId": "IWbg",
+  "id": "IWbg",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.5
+  }
+ },
+ {
+  "baseId": "NWsd",
+  "id": "NWsd",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dmis": 4.0
+  }
+ },
+ {
+  "baseId": "AWlp",
+  "id": "AWlp",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "ZWsw",
+  "id": "ZWsw",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "ZWcl",
+  "id": "ZWcl",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "ZWca",
+  "id": "ZWca",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "NWsp",
+  "id": "NWsp",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dmis": 1.5,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "YOwa",
+  "id": "YOwa",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "OZfc",
+  "id": "OZfc",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.4,
+   "dfxr": -1.0
+  }
+ },
+ {
+  "baseId": "ORrs",
+  "id": "ORrs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dfxr": -1.0
+  }
+ },
+ {
+  "baseId": "ORrr",
+  "id": "ORrr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.4
+  }
+ },
+ {
+  "baseId": "ORmk",
+  "id": "ORmk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.4,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "LOsm",
+  "id": "LOsm",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dmis": 5.0
+  }
+ },
+ {
+  "baseId": "YPfa",
+  "id": "YPfa",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 1.0,
+   "dmas": 1.0,
+   "dptx": "none",
+   "dtil": "Y,V",
+   "dcat": "O"
+  }
+ },
+ {
+  "baseId": "AObd",
+  "id": "AObd",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dcat": "Z"
+  }
+ },
+ {
+  "baseId": "ASwt",
+  "id": "ASwt",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "ZRrk",
+  "id": "ZRrk",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "AWfl",
+  "id": "AWfl",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "A,Z",
+   "dmas": 4.0,
+   "dmis": 1.2
+  }
+ },
+ {
+  "baseId": "ZPlp",
+  "id": "ZPlp",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "BObo",
+  "id": "BObo",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dtil": "B,K,O,Z",
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 2.0
+  }
+ },
+ {
+  "baseId": "YOsa",
+  "id": "YOsa",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ZOss",
+  "id": "ZOss",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dtil": "*",
+   "dptx": "none",
+   "dvr1": {
+    "1": 155,
+    "2": 155,
+    "3": 155,
+    "4": 155
+   },
+   "dvg1": {
+    "1": 155,
+    "2": 155,
+    "3": 155,
+    "4": 155
+   },
+   "dvb1": {
+    "1": 155,
+    "2": 155,
+    "3": 155,
+    "4": 155
+   }
+  }
+ },
+ {
+  "baseId": "IOsm",
+  "id": "IOsm",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "NOgv",
+  "id": "NOgv",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dfil": "war3mapImported\\ozs_shizhu_A015.mdl"
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "ZZgr",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "LPrs",
+  "id": "LPrs",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dvr1": {
+    "4": 100
+   },
+   "dvg1": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100
+   },
+   "dvb1": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100
+   },
+   "dmis": 0.5,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "NOfl",
+  "id": "NOfl",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "NWfp",
+  "id": "NWfp",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "NWpa",
+  "id": "NWpa",
+  "custom": false,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ASwt",
+  "id": "D000",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dptx": "",
+   "ddes": 0.45,
+   "dmis": 0.1,
+   "dmas": 2.0,
+   "dwlk": 1,
+   "dvis": 100.0,
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D001",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "DungeonPortal.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmas": 5.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D003",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "buildings\\human\\Blacksmith\\Blacksmith.mdl",
+   "dfxr": -1.0,
+   "dptx": "none",
+   "ddes": 2.0,
+   "dmas": 3.0,
+   "dtil": "*",
+   "dsel": 300.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D004",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "buildings\\other\\Tent\\Tent.mdl",
+   "dptx": "PathTextures\\6x6SimpleSolid.tga",
+   "dmas": 2.25,
+   "dtil": "*",
+   "dsel": 300.0,
+   "dfxr": -1.0,
+   "dmis": 2.25
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D005",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "WoodWall135.mdl",
+   "dmas": 2.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D006",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "buildings\\orc\\WatchTower\\WatchTower.mdl",
+   "dptx": "PathTextures\\4x4SimpleSolid.tga",
+   "dmas": 3.0,
+   "dtil": "*",
+   "dsel": 300.0,
+   "dfxr": -1.0,
+   "ddes": 1.4
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D007",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Wall Animated.mdl",
+   "dptx": "PathTextures\\40x16Unflyable.tga",
+   "ddes": 1.0,
+   "dmis": 1.25,
+   "dmas": 1.25,
+   "dfxr": 180.0
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D008",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Tower Animated.mdl",
+   "dptx": "PathTextures\\Path_32.tga",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmas": 1.25,
+   "dmis": 1.25
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D009",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Porticulis Gate 1.mdl",
+   "dptx": "",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmis": 1.25,
+   "dmas": 1.25,
+   "dfxr": 270.0
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D00A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Wall Animated.mdl",
+   "dptx": "PathTextures\\40x16Unflyable.tga",
+   "ddes": 1.0,
+   "dmis": 1.25,
+   "dmas": 1.25,
+   "dfxr": 90.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "WizardsTowerV3.mdl",
+   "dfxr": -1.0,
+   "dptx": "",
+   "ddes": 7.0,
+   "dmas": 7.0,
+   "dtil": "N",
+   "dsel": 300.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "buildings\\other\\ArcaneObservatory\\ArcaneObservatory.mdl",
+   "dptx": "",
+   "dmas": 5.0,
+   "dtil": "Y",
+   "dsel": 300.0,
+   "ddes": 4.0,
+   "dfxr": 235.0,
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "City Building 1.mdl",
+   "dmas": 1.2,
+   "ddes": 1.2,
+   "dfxr": -1.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "City Building 2.mdl",
+   "dmas": 1.2,
+   "ddes": 1.2,
+   "dfxr": -1.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y,V",
+   "dfil": "FruitStand.mdl",
+   "dmas": 1.5,
+   "ddes": 1.5,
+   "dfxr": -1.0
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "buildings\\human\\HumanBarracks\\HumanBarracks.mdl",
+   "dmas": 5.0,
+   "ddes": 5.0,
+   "dfxr": -1.0,
+   "dptx": "",
+   "dsel": 500.0,
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Door 1.mdl",
+   "dtil": "*",
+   "dptx": "",
+   "ddes": 1.2,
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "YSa1",
+  "id": "D00I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmas": 2.0,
+   "dmis": 0.1,
+   "dptx": "",
+   "ddes": 0.5
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Icecrown\\Structures\\Igloo\\Igloo.mdl",
+   "dfxr": -1.0,
+   "dptx": "PathTextures\\4x4Default.tga",
+   "ddes": 1.2,
+   "dmas": 2.0,
+   "dtil": "N",
+   "dsel": 300.0
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D00K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Wall Animated.mdl",
+   "dptx": "",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmis": 0.5,
+   "dmas": 2.0,
+   "dfxr": 270.0,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D00L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Wall Animated.mdl",
+   "dptx": "",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmis": 0.5,
+   "dmas": 2.0,
+   "dfxr": 0.0,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D00M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Porticulis Gate 1.mdl",
+   "dptx": "",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmis": 1.0,
+   "dmas": 2.0,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "YSco",
+  "id": "D00N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "Y",
+   "dfil": "Tower Animated.mdl",
+   "dptx": "",
+   "dwlk": 1,
+   "ddes": 1.0,
+   "dmas": 2.0,
+   "dmis": 1.0,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "carpet3c.mdl",
+   "dmas": 10.0,
+   "dmis": 0.1,
+   "dptx": "",
+   "dmar": 90.0,
+   "dflt": 1,
+   "dwlk": 1,
+   "ddes": 10.0,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "carpet3c.mdl",
+   "dmas": 10.0,
+   "dmis": 0.1,
+   "dptx": "",
+   "dflt": 1,
+   "dwlk": 1,
+   "ddes": 10.0,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "BOth",
+  "id": "D00Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "dmas": 5.0,
+   "dmis": 1.0,
+   "ddes": 1.5,
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D00R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dtil": "*",
+   "dvr1": {
+    "1": 205,
+    "2": 205,
+    "3": 205,
+    "4": 205,
+    "5": 205,
+    "6": 205
+   },
+   "dvg1": {
+    "1": 75,
+    "2": 75,
+    "3": 75,
+    "4": 75,
+    "5": 75,
+    "6": 75
+   },
+   "dvb1": {
+    "1": 15,
+    "2": 15,
+    "3": 15,
+    "4": 15,
+    "5": 15,
+    "6": 15
+   },
+   "dmis": 4.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "YS10",
+  "id": "D00S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "Abilities\\Spells\\Other\\Volcano\\Volcano.mdl",
+   "dmas": 5.0,
+   "dfxr": -1.0,
+   "dptx": "",
+   "dsel": 500.0,
+   "dvg1": {
+    "1": 55
+   },
+   "dvb1": {
+    "1": 55
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "carpet3c.mdl",
+   "dmas": 10.0,
+   "dmis": 0.1,
+   "dptx": "",
+   "dflt": 1,
+   "dwlk": 1,
+   "ddes": 10.0,
+   "dvb1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvr1": {
+    "1": 200
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "BE_BookshelfFilled_01.mdl",
+   "dtil": "Y",
+   "dptx": "none",
+   "dmas": 2.0,
+   "dmis": 0.01,
+   "ddes": 1.8
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D00V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "BE_BookshelfFilled_02.mdl",
+   "dtil": "Y",
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 1.0,
+   "ddes": 1.8
+  }
+ },
+ {
+  "baseId": "DOtb",
+  "id": "D00W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Table.mdl",
+   "dtil": "Y",
+   "ddes": 1.8,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "DOtb",
+  "id": "D00X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Escalier4x.mdl",
+   "dtil": "Y,V",
+   "ddes": 1.8,
+   "dwlk": 1,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D010",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Wood Chair.mdl",
+   "dtil": "Y",
+   "dptx": "none",
+   "dmas": 2.0,
+   "dmis": 0.5,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D011",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Snowglobe.mdl",
+   "dtil": "*",
+   "dptx": "PathTextures\\2x2Default.tga",
+   "dmas": 2.0,
+   "dmis": 0.5,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D012",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "WoodWall135.mdl",
+   "dmas": 2.0,
+   "dmis": 1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D015",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "WoodWall135.mdl",
+   "dmas": 2.0,
+   "dmis": 1.0,
+   "dptx": "",
+   "ddes": 1.4
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D00Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "WaterPlane.mdl",
+   "dmas": 15.0,
+   "dmis": 0.01,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dcat": "W",
+   "dvr1": {
+    "1": 205
+   },
+   "dvg1": {
+    "1": 205
+   },
+   "dvb1": {
+    "1": 205
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D016",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dtil": "*",
+   "dvar": 1,
+   "dmis": 2.75,
+   "dvr1": {
+    "1": 0
+   },
+   "dvg1": {
+    "1": 60
+   },
+   "dfil": "Doodads\\Dungeon\\Terrain\\EggSack\\EggSack0.mdl",
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D017",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dtil": "*",
+   "dvar": 1,
+   "dmis": 1.0,
+   "dvr1": {
+    "1": 0
+   },
+   "dvg1": {
+    "1": 60
+   },
+   "dptx": "none",
+   "dfil": "Doodads\\Dungeon\\Terrain\\EggSack\\EggSack1.mdl"
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D018",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Human\\Brilliance\\Brilliance.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 1.5,
+   "dmas": 3.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D019",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Undead\\UndeadMine\\UndeadMineCircle.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 1.0,
+   "dmas": 1.0,
+   "dvr1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 155
+   },
+   "dvb1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "WaterPlane.mdl",
+   "dmas": 12.0,
+   "dmis": 1.5,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "dvg1": {
+    "1": 35
+   },
+   "dvr1": {
+    "1": 35
+   },
+   "dvb1": {
+    "1": 75
+   },
+   "danf": 1,
+   "dcat": "W"
+  }
+ },
+ {
+  "baseId": "KOdr",
+  "id": "D01C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dmas": 15.0,
+   "dvr1": {
+    "2": 55,
+    "3": 55,
+    "4": 55,
+    "5": 55,
+    "6": 55,
+    "7": 55,
+    "1": 55
+   },
+   "dvg1": {
+    "1": 55,
+    "2": 55,
+    "3": 55,
+    "4": 55,
+    "5": 55,
+    "6": 55,
+    "7": 55
+   },
+   "dvb1": {
+    "1": 55,
+    "2": 55,
+    "3": 55,
+    "4": 55,
+    "5": 55,
+    "6": 55,
+    "7": 55
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Lava.mdl",
+   "dmas": 2.0,
+   "dmis": 0.25,
+   "dvar": 1,
+   "dtil": "*",
+   "dvb1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 155
+   },
+   "dsel": 2500.0,
+   "danf": 1,
+   "dcat": "W"
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D01F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dtil": "*",
+   "dmis": 1.5,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D01G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dtil": "*",
+   "dmis": 2.4,
+   "dfil": "Abilities\\Spells\\NightElf\\FaerieFire\\FaerieFireTarget.mdl",
+   "dptx": "none",
+   "dvr1": {
+    "2": 155,
+    "3": 155,
+    "6": 55
+   },
+   "dvg1": {
+    "1": 155,
+    "3": 155,
+    "6": 55,
+    "4": 55
+   },
+   "dvb1": {
+    "1": 155,
+    "2": 155,
+    "4": 55
+   },
+   "dfxr": -1.0,
+   "ddes": 1.25
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D01H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Undead\\VampiricAura\\VampiricAura.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 5.0,
+   "dmas": 5.0,
+   "dvr1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 0
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "WaterPlane.mdl",
+   "dmas": 12.5,
+   "dmis": 2.5,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "dvg1": {
+    "1": 55
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 25
+   },
+   "danf": 1,
+   "dcat": "W"
+  }
+ },
+ {
+  "baseId": "IOpr",
+  "id": "D01S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "Doodads\\Ruins\\Plants\\Ruins_Shrub\\Ruins_Shrub0.mdl",
+   "dmas": 4.0,
+   "dmis": 4.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D01U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Ceiling Rays.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 2.0,
+   "dvg1": {
+    "1": 0,
+    "2": 0
+   },
+   "dvr1": {
+    "1": 0,
+    "2": 0
+   },
+   "dvb1": {
+    "1": 75
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D01V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "EtherealAura.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmas": 3.0,
+   "dvg1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 75
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D01Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "DungeonPortal.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmas": 5.0,
+   "dvg1": {
+    "1": 55
+   },
+   "dvb1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 125
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D020",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Black_Glow.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 5.0,
+   "dvr1": {
+    "2": 0
+   },
+   "dvg1": {
+    "2": 0
+   },
+   "dmas": 50.0
+  }
+ },
+ {
+  "baseId": "ASwt",
+  "id": "D022",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dptx": "none",
+   "ddes": 1.5,
+   "dmis": 1.5,
+   "dmas": 1.5,
+   "dwlk": 1,
+   "dfil": "Effects\\Blood\\SmallBloodEx_NoSplat.mdl",
+   "dsel": 64.0,
+   "dvb1": {
+    "1": 55
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dvg1": {
+    "1": 55
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D024",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Cityscape\\Structures\\Archway1\\Archway1.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 2.0,
+   "dmis": 0.1,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D01I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "FruitCraits.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.5,
+   "dmis": 1.5,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D00Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Effects\\SF&SMDrop.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 2.0,
+   "dvr1": {
+    "2": 0
+   },
+   "dvg1": {
+    "2": 0
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D013",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Tree01.mdl",
+   "dmas": 0.8,
+   "dmis": 0.1,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 205
+   },
+   "dvg1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "LOth",
+  "id": "D014",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.2,
+   "dmap": -120.0
+  }
+ },
+ {
+  "baseId": "DOtb",
+  "id": "D01J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\AlchemyTable.mdl",
+   "dtil": "Y",
+   "ddes": 1.8,
+   "dptx": "none",
+   "dmas": 1.0,
+   "dmis": 0.25
+  }
+ },
+ {
+  "baseId": "LOth",
+  "id": "D01K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 1.0,
+   "dfil": "Doodads\\Cityscape\\Structures\\City_LowWall_TallEndCapWithLantern\\City_LowWall_TallEndCapWithLantern.mdl",
+   "dmas": 1.5
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\GreenGrass_Wall.mdl",
+   "dmas": 12.0,
+   "dmis": 4.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\TreeStump.mdl",
+   "dmas": 0.8,
+   "dmis": 0.2,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Ruins_Shrub0.mdl",
+   "dmas": 4.0,
+   "dmis": 0.01,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock4.mdl",
+   "dmas": 12.0,
+   "dmis": 0.5,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D01T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock5.mdl",
+   "dmas": 12.0,
+   "dmis": 0.5,
+   "dvar": 2,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185,
+    "2": 105
+   },
+   "dvr1": {
+    "1": 225,
+    "2": 105
+   },
+   "dvg1": {
+    "2": 105
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D023",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock6.mdl",
+   "dmas": 12.0,
+   "dmis": 0.5,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D025",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock7.mdl",
+   "dmas": 12.0,
+   "dmis": 2.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D026",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock8.mdl",
+   "dmas": 12.0,
+   "dmis": 1.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D027",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Lords_Rock9.mdl",
+   "dmas": 12.0,
+   "dmis": 2.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 185
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D029",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Models\\PumpkinDoodad.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 3.5,
+   "dmis": 1.5,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Effects\\PinkFog.mdl",
+   "dvar": 1,
+   "dvis": 1000.0,
+   "dtil": "*",
+   "dmis": 2.0,
+   "dvg1": {
+    "1": 0,
+    "2": 0
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "dvr1": {
+    "2": 0
+   },
+   "danf": 1
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Doodads\\Cinematic\\FirePillarMedium\\FirePillarMedium.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 3.0,
+   "dvr1": {
+    "2": 0
+   },
+   "dvg1": {
+    "2": 0
+   },
+   "dmas": 4.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Effects\\Lavafall\\blackwingdescent_lava_round_room_02.mdl",
+   "dvar": 1,
+   "dtil": "D",
+   "dvr1": {
+    "2": 0
+   },
+   "dvg1": {
+    "2": 0
+   },
+   "dvis": 100.0,
+   "dimc": 1,
+   "dcat": "W"
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D02D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Terrain\\WoodBridgeLarge0\\WoodBridgeLarge0.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.5,
+   "dmis": 0.75,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Undead\\Possession\\PossessionTarget.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 0.01,
+   "dmas": 25.0,
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "ASpr",
+  "id": "D02N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Ruins\\Props\\DalaranRuinTower2\\DalaranRuinTower2.mdl",
+   "dmas": 15.0,
+   "dtil": "*",
+   "dmis": 2.0,
+   "dvr1": {
+    "1": 155
+   },
+   "dvb1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Undead\\UndeadMine\\UndeadMineCircle.mdl",
+   "dvar": 1,
+   "dvis": 1000.0,
+   "dtil": "*",
+   "dmis": 5.0,
+   "dvr1": {
+    "2": 0,
+    "1": 105
+   },
+   "dvg1": {
+    "2": 0
+   },
+   "danf": 1,
+   "dmas": 30.0,
+   "dvb1": {
+    "1": 105
+   }
+  }
+ },
+ {
+  "baseId": "ASwt",
+  "id": "D02R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dptx": "none",
+   "ddes": 1.5,
+   "dmis": 0.01,
+   "dmas": 40.0,
+   "dwlk": 1,
+   "dfil": "Abilities\\Spells\\Other\\Parasite\\ParasiteMissile.mdl",
+   "dsel": 64.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Wisps.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 5.0,
+   "dmas": 10.0
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D02V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Effects\\LootEffect.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 2.0,
+   "dmas": 10.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D032",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dtil": "V",
+   "dfil": "Doodads\\Scarecrow.mdl",
+   "dmis": 1.5
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D033",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.0,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\Cottage.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D034",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 3.0,
+   "dfil": "Doodads\\Buildings\\Tavern.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D035",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 4.0,
+   "dfil": "Doodads\\Buildings\\WotKHousehold.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D036",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\StonemaceHouse.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D037",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Water\\WaterfallFX.mdl",
+   "dmas": 4.0,
+   "dmis": 2.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dcat": "W",
+   "dmap": -30.0,
+   "dvr1": {
+    "1": 55
+   },
+   "dvg1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "YOsa",
+  "id": "D038",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "V",
+   "dfil": "Doodads\\WaterWheel.mdl",
+   "dcat": "W",
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D039",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dmis": 1.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Buildings\\WatchPost.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 5.0,
+   "dmis": 3.0,
+   "dfil": "Doodads\\Buildings\\Depot.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D03B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dtil": "V",
+   "dfil": "Doodads\\PileOfWood.mdl",
+   "dmis": 1.5
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D03C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dtil": "V",
+   "dfil": "Doodads\\WoodTable.mdl",
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D03D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dtil": "V",
+   "dfil": "Doodads\\WoodChair.mdl",
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D03E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dtil": "*",
+   "dvar": 1,
+   "dmis": 1.0,
+   "dfil": "Doodads\\Dungeon\\Terrain\\EggSack\\EggSack0.mdl",
+   "dptx": "none",
+   "dvr1": {
+    "1": 205
+   },
+   "dvg1": {
+    "1": 205
+   },
+   "dvb1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D03F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\FirePostament.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.5,
+   "dmis": 1.0,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D03G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dtil": "V",
+   "dfil": "Doodads\\VendorTable.mdl",
+   "dmis": 0.5
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D03H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Anvil.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 1.0,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 4.0,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\Blacksmith.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D03J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Longsword.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.0,
+   "dmis": 1.0,
+   "dsel": 100.0,
+   "dmar": -30.0
+  }
+ },
+ {
+  "baseId": "LOth",
+  "id": "D03K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 2.0,
+   "dfil": "Doodads\\LordaeronSummer\\Props\\SignPost\\SignPost.mdl",
+   "dmas": 2.5
+  }
+ },
+ {
+  "baseId": "LWw0",
+  "id": "D03L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.1,
+   "dmas": 8.0,
+   "dvr1": {
+    "1": 25
+   },
+   "dvg1": {
+    "1": 55
+   },
+   "dvb1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D03M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 1.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Gondolin_Wall1.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D03N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 2.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Gondolin_Wall2.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D03O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 3.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Gondolin_Tower.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D03P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 3.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Gondolin_Tower2.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "YSca",
+  "id": "D03Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dmis": 1.0,
+   "dsnd": "",
+   "dfil": "Doodads\\Cityscape\\Terrain\\CityEnteranceGate\\CityEnteranceGate.mdl",
+   "dfxr": -1.0,
+   "dptx": ""
+  }
+ },
+ {
+  "baseId": "LWw0",
+  "id": "D03R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 0.1,
+   "dmas": 10.0,
+   "dvr1": {
+    "1": 25
+   }
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D03S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Terrain\\CliffDoodad\\Waterfall\\Waterfall.mdl",
+   "dmas": 10.0,
+   "dmis": 1.0,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dcat": "W",
+   "dvr1": {
+    "1": 127
+   },
+   "dvg1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "PathTextures\\16x16Unflyable.tga",
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\HouseVar1.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "PathTextures\\16x16Unflyable.tga",
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\HouseVar1Up1.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 3.0,
+   "dfil": "Doodads\\Buildings\\HouseVar1Up2.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.5,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\BigCityHouse3.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.5,
+   "dmis": 2.0,
+   "dfil": "Doodads\\Buildings\\BigCityHouse2.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.5,
+   "dmis": 1.5,
+   "dfil": "Doodads\\Buildings\\SKHouse_Upper03.mdl",
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D03Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.5,
+   "dmis": 2.0,
+   "dfil": "buildings\\other\\ForestTrollHut0\\ForestTrollHut0.mdl",
+   "dvar": 1,
+   "dtil": "A"
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D040",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 2.5,
+   "dmis": 2.0,
+   "dfil": "buildings\\other\\ForestTrollHut1\\ForestTrollHut1.mdl",
+   "dvar": 1,
+   "dtil": "A"
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D041",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dfil": "buildings\\other\\MurlocHut0\\MurlocHut0.mdl",
+   "dvar": 1,
+   "dtil": "Z"
+  }
+ },
+ {
+  "baseId": "VSvb",
+  "id": "D042",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "none",
+   "dmas": 3.0,
+   "dmis": 2.0,
+   "dfil": "buildings\\other\\MurlocHut1\\MurlocHut1.mdl",
+   "dvar": 1,
+   "dtil": "Z"
+  }
+ },
+ {
+  "baseId": "ZPms",
+  "id": "D043",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dtil": "*",
+   "dmis": 2.4,
+   "dfil": "Abilities\\Spells\\NightElf\\FaerieFire\\FaerieFireTarget.mdl",
+   "dptx": "none",
+   "dfxr": -1.0,
+   "ddes": 1.25,
+   "dvar": 1
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D044",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "WaterPlane.mdl",
+   "dmas": 15.0,
+   "dmis": 0.5,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dcat": "W",
+   "dvr1": {
+    "1": 0
+   },
+   "dvg1": {
+    "1": 0
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D045",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.5,
+   "dtil": "Y,V",
+   "dfil": "Doodads\\Dojo_Floor_Straight.mdl",
+   "dmis": 2.75
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D046",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dtil": "Y,V",
+   "dfil": "Doodads\\WoodenPillar.mdl",
+   "dmis": 4.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D047",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dtil": "Y,V",
+   "dfil": "Doodads\\Dojo_Floor_Corner.mdl",
+   "dmis": 4.0
+  }
+ },
+ {
+  "baseId": "DOtb",
+  "id": "D048",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\StoneStairs.mdl",
+   "dtil": "Y,V",
+   "ddes": 1.8,
+   "dwlk": 1,
+   "dptx": "none",
+   "dmis": 1.0,
+   "dmas": 10.0,
+   "dvg1": {
+    "1": 205
+   },
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D049",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "DungeonPortal.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmas": 5.0,
+   "dmap": -5.3
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D04A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Trees\\Tree05.mdl",
+   "dmas": 0.75,
+   "dmis": 0.75,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 205
+   },
+   "dvg1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D04B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\FountainCity.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 2.0,
+   "dmis": 1.0,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D04C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\Trees\\AshenvaleTree05.mdl",
+   "dmas": 1.25,
+   "dmis": 0.25,
+   "dvar": 1,
+   "dsel": 50.0,
+   "dtil": "*",
+   "danf": 1,
+   "dvb1": {
+    "1": 205
+   },
+   "dvr1": {
+    "1": 205
+   },
+   "dvg1": {
+    "1": 225
+   }
+  }
+ },
+ {
+  "baseId": "NWsp",
+  "id": "D002",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dmis": 1.5,
+   "dptx": "none",
+   "dmap": -4.8
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_platformlarge.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9du_vampire_catacomb_tomb01_destroyed01.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_tile_1.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150,
+    "2": 120
+   },
+   "dvb1": {
+    "1": 150,
+    "2": 120
+   },
+   "dvar": 2,
+   "dvr1": {
+    "2": 120,
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_wall_arch_window.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Lava.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_platform_ground_01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 80
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 60
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_rune01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 15.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_lowwall_thick01.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80,
+    "2": 100
+   },
+   "dvb1": {
+    "1": 80,
+    "2": 100
+   },
+   "dvr1": {
+    "1": 120,
+    "2": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue04 CE.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_highwall01.mdl",
+   "dmis": 0.01,
+   "dvb1": {
+    "1": 80
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_highwall01.mdl",
+   "dmis": 0.01,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_banner01 fixed CE.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8swa_watergrass_b03.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 130
+   },
+   "dvg1": {
+    "1": 130
+   },
+   "dvb1": {
+    "1": 100
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_altar01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_brazier01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 80
+   },
+   "dvg1": {
+    "1": 60
+   },
+   "dvb1": {
+    "1": 60
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7ne_moonguard_pylon02.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_towertall02.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\WindowLight.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 180
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\WindowLightStraight.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 120
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25pB.mdl",
+   "dmis": 0.01,
+   "dvb1": {
+    "1": 80
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D051",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog40pB.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 0
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\l3.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D04W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "dimc": 1,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D050",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 102
+   },
+   "dvg1": {
+    "1": 20
+   },
+   "dvb1": {
+    "1": 20
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D052",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "dimc": 1,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D053",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 30.0,
+   "dptx": "",
+   "dfil": "Doodads\\Ruins\\Props\\Ruins_NagaCircle\\Ruins_NagaCircle.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D054",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\F1_A.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D055",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 50.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_highwall01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D056",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_door01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D057",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue04 CE.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D058",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_bridgesection01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D059",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_banner01 fixed CE.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7ne_moonguard_pylon02.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_stairs_long01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 30.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7ne_moonguard_console.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ping6.mdl",
+   "dmis": 0.01,
+   "dcat": "Z",
+   "dtil": "*",
+   "dvar": 2,
+   "dvg1": {
+    "2": 0
+   },
+   "dvb1": {
+    "2": 0
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 120.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_pillarshort01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 120.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_lowwall_thick01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CKelp4.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Wave0.mdl",
+   "dmis": 0.01,
+   "dcat": "W"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 30
+   },
+   "dvg1": {
+    "1": 45
+   },
+   "dvb1": {
+    "1": 75
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 5.0,
+   "dvr1": {
+    "1": 35
+   },
+   "dvg1": {
+    "1": 35
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 0
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CShell3.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CPearl1.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CWorm1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CKelp5.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CKelp1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\SW.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CWorm4.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CBone1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CKelp2.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_tile_1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "2": 120
+   },
+   "dvg1": {
+    "2": 120
+   },
+   "dvb1": {
+    "2": 120
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A2_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A4_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 200
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D05Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A5_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 200
+   },
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D060",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 15.0,
+   "dptx": "",
+   "dmis": 5.0,
+   "donw": 0,
+   "dvg1": {
+    "1": 25
+   },
+   "dvb1": {
+    "1": 25
+   },
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dvr1": {
+    "1": 25
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D061",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D062",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A9_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D063",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 50.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_walldivider02.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D064",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 50.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_building01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D066",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_tile_1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D067",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\WindowLight.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D068",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\WindowLightStraight.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D069",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\DM10.mdl",
+   "dmis": 4.0,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_platformlarge.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_altar01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -1.55,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_book01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_rune01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_wall_arch.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150,
+    "2": 55
+   },
+   "dvg1": {
+    "1": 150,
+    "2": 55
+   },
+   "dvb1": {
+    "1": 150,
+    "2": 55
+   },
+   "donw": 0,
+   "dvar": 2
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A9_B.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9du_vampire_catacomb_tomb01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\BM_BRSPIRE_TRIMS09.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_wallpiece01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_pillar01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_tile01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ES76.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 30.0,
+   "dptx": "",
+   "dfil": "Doodads\\Ruins\\Props\\Ruins_NagaCircle\\Ruins_NagaCircle.mdl",
+   "dmis": 0.01,
+   "dmap": -1.55,
+   "dvb1": {
+    "1": 0
+   },
+   "dvg1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\BlackHole.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dmap": -0.2
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\BlackHole.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dmap": -3.14,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_platformlarge.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -1.55
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7lg_legion_platformlarge.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dmap": -1.55,
+   "dsel": 1.0,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D06Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_pillar01.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 20
+   },
+   "dvg1": {
+    "1": 20
+   },
+   "dvb1": {
+    "1": 20
+   },
+   "donw": 0,
+   "dmap": -3.14
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D070",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 15.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_pillar01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 0
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 0
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D071",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -0.5
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D072",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -1.1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D073",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -1.55
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D074",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dmap": -3.14
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D075",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\mangrovetree.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dcat": "E",
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D076",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\CPearl1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D077",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dimc": 1,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D078",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 30
+   },
+   "dvg1": {
+    "1": 45
+   },
+   "dvb1": {
+    "1": 75
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D079",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Generic_Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A7_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0,
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\monkeytreetrank.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\monkeytree.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8swa_watergrass_b01.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A9_C.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A4_A.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A4_A.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "Units\\Creeps\\Hydra\\Hydra.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_11.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_3.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_4.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_7.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_12.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_5.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_8.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE2.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE4.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE6.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE1.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE8.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "Models\\NerubianSlayer.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dmap": -4.9
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "Models\\NerubianSlayer.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_building01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D07Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_stairs_long01.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D080",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\stormsphere.mdl",
+   "dmis": 0.01,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D083",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_towertall02.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D084",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 60
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 120
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D085",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_11.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 180
+   },
+   "dvg1": {
+    "1": 180
+   },
+   "dvb1": {
+    "1": 180
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D086",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE1.mdl",
+   "dmis": 0.01,
+   "dtil": "*",
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D087",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D088",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 30.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7ne_moonguard_console.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D089",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 50.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue02 CE.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_giantcrenelation.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dptx": "",
+   "dfil": "Models\\DarkMage.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dptx": "",
+   "dfil": "Models\\Hayate.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\AO_SKY7.mdl",
+   "dmis": 0.01,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\AO_SKY1.mdl",
+   "dmis": 0.01,
+   "dmap": -1.55
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\pubu00.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dmap": -1.2,
+   "dvb1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_3.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_11.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 15.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\HuoDong_Ren_Props_H.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dmar": -0.4,
+   "dvb1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_4.mdl",
+   "donw": 0,
+   "dmis": 1.5,
+   "dvg1": {
+    "1": 130
+   },
+   "dvr1": {
+    "1": 130
+   },
+   "dvb1": {
+    "1": 130
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A8_A.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_7.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A2_A.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 40.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 5.0,
+   "dvr1": {
+    "1": 25
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvb1": {
+    "1": 60
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Wave0.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue04 CE.mdl",
+   "dmis": 0.01,
+   "dmap": -0.4,
+   "dmar": -7.2
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_weiqiang_A03.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_tiemen_A01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_shizhu_A015.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D08Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_weiqiang_A03.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dmap": -1.55,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D090",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ojz_shuji_A01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 80
+   },
+   "dvr1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D091",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_weiqiang_A01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D092",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9du_vampire_catacomb_tombbottom01_destroyed01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 200
+   },
+   "dvr1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D093",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 10.0,
+   "dvb1": {
+    "1": 0
+   },
+   "dimc": 1,
+   "donw": 0,
+   "dvg1": {
+    "1": 14
+   },
+   "dvr1": {
+    "1": 55
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D094",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 45
+   },
+   "dvb1": {
+    "1": 0
+   },
+   "donw": 0,
+   "dimc": 1,
+   "dvr1": {
+    "1": 105
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D095",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.5,
+   "dptx": "",
+   "dfil": "war3mapImported\\Ice_4.mdl",
+   "donw": 0,
+   "dmis": 1.5,
+   "dvg1": {
+    "1": 130
+   },
+   "dvr1": {
+    "1": 130
+   },
+   "dvb1": {
+    "1": 130
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D096",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 7.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Wave0.mdl",
+   "dmis": 0.01
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D097",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 50.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue02 CE.mdl",
+   "dmis": 0.01,
+   "dmar": -1.55,
+   "dvb1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D098",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE7.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D099",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE7.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 80
+   },
+   "dvg1": {
+    "1": 80
+   },
+   "dvb1": {
+    "1": 80
+   },
+   "donw": 0,
+   "dmap": -1.55
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE6.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 200
+   },
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09B",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 2.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE6.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   },
+   "donw": 0,
+   "dmap": -1.55
+  }
+ },
+ {
+  "baseId": "ZWbg",
+  "id": "D09C",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dmis": 1.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "Ceiling Rays.mdl",
+   "dmis": 0.01,
+   "dvb1": {
+    "1": 20
+   },
+   "dvg1": {
+    "1": 20
+   },
+   "dvr1": {
+    "1": 20
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09G",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\AO_SKY7.mdl",
+   "dmis": 0.01,
+   "dimc": 1,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\[FLOOR].mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\House Wall 2.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\House Wall Window.mdl",
+   "dmis": 0.01,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave01_c.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave01_f.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave01_g.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09O",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave01_h.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09P",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave02_c.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 8.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\9vl_valkyr_statue02 CE.mdl",
+   "dmis": 0.01,
+   "dmap": -0.4,
+   "dmar": -0.8
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09R",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 100.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\7sr_moonguard_bridgesection01.mdl",
+   "dmis": 0.01,
+   "dmap": -0.4,
+   "dmar": -0.5
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09S",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 10.0,
+   "dptx": "",
+   "dfil": "Ceiling Rays.mdl",
+   "dmis": 0.01,
+   "dvb1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "dvr1": {
+    "1": 50
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09T",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave03_f.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09U",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave02_a.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09V",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Cave04_a.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 150
+   },
+   "dvr1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 1.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TREE11.mdl",
+   "dmis": 0.01,
+   "dvar": 3,
+   "dvr1": {
+    "2": 200,
+    "3": 150
+   },
+   "dvg1": {
+    "2": 200,
+    "3": 150
+   },
+   "dvb1": {
+    "2": 200,
+    "3": 150
+   },
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\monkeytree.mdl",
+   "dmis": 0.01,
+   "dvar": 3,
+   "dvr1": {
+    "2": 200,
+    "3": 150
+   },
+   "dvg1": {
+    "2": 200,
+    "3": 150
+   },
+   "dvb1": {
+    "2": 200,
+    "3": 150
+   },
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D09Z",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 50
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "donw": 0,
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D0A0",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A7_A.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 200
+   },
+   "dvg1": {
+    "1": 200
+   },
+   "dvr1": {
+    "1": 200
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D0A1",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 20
+   },
+   "dvg1": {
+    "1": 50
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 80
+   }
+  }
+ },
+ {
+  "baseId": "IOpr",
+  "id": "D0A2",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": ".mdl",
+   "dmas": 0.01,
+   "dmis": 0.01,
+   "dptx": "PathTextures\\8x8Default.tga"
+  }
+ },
+ {
+  "baseId": "IOpr",
+  "id": "D0A3",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": "Doodads\\Ruins\\Plants\\Ruins_Shrub\\Ruins_Shrub0.mdl",
+   "dmas": 4.0,
+   "dmis": 4.0,
+   "dptx": "none"
+  }
+ },
+ {
+  "baseId": "IOpr",
+  "id": "D0A4",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dtil": "*",
+   "dfil": ".mdl",
+   "dmas": 0.01,
+   "dmis": 0.01,
+   "dptx": "PathTextures\\16x16Unflyable.tga"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D0A5",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\azjol_tile_1.mdl",
+   "dmis": 0.01,
+   "dvg1": {
+    "1": 185,
+    "2": 155
+   },
+   "dvb1": {
+    "1": 185,
+    "3": 185,
+    "4": 155
+   },
+   "donw": 0,
+   "dvar": 4,
+   "dvr1": {
+    "2": 155,
+    "4": 155
+   }
+  }
+ },
+ {
+  "baseId": "BOth",
+  "id": "D01A",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmis": 1.0,
+   "ddes": 1.0,
+   "dtil": "*",
+   "dmas": 2.0
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D01D",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Models\\ChristmasTree.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 1.5,
+   "dmis": 1.5,
+   "dsel": 100.0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D01L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\Glow.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 25
+   },
+   "dvb1": {
+    "1": 25
+   },
+   "donw": 0,
+   "dimc": 1,
+   "dvg1": {
+    "1": 45
+   }
+  }
+ },
+ {
+  "baseId": "YOr2",
+  "id": "D01Q",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\RuinTile2.mdl",
+   "dcat": "O",
+   "dmas": 5.0,
+   "dvr1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 155
+   },
+   "dvb1": {
+    "1": 155
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D01W",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\8dv_drustvari_wallpiece01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 205
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D01X",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\ozs_weiqiang_A01.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dvb1": {
+    "1": 100
+   }
+  }
+ },
+ {
+  "baseId": "VOal",
+  "id": "D01Y",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\RuinFloor.mdl",
+   "dtil": "*",
+   "dptx": "none",
+   "dmas": 12.0,
+   "dmis": 0.1,
+   "dsel": 100.0,
+   "dvb1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "ZZgr",
+  "id": "D021",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dptx": "",
+   "dwlk": 1,
+   "dfil": "Effects\\QuickSand.mdl",
+   "dvar": 1,
+   "dvis": 100.0,
+   "dtil": "*",
+   "dmis": 1.0,
+   "dmas": 1.0,
+   "dvb1": {
+    "1": 155
+   },
+   "dvg1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02E",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 4.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow.mdl",
+   "dmis": 4.0,
+   "dvr1": {
+    "1": 75
+   },
+   "dvg1": {
+    "1": 75
+   },
+   "dvb1": {
+    "1": 50
+   },
+   "dimc": 1,
+   "donw": 0
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D028",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 25.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow_Depth.mdl",
+   "dmis": 5.0,
+   "dvb1": {
+    "1": 0
+   },
+   "donw": 0,
+   "dvg1": {
+    "1": 34
+   },
+   "dvr1": {
+    "1": 54
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "ZZcd",
+  "id": "D02F",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 3.0,
+   "dvb1": {
+    "1": 100
+   },
+   "dvg1": {
+    "1": 100
+   },
+   "dvr1": {
+    "1": 100
+   },
+   "dtil": "*"
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02H",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 12.5,
+   "dptx": "",
+   "dfil": "war3mapImported\\TerrainGlow_Depth.mdl",
+   "dmis": 5.0,
+   "dvb1": {
+    "1": 0
+   },
+   "donw": 0,
+   "dvg1": {
+    "1": 0
+   },
+   "dvr1": {
+    "1": 35
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02I",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 5.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\A5_A.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 37
+   },
+   "dvg1": {
+    "1": 37
+   },
+   "donw": 0,
+   "dvb1": {
+    "1": 37
+   },
+   "dcat": "E"
+  }
+ },
+ {
+  "baseId": "ZPsh",
+  "id": "D02J",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dfil": "Doodads\\LavaNew.mdl",
+   "dmas": 10.0,
+   "dmis": 1.5,
+   "dvar": 1,
+   "dtil": "*",
+   "dsel": 2500.0,
+   "danf": 1,
+   "dcat": "W",
+   "dimc": 1,
+   "dvg1": {
+    "1": 155
+   },
+   "dvr1": {
+    "1": 155
+   },
+   "dvb1": {
+    "1": 155
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02K",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 20.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\fog25p.mdl",
+   "dmis": 0.01,
+   "donw": 0,
+   "dvb1": {
+    "1": 55
+   },
+   "dvg1": {
+    "1": 55
+   },
+   "dvr1": {
+    "1": 55
+   },
+   "dimc": 1
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02L",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "units\\creeps\\GoblinLandMine\\GoblinLandMine.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ },
+ {
+  "baseId": "LOhc",
+  "id": "D02M",
+  "custom": true,
+  "mods": {},
+  "rawMods": {
+   "dmas": 6.0,
+   "dptx": "",
+   "dfil": "war3mapImported\\l3.mdl",
+   "dmis": 0.01,
+   "dvr1": {
+    "1": 150
+   },
+   "dvg1": {
+    "1": 150
+   },
+   "dvb1": {
+    "1": 150
+   }
+  }
+ }
+]

@@ -1,0 +1,7863 @@
+[
+ {
+  "baseId": "Bfro",
+  "id": "Bfro",
+  "custom": false,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Wet",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWaterMageW.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNsg",
+  "id": "BNsg",
+  "custom": false,
+  "mods": {
+   "tooltip": "Fairy",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFaerieDragon.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BNba",
+  "id": "BNba",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Cinnamon Candy|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BCbf",
+  "id": "BCbf",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Icicle Candy|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNbf",
+  "id": "BNbf",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Mana Candy|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNsi",
+  "id": "BNsi",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Soul Candy|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHbn",
+  "id": "BHbn",
+  "custom": false,
+  "mods": {
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNElementalistE_F.blp",
+   "tooltip": "Charge",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fefl": ""
+  }
+ },
+ {
+  "baseId": "BEah",
+  "id": "BEah",
+  "custom": false,
+  "mods": {
+   "tooltip": "Thorns Aura",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNThorns.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNhs",
+  "id": "BNhs",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Barrier of Nature|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bspl",
+  "id": "Bspl",
+  "custom": false,
+  "mods": {
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\NightElf\\Barkskin\\BarkSkinTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestR.blp",
+   "tooltip": "Holy Explosion"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Brej",
+  "id": "Brej",
+  "custom": false,
+  "mods": {
+   "tooltip": "Rejuvenation",
+   "tooltipExtended": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BIil",
+  "id": "BIil",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Darkness Infusion|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp"
+  },
+  "rawMods": {
+   "fsat": ""
+  }
+ },
+ {
+  "baseId": "BOhx",
+  "id": "BOhx",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Hope|r",
+   "tooltipExtended": "Skill damage and main stat is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory015.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Blsh",
+  "id": "Blsh",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Awakening|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfAlacrity.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bblo",
+  "id": "Bblo",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Sigil of Retribution|r",
+   "tooltipExtended": "Skill damage is increased.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfRetribution.blp"
+  },
+  "rawMods": {
+   "fta1": "",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Beng",
+  "id": "Beng",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Sigil of Protection|r",
+   "tooltipExtended": "Absorbs damage taken.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfProtection.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bfrz",
+  "id": "Bfrz",
+  "custom": false,
+  "mods": {
+   "tooltip": "Frozen",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "Babr",
+  "id": "Babr",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c00ff0000Tidal Riding|r",
+   "tooltipExtended": "",
+   "targetArt": "WaterSlow.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BUau",
+  "id": "BUau",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Absolute Strike|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRing10.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BOac",
+  "id": "BOac",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Hymn of Deathr",
+   "tooltipExtended": "Regenerates HP and does not fall below 1 HP.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightF.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binv",
+  "id": "Binv",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Elven Arrow|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNBowMasterD.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcrs",
+  "id": "Bcrs",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Rage|r",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Other\\Doom\\DoomTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BNdm",
+  "id": "BNdm",
+  "custom": false,
+  "mods": {
+   "tooltip": "Seal",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNScourgeBuild.blp",
+   "targetArt": "Abilities\\Spells\\Demon\\DemonBoltImpact\\DemonBoltImpact.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bpos",
+  "id": "Bpos",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c00ff0000Corruption Aura|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Drain\\DrainCaster.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHbd",
+  "id": "BHbd",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Quick Draw|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNSwordsmanPas.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Brai",
+  "id": "Brai",
+  "custom": false,
+  "mods": {
+   "tooltip": "Wind Slash",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordsmanWE.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Brpl",
+  "id": "Brpl",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Refreshment|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp",
+   "targetArt": "WaterAurora.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BNdc",
+  "id": "BNdc",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Revelation|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "feat": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Brpm",
+  "id": "Brpm",
+  "custom": false,
+  "mods": {
+   "tooltip": "Harden Shell",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAdvancedReinforcedHides.blp",
+   "targetArt": "Abilities\\Spells\\NightElf\\ThornsAura\\ThornsAura.mdl,Abilities\\Spells\\Items\\ScrollOfRegeneration\\Scroll_Regen_Target.mdl"
+  },
+  "rawMods": {
+   "ftac": 2,
+   "fta0": "origin",
+   "fta1": "chest"
+  }
+ },
+ {
+  "baseId": "Bspa",
+  "id": "Bspa",
+  "custom": false,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightE.blp",
+   "tooltip": "|c0000ff00Unholy Light|r",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Broa",
+  "id": "Broa",
+  "custom": false,
+  "mods": {
+   "tooltip": "Corruption",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\PlagueCloud\\PlagueCloudCaster.mdl"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "fspd": 0,
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BUdd",
+  "id": "BUdd",
+  "custom": false,
+  "mods": {
+   "tooltip": "Defile",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightR_3.blp",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Brpb",
+  "id": "Brpb",
+  "custom": false,
+  "mods": {
+   "tooltip": "Toxic Explosion",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+   "targetArt": "Abilities\\Weapons\\PoisonSting\\PoisonStingTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bfae",
+  "id": "Bfae",
+  "custom": false,
+  "mods": {
+   "tooltip": "Faerie Fire",
+   "tooltipExtended": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "Bpsh",
+  "custom": false,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSacrificialSkull.blp",
+   "tooltip": "Corruption Wave",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Other\\AcidBomb\\BottleImpact.mdl"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Buns",
+  "id": "Buns",
+  "custom": false,
+  "mods": {
+   "tooltip": "Enrage",
+   "targetArt": "Abilities\\Spells\\Undead\\UnholyFrenzy\\UnholyFrenzyTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeath.blp"
+  },
+  "rawMods": {
+   "fefl": "",
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Bcor",
+  "id": "Bcor",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Voidshard Armor|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Armor025.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bvng",
+  "id": "Bvng",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Wind Storm|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordsmanE.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bmfl",
+  "id": "Bmfl",
+  "custom": false,
+  "mods": {
+   "tooltip": "Illusal Dance",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordsmanT.blp"
+  },
+  "rawMods": {
+   "fefl": "",
+   "flig": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bmfa",
+  "id": "Bmfa",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Avenger|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga"
+  },
+  "rawMods": {
+   "fsat": "",
+   "fmat": "",
+   "fta0": "",
+   "fmsp": 0,
+   "fmho": 0
+  }
+ },
+ {
+  "baseId": "Bbar",
+  "id": "Bbar",
+  "custom": false,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeath.blp",
+   "tooltip": "|c0000ff00Vengeance|r",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEfn",
+  "id": "BEfn",
+  "custom": false,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Skull Seal|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkullSeal.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BUan",
+  "id": "BUan",
+  "custom": false,
+  "mods": {
+   "tooltip": "Death Mark",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp"
+  },
+  "rawMods": {
+   "fsat": ""
+  }
+ },
+ {
+  "baseId": "BCtc",
+  "id": "BCtc",
+  "custom": false,
+  "mods": {
+   "tooltip": "|cff00ff00Fruit of Fire|r",
+   "tooltipExtended": "Attack damage and skill damage increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bspe",
+  "id": "Bspe",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c00ff0000Fear|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAncestralSpirit.blp",
+   "targetArt": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BIsv",
+  "id": "BIsv",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Horn of Demon Lord|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAccessory8.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNmr",
+  "id": "BNmr",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Frozen Protection|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArmor08.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNsa",
+  "id": "BNsa",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Heal|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRestoration.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bmlt",
+  "id": "Bmlt",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Purify|r",
+   "tooltipExtended": "Total damage is increased by 100%.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNvc",
+  "id": "BNvc",
+  "custom": false,
+  "mods": {
+   "tooltip": "Dummy",
+   "tooltipExtended": "",
+   "icon": "",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNbr",
+  "id": "BNbr",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Holy Protection|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bssd",
+  "id": "Bssd",
+  "custom": false,
+  "mods": {
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNMagicImmunity.blp",
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Nature's Sigil|r",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BEsv",
+  "id": "BEsv",
+  "custom": false,
+  "mods": {
+   "tooltip": "Beam of Destruction",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHornsOfDestruction.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Doom\\DoomTarget.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BNso",
+  "id": "BNso",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Blood Vengeance|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBloodLust.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNsl",
+  "id": "BNsl",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Bubble Barrier|r",
+   "name": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp"
+  },
+  "rawMods": {
+   "fefs": ""
+  }
+ },
+ {
+  "baseId": "BIrb",
+  "id": "BIrb",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Fallen Power|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNFallenPower.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BEsh",
+  "id": "BEsh",
+  "custom": false,
+  "mods": {
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFood020.blp",
+   "tooltip": "|c0000ff00Yumyum|r",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEst",
+  "id": "BEst",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Groowwww|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFood023.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNdh",
+  "id": "BNdh",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Dragonic Power|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BUts",
+  "id": "BUts",
+  "custom": false,
+  "mods": {
+   "name": "",
+   "tooltip": "|c0000ff00Resonance of the Sage|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta3": "",
+   "fta1": "",
+   "fta0": "",
+   "fta2": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BUsl",
+  "id": "BUsl",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Deep Resonance|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fefl": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcyc",
+  "id": "Bcyc",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Storm Shaft|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSniperQ.blp"
+  },
+  "rawMods": {
+   "fefl": "",
+   "feat": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNpm",
+  "id": "BNpm",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Explosive Shot|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSniperR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNms",
+  "id": "BNms",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Horn of Deep Sea|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHornOfFog.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BIcb",
+  "id": "BIcb",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Corrupt Power|r",
+   "tooltipExtended": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNss",
+  "id": "BNss",
+  "custom": false,
+  "mods": {
+   "tooltip": "Curse of the Dead",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRingVioletSpider.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bvul",
+  "id": "Bvul",
+  "custom": false,
+  "mods": {
+   "tooltip": "Bloodied",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPhilosophersStone.blp",
+   "targetArt": "BigBleed.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BNwm",
+  "id": "BNwm",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Blood Power|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcy2",
+  "id": "Bcy2",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Cheat Death|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\Unsummon\\UnsummonTarget.mdl"
+  },
+  "rawMods": {
+   "fefl": "",
+   "feft": "",
+   "feat": "",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bspo",
+  "id": "Bspo",
+  "custom": false,
+  "mods": {
+   "tooltip": "Touch of Death",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPlagueCloud.blp",
+   "targetArt": "Units\\Undead\\PlagueCloud\\PlagueCloudtarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BNcr",
+  "id": "BNcr",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Nightmare|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcsd",
+  "id": "Bcsd",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Tentacle Horn|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTentacleHorn.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHca",
+  "id": "BHca",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Bloodlust|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMaskOfBlood.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bhea",
+  "id": "Bhea",
+  "custom": false,
+  "mods": {
+   "tooltip": "Water Beam",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElementalistW_Q.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNpa",
+  "id": "BNpa",
+  "custom": false,
+  "mods": {
+   "tooltip": "Requiem",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNScourgeBuild.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bmil",
+  "id": "Bmil",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Speed Potion|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVialFull.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHab",
+  "id": "BHab",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Life Shield Scroll|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMerchantE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "Bslo",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Holy Water of Resurrection|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMerchantT.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "BHwe",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Indomitable Strength|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMerchantF.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "Binf",
+  "custom": false,
+  "mods": {
+   "tooltip": "Bag Slam",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMerchantQ.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bhwd",
+  "id": "Bhwd",
+  "custom": false,
+  "mods": {
+   "tooltip": "Composure",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory016.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHds",
+  "id": "BHds",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Raging Flame|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "BHad",
+  "custom": false,
+  "mods": {
+   "tooltip": "Hellfire",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHfs",
+  "id": "BHfs",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Obsidian Armor|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHardenedSkin.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "Bcmg",
+  "custom": false,
+  "mods": {
+   "tooltip": "Empower",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrabQ.blp",
+   "targetArt": "Effects\\Water\\WaterBuff.mdx"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "hand,right"
+  }
+ },
+ {
+  "baseId": "Bply",
+  "id": "Bply",
+  "custom": false,
+  "mods": {
+   "tooltip": "Rush",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrabE.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bakb",
+  "id": "Bakb",
+  "custom": false,
+  "mods": {
+   "tooltip": "|c0000ff00Shadow Waltz|r",
+   "tooltipExtended": "Movement speed is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Melee019.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "BHtc",
+  "custom": false,
+  "mods": {
+   "tooltip": "Armor Break",
+   "tooltipExtended": "Damage taken increased by 25% per stack.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArcaneConstruct_Mech02.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bclf",
+  "id": "Bclf",
+  "custom": false,
+  "mods": {
+   "tooltip": "|cff00ff00Eternal Blessing|r",
+   "tooltipExtended": "Main stat is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Weapon022.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bpxf",
+  "id": "Bpxf",
+  "custom": false,
+  "mods": {
+   "tooltip": "|cff00ff00Mystery Aura|r",
+   "tooltipExtended": "This unit is affected by a strange aura. Its drop rate is increased by 50~150%.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHav",
+  "id": "BHav",
+  "custom": false,
+  "mods": {
+   "tooltip": "|cff00ff00Call of UFO|r",
+   "tooltipExtended": "This unit has stats and drop rate different from a regular boss unit.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUFO.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbof",
+  "id": "Bbof",
+  "custom": false,
+  "mods": {
+   "tooltip": "Some buff",
+   "tooltipExtended": "Next attack is empowered."
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BPSE",
+  "id": "B00B",
+  "custom": true,
+  "mods": {
+   "tooltip": "Flash Storm",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArcaneMageW.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "frac": "human",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "Bhea",
+  "id": "B00J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Heal"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "B00K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Awakening|r",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BOae",
+  "id": "B00L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Skill damage is temporarily increased.",
+   "tooltip": "|c0000ff00Holy Aurora|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestE.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Angel",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestT.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BUau",
+  "id": "B00P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Angel Protect",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestT.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B00R",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Call of Abyss|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStaff11.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BOae",
+  "id": "B00S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestUlt.blp",
+   "tooltip": "|c0000ff00Heaven Field|r",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BIrl",
+  "id": "B00T",
+  "custom": true,
+  "mods": {
+   "tooltip": "Healing Potion",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Human\\Heal\\HealTarget.mdl"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B00U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Slow"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B00V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|cff00ff00Berserk|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBerserkerT.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B00W",
+  "custom": true,
+  "mods": {
+   "tooltip": "Magic Barrier",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bam2",
+  "id": "B00X",
+  "custom": true,
+  "mods": {
+   "tooltip": "Magic Barrier",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BIrm",
+  "id": "B014",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Transformed into a demon.",
+   "tooltip": "|c0000ff00Demonic Form|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Headwear028.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Broa",
+  "id": "B016",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Festive Spirit (Event)|r",
+   "tooltipExtended": "EXP gain is increased by 25%.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNGiftOfVayu.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bspe",
+  "id": "B017",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Food",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binv",
+  "id": "B01H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Invisibility|r"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Broa",
+  "id": "B01P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Well Fed",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B015",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Magic Shield"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bam2",
+  "id": "B01Q",
+  "custom": true,
+  "mods": {
+   "tooltip": "Magic Shield",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B010",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Attack damage and HP regen are increased and you take reduced damage.",
+   "tooltip": "|c0000ff00Inner Meditation|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNInnerMeditation.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B01I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Fear",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+   "targetArt": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "chest",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BOmi",
+  "id": "B01S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Mirror"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BUfa",
+  "id": "B01U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Frost Armor"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B01V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Craze",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp",
+   "targetArt": "Environment\\LargeBuildingFire\\LargeBuildingFire2.mdl,Environment\\LargeBuildingFire\\LargeBuildingFire2.mdl,Environment\\LargeBuildingFire\\LargeBuildingFire2.mdl"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 3,
+   "fta1": "hand,right",
+   "fta0": "chest",
+   "fta2": "hand,left"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B01W",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStun.blp",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+   "tooltip": "Groggy"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bpsd",
+  "id": "B01Y",
+  "custom": true,
+  "mods": {
+   "tooltip": "Poison",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHad",
+  "id": "B021",
+  "custom": true,
+  "mods": {
+   "tooltip": "Holy Wings",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBarkskin.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BUts",
+  "id": "B022",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp",
+   "targetArt": "",
+   "name": "",
+   "tooltip": "Wings of Darkness"
+  },
+  "rawMods": {
+   "ftac": 0,
+   "fta0": "",
+   "fta1": "",
+   "fta2": "",
+   "fta3": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B023",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Dark Curse",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp",
+   "targetArt": "SkullBuff.mdx"
+  },
+  "rawMods": {
+   "frac": "undead",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BOwk",
+  "id": "B018",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Wind Walk"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BPSE",
+  "id": "B024",
+  "custom": true,
+  "mods": {
+   "tooltip": "Stunned",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B500",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Stunned"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B01Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Refreshment|r",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNElementalistW_F.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B027",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Blood Fury|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBerserkerE.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B028",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Howling",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBerserkerW.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "Bhea",
+  "id": "B029",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Recovery"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Total damage is increased and HP does not drop below 1.",
+   "tooltip": "|c0000ff00Genesis|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPaladinF.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BPSE",
+  "id": "B02B",
+  "custom": true,
+  "mods": {
+   "tooltip": "Frost",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostNova\\FrostNovaTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrost.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02C",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c00ff0000Chill|r",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp"
+  },
+  "rawMods": {
+   "fta0": "chest",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02E",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Niflheim|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNiflheim.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Winter Rose|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWinterRose.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02N",
+  "custom": true,
+  "mods": {
+   "tooltip": "Frost Piercing",
+   "tooltipExtended": "",
+   "targetArt": "AuraOfChilliness.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrostWebBrooch.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1,
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02P",
+  "custom": true,
+  "mods": {
+   "tooltip": "Freezing Shot",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBowMasterW.blp"
+  },
+  "rawMods": {
+   "fta0": "chest",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B005",
+  "custom": true,
+  "mods": {
+   "tooltip": "Demon's Will",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BOwk",
+  "id": "B02R",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Sylph's Blessing",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Tornado\\Tornado_Target.mdl"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B006",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Unholy Blast",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSoulWeaverQ.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B007",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Q",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSoulWeaverR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B01J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Next attack is empowered..",
+   "tooltip": "|cff00ff00Purestorm Shot|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBowMasterR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B01L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Soul Materia|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B01N",
+  "custom": true,
+  "mods": {
+   "tooltip": "Infinite Void",
+   "tooltipExtended": "",
+   "targetArt": "Sargeraswrath.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeath.blp"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B01K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Next attack deals bonus damage.",
+   "tooltip": "|c0000ff00Shadow Walk|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAssassinE.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Immune to debuffs.",
+   "tooltip": "|c0000ff00Horn of Notus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageT.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Blind",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAssassinR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Ambush|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAssassinW.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Prophetia|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHelmet3.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B02O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Divine Light|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPriestR.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B02T",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Damage taken is reduced.",
+   "tooltip": "|c0000ff00Divine Blessing|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "fspd": 0,
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B020",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Divine Protection|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNInvulnerable.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B00D",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c00ff0000Power of Chaos|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BOae",
+  "id": "B008",
+  "custom": true,
+  "mods": {
+   "tooltip": "Gravity Field",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArcaneMageE.blp",
+   "targetArt": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B009",
+  "custom": true,
+  "mods": {
+   "tooltip": "Slow Blast",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00N",
+  "custom": true,
+  "mods": {},
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Forest Protection|r",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNMagicImmunity.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B01M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Earthen Regeneration|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEarthenBreastplate.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B02V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+   "tooltip": "Devastation"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B003",
+  "custom": true,
+  "mods": {
+   "tooltip": "Summon",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+   "tooltipExtended": "Summon"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B001",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Slow Aura",
+   "targetArt": "WaterSlow.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B002",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Tentacles",
+   "targetArt": "Abilities\\Spells\\NightElf\\EntangleMine\\Roots.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTentacle.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BIrl",
+  "id": "B004",
+  "custom": true,
+  "mods": {
+   "tooltip": "Storm Shaft",
+   "tooltipExtended": "",
+   "targetArt": "AirImprisonment.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSniperQ.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B00A",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAnger.blp",
+   "tooltip": "Anger",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Undead\\Cripple\\CrippleTarget.mdl"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "origin",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00C",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Rage|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHire.blp",
+   "targetArt": "RedChakra.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00E",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Impact",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVolcano.blp",
+   "targetArt": "Environment\\LargeBuildingFire\\LargeBuildingFire2.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B00F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Inner Flame|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFlameTiara.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Return Life|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCripple.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B00H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Shockwave",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B00I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Mark of Hatred",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00Q",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Furious Attacks|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B00Y",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Empowerment|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B00Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Marked",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B011",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Berserk|r",
+   "targetArt": "RedChakra.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "fspd": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B012",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Hatred|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "fspd": 0,
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BIil",
+  "id": "B013",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Fury Infusion|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUpgradeRegenerationAura.blp"
+  },
+  "rawMods": {
+   "fsat": ""
+  }
+ },
+ {
+  "baseId": "BIil",
+  "id": "B019",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Embedded Fury|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga"
+  },
+  "rawMods": {
+   "fsat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B01A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Storm Reaver|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStormReaver.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B01B",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Mystic Shell",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNThickFur.blp",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B01C",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Chomp Armor",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDevour.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B01D",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp",
+   "tooltip": "|c0000ff00Reactivity|r",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B01F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Watery Protection|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B01G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Subtlety|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDrunkenDodge.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B01R",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Storm Infusion|r",
+   "targetArt": "Abilities\\Spells\\Orc\\LightningShield\\LightningShieldTarget.mdl,EtherealAura.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "origin",
+   "ftac": 2,
+   "fta1": "origin"
+  }
+ },
+ {
+  "baseId": "BIil",
+  "id": "B01T",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Snowy Wrath|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTwinSnow.blp"
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B01X",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Immunity Shell|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNThorns.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B025",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Hellfire",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B000",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Flame Mastery",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNFlameReach.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Burn",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B02U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Flameshard|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArmor10.blp"
+  },
+  "rawMods": {
+   "frac": "undead",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B02W",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Flame Explosion",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFlameTiara.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BEer",
+  "id": "B01E",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Courage|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAccessory10.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02X",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Ancient Poison|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSell.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B02Y",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Ancient Poison",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSell.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B02Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp",
+   "targetArt": "",
+   "tooltip": "Spirit Breath"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B030",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Festival of Flame|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFlameTiara.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B031",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Earthen Restoration|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArmor12.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B032",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Storm Headdress|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHelmet08.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B033",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Shock",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B034",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elemental Release - Fire|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Staff022.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B035",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Storm Infusion|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B036",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Damage taken is increased.",
+   "tooltip": "Elemental Breath",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B037",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Damage taken is decreased and HP regen is increased.",
+   "tooltip": "|c0000ff00Fruit of Earth|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B038",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Astral Walk|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSoulWeaverR.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B039",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Immunity|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNInvulnerable.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B03A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Destruction|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bhea",
+  "id": "B03B",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Speed",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+   "targetArt": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B03C",
+  "custom": true,
+  "mods": {
+   "tooltip": "Poison Field",
+   "tooltipExtended": "",
+   "targetArt": "LegionStrike.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeath.blp"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B03D",
+  "custom": true,
+  "mods": {
+   "tooltip": "Evil Soul",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCurse.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B03E",
+  "custom": true,
+  "mods": {
+   "tooltip": "Soul Terror",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp"
+  },
+  "rawMods": {
+   "fta0": "chest",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B03F",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Guard Enchant|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterR.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B03G",
+  "custom": true,
+  "mods": {
+   "tooltip": "Dead Man's Reach",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTheBlackArrow.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B03H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Bone Shroud|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAccessory11.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B03I",
+  "custom": true,
+  "mods": {
+   "tooltip": "Weapon of Nothingness",
+   "tooltipExtended": "",
+   "targetArt": "DarkLightningNova.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B03J",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Abyssal Power|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B03K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Soul Reaper",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B03L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Death Pact|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNpa",
+  "id": "B03M",
+  "custom": true,
+  "mods": {
+   "tooltip": "Dark Howl",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B03N",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Rage|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {
+   "frac": "undead",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B03O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Oblivion|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCharm.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B03P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Obsession|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp"
+  },
+  "rawMods": {
+   "frac": "undead",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B03V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLancerE.blp",
+   "targetArt": "Abilities\\Spells\\NightElf\\Tranquility\\TranquilityTarget.mdl",
+   "tooltip": "Shield Slam"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B03W",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "All stats are increased.",
+   "tooltip": "|c0000ff00Meteor Spear|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLancerT.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B040",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Flame Combustion",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B041",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Magic Protection|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightE.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BOhx",
+  "id": "B042",
+  "custom": true,
+  "mods": {
+   "tooltip": "Frost",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNGlacier.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "frac": "human",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B02H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Aid|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B01O",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Shadow Mark|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAssassinQ.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B026",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Dark Shroud|r",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNAssassinPas.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B043",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp",
+   "tooltip": "Dragonic Breath",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B044",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDispelMagic.blp",
+   "tooltip": "Shadow Breath",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B045",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp",
+   "tooltip": "Darkness",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B046",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Deadly Dance",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+   "targetArt": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B049",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Evil Power|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNdm",
+  "id": "B04A",
+  "custom": true,
+  "mods": {
+   "tooltip": "Nyohoho",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\EarthQuake\\EarthQuakeTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04B",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Halloween Power|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPenguin.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04C",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Apple Candy|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04D",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Blueberry Candy|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04E",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Grape Candy|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSoulGem.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B04F",
+  "custom": true,
+  "mods": {
+   "tooltip": "Fervor",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B04G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Power Enchant|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterE.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHad",
+  "id": "B04H",
+  "custom": true,
+  "mods": {
+   "tooltip": "Earth Bind",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSell.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BIpv",
+  "id": "B04I",
+  "custom": true,
+  "mods": {
+   "tooltip": "Earthly Strike",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BIpv",
+  "id": "B04J",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Earth Shield|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNThorns.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BIpv",
+  "id": "B04K",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Earthly Eminence|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B04L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Thunderous Aura|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B04M",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp",
+   "tooltip": "Shock",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04N",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Embrace of Nature|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNatureWings.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B04O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Storm's Fury|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B04Q",
+  "custom": true,
+  "mods": {
+   "tooltip": "Flame Piercing",
+   "tooltipExtended": "",
+   "targetArt": "Flame Piercing.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHeartOfIfrit.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1,
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BCtc",
+  "id": "B04R",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Azathoth|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPipe.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Thunder Shield|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta0": "",
+   "fta1": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B04V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Fierce Strikes|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNThundererPas.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BOac",
+  "id": "B04W",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Eye of Truth|r",
+   "tooltipExtended": "Skills land as critical strikes.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Headwear024.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BOac",
+  "id": "B04X",
+  "custom": true,
+  "mods": {
+   "tooltip": "Despair",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSentinel.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B04Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Infusion|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B04U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Impale",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNImpale.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bply",
+  "id": "B04Y",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Burning Hand|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B050",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Eye of Storm|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B052",
+  "custom": true,
+  "mods": {
+   "tooltip": "Ground Collapse",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "Bhea",
+  "id": "B053",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Philosopher's Stone|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BUdd",
+  "id": "B054",
+  "custom": true,
+  "mods": {
+   "tooltip": "Rolling Slam",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPandaTaunt.blp",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "orc"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B055",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Speed Enchant|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterW.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B056",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elixir of Stat|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElixir3.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B057",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elixir of Focus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElixir4.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B058",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elixir of Magic|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElixir5.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B059",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elixir of Protection|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElixir2.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binv",
+  "id": "B05A",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Magic Ballista|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBowMasterUlt.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B05B",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Blaze|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bmil",
+  "id": "B05C",
+  "custom": true,
+  "mods": {
+   "tooltip": "Flash",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArcaneMageW.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bmil",
+  "id": "B05D",
+  "custom": true,
+  "mods": {
+   "tooltip": "Evasive Movement",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga",
+   "targetArt": "ShadowRegen.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B05E",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Darkness|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNShadeTrueSight.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Break",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Bply",
+  "id": "B05G",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Enraged|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B05H",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Vengeance|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Flame Soul|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSword4.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Blazing Soul|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSword15.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BIpv",
+  "id": "B05L",
+  "custom": true,
+  "mods": {
+   "tooltip": "Twisting Earth",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNightElfBuild.blp",
+   "targetArt": "Abilities\\Spells\\NightElf\\EntanglingRoots\\EntanglingRootsTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Call of Death|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRegenerationAura.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Mad Enhancement|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDrain.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Soul Drinker|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAccessory12.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05Q",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Possession|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B05R",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNElementalistW_D.blp",
+   "tooltip": "Water Bolt",
+   "tooltipExtended": "",
+   "targetArt": "WaterSlow.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Eclipse|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTranscendance1.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05T",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Arrow of Zephyrus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageQ2.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B05U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Feather of Aeolus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageD.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B05V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Absorbs damage.",
+   "tooltip": "|c0000ff00Mirror of Aeolus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B05W",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Damage dealt is decreased.",
+   "tooltip": "Spirit Charge",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeath.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05X",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Light Breeze|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B05Y",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageW.blp",
+   "tooltip": "Strong Winds",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Gift",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNatureWings.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B060",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Blessing|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNatureWings.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "B061",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Gift of Vayu|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNGiftOfVayu.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B062",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWindMageT.blp",
+   "tooltip": "Horn of Notus",
+   "tooltipExtended": "",
+   "targetArt": "AirImprisonment.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B063",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Deathly Shroud|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B064",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Hunger|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B065",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Infected Claw",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNGhoulFrenzy.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B066",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Infest",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNParasite.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B067",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Domination|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B068",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Perseverance|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B069",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Eternal Rose|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAccessory5.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B06A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Heartseeker|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLoad.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B06B",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Undying|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B06C",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Skill damage and damage reduction are increased and you regenerate HP slowly.",
+   "tooltip": "|c0000ff00Crimson Pact|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory045.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B06D",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Movement speed is decreased by 20% and healing received is decreased by 100%. Creates a Vampiric Monstrosity on death.\r\n\r\nCreates a deadly pool of blood when the debuff is cleansed.",
+   "tooltip": "Blood Plague",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B06E",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Anti Magic Shield|r",
+   "tooltipExtended": "Ignores all magical damage and CC effects.",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bmfa",
+  "id": "B06F",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Illusion|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp"
+  },
+  "rawMods": {
+   "fsat": "",
+   "fmat": "",
+   "fta0": "",
+   "fmsp": 0,
+   "fmho": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BIil",
+  "id": "B06G",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Frenzy|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {
+   "fsat": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B06H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Dragonic Skin|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSirenMaster.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B06I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Dark Binding",
+   "targetArt": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B06J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Parasite|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B06K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Gift of Power|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNcr",
+  "id": "B06L",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Absolute Strike|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Great Prophetia|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHood09.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06N",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Savage|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSacrifice.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Damage taken is reduced.",
+   "tooltip": "|c0000ff00Will of Protector|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBarkskin.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B06P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Suppression",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp",
+   "targetArt": "VoidDrown.mdx"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06Q",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Blood Awakening|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "Bmlt",
+  "id": "B06R",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Burning Soul|r",
+   "tooltipExtended": "Attack damage is increased.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings031.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Immune to debuffs.",
+   "tooltip": "|c0000ff00Sigil of Awakening|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfAlacrity.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B06T",
+  "custom": true,
+  "mods": {
+   "tooltip": "Lethal Poison",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+   "targetArt": "",
+   "tooltipExtended": "Takes magic damage every second and has reduced attack and movement speed."
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Spiritual Resonance|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSword17.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B06V",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c00ff0000Fear|r",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Other\\HowlOfTerror\\HowlTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B06W",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Super Armor|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B06X",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Dark Detonation",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B06Y",
+  "custom": true,
+  "mods": {
+   "tooltip": "Devour Soul",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDevour.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\Cripple\\CrippleTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B06Z",
+  "custom": true,
+  "mods": {
+   "tooltip": "Creeping Death",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B070",
+  "custom": true,
+  "mods": {
+   "tooltip": "Absorb Soul",
+   "tooltipExtended": "You are within the range of Death Devourer. You take periodic damage and receive reduced healing.",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNShadeTrueSight.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B071",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Doom|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritLink.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B072",
+  "custom": true,
+  "mods": {
+   "tooltip": "Impending Doom",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B073",
+  "custom": true,
+  "mods": {
+   "tooltip": "Weakened Soul",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSacrificialSkull.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BEer",
+  "id": "B074",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Frostshard|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArmor15.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B075",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Frost Impact",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B076",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Grudge|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArmor16.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B077",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Main stat is increased.",
+   "tooltip": "|c0000ff00Heaven's Light|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Weapon008.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B078",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Chaos|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNChaos.blp",
+   "targetArt": "PurpleChakra.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B079",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSword18.blp",
+   "tooltip": "Blade of Destruction",
+   "tooltipExtended": "",
+   "targetArt": "Abyss.mdx"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "chest",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B07A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Magic Focus|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Helm019.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BNdc",
+  "id": "B07B",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Serenity|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "feat": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BPSE",
+  "id": "B07C",
+  "custom": true,
+  "mods": {
+   "tooltip": "Grasp of the Fiend",
+   "tooltipExtended": "",
+   "targetArt": "Hell Roots Buff.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BCtc",
+  "id": "B07E",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Death Harvest|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B07F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Chaos Breath",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\DeathandDecay\\DeathandDecayDamage.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elemental Release - Water|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Staff022.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "B07H",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Light of Creation|r",
+   "targetArt": "RedChakra.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFarSight.blp"
+  },
+  "rawMods": {
+   "fta0": "origin",
+   "fspd": 0
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B07I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Crown of Composure|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHelmet13.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B07J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Windy",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTornado.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Tornado\\Tornado_Target.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Ruin",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B07L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Wind Booster|r",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNElementalistD_F.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B07M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Aegis of Sea|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B07N",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Sword Enchant|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterD_2.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B05I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Defying Death|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp"
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Death's Door|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07Q",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Embrace of Love|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRune.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bprg",
+  "id": "B07P",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Sigil of Restoration|r",
+   "tooltipExtended": "Continuously heals HP.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfRestoration.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07R",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Nameless Arts",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMartialUlt.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B07S",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Sword of Execution|r",
+   "tooltipExtended": "Next attack is empowered.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderPas.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B07T",
+  "custom": true,
+  "mods": {
+   "tooltip": "Sword Dance",
+   "tooltipExtended": "Damage taken is increased.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderR_1.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07U",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Flash of Immortality|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderW.blp",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07V",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Honor of Sword|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderE.blp",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07W",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Max Amplification: Execution Sword|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderT.blp",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07X",
+  "custom": true,
+  "mods": {
+   "tooltip": "Remains of Rage",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderQ.blp",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bakb",
+  "id": "B07Y",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrusaderR_2.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Drain\\ManaDrainTarget.mdl",
+   "tooltip": "2nd Sword Dance: Sword"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B07Z",
+  "custom": true,
+  "mods": {
+   "tooltip": "Apocalypse",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWarlockUlt.blp",
+   "targetArt": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B080",
+  "custom": true,
+  "mods": {
+   "tooltip": "Crucifixion",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWarlockQ.blp",
+   "targetArt": "Abilities\\Spells\\NightElf\\shadowstrike\\shadowstrike.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "frac": "orc"
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B081",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Vengeance|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWarlockE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B082",
+  "custom": true,
+  "mods": {
+   "tooltip": "Practice Mode",
+   "tooltipExtended": "Does not drop items.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShoveler.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B083",
+  "custom": true,
+  "mods": {
+   "tooltip": "Lightning Beam",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B084",
+  "custom": true,
+  "mods": {
+   "tooltip": "Flash of Light",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp",
+   "targetArt": "Effects\\HolyWard.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B085",
+  "custom": true,
+  "mods": {
+   "tooltip": "Spirit of Light",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BEer",
+  "id": "B086",
+  "custom": true,
+  "mods": {
+   "tooltip": "Poison River",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Weapons\\PoisonSting\\PoisonStingTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B087",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Shockwave",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkill_Shockwave_01.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B088",
+  "custom": true,
+  "mods": {
+   "tooltip": "Nature's Binding",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B089",
+  "custom": true,
+  "mods": {
+   "tooltip": "Order of Light",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08A",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Protection of Light|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08B",
+  "custom": true,
+  "mods": {
+   "tooltip": "Coil of Light",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNSkill_CoilOfLight.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08C",
+  "custom": true,
+  "mods": {
+   "tooltip": "Wrath of Nature",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\NightElf\\BattleRoar\\RoarTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B08D",
+  "custom": true,
+  "mods": {
+   "tooltip": "Slippery Skin",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSirenMaster.blp",
+   "targetArt": "Abilities\\Spells\\Items\\ClarityPotion\\ClarityTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B08E",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Martial Movement|r",
+   "tooltipExtended": "Evades next attack.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkill_Counter.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta1": "",
+   "fta0": "",
+   "ftac": 0,
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08H",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00War Shout|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkill_WarShout.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08J",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Darkness Ray|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDoom.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B08K",
+  "custom": true,
+  "mods": {
+   "tooltip": "Slimy Ball",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08L",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Magic Protection|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08M",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Witch's Play|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B08N",
+  "custom": true,
+  "mods": {
+   "tooltip": "Witch's Curse",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritLink.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B08O",
+  "custom": true,
+  "mods": {
+   "tooltip": "Apocryphos",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\Possession\\PossessionTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08P",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Apocryphos|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08Q",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Brutality|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCommand.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08R",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Golden Fruit|r",
+   "tooltipExtended": "Grants various positive effects.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNGoldenOrb.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08S",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Nightmare|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPossession.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08T",
+  "custom": true,
+  "mods": {
+   "tooltip": "Song of Despair",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08U",
+  "custom": true,
+  "mods": {
+   "tooltip": "Harvest",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSoulWeaverA.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08V",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Overflowing Stamina|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08W",
+  "custom": true,
+  "mods": {
+   "tooltip": "Heaven's Door",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Weapon008.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B08X",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Gathering Light|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSearingArrows.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "BUau",
+  "id": "B08Y",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Your stats are temporarily lowered due to withdrawal from apotheosis.",
+   "tooltip": "Weakened",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B08Z",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp",
+   "tooltip": "Star of Creation",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\NightElf\\Barkskin\\BarkSkinTarget.mdl"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "chest",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B090",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Disguiser's Seal|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory003.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B091",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Guardian of the Skies|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings002.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bspa",
+  "id": "B092",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWaterMagePas.blp",
+   "tooltip": "|c0000ff00Frozen Emotion|r",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B093",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Elemental Power|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B094",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c00ff0000Grim Howl|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B096",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Composure|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B097",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Halloween Fever|r",
+   "tooltipExtended": "Item Drop Chance +100%",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHelmet1.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B098",
+  "custom": true,
+  "mods": {
+   "tooltip": "Pumpkin Disease",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHelmet1.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B047",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Nanomachine Injection|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShooterW.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B048",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShooterR.blp",
+   "targetArt": "",
+   "tooltip": "Distortion"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B09A",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShooterF.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Drain\\ManaDrainTarget.mdl",
+   "tooltip": "Comet Storm"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09B",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Takes periodic damage and healing received is decreased.\r\n\r\nAt 10 stacks or above, shocks nearby enemies when cleansed.",
+   "tooltip": "Shock",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNArcaneConstruct_Mech01.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09C",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Christmas Spirit|r",
+   "tooltipExtended": "Drop rate is increased by 100%.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEvent_Christmas.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09D",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Rising Blood|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09E",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Burning Fervor|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Sword005.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "undead",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Ring of the One|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory031.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09G",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Refined Power|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09H",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Madness of Slayer|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B09I",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Horn of God|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Misc012.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B09J",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Oriental Spear Mastery|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLancerPas.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B03U",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Guardian|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBowMasterE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09K",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Purestorm Shot",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBowMasterR.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B09L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Cannot exit training room for 5 minutes due to the effects of control stone.",
+   "tooltip": "Binding",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnsummonBuilding.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BEim",
+  "id": "B02Q",
+  "custom": true,
+  "mods": {
+   "tooltip": "Release Mana",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightPas.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B03Q",
+  "custom": true,
+  "mods": {
+   "tooltip": "Instincts",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightE.blp",
+   "targetArt": "Effects\\WaterAurora.mdx"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B03T",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Protection|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightW.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B03R",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Mana Blast",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBlast.blp",
+   "targetArt": "Effects\\SlowTarget_Blue.mdx"
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B03S",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Speed and crit multiplier are increased.",
+   "tooltip": "|c0000ff00Fruit of Lightning|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B03X",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSleep.blp",
+   "tooltip": "Petrification",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B03Y",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Blood Mastery|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNBloodWeaverD.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B03Z",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Blood Boil|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBloodWeaverR.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B04T",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Black Magic|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B095",
+  "custom": true,
+  "mods": {
+   "tooltip": "Dazed",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNIncinerate.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B09M",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Frozen Barrier|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09N",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Lightning Speed|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta0": "",
+   "fta1": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B09O",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Flame Spirit|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFireMageW.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHbd",
+  "id": "B09P",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Discharge|r",
+   "tooltipExtended": "Damage taken is reduced.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningMageE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B09Q",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Drop rate is increased by 100%.",
+   "tooltip": "|c0000ff00Festive Spirit (Event)|r",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNGiftOfVayu.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09R",
+  "custom": true,
+  "mods": {
+   "tooltip": "Nasty Shock",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09S",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Lightning Shield|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B09T",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Takes reduced damage and is immune to debuffs.",
+   "tooltip": "|c0000ff00Requiem|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightT.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BUdd",
+  "id": "B09U",
+  "custom": true,
+  "mods": {
+   "tooltip": "Requiem",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightT.blp",
+   "tooltipExtended": "",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bfro",
+  "id": "B09V",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Wet",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWaterMageW.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B09W",
+  "custom": true,
+  "mods": {
+   "tooltip": "Unholy Tempest",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightF.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B09X",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Ultimate Enchant",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterF.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B09Y",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Consecutive Strikes|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCriticalStrike.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B09Z",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Death's Dash",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReaperE.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0A0",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Extreme Focus|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReaperT.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0A1",
+  "custom": true,
+  "mods": {
+   "tooltip": "Armor Reduction",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0A2",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Holy Fist|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory008.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0A3",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Bullet Time|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkillGunnerT.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0A4",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Tumble|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSkillGunnerQ.blp"
+  },
+  "rawMods": {
+   "fspd": 2
+  }
+ },
+ {
+  "baseId": "BOhx",
+  "id": "B0A5",
+  "custom": true,
+  "mods": {
+   "tooltip": "Icicle Transmutation",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrostBolt.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "frac": "human",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B02D",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Parasite",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B02F",
+  "custom": true,
+  "mods": {
+   "tooltip": "Divine Cross",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPaladinR.blp",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "frac": "orc",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B02L",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Forbidden Magic|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUnsummonBuilding.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B04P",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Frosty Shield",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B051",
+  "custom": true,
+  "mods": {
+   "tooltip": "Sprint",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp",
+   "targetArt": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B07D",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "This skill has been disabled.",
+   "tooltip": "Disable Alacrity",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNYoumuE_2.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B08F",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Harmony",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNYoumuR.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BSTN",
+  "id": "B08G",
+  "custom": true,
+  "mods": {
+   "tooltip": "Crescent",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNYoumuQ.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Tornado\\Tornado_Target.mdl"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "frac": "orc",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B08I",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Ethereal Strike",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp",
+   "targetArt": "Abilities\\Spells\\NightElf\\Tranquility\\TranquilityTarget.mdl"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta1": "",
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0A6",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Soul Cradle|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B099",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Restoration|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNManaRecharge.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0A7",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Purge|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPurge.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BOwk",
+  "id": "B0A8",
+  "custom": true,
+  "mods": {
+   "tooltip": "Wind Walk",
+   "tooltipExtended": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BOwk",
+  "id": "B0A9",
+  "custom": true,
+  "mods": {
+   "tooltip": "Magical Broom",
+   "tooltipExtended": "",
+   "targetArt": "Effects\\marisastarm_1p.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWitchD.blp"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "weapon"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AA",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Mark of Power|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWitchTW.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AB",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Rapid Fire|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AC",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Mystical Cauldron|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWitchE.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AD",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Hex|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNWitchR.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0AE",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Illusion",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B0AF",
+  "custom": true,
+  "mods": {
+   "tooltip": "Mark of Death",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNUndeadLoad.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BUau",
+  "id": "B0AG",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Heartseeking Arrow",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AH",
+  "custom": true,
+  "mods": {
+   "tooltip": "Water Binding",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp",
+   "targetArt": "Effects\\WaterSlow.mdx"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AI",
+  "custom": true,
+  "mods": {
+   "tooltip": "Watery Pool",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFrost.blp",
+   "targetArt": "Abilities\\Spells\\Undead\\FrostArmor\\FrostArmorDamage.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AJ",
+  "custom": true,
+  "mods": {
+   "tooltip": "Water Bubble",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AK",
+  "custom": true,
+  "mods": {
+   "tooltip": "Drown",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AL",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Protection of Sea|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B0AM",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Sword009.blp",
+   "tooltip": "",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AN",
+  "custom": true,
+  "mods": {
+   "tooltip": "Release",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNYoumuT.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0AO",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Exhausted",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSleep.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0AP",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Speed Enchant|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordEnchanterW.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AQ",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Combo Mastery|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BCtc",
+  "id": "B0AR",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Throwing Healing Potion|r",
+   "tooltipExtended": "HP regen is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMerchantW.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bakb",
+  "id": "B0AS",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBlink.blp",
+   "targetArt": "Effects\\SlowTarget_Blue.mdx",
+   "tooltip": "Shock"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AT",
+  "custom": true,
+  "mods": {
+   "tooltip": "Soulburn",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAgareth_Buff01.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AU",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Overflowing Power|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B0AV",
+  "custom": true,
+  "mods": {
+   "tooltip": "Hell Flame",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAgareth_Buff03.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B0AW",
+  "custom": true,
+  "mods": {
+   "tooltip": "Corrupt Flame",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAgareth_Buff02.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AX",
+  "custom": true,
+  "mods": {
+   "tooltip": "Abyssal Miasma",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFaerieFire.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0AY",
+  "custom": true,
+  "mods": {
+   "tooltip": "Hope",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp",
+   "targetArt": "Abilities\\Spells\\Items\\AIsp\\SpeedTarget.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "origin"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0AZ",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Invincibility|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "fspd": 0,
+   "ftac": 0
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0B0",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Madness|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory026.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B0B1",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNStarOfDestruction.blp",
+   "tooltip": "Star of Destruction",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Undead\\Possession\\PossessionTarget.mdl"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "chest",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0B2",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Fear",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp",
+   "targetArt": "",
+   "name": "Fear (Agareth)"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B0B3",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSword18.blp",
+   "tooltip": "Chaos",
+   "tooltipExtended": "",
+   "targetArt": "DeathOrbTarget.mdx"
+  },
+  "rawMods": {
+   "fsat": "",
+   "ftac": 1,
+   "fta0": "origin",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0B4",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Malevolence|r",
+   "tooltipExtended": "Total damage is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory055.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0B5",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Eitr|r",
+   "tooltipExtended": "Damage dealt is increased.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLesserInvulneralbility.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0B6",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "HP regen and movement speed are increased.",
+   "tooltip": "|c0000ff00Salvation|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory046.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bmlt",
+  "id": "B0B7",
+  "custom": true,
+  "mods": {
+   "tooltip": "Corrosion",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNChaosQ.blp"
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0B8",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Demon's Grasp|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory028.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0B9",
+  "custom": true,
+  "mods": {
+   "tooltip": "Demon's Grasp",
+   "tooltipExtended": "",
+   "targetArt": "Effects\\IncinerateBuff_Blue.mdx",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory028.blp"
+  },
+  "rawMods": {
+   "fta0": "chest",
+   "ftac": 1,
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0BA",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Archangel's Blessing|r",
+   "tooltipExtended": "Skill damage is increased and damage taken is reduced.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNangelWings.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "BHbd",
+  "id": "B0BB",
+  "custom": true,
+  "mods": {
+   "tooltip": "Sword Storm",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSwordsmanE.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0BC",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Frozen Aegis|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory030.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BD",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Wonder Hand|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTricksterW.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0BE",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Rejuvenation|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0BF",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Voidshard",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Armor025.blp",
+   "targetArt": "Abyss.mdx"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BG",
+  "custom": true,
+  "mods": {
+   "tooltip": "Mysterious Power",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNPhaseShift.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0BH",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Sparkle of Life|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Staff009.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHad",
+  "id": "B0BI",
+  "custom": true,
+  "mods": {
+   "tooltip": "Flash Strike",
+   "tooltipExtended": "",
+   "targetArt": "Abilities\\Spells\\Human\\slow\\slowtarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLancerW.blp"
+  },
+  "rawMods": {
+   "ftac": 1
+  }
+ },
+ {
+  "baseId": "BHfs",
+  "id": "B0BJ",
+  "custom": true,
+  "mods": {
+   "tooltip": "Attack Disabled",
+   "tooltipExtended": "Attack has been disabled.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCancel.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bslo",
+  "id": "B0BK",
+  "custom": true,
+  "mods": {
+   "tooltip": "Poison",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp",
+   "targetArt": "",
+   "tooltipExtended": "Takes magic damage every second and has reduced attack and movement speed."
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BNcr",
+  "id": "B0BL",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Flame Blessing|r",
+   "tooltipExtended": "Damage and main stat temporarily increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Misc029.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0BM",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Well Rested|r",
+   "tooltipExtended": "EXP gain increased from resting well.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSleep.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BNcr",
+  "id": "B0BN",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Three Talon Strike|r",
+   "tooltipExtended": "Next 3 attacks are empowered.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNThundererQ.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0BO",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Craze|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "other",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BP",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Spirit Fusion|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShrinePriestessT.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BQ",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Water Dome|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShrinePriestessR2.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BR",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Fire Dome|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShrinePriestessR3.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BS",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Spirit of Fire|r",
+   "tooltipExtended": "Skill damage is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShrineFoxQ.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BT",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Shield of Grace|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShrineFoxE.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bmlc",
+  "id": "B0BU",
+  "custom": true,
+  "mods": {
+   "name": "Casting Skill",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCancel.blp",
+   "tooltip": "Casting Skill"
+  },
+  "rawMods": {
+   "fefl": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BV",
+  "custom": true,
+  "mods": {
+   "tooltip": "Throw Net",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0BW",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Freeze Bomb",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bfae",
+  "id": "B0BX",
+  "custom": true,
+  "mods": {
+   "tooltip": "True Sight",
+   "tooltipExtended": "You have been detected by bosses.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0BY",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Excalibur|r",
+   "tooltipExtended": "This unit is invulnerable due to Excalibur's effect.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightUlt.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bpsh",
+  "id": "B0BZ",
+  "custom": true,
+  "mods": {
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Melee012.blp",
+   "tooltip": "Desolation",
+   "tooltipExtended": ""
+  },
+  "rawMods": {
+   "fsat": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0C0",
+  "custom": true,
+  "mods": {
+   "tooltip": "Blood Sacrifice",
+   "tooltipExtended": "You have been selected as the sacrifice for the Ritual of Sacrifice.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNHire.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0C1",
+  "custom": true,
+  "mods": {
+   "tooltip": "Blood Sickness",
+   "tooltipExtended": "Movement speed is decreased by 20% and healing received is decreased by 50%. Creates a Vampiric Monstrosity on death.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBloodSickness.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0C2",
+  "custom": true,
+  "mods": {
+   "tooltip": "Bleeding",
+   "tooltipExtended": "Taking periodic damage from heal.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0C3",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Became invisible.",
+   "tooltip": "Bloodstorm",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings026.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHbd",
+  "id": "B0C4",
+  "custom": true,
+  "mods": {
+   "tooltip": "Guardian Angel",
+   "tooltipExtended": "Movement speed is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings028.blp",
+   "targetArt": ""
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0C5",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Slowed and taking periodic damage.",
+   "tooltip": "Death Pool",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0C6",
+  "custom": true,
+  "mods": {
+   "tooltip": "Magnetic Curse",
+   "tooltipExtended": "You will get pulled in if you stay too far from your linked target.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNMagicLariet.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BHwe",
+  "id": "B0C7",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Critical chance of your spear attacks increased.",
+   "tooltip": "|cff00ff00Pierce|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLancerQ.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0C8",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Earthen Blessing|r",
+   "tooltipExtended": "Reduces damage taken and grants immunity to CC effects.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0C9",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Desolate Array|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory051.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0CA",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Gift of Life|r",
+   "tooltipExtended": "Main stat and skill damage is increased and takes reduced damage.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings030.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "other"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CB",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Protection of Life|r",
+   "tooltipExtended": "Immune to CC effects.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CC",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Sacred Dawn|r",
+   "tooltipExtended": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings029.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B0CD",
+  "custom": true,
+  "mods": {
+   "tooltip": "Thornvine",
+   "tooltipExtended": "You cannot move."
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CE",
+  "custom": true,
+  "mods": {
+   "tooltip": "Spirit Barrage",
+   "tooltipExtended": "You cannot cast skills and your movement is slowed.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp",
+   "targetArt": "Abilities\\Spells\\Other\\Parasite\\ParasiteTarget.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CF",
+  "custom": true,
+  "mods": {
+   "tooltip": "Corrupt Energy",
+   "tooltipExtended": "Takes periodic damage and Corrupt Energy accumulates.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorruptEnergy.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CG",
+  "custom": true,
+  "mods": {
+   "tooltip": "Protection",
+   "tooltipExtended": "You are protected from Gaia's wrath.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CH",
+  "custom": true,
+  "mods": {
+   "tooltip": "Corrupt Explosion",
+   "tooltipExtended": "You take more damage from subsequent Corrupt Explosions.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CI",
+  "custom": true,
+  "mods": {
+   "tooltip": "Spirit Rift",
+   "tooltipExtended": "Your movement is slowed.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBanish.blp",
+   "targetArt": "Abilities\\Spells\\Human\\Banish\\BanishTarget.mdl"
+  },
+  "rawMods": {
+   "feat": "",
+   "ftac": 1,
+   "fta0": "chest"
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CJ",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Heart of Life|r",
+   "tooltipExtended": "Various stats have been enhanced.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory052.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B05N",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Grand Sword|r",
+   "tooltipExtended": "Activates Grand Sword on attack.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNKnightQ.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CK",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Elemental Fury|r",
+   "tooltipExtended": "Main stat is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNElementalFury.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0CL",
+  "custom": true,
+  "mods": {
+   "tooltip": "Grab",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCrabR.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BNcr",
+  "id": "B0CM",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Herb|r",
+   "tooltipExtended": "HP restores slowly.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNShimmerWeed.blp"
+  },
+  "rawMods": {
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Binf",
+  "id": "B0CN",
+  "custom": true,
+  "mods": {
+   "tooltip": "Nurunuru Ball",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "ftac": 0,
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0CO",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Transcendance|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNTranscendance2.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BHtc",
+  "id": "B0CP",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Continuously loses HP.",
+   "tooltip": "Harsh Nature",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNReplenishHealth.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CQ",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Empowering Light|r",
+   "tooltipExtended": "Next Light Seeker or Light of Judgment deals increased damage.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNInnerFire.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CR",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Enlightement|r",
+   "tooltipExtended": "Damage dealt by your skills are increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNLightseekerT.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bcmg",
+  "id": "B0CS",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Rapid Fire|r",
+   "tooltipExtended": "Attack speed is increased.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBlasterQ.blp"
+  },
+  "rawMods": {
+   "feat": ""
+  }
+ },
+ {
+  "baseId": "Bakb",
+  "id": "B0CT",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Your movement is slowed.",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNBlasterE.blp",
+   "targetArt": "Abilities\\Spells\\Orc\\StasisTrap\\StasisTotemTarget.mdl",
+   "tooltip": "Buster Shot"
+  },
+  "rawMods": {
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "Bams",
+  "id": "B0CU",
+  "custom": true,
+  "mods": {
+   "tooltip": "|c0000ff00Magic Barrier|r",
+   "tooltipExtended": "Reduces magic damage taken.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSell.blp"
+  },
+  "rawMods": {
+   "frac": "other",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BEer",
+  "id": "B0CV",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Skill usage is restricted and movement speed is slowed.",
+   "tooltip": "Suppression",
+   "targetArt": "Abilities\\Spells\\Other\\Silence\\SilenceTarget.mdl",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNSilence.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 1,
+   "fta0": "overhead"
+  }
+ },
+ {
+  "baseId": "BOac",
+  "id": "B0CW",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Soul Tide|r",
+   "tooltipExtended": "Damage dealt by skills is increased.",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Wings036.blp"
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "human"
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0CX",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "|c0000ff00Ring of Genesis|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory056.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bpxf",
+  "id": "B0CY",
+  "custom": true,
+  "mods": {
+   "tooltip": "|cff00ff00Howling Soul|r",
+   "tooltipExtended": "",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Accessory053.blp"
+  },
+  "rawMods": {}
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0CZ",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "Movement speed is slowed.",
+   "tooltip": "Meteor Fragment",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNFireMageT.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "BIrm",
+  "id": "B0D0",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "INT and skill damage are increased.",
+   "tooltip": "|c0000ff00Forbidden Truth|r",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNItem_Headwear029.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "fta0": "",
+   "frac": "undead"
+  }
+ },
+ {
+  "baseId": "BOae",
+  "id": "B0D1",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "All stats and magic defense are increased.",
+   "tooltip": "|c0000ff00Nature's Touch|r",
+   "targetArt": "",
+   "icon": "ReplaceableTextures\\PassiveButtons\\PASBTNGiftOfVayu.blp"
+  },
+  "rawMods": {
+   "frac": "human",
+   "fta0": ""
+  }
+ },
+ {
+  "baseId": "Bbsk",
+  "id": "B0D2",
+  "custom": true,
+  "mods": {
+   "tooltipExtended": "",
+   "tooltip": "Unholy Light",
+   "icon": "ReplaceableTextures\\CommandButtons\\BTNDarkKnightE2.blp",
+   "targetArt": ""
+  },
+  "rawMods": {
+   "frac": "human",
+   "ftac": 0,
+   "fta1": "",
+   "fta0": ""
+  }
+ }
+]

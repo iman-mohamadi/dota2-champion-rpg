@@ -1,0 +1,5106 @@
+[
+ {
+  "unitId": "n01T",
+  "name": "Dean Jaina",
+  "level": null,
+  "x": -25825,
+  "y": 24325,
+  "facing": 270.0
+ },
+ {
+  "unitId": "ocat",
+  "name": "Elder Paracelsus",
+  "level": null,
+  "x": 28995,
+  "y": -17530,
+  "facing": 180
+ },
+ {
+  "unitId": "e001",
+  "name": "xe unit",
+  "level": null,
+  "x": -14880,
+  "y": 15440,
+  "facing": 0.0
+ },
+ {
+  "unitId": "n01A",
+  "name": "Castle Avalon",
+  "level": null,
+  "x": 2290,
+  "y": 385.0,
+  "facing": 270.0
+ },
+ {
+  "unitId": "ohun",
+  "name": "Avenger",
+  "level": 100,
+  "x": 11965,
+  "y": -29125,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01P",
+  "name": "The 3rd Legion's Archangel Kamael",
+  "level": 3000,
+  "x": 13424,
+  "y": -10240,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -2427.8,
+  "y": 7951.4,
+  "facing": 202.703
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 1253.6,
+  "y": 11032.8,
+  "facing": 203.288
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6469.4,
+  "y": 8579.1,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6933.3,
+  "y": 11755.5,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6239.5,
+  "y": 10821.1,
+  "facing": 235.929
+ },
+ {
+  "unitId": "h014",
+  "name": "Tentacle Lord",
+  "level": 80,
+  "x": 25239.8,
+  "y": 18140.1,
+  "facing": 90.753
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 28632.4,
+  "y": 19320.6,
+  "facing": 138.063
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 28784.2,
+  "y": 18981.9,
+  "facing": 221.402
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 22826.3,
+  "y": 1237.8,
+  "facing": 226.431
+ },
+ {
+  "unitId": "n00O",
+  "name": "Troll Lord",
+  "level": 20,
+  "x": -896.8,
+  "y": 4482.1,
+  "facing": 65.475
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -2881.4,
+  "y": 7648.9,
+  "facing": 202.703
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 27580.7,
+  "y": 125.1,
+  "facing": 255.963
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 27842.3,
+  "y": 275.8,
+  "facing": 284.283
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -8068.3,
+  "y": 8750.8,
+  "facing": 88.651
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -8243.6,
+  "y": 8875.1,
+  "facing": 208.483
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -7461.8,
+  "y": 11139.7,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 28569.5,
+  "y": -409.1,
+  "facing": 1.593
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1682.5,
+  "y": 6668.3,
+  "facing": 202.703
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -7611.2,
+  "y": 11010.9,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -8386.3,
+  "y": 10559.6,
+  "facing": 331.907
+ },
+ {
+  "unitId": "n00L",
+  "name": "",
+  "level": 27,
+  "x": -2022.6,
+  "y": 12830.8,
+  "facing": 299.163
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -7120.2,
+  "y": 9222.2,
+  "facing": 327.403
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 997.2,
+  "y": -15214.0,
+  "facing": 223.765
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -7298.5,
+  "y": 7971.7,
+  "facing": 250.357
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 931.9,
+  "y": -15682.7,
+  "facing": 135.379
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -7316.6,
+  "y": 9069.4,
+  "facing": 263.12
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -8184.8,
+  "y": 10482.2,
+  "facing": 331.907
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6343.9,
+  "y": 11074.3,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5072.7,
+  "y": 10576.2,
+  "facing": 185.349
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5107.8,
+  "y": 10399.4,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5967.0,
+  "y": 11839.5,
+  "facing": 235.929
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5533.6,
+  "y": 11386.1,
+  "facing": 235.929
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5207.9,
+  "y": 11326.3,
+  "facing": 235.929
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5078.1,
+  "y": 11130.4,
+  "facing": 235.929
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6339.8,
+  "y": 8861.9,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6280.4,
+  "y": 9043.7,
+  "facing": 19.271
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6443.6,
+  "y": 9900.1,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6646.5,
+  "y": 9980.6,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n008",
+  "name": "Giant Spider",
+  "level": 8,
+  "x": -4632.0,
+  "y": 9594.7,
+  "facing": 180.851
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -4936.0,
+  "y": 9899.3,
+  "facing": 207.016
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -4933.9,
+  "y": 9381.6,
+  "facing": 155.933
+ },
+ {
+  "unitId": "n00A",
+  "name": "Silverback Wolf",
+  "level": 10,
+  "x": -8503.8,
+  "y": 7563.0,
+  "facing": 333.036
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -7787.7,
+  "y": 6249.2,
+  "facing": 268.833
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -6750.9,
+  "y": 8322.8,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -5528.0,
+  "y": 6890.0,
+  "facing": 137.355
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -7606.0,
+  "y": 6067.8,
+  "facing": 88.427
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -7596.5,
+  "y": 7854.6,
+  "facing": 278.026
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -5621.1,
+  "y": 6523.7,
+  "facing": 137.355
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -6854.5,
+  "y": 6986.6,
+  "facing": 76.871
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -6653.7,
+  "y": 6994.0,
+  "facing": 279.606
+ },
+ {
+  "unitId": "h00Y",
+  "name": "Giant Golem",
+  "level": 90,
+  "x": 12217.7,
+  "y": 15729.4,
+  "facing": 182.034
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -3597.5,
+  "y": 7128.9,
+  "facing": 127.458
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 8307.3,
+  "y": 15217.4,
+  "facing": 6.999
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 8522.7,
+  "y": 15430.7,
+  "facing": 90.135
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 1989.1,
+  "y": -16053.3,
+  "facing": 322.612
+ },
+ {
+  "unitId": "n02B",
+  "name": "Solid Golem",
+  "level": 89,
+  "x": 9530.9,
+  "y": 15884.2,
+  "facing": 215.092
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 1629.9,
+  "y": -16419.7,
+  "facing": 268.393
+ },
+ {
+  "unitId": "n02B",
+  "name": "Solid Golem",
+  "level": 89,
+  "x": 9710.6,
+  "y": 15598.7,
+  "facing": 74.775
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 15041.9,
+  "y": -2921.9,
+  "facing": 104.957
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": 1678.2,
+  "y": -16137.1,
+  "facing": 153.896
+ },
+ {
+  "unitId": "n00J",
+  "name": "Troll Berserker",
+  "level": 16,
+  "x": -2924.6,
+  "y": 6312.3,
+  "facing": 5.889
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1190.1,
+  "y": 6608.8,
+  "facing": 216.921
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 13480.0,
+  "y": -3276.3,
+  "facing": 276.089
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": 1510.9,
+  "y": 6577.9,
+  "facing": 237.004
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": 1448.9,
+  "y": 6743.2,
+  "facing": 210.483
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1370.6,
+  "y": 7740.5,
+  "facing": 264.117
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 8461.4,
+  "y": 16844.0,
+  "facing": 290.85
+ },
+ {
+  "unitId": "n02B",
+  "name": "Solid Golem",
+  "level": 89,
+  "x": 8711.4,
+  "y": 16962.2,
+  "facing": 126.358
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1601.0,
+  "y": 7685.6,
+  "facing": 291.255
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -64.6,
+  "y": -14918.5,
+  "facing": 86.3
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": -149.7,
+  "y": 7303.4,
+  "facing": 259.789
+ },
+ {
+  "unitId": "n02B",
+  "name": "Solid Golem",
+  "level": 89,
+  "x": 8964.3,
+  "y": 16743.1,
+  "facing": 194.266
+ },
+ {
+  "unitId": "n02B",
+  "name": "Solid Golem",
+  "level": 89,
+  "x": 7325.7,
+  "y": 15864.7,
+  "facing": 237.74
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 7432.1,
+  "y": 15569.7,
+  "facing": 162.756
+ },
+ {
+  "unitId": "n00J",
+  "name": "Troll Berserker",
+  "level": 16,
+  "x": 509.0,
+  "y": 7407.8,
+  "facing": 275.425
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 6280.9,
+  "y": 16272.3,
+  "facing": 43.639
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 6337.5,
+  "y": 16555.4,
+  "facing": 148.726
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": -271.1,
+  "y": 6338.0,
+  "facing": 223.48
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 6556.4,
+  "y": 16346.7,
+  "facing": 98.682
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -390.2,
+  "y": 6128.1,
+  "facing": 216.921
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -348.5,
+  "y": 7308.9,
+  "facing": 103.077
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 1782.6,
+  "y": 11951.1,
+  "facing": 202.43
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 10540.6,
+  "y": 15985.0,
+  "facing": 259.824
+ },
+ {
+  "unitId": "n00J",
+  "name": "Troll Berserker",
+  "level": 16,
+  "x": -2041.1,
+  "y": 5774.7,
+  "facing": 48.555
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 19980.4,
+  "y": 825.4,
+  "facing": 236.62
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 22917.3,
+  "y": -2608.3,
+  "facing": 130.765
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": 1272.5,
+  "y": 5439.6,
+  "facing": 212.526
+ },
+ {
+  "unitId": "n00J",
+  "name": "Troll Berserker",
+  "level": 16,
+  "x": 542.8,
+  "y": 4694.1,
+  "facing": 113.647
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": 326.6,
+  "y": 4783.7,
+  "facing": 57.91
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 10581.2,
+  "y": 15274.1,
+  "facing": 201.144
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18393.4,
+  "y": 130.6,
+  "facing": 146.137
+ },
+ {
+  "unitId": "n00J",
+  "name": "Troll Berserker",
+  "level": 16,
+  "x": 1346.4,
+  "y": 5226.7,
+  "facing": 165.665
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 11860.8,
+  "y": 14717.2,
+  "facing": 261.164
+ },
+ {
+  "unitId": "n02A",
+  "name": "Stone Golem",
+  "level": 86,
+  "x": 11633.9,
+  "y": 14856.8,
+  "facing": 178.764
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": 1433.8,
+  "y": 6406.4,
+  "facing": 59.954
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -200.7,
+  "y": -15061.6,
+  "facing": 174.49
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 23626.9,
+  "y": 20125.0,
+  "facing": 252.467
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1835.5,
+  "y": 5650.8,
+  "facing": 300.727
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": -2975.7,
+  "y": 6588.1,
+  "facing": 8.756
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": 179.8,
+  "y": -15201.0,
+  "facing": 215.734
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -1367.3,
+  "y": 6757.1,
+  "facing": 103.077
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -20.1,
+  "y": 6285.3,
+  "facing": 216.921
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -6471.2,
+  "y": 5757.1,
+  "facing": 76.871
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -6297.0,
+  "y": 5651.4,
+  "facing": 109.496
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -6091.1,
+  "y": 5675.0,
+  "facing": 319.686
+ },
+ {
+  "unitId": "n01B",
+  "name": "Furbolg Giant",
+  "level": 29,
+  "x": 1494.2,
+  "y": 14649.9,
+  "facing": 236.52
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -3598.2,
+  "y": 6734.0,
+  "facing": 256.501
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -5062.8,
+  "y": 5731.9,
+  "facing": 127.458
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -4862.2,
+  "y": 5826.3,
+  "facing": 307.27
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -3798.7,
+  "y": 6030.2,
+  "facing": 127.458
+ },
+ {
+  "unitId": "n004",
+  "name": "Wolf",
+  "level": 5,
+  "x": -4067.3,
+  "y": 5937.5,
+  "facing": 127.458
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 21725.9,
+  "y": -3226.1,
+  "facing": 133.784
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -1893.8,
+  "y": 10955.3,
+  "facing": 12.958
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -1084.1,
+  "y": 13783.9,
+  "facing": 36.391
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": -2086.0,
+  "y": 14697.2,
+  "facing": 285.069
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": -866.4,
+  "y": 8508.6,
+  "facing": 143.266
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -311.7,
+  "y": 14764.2,
+  "facing": 280.432
+ },
+ {
+  "unitId": "n00L",
+  "name": "",
+  "level": 27,
+  "x": -55.4,
+  "y": 14811.8,
+  "facing": 278.411
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": 141.2,
+  "y": 14720.0,
+  "facing": 255.132
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 1228.5,
+  "y": 14735.4,
+  "facing": 275.702
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 24421.4,
+  "y": 19007.4,
+  "facing": 126.41
+ },
+ {
+  "unitId": "n00L",
+  "name": "",
+  "level": 27,
+  "x": 1909.7,
+  "y": 12255.0,
+  "facing": 225.249
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": -257.7,
+  "y": 11097.0,
+  "facing": 158.683
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 21333.6,
+  "y": -3287.3,
+  "facing": 154.183
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 28760.5,
+  "y": -705.0,
+  "facing": 117.898
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -514.8,
+  "y": 12506.6,
+  "facing": 309.978
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 968.6,
+  "y": 10921.4,
+  "facing": 109.793
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -1822.3,
+  "y": 11182.8,
+  "facing": 305.506
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": -1715.4,
+  "y": 14596.7,
+  "facing": 308.543
+ },
+ {
+  "unitId": "n00L",
+  "name": "",
+  "level": 27,
+  "x": -337.3,
+  "y": 12278.7,
+  "facing": 200.836
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": 753.8,
+  "y": 13317.1,
+  "facing": 231.791
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": -200.2,
+  "y": 12537.4,
+  "facing": 308.543
+ },
+ {
+  "unitId": "n019",
+  "name": "",
+  "level": 45,
+  "x": 574.9,
+  "y": -13789.8,
+  "facing": 197.057
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": 2009.0,
+  "y": 13759.8,
+  "facing": 196.646
+ },
+ {
+  "unitId": "n019",
+  "name": "",
+  "level": 45,
+  "x": 708.7,
+  "y": -13948.6,
+  "facing": 119.59
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": -2049.8,
+  "y": 12464.3,
+  "facing": 326.393
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 22700.4,
+  "y": -2225.6,
+  "facing": 140.589
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 22939.3,
+  "y": -1831.5,
+  "facing": 249.217
+ },
+ {
+  "unitId": "n00I",
+  "name": "Troll Shaman",
+  "level": 14,
+  "x": -394.2,
+  "y": 8470.5,
+  "facing": 71.757
+ },
+ {
+  "unitId": "n019",
+  "name": "",
+  "level": 45,
+  "x": 1816.0,
+  "y": -14271.9,
+  "facing": 281.467
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": 1560.8,
+  "y": 8132.6,
+  "facing": 103.077
+ },
+ {
+  "unitId": "n00H",
+  "name": "Troll",
+  "level": 12,
+  "x": 997.8,
+  "y": 8260.0,
+  "facing": 103.077
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -5097.8,
+  "y": 8138.6,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n005",
+  "name": "Spider",
+  "level": 3,
+  "x": -4781.3,
+  "y": 8218.0,
+  "facing": 287.951
+ },
+ {
+  "unitId": "n007",
+  "name": "Dark Wolf",
+  "level": 6,
+  "x": -3789.1,
+  "y": 6994.0,
+  "facing": 226.143
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -524.3,
+  "y": 11010.8,
+  "facing": 28.046
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -2187.2,
+  "y": 14339.9,
+  "facing": 36.391
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -974.8,
+  "y": 14054.6,
+  "facing": 36.391
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -740.5,
+  "y": 13939.1,
+  "facing": 36.391
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 1016.4,
+  "y": 13193.4,
+  "facing": 132.99
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 781.7,
+  "y": 12019.5,
+  "facing": 308.515
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -822.0,
+  "y": 10150.2,
+  "facing": 280.73
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 18.4,
+  "y": 10040.4,
+  "facing": 249.057
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": -1869.5,
+  "y": 9871.5,
+  "facing": 280.73
+ },
+ {
+  "unitId": "n00G",
+  "name": "",
+  "level": 24,
+  "x": 636.6,
+  "y": 9502.1,
+  "facing": 249.057
+ },
+ {
+  "unitId": "n00K",
+  "name": "Furbolg Tracker",
+  "level": 25,
+  "x": 874.8,
+  "y": 9377.0,
+  "facing": 210.798
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": 1805.2,
+  "y": -14437.4,
+  "facing": 277.259
+ },
+ {
+  "unitId": "n00Z",
+  "name": "Orange Murloc",
+  "level": 37,
+  "x": 6315.9,
+  "y": 5992.0,
+  "facing": 88.563
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 5291.7,
+  "y": 9967.7,
+  "facing": 55.933
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 6107.6,
+  "y": 10385.3,
+  "facing": 167.107
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 7836.6,
+  "y": 9975.3,
+  "facing": 352.155
+ },
+ {
+  "unitId": "n00Z",
+  "name": "Orange Murloc",
+  "level": 37,
+  "x": 8276.9,
+  "y": 7655.0,
+  "facing": 339.609
+ },
+ {
+  "unitId": "n00Z",
+  "name": "Orange Murloc",
+  "level": 37,
+  "x": 8408.8,
+  "y": 7386.2,
+  "facing": 106.843
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 4878.9,
+  "y": 8336.6,
+  "facing": 55.933
+ },
+ {
+  "unitId": "n00Z",
+  "name": "Orange Murloc",
+  "level": 37,
+  "x": 5040.7,
+  "y": 8211.0,
+  "facing": 190.992
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 4875.0,
+  "y": 8051.5,
+  "facing": 45.716
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 5056.9,
+  "y": 9929.7,
+  "facing": 267.684
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 4750.9,
+  "y": 10033.4,
+  "facing": 273.714
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 7282.3,
+  "y": 6289.0,
+  "facing": 317.449
+ },
+ {
+  "unitId": "n010",
+  "name": "Purple Murloc",
+  "level": 43,
+  "x": 6571.7,
+  "y": 10290.4,
+  "facing": 307.22
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 6370.8,
+  "y": 10427.3,
+  "facing": 269.953
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 6394.3,
+  "y": 9212.1,
+  "facing": 167.107
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 6315.4,
+  "y": 8950.3,
+  "facing": 221.546
+ },
+ {
+  "unitId": "n015",
+  "name": "",
+  "level": 45,
+  "x": 7589.4,
+  "y": 4620.3,
+  "facing": 110.547
+ },
+ {
+  "unitId": "h00T",
+  "name": "Wallachia Death Knight Lord",
+  "level": 60,
+  "x": 27949.9,
+  "y": 13740.5,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 6383.8,
+  "y": 7623.8,
+  "facing": 121.161
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 7671.2,
+  "y": 8458.2,
+  "facing": 7.196
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 20798.3,
+  "y": 13058.9,
+  "facing": 104.34
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 20879.3,
+  "y": 12892.9,
+  "facing": 318.701
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 21756.3,
+  "y": 14215.4,
+  "facing": 255.923
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 21695.4,
+  "y": 14105.0,
+  "facing": 266.998
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 23274.0,
+  "y": 13546.0,
+  "facing": 32.048
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 23166.3,
+  "y": 13427.2,
+  "facing": 160.142
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 23038.9,
+  "y": 14568.0,
+  "facing": 142.915
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 23161.0,
+  "y": 14595.6,
+  "facing": 29.928
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 20244.4,
+  "y": 11814.4,
+  "facing": 144.321
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 20321.2,
+  "y": 11971.8,
+  "facing": 264.801
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 20731.8,
+  "y": 12914.8,
+  "facing": 148.858
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 23052.2,
+  "y": 13553.0,
+  "facing": 313.449
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 22882.2,
+  "y": 12184.4,
+  "facing": 223.062
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 23025.3,
+  "y": 12133.2,
+  "facing": 143.431
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 23069.8,
+  "y": 12328.7,
+  "facing": 189.685
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 22880.4,
+  "y": 12326.9,
+  "facing": 232.005
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 21974.4,
+  "y": 12905.4,
+  "facing": 84.861
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 22073.2,
+  "y": 13083.5,
+  "facing": 210.12
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 21257.5,
+  "y": 10763.9,
+  "facing": 21.688
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 21241.3,
+  "y": 10636.2,
+  "facing": 72.567
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 21119.6,
+  "y": 10755.1,
+  "facing": 3.076
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 22150.8,
+  "y": 9579.9,
+  "facing": 207.189
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 22847.1,
+  "y": 10409.0,
+  "facing": 75.171
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 23626.1,
+  "y": 11326.1,
+  "facing": 237.883
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 20983.2,
+  "y": 9562.1,
+  "facing": 357.902
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 20747.9,
+  "y": 9365.9,
+  "facing": 139.245
+ },
+ {
+  "unitId": "e01B",
+  "name": "Duchy of Wallachia Archer",
+  "level": 63,
+  "x": 20781.2,
+  "y": 9570.1,
+  "facing": 92.167
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 20900.0,
+  "y": 9305.5,
+  "facing": 46.814
+ },
+ {
+  "unitId": "n00X",
+  "name": "Green Murloc",
+  "level": 35,
+  "x": 6460.8,
+  "y": 7168.0,
+  "facing": 204.11
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 24242.2,
+  "y": 9860.5,
+  "facing": 180.0
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 6477.7,
+  "y": 7453.8,
+  "facing": 58.603
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 24205.6,
+  "y": 9390.0,
+  "facing": 180.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 25212.2,
+  "y": 9581.3,
+  "facing": 180.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 27639.2,
+  "y": 9194.9,
+  "facing": 154.857
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 27559.0,
+  "y": 13323.8,
+  "facing": 270.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 28448.6,
+  "y": 13354.1,
+  "facing": 270.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 27672.4,
+  "y": 9869.8,
+  "facing": 230.075
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 13813.9,
+  "y": -14584.1,
+  "facing": 90.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 27730.0,
+  "y": 11194.8,
+  "facing": 270.0
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 28256.4,
+  "y": 11190.8,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n010",
+  "name": "Purple Murloc",
+  "level": 43,
+  "x": 4880.8,
+  "y": 6851.0,
+  "facing": 56.724
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 4933.8,
+  "y": 6544.7,
+  "facing": 215.789
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 5177.1,
+  "y": 6406.5,
+  "facing": 343.059
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 8402.8,
+  "y": 10228.1,
+  "facing": 59.229
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 7446.1,
+  "y": 9868.3,
+  "facing": 275.798
+ },
+ {
+  "unitId": "n010",
+  "name": "Purple Murloc",
+  "level": 43,
+  "x": 7643.4,
+  "y": 9738.7,
+  "facing": 266.536
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 7257.8,
+  "y": 8819.1,
+  "facing": 168.579
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 8655.8,
+  "y": 8621.8,
+  "facing": 352.155
+ },
+ {
+  "unitId": "n011",
+  "name": "Murloc Blue",
+  "level": 41,
+  "x": 8816.6,
+  "y": 8929.5,
+  "facing": 106.538
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15333.4,
+  "y": 485.7,
+  "facing": 254.982
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 13828.4,
+  "y": -11981.6,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 15407.3,
+  "y": -11944.8,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n036",
+  "name": "Scarab",
+  "level": 100,
+  "x": 6786.0,
+  "y": -15037.2,
+  "facing": 276.213
+ },
+ {
+  "unitId": "n00Z",
+  "name": "Orange Murloc",
+  "level": 37,
+  "x": 6121.8,
+  "y": 5903.2,
+  "facing": 88.563
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 26343.5,
+  "y": 9804.6,
+  "facing": 234.388
+ },
+ {
+  "unitId": "h00S",
+  "name": "Duchy of Wallachia Guardian",
+  "level": 67,
+  "x": 26307.5,
+  "y": 9315.3,
+  "facing": 134.719
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 28514.1,
+  "y": -963.7,
+  "facing": 351.815
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 27472.2,
+  "y": -1221.1,
+  "facing": 69.348
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 6517.3,
+  "y": 5789.8,
+  "facing": 338.137
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 15413.0,
+  "y": -14651.2,
+  "facing": 90.0
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 16912.9,
+  "y": -14644.3,
+  "facing": 90.0
+ },
+ {
+  "unitId": "n01L",
+  "name": "Avalon Defender",
+  "level": 80,
+  "x": 16899.4,
+  "y": -11918.5,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01M",
+  "name": "Avalon Protector",
+  "level": 80,
+  "x": 19973.0,
+  "y": -11973.4,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01M",
+  "name": "Avalon Protector",
+  "level": 80,
+  "x": 18386.2,
+  "y": -14666.7,
+  "facing": 90.0
+ },
+ {
+  "unitId": "n01M",
+  "name": "Avalon Protector",
+  "level": 80,
+  "x": 18401.3,
+  "y": -12010.7,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01M",
+  "name": "Avalon Protector",
+  "level": 80,
+  "x": 20005.3,
+  "y": -14688.3,
+  "facing": 90.0
+ },
+ {
+  "unitId": "n010",
+  "name": "Purple Murloc",
+  "level": 43,
+  "x": 7731.5,
+  "y": 6191.0,
+  "facing": 266.317
+ },
+ {
+  "unitId": "n00Y",
+  "name": "White Murloc",
+  "level": 33,
+  "x": 7524.6,
+  "y": 6180.6,
+  "facing": 214.075
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14931.5,
+  "y": -1837.2,
+  "facing": 348.914
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14491.9,
+  "y": -30.4,
+  "facing": 206.23
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 20149.0,
+  "y": -2672.0,
+  "facing": 126.209
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18208.6,
+  "y": -2702.3,
+  "facing": 20.4
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 21442.0,
+  "y": -3060.8,
+  "facing": 231.512
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18433.4,
+  "y": -2607.8,
+  "facing": 138.591
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18306.3,
+  "y": -2564.1,
+  "facing": 270.327
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 19961.3,
+  "y": -2475.2,
+  "facing": 232.236
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16560.3,
+  "y": -2943.0,
+  "facing": 249.605
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 13490.4,
+  "y": -2352.7,
+  "facing": 70.079
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14236.0,
+  "y": -1309.3,
+  "facing": 4.586
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14355.4,
+  "y": 52.6,
+  "facing": 65.766
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15242.2,
+  "y": 430.9,
+  "facing": 18.117
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 23737.6,
+  "y": 11044.8,
+  "facing": 185.91
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15584.0,
+  "y": 1274.7,
+  "facing": 343.644
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 13118.9,
+  "y": -482.7,
+  "facing": 98.902
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14188.7,
+  "y": -1200.1,
+  "facing": 123.677
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15912.7,
+  "y": -279.7,
+  "facing": 322.788
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 14976.2,
+  "y": -1680.7,
+  "facing": 348.914
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 15009.9,
+  "y": -3260.1,
+  "facing": 351.625
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 13921.6,
+  "y": -2672.5,
+  "facing": 262.508
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 13323.8,
+  "y": -3164.8,
+  "facing": 236.477
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16713.7,
+  "y": -2750.8,
+  "facing": 224.238
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16586.1,
+  "y": -1334.9,
+  "facing": 305.372
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 17823.4,
+  "y": -1059.1,
+  "facing": 76.951
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18135.9,
+  "y": 114.0,
+  "facing": 329.27
+ },
+ {
+  "unitId": "n01I",
+  "name": "Lava Ancient",
+  "level": 68,
+  "x": 21572.2,
+  "y": 203.1,
+  "facing": 230.764
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 19828.8,
+  "y": 963.9,
+  "facing": 295.253
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 17694.9,
+  "y": 1166.2,
+  "facing": 179.381
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 17513.5,
+  "y": 964.9,
+  "facing": 322.788
+ },
+ {
+  "unitId": "n01J",
+  "name": "Ruler of the Flames Ragnaar",
+  "level": 70,
+  "x": 19273.8,
+  "y": -1128.3,
+  "facing": 276.782
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 22201.9,
+  "y": 1156.3,
+  "facing": 275.303
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 16063.6,
+  "y": -324.0,
+  "facing": 178.504
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15207.8,
+  "y": -1852.9,
+  "facing": 158.702
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": 1645.4,
+  "y": -14674.1,
+  "facing": 300.606
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 14140.6,
+  "y": -2380.4,
+  "facing": 262.508
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 14741.5,
+  "y": -3157.5,
+  "facing": 136.55
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 13215.1,
+  "y": -694.5,
+  "facing": 98.902
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 13019.6,
+  "y": -844.3,
+  "facing": 44.143
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15393.0,
+  "y": 1245.0,
+  "facing": 343.644
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 15871.0,
+  "y": -504.6,
+  "facing": 222.711
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16946.2,
+  "y": -1564.0,
+  "facing": 166.851
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16642.6,
+  "y": -1717.3,
+  "facing": 70.361
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 17194.7,
+  "y": -2956.7,
+  "facing": 133.021
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 16969.7,
+  "y": -3028.9,
+  "facing": 94.345
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 18264.7,
+  "y": 361.0,
+  "facing": 329.27
+ },
+ {
+  "unitId": "n01F",
+  "name": "Lava Hatchling",
+  "level": 62,
+  "x": 17681.4,
+  "y": 948.2,
+  "facing": 179.381
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 19675.3,
+  "y": 630.4,
+  "facing": 321.614
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 22773.5,
+  "y": 869.0,
+  "facing": 112.712
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 22423.8,
+  "y": -1902.1,
+  "facing": 165.749
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 22258.6,
+  "y": -2384.0,
+  "facing": 314.006
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -389.0,
+  "y": -13173.5,
+  "facing": 75.369
+ },
+ {
+  "unitId": "n01H",
+  "name": "Lava Worm",
+  "level": 66,
+  "x": 19635.0,
+  "y": -2897.0,
+  "facing": 126.209
+ },
+ {
+  "unitId": "n01G",
+  "name": "Lava Spawn",
+  "level": 64,
+  "x": 17679.7,
+  "y": -858.0,
+  "facing": 76.951
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -364.9,
+  "y": -13398.4,
+  "facing": 316.097
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -1337.1,
+  "y": -15040.6,
+  "facing": 191.135
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -1304.1,
+  "y": -15230.5,
+  "facing": 75.083
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -1120.2,
+  "y": -15276.0,
+  "facing": 164.339
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -2473.4,
+  "y": -14977.7,
+  "facing": 120.502
+ },
+ {
+  "unitId": "n019",
+  "name": "",
+  "level": 45,
+  "x": -2266.7,
+  "y": -14845.2,
+  "facing": 345.904
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -2144.2,
+  "y": -15054.3,
+  "facing": 316.91
+ },
+ {
+  "unitId": "n018",
+  "name": "",
+  "level": 43,
+  "x": -2375.8,
+  "y": -15108.2,
+  "facing": 5.9
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -1051.3,
+  "y": -16397.4,
+  "facing": 138.751
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -746.4,
+  "y": -16432.3,
+  "facing": 80.642
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -2289.8,
+  "y": -16564.3,
+  "facing": 201.309
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -1972.8,
+  "y": -16845.3,
+  "facing": 110.46
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -2082.0,
+  "y": -17011.6,
+  "facing": 247.42
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -1004.5,
+  "y": -17634.1,
+  "facing": 56.427
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -727.6,
+  "y": -17798.9,
+  "facing": 268.986
+ },
+ {
+  "unitId": "n01E",
+  "name": "Polar Bear Giant",
+  "level": 50,
+  "x": -1909.5,
+  "y": -18237.9,
+  "facing": 340.751
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": -37.8,
+  "y": -18948.3,
+  "facing": 27.335
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 405.7,
+  "y": -19067.0,
+  "facing": 33.465
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 560.7,
+  "y": -18205.8,
+  "facing": 273.711
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 743.0,
+  "y": -18037.1,
+  "facing": 229.05
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 1578.3,
+  "y": -18172.6,
+  "facing": 17.249
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 1284.0,
+  "y": -18882.3,
+  "facing": 89.025
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 756.6,
+  "y": -16439.0,
+  "facing": 241.816
+ },
+ {
+  "unitId": "n01C",
+  "name": "",
+  "level": 47,
+  "x": 1019.0,
+  "y": -16631.6,
+  "facing": 275.513
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 24817.8,
+  "y": 21613.3,
+  "facing": 273.49
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 26475.5,
+  "y": 21233.3,
+  "facing": 202.622
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 10080.9,
+  "y": -23730.5,
+  "facing": 99.078
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 9861.0,
+  "y": -23843.6,
+  "facing": 157.901
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 11406.9,
+  "y": -24186.3,
+  "facing": 180.986
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 8408.8,
+  "y": -23557.7,
+  "facing": 269.085
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 28090.0,
+  "y": 20442.8,
+  "facing": 225.681
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 8230.1,
+  "y": -24860.4,
+  "facing": 321.678
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 9007.0,
+  "y": -24372.7,
+  "facing": 7.537
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 27361.7,
+  "y": 18645.8,
+  "facing": 60.159
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 9861.4,
+  "y": -24943.9,
+  "facing": 99.078
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 10045.7,
+  "y": -24970.2,
+  "facing": 101.835
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 22227.7,
+  "y": 19845.5,
+  "facing": 49.213
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 23359.8,
+  "y": 20259.8,
+  "facing": 251.04
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 12334.6,
+  "y": -24783.0,
+  "facing": 99.693
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 12260.0,
+  "y": -25002.3,
+  "facing": 163.545
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 12862.6,
+  "y": -23902.7,
+  "facing": 226.138
+ },
+ {
+  "unitId": "n02H",
+  "name": "Murloc Giant",
+  "level": 73,
+  "x": 26725.7,
+  "y": 19810.6,
+  "facing": 170.458
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 8636.2,
+  "y": -23347.4,
+  "facing": 262.961
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 22215.4,
+  "y": 18590.3,
+  "facing": 77.446
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 22716.9,
+  "y": 18553.1,
+  "facing": 131.215
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 9152.8,
+  "y": -24103.0,
+  "facing": 341.169
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 11383.0,
+  "y": -23425.9,
+  "facing": 333.995
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 22389.2,
+  "y": 18890.0,
+  "facing": 270.938
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 12966.5,
+  "y": -24155.3,
+  "facing": 135.63
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 13007.4,
+  "y": -23748.7,
+  "facing": 137.63
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 12975.4,
+  "y": -22563.6,
+  "facing": 258.532
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 13109.9,
+  "y": -22796.0,
+  "facing": 226.465
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 12882.6,
+  "y": -22895.5,
+  "facing": 28.521
+ },
+ {
+  "unitId": "n02T",
+  "name": "Fairy Spirit",
+  "level": 100,
+  "x": 12767.5,
+  "y": -22628.2,
+  "facing": 310.484
+ },
+ {
+  "unitId": "n02U",
+  "name": "Dryad",
+  "level": 100,
+  "x": 11201.5,
+  "y": -24214.6,
+  "facing": 310.163
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 25243.5,
+  "y": 21618.0,
+  "facing": 241.299
+ },
+ {
+  "unitId": "n02H",
+  "name": "Murloc Giant",
+  "level": 73,
+  "x": 26532.1,
+  "y": 19871.8,
+  "facing": 81.616
+ },
+ {
+  "unitId": "n02J",
+  "name": "Sea Guardian",
+  "level": 77,
+  "x": 26615.4,
+  "y": 20132.0,
+  "facing": 288.84
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 26784.3,
+  "y": 21046.0,
+  "facing": 200.745
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 28349.0,
+  "y": 20327.7,
+  "facing": 224.88
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 27668.6,
+  "y": 18669.8,
+  "facing": 138.063
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 26423.8,
+  "y": 18879.5,
+  "facing": 119.301
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 24896.1,
+  "y": 18342.1,
+  "facing": 57.821
+ },
+ {
+  "unitId": "n02I",
+  "name": "Tide Caller",
+  "level": 75,
+  "x": 25573.2,
+  "y": 18270.3,
+  "facing": 109.541
+ },
+ {
+  "unitId": "n02H",
+  "name": "Murloc Giant",
+  "level": 73,
+  "x": 24820.4,
+  "y": 20556.4,
+  "facing": 325.58
+ },
+ {
+  "unitId": "n02H",
+  "name": "Murloc Giant",
+  "level": 73,
+  "x": 24715.7,
+  "y": 20321.5,
+  "facing": 7.668
+ },
+ {
+  "unitId": "n02H",
+  "name": "Murloc Giant",
+  "level": 73,
+  "x": 24972.3,
+  "y": 20356.1,
+  "facing": 173.639
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11501.6,
+  "y": -341.0,
+  "facing": 326.798
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -11756.2,
+  "y": 1539.5,
+  "facing": 220.316
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 6162.7,
+  "y": -13269.8,
+  "facing": 309.937
+ },
+ {
+  "unitId": "n036",
+  "name": "Scarab",
+  "level": 100,
+  "x": 6605.0,
+  "y": -15516.5,
+  "facing": 183.818
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 5859.9,
+  "y": -11080.0,
+  "facing": 340.091
+ },
+ {
+  "unitId": "n037",
+  "name": "Wallachia Wraith",
+  "level": 100,
+  "x": 7861.6,
+  "y": -15888.4,
+  "facing": 336.103
+ },
+ {
+  "unitId": "n036",
+  "name": "Scarab",
+  "level": 100,
+  "x": 7982.5,
+  "y": -16978.0,
+  "facing": 230.179
+ },
+ {
+  "unitId": "n037",
+  "name": "Wallachia Wraith",
+  "level": 100,
+  "x": 6952.7,
+  "y": -17436.4,
+  "facing": 41.251
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 9214.2,
+  "y": -12709.1,
+  "facing": 17.556
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 9223.7,
+  "y": -12972.9,
+  "facing": 143.974
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 5603.7,
+  "y": -12298.6,
+  "facing": 337.367
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 5648.7,
+  "y": -12551.1,
+  "facing": 18.435
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 5849.8,
+  "y": -12040.1,
+  "facing": 322.03
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 6930.0,
+  "y": -11359.8,
+  "facing": 266.773
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 7478.0,
+  "y": -11458.9,
+  "facing": 274.744
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11560.8,
+  "y": 1616.7,
+  "facing": 355.056
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 8177.9,
+  "y": -13353.3,
+  "facing": 201.031
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11375.2,
+  "y": 1358.3,
+  "facing": 337.972
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -12927.7,
+  "y": 653.3,
+  "facing": 297.354
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -14098.2,
+  "y": -380.9,
+  "facing": 97.759
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 8061.1,
+  "y": -13144.8,
+  "facing": 322.272
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 7073.7,
+  "y": -13217.9,
+  "facing": 308.934
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 7246.3,
+  "y": -13464.3,
+  "facing": 221.579
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 5739.3,
+  "y": -13700.5,
+  "facing": 66.107
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 5680.9,
+  "y": -13935.1,
+  "facing": 321.052
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -12560.9,
+  "y": 647.0,
+  "facing": 218.294
+ },
+ {
+  "unitId": "h01L",
+  "name": "Duchy of Wallachia Assassin",
+  "level": 84,
+  "x": 7211.1,
+  "y": -11575.4,
+  "facing": 268.75
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -13992.7,
+  "y": 1531.1,
+  "facing": 295.091
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -13652.1,
+  "y": 1730.7,
+  "facing": 58.834
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13853.8,
+  "y": 1710.5,
+  "facing": 183.323
+ },
+ {
+  "unitId": "h01M",
+  "name": "Duchy of Wallachia Apostle",
+  "level": 87,
+  "x": 6183.3,
+  "y": -14694.0,
+  "facing": 49.992
+ },
+ {
+  "unitId": "n037",
+  "name": "Wallachia Wraith",
+  "level": 100,
+  "x": 9072.7,
+  "y": -17394.9,
+  "facing": 102.684
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13885.7,
+  "y": -417.2,
+  "facing": 74.369
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -14309.0,
+  "y": -226.5,
+  "facing": 207.637
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -13141.3,
+  "y": -1604.1,
+  "facing": 8.921
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -12910.8,
+  "y": -1900.5,
+  "facing": 8.449
+ },
+ {
+  "unitId": "n038",
+  "name": "Wallachia Mad Clown",
+  "level": 90,
+  "x": 9061.1,
+  "y": -15030.6,
+  "facing": 232.313
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -12916.2,
+  "y": -2204.7,
+  "facing": 22.424
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -11451.2,
+  "y": -2923.7,
+  "facing": 151.847
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11537.4,
+  "y": -3178.2,
+  "facing": 330.545
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13022.2,
+  "y": -3775.3,
+  "facing": 233.73
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13167.0,
+  "y": -4094.8,
+  "facing": 307.341
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11542.0,
+  "y": -4730.2,
+  "facing": 356.902
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 27781.4,
+  "y": -1392.3,
+  "facing": 99.436
+ },
+ {
+  "unitId": "n03G",
+  "name": "Dragonic Warrior",
+  "level": 100,
+  "x": 28687.3,
+  "y": -3320.1,
+  "facing": 144.39
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 27042.8,
+  "y": -3429.8,
+  "facing": 163.776
+ },
+ {
+  "unitId": "n03G",
+  "name": "Dragonic Warrior",
+  "level": 100,
+  "x": 26295.4,
+  "y": -48.9,
+  "facing": 225.642
+ },
+ {
+  "unitId": "n03G",
+  "name": "Dragonic Warrior",
+  "level": 100,
+  "x": 26075.8,
+  "y": -1717.4,
+  "facing": 129.788
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 26530.9,
+  "y": -3928.3,
+  "facing": 117.887
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 26307.9,
+  "y": -4063.4,
+  "facing": 97.459
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 26125.6,
+  "y": -4002.4,
+  "facing": 64.843
+ },
+ {
+  "unitId": "n03F",
+  "name": "Dragon Hatchling",
+  "level": 100,
+  "x": 25717.6,
+  "y": -3363.6,
+  "facing": 332.379
+ },
+ {
+  "unitId": "n03G",
+  "name": "Dragonic Warrior",
+  "level": 100,
+  "x": 28702.7,
+  "y": -2673.7,
+  "facing": 150.964
+ },
+ {
+  "unitId": "n03G",
+  "name": "Dragonic Warrior",
+  "level": 100,
+  "x": 28056.5,
+  "y": -3485.3,
+  "facing": 129.568
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -13611.9,
+  "y": -5005.9,
+  "facing": 178.204
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -13449.8,
+  "y": -5283.5,
+  "facing": 175.853
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -15065.9,
+  "y": -7211.6,
+  "facing": 175.853
+ },
+ {
+  "unitId": "n002",
+  "name": "Fairy",
+  "level": 93,
+  "x": -15059.1,
+  "y": -7523.6,
+  "facing": 175.853
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -14687.0,
+  "y": -7527.9,
+  "facing": 72.42
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11986.6,
+  "y": -5530.7,
+  "facing": 325.414
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -12262.6,
+  "y": -5759.2,
+  "facing": 66.645
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -11983.4,
+  "y": -5956.6,
+  "facing": 127.599
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13437.3,
+  "y": -7713.3,
+  "facing": 145.255
+ },
+ {
+  "unitId": "n00B",
+  "name": "Forest Spirit",
+  "level": 96,
+  "x": -13632.1,
+  "y": -7963.7,
+  "facing": 279.017
+ },
+ {
+  "unitId": "h060",
+  "name": "Ifrit",
+  "level": 120,
+  "x": 26493.4,
+  "y": -24100.5,
+  "facing": 268.44
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 22324.6,
+  "y": 9733.4,
+  "facing": 175.182
+ },
+ {
+  "unitId": "h00R",
+  "name": "Duchy of Wallachia Cavalry",
+  "level": 65,
+  "x": 22306.1,
+  "y": 9356.5,
+  "facing": 151.045
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 20044.0,
+  "y": 10854.9,
+  "facing": 6.4
+ },
+ {
+  "unitId": "h00P",
+  "name": "Duchy of Wallachia Soldier",
+  "level": 62,
+  "x": 20135.8,
+  "y": 10612.7,
+  "facing": 43.641
+ },
+ {
+  "unitId": "h089",
+  "name": "Recall Stone",
+  "level": 1,
+  "x": -10037.0,
+  "y": 10618.3,
+  "facing": 212.101
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -26339.3,
+  "y": 19049.4,
+  "facing": 268.413
+ },
+ {
+  "unitId": "hrif",
+  "name": "Travelling Merchant",
+  "level": null,
+  "x": -8976.2,
+  "y": 9947.9,
+  "facing": 256.231
+ },
+ {
+  "unitId": "Hblm",
+  "name": "Lancer",
+  "level": null,
+  "x": -26590.2,
+  "y": 27128.1,
+  "facing": 179.5
+ },
+ {
+  "unitId": "h089",
+  "name": "Recall Stone",
+  "level": 1,
+  "x": -2820.1,
+  "y": -1020.0,
+  "facing": 246.86
+ },
+ {
+  "unitId": "H065",
+  "name": "Hermit",
+  "level": null,
+  "x": -28006.7,
+  "y": 28165.7,
+  "facing": 279.814
+ },
+ {
+  "unitId": "H009",
+  "name": "Elementalist",
+  "level": null,
+  "x": -26562.7,
+  "y": 28313.6,
+  "facing": 289.337
+ },
+ {
+  "unitId": "H004",
+  "name": "Assassin",
+  "level": null,
+  "x": -28316.5,
+  "y": 28003.9,
+  "facing": 309.381
+ },
+ {
+  "unitId": "H008",
+  "name": "Soul Weaver",
+  "level": null,
+  "x": -26822.2,
+  "y": 27870.3,
+  "facing": 335.756
+ },
+ {
+  "unitId": "H005",
+  "name": "Mage (Fire)",
+  "level": null,
+  "x": -26771.1,
+  "y": 28082.1,
+  "facing": 317.217
+ },
+ {
+  "unitId": "H00E",
+  "name": "Martial Artist",
+  "level": null,
+  "x": -27762.2,
+  "y": 28163.4,
+  "facing": 265.119
+ },
+ {
+  "unitId": "H00J",
+  "name": "Warlock",
+  "level": null,
+  "x": -26428.7,
+  "y": 28329.4,
+  "facing": 275.813
+ },
+ {
+  "unitId": "H01I",
+  "name": "Alchemist",
+  "level": null,
+  "x": -26660.5,
+  "y": 28260.2,
+  "facing": 309.872
+ },
+ {
+  "unitId": "Hmkg",
+  "name": "Dark Knight",
+  "level": null,
+  "x": -26590.7,
+  "y": 26628.7,
+  "facing": 195.664
+ },
+ {
+  "unitId": "H001",
+  "name": "Swordsman",
+  "level": null,
+  "x": -27881.2,
+  "y": 28177.6,
+  "facing": 273.273
+ },
+ {
+  "unitId": "n01S",
+  "name": "Mage",
+  "level": null,
+  "x": -27092.1,
+  "y": 24065.8,
+  "facing": 107.995
+ },
+ {
+  "unitId": "n01V",
+  "name": "Bookshelf",
+  "level": null,
+  "x": -26260.0,
+  "y": 24490.3,
+  "facing": 270.0
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -27323.5,
+  "y": 22159.3,
+  "facing": 186.251
+ },
+ {
+  "unitId": "n02W",
+  "name": "Bookshelf",
+  "level": null,
+  "x": -26059.8,
+  "y": 24487.9,
+  "facing": 268.38
+ },
+ {
+  "unitId": "n01S",
+  "name": "Mage",
+  "level": null,
+  "x": -25813.6,
+  "y": 23501.1,
+  "facing": 77.188
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -26301.3,
+  "y": 21689.8,
+  "facing": 91.001
+ },
+ {
+  "unitId": "H00H",
+  "name": "Berserker",
+  "level": null,
+  "x": -26635.1,
+  "y": 26932.9,
+  "facing": 182.226
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -26309.5,
+  "y": 22957.8,
+  "facing": 271.047
+ },
+ {
+  "unitId": "n01S",
+  "name": "Mage",
+  "level": null,
+  "x": -26411.7,
+  "y": 23187.7,
+  "facing": 111.746
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -25773.1,
+  "y": 23920.9,
+  "facing": 301.205
+ },
+ {
+  "unitId": "H066",
+  "name": "Witch",
+  "level": null,
+  "x": -26298.9,
+  "y": 28321.2,
+  "facing": 274.895
+ },
+ {
+  "unitId": "H007",
+  "name": "Priest",
+  "level": null,
+  "x": -26193.7,
+  "y": 28308.8,
+  "facing": 266.486
+ },
+ {
+  "unitId": "H00Z",
+  "name": "Bow Master",
+  "level": null,
+  "x": -28064.6,
+  "y": 28578.0,
+  "facing": 277.442
+ },
+ {
+  "unitId": "H01V",
+  "name": "Crusader",
+  "level": null,
+  "x": -26647.7,
+  "y": 26838.6,
+  "facing": 185.261
+ },
+ {
+  "unitId": "H00K",
+  "name": "Shooter",
+  "level": null,
+  "x": -28465.9,
+  "y": 28565.8,
+  "facing": 301.898
+ },
+ {
+  "unitId": "H04S",
+  "name": "Reaper",
+  "level": null,
+  "x": -28334.7,
+  "y": 27874.9,
+  "facing": 326.16
+ },
+ {
+  "unitId": "H04R",
+  "name": "Sword Enchanter",
+  "level": null,
+  "x": -28238.5,
+  "y": 28103.1,
+  "facing": 299.438
+ },
+ {
+  "unitId": "H01H",
+  "name": "Thunderer",
+  "level": null,
+  "x": -28122.3,
+  "y": 28146.5,
+  "facing": 289.525
+ },
+ {
+  "unitId": "H04Q",
+  "name": "Merchant",
+  "level": null,
+  "x": -26465.2,
+  "y": 26418.9,
+  "facing": 171.29
+ },
+ {
+  "unitId": "H003",
+  "name": "Paladin",
+  "level": null,
+  "x": -26616.1,
+  "y": 26728.6,
+  "facing": 181.862
+ },
+ {
+  "unitId": "H05T",
+  "name": "Phantom Blade",
+  "level": null,
+  "x": -28288.0,
+  "y": 28578.1,
+  "facing": 294.441
+ },
+ {
+  "unitId": "H076",
+  "name": "Fighter",
+  "level": null,
+  "x": -26430.6,
+  "y": 27313.9,
+  "facing": 189.945
+ },
+ {
+  "unitId": "H015",
+  "name": "Sniper",
+  "level": null,
+  "x": -27907.7,
+  "y": 28578.1,
+  "facing": 282.127
+ },
+ {
+  "unitId": "H05B",
+  "name": "Gunner",
+  "level": null,
+  "x": -28565.3,
+  "y": 28421.4,
+  "facing": 312.413
+ },
+ {
+  "unitId": "H02M",
+  "name": "Blood Weaver",
+  "level": null,
+  "x": -26810.2,
+  "y": 27988.0,
+  "facing": 318.776
+ },
+ {
+  "unitId": "H07X",
+  "name": "Trickster",
+  "level": null,
+  "x": -27668.3,
+  "y": 28117.4,
+  "facing": 250.167
+ },
+ {
+  "unitId": "H000",
+  "name": "Knight",
+  "level": null,
+  "x": -26631.2,
+  "y": 27022.6,
+  "facing": 179.649
+ },
+ {
+  "unitId": "h024",
+  "name": "Expedition Priest",
+  "level": 100,
+  "x": 1481.1,
+  "y": -22748.3,
+  "facing": 43.73
+ },
+ {
+  "unitId": "H09M",
+  "name": "Lightseeker",
+  "level": null,
+  "x": -26525.2,
+  "y": 26526.2,
+  "facing": 181.535
+ },
+ {
+  "unitId": "n055",
+  "name": "Mystical Statue",
+  "level": null,
+  "x": -582.7,
+  "y": -1351.6,
+  "facing": 269.24
+ },
+ {
+  "unitId": "H09N",
+  "name": "Blaster",
+  "level": null,
+  "x": -26514.7,
+  "y": 27217.5,
+  "facing": 183.15
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 3732.3,
+  "y": -594.3,
+  "facing": 348.98
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 3152.5,
+  "y": -2134.6,
+  "facing": 209.691
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 1205.7,
+  "y": -105.8,
+  "facing": 14.777
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 1928.4,
+  "y": 1694.4,
+  "facing": 356.462
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": -770.3,
+  "y": 1525.5,
+  "facing": 183.928
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 1112.8,
+  "y": -3756.5,
+  "facing": 210.823
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2766.5,
+  "y": 4199.6,
+  "facing": 128.808
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2989.7,
+  "y": 4165.9,
+  "facing": 228.654
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2599.6,
+  "y": 6237.1,
+  "facing": 78.917
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2250.5,
+  "y": 9496.1,
+  "facing": 98.55
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2858.3,
+  "y": 9389.1,
+  "facing": 291.41
+ },
+ {
+  "unitId": "nfro",
+  "name": "",
+  "level": null,
+  "x": -7543.8,
+  "y": 11173.0,
+  "facing": 122.71
+ },
+ {
+  "unitId": "nrac",
+  "name": "",
+  "level": null,
+  "x": -3954.5,
+  "y": 8666.8,
+  "facing": 3.38
+ },
+ {
+  "unitId": "nrac",
+  "name": "",
+  "level": null,
+  "x": 1672.5,
+  "y": 7495.2,
+  "facing": 324.36
+ },
+ {
+  "unitId": "necr",
+  "name": "",
+  "level": null,
+  "x": 2599.6,
+  "y": 5817.9,
+  "facing": 114.888
+ },
+ {
+  "unitId": "nrac",
+  "name": "",
+  "level": null,
+  "x": 2880.9,
+  "y": 4266.6,
+  "facing": 234.236
+ },
+ {
+  "unitId": "nrac",
+  "name": "",
+  "level": null,
+  "x": 1166.7,
+  "y": -213.6,
+  "facing": 338.027
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -5091.0,
+  "y": -5653.8,
+  "facing": 282.494
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -5220.7,
+  "y": -5892.7,
+  "facing": 198.954
+ },
+ {
+  "unitId": "H08G",
+  "name": "Shrine Priestess",
+  "level": null,
+  "x": -26730.6,
+  "y": 28172.7,
+  "facing": 314.021
+ },
+ {
+  "unitId": "h01G",
+  "name": "Expedition Magician",
+  "level": 100,
+  "x": -2487.5,
+  "y": -12797.5,
+  "facing": 333.1
+ },
+ {
+  "unitId": "n00T",
+  "name": "Food Vendor",
+  "level": null,
+  "x": -7215.7,
+  "y": -1508.9,
+  "facing": 270.82
+ },
+ {
+  "unitId": "n04R",
+  "name": "Wandering Tinkerer",
+  "level": null,
+  "x": 21764.1,
+  "y": -17948.7,
+  "facing": 254.327
+ },
+ {
+  "unitId": "n02E",
+  "name": "Uncle Van",
+  "level": null,
+  "x": -12073.8,
+  "y": 7273.9,
+  "facing": 6.97
+ },
+ {
+  "unitId": "H066",
+  "name": "Witch",
+  "level": null,
+  "x": -9721.1,
+  "y": 10084.5,
+  "facing": 62.887
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -9948.3,
+  "y": 9717.7,
+  "facing": 251.097
+ },
+ {
+  "unitId": "n001",
+  "name": "Blacksmith",
+  "level": null,
+  "x": -11615.0,
+  "y": 9888.4,
+  "facing": 327.35
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -11686.0,
+  "y": 8765.3,
+  "facing": 108.79
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -11676.0,
+  "y": 8462.8,
+  "facing": 267.624
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -13140.7,
+  "y": 9544.0,
+  "facing": 293.871
+ },
+ {
+  "unitId": "h00M",
+  "name": "Village Guard",
+  "level": 15,
+  "x": -8945.9,
+  "y": 9274.4,
+  "facing": 32.89
+ },
+ {
+  "unitId": "H00J",
+  "name": "Warlock",
+  "level": null,
+  "x": -9650.1,
+  "y": 10258.7,
+  "facing": 250.466
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -13351.5,
+  "y": 8152.6,
+  "facing": 56.521
+ },
+ {
+  "unitId": "H01V",
+  "name": "Crusader",
+  "level": null,
+  "x": -9324.1,
+  "y": 10161.8,
+  "facing": 261.153
+ },
+ {
+  "unitId": "h083",
+  "name": "Coin Trader",
+  "level": null,
+  "x": -6765.7,
+  "y": -1447.3,
+  "facing": 271.2
+ },
+ {
+  "unitId": "n056",
+  "name": "Blacksmith",
+  "level": null,
+  "x": -4936.3,
+  "y": -39.4,
+  "facing": 269.35
+ },
+ {
+  "unitId": "n003",
+  "name": "Innkeeper",
+  "level": null,
+  "x": -9854.7,
+  "y": 10379.2,
+  "facing": 254.303
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -11002.8,
+  "y": 9940.1,
+  "facing": 295.176
+ },
+ {
+  "unitId": "n000",
+  "name": "Village Chief Alphonse",
+  "level": null,
+  "x": -11033.1,
+  "y": 10185.1,
+  "facing": 320.142
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -9929.6,
+  "y": 8748.8,
+  "facing": 166.366
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -13256.0,
+  "y": 8164.5,
+  "facing": 155.885
+ },
+ {
+  "unitId": "n027",
+  "name": "Innkeeper",
+  "level": null,
+  "x": -3512.1,
+  "y": -811.0,
+  "facing": 261.376
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -13614.7,
+  "y": 9235.0,
+  "facing": 166.243
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -13694.7,
+  "y": 9179.8,
+  "facing": 119.443
+ },
+ {
+  "unitId": "n00U",
+  "name": "Priest",
+  "level": null,
+  "x": 4162.7,
+  "y": -28806.2,
+  "facing": 249.004
+ },
+ {
+  "unitId": "h01G",
+  "name": "Expedition Magician",
+  "level": 100,
+  "x": 1518.0,
+  "y": -21932.9,
+  "facing": 272.681
+ },
+ {
+  "unitId": "h01G",
+  "name": "Expedition Magician",
+  "level": 100,
+  "x": 1402.1,
+  "y": -22166.6,
+  "facing": 41.704
+ },
+ {
+  "unitId": "H00G",
+  "name": "Prius Guard Captain",
+  "level": null,
+  "x": 306.9,
+  "y": -1195.5,
+  "facing": 272.065
+ },
+ {
+  "unitId": "h01G",
+  "name": "Expedition Magician",
+  "level": 100,
+  "x": 1620.8,
+  "y": -22178.1,
+  "facing": 132.575
+ },
+ {
+  "unitId": "n029",
+  "name": "Expedition Warrior",
+  "level": null,
+  "x": 2640.7,
+  "y": -22025.2,
+  "facing": 22.281
+ },
+ {
+  "unitId": "n029",
+  "name": "Expedition Warrior",
+  "level": null,
+  "x": 2654.9,
+  "y": -22538.1,
+  "facing": 348.75
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": 13471.5,
+  "y": 1018.9,
+  "facing": 146.041
+ },
+ {
+  "unitId": "n01R",
+  "name": "Mage",
+  "level": null,
+  "x": -3172.6,
+  "y": -996.0,
+  "facing": 226.78
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": 3218.7,
+  "y": -30406.7,
+  "facing": 59.475
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": 3581.9,
+  "y": 10602.7,
+  "facing": 277.47
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -6178.1,
+  "y": -258.3,
+  "facing": 298.797
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -7401.2,
+  "y": -1034.0,
+  "facing": 222.82
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -5973.6,
+  "y": 1370.5,
+  "facing": 76.036
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -6947.5,
+  "y": 706.8,
+  "facing": 239.553
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -2972.3,
+  "y": 1718.2,
+  "facing": 8.097
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -3310.6,
+  "y": 84.1,
+  "facing": 53.384
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -3227.9,
+  "y": -3604.2,
+  "facing": 245.375
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -3688.5,
+  "y": -4340.5,
+  "facing": 308.473
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -1121.1,
+  "y": -3640.7,
+  "facing": 120.062
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -63.0,
+  "y": -3969.0,
+  "facing": 49.077
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -7587.5,
+  "y": -908.6,
+  "facing": 249.529
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -3522.9,
+  "y": 1330.3,
+  "facing": 280.083
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -3265.8,
+  "y": -1139.5,
+  "facing": 46.052
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": 4.3,
+  "y": -3714.5,
+  "facing": 332.676
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -3651.5,
+  "y": -4523.9,
+  "facing": 211.405
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -445.4,
+  "y": -3220.7,
+  "facing": 319.261
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -2767.0,
+  "y": 1266.8,
+  "facing": 10.877
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -3115.2,
+  "y": 64.1,
+  "facing": 77.335
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -5597.1,
+  "y": -1882.8,
+  "facing": 83.202
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -5682.9,
+  "y": -1811.7,
+  "facing": 342.355
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -6047.9,
+  "y": -246.7,
+  "facing": 260.217
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -6939.1,
+  "y": 1187.8,
+  "facing": 35.432
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -6295.6,
+  "y": 1239.2,
+  "facing": 276.595
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -2945.4,
+  "y": 1595.7,
+  "facing": 40.478
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -3777.7,
+  "y": 1616.0,
+  "facing": 343.922
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -2187.5,
+  "y": -10.8,
+  "facing": 243.813
+ },
+ {
+  "unitId": "n00P",
+  "name": "Villager",
+  "level": null,
+  "x": -2890.8,
+  "y": -2204.0,
+  "facing": 267.24
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -3433.6,
+  "y": -3607.9,
+  "facing": 281.367
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": 37.4,
+  "y": -3926.3,
+  "facing": 143.892
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -2400.8,
+  "y": 16.2,
+  "facing": 261.352
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -3671.8,
+  "y": 1574.8,
+  "facing": 208.488
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -5281.7,
+  "y": -295.6,
+  "facing": 47.696
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -7600.8,
+  "y": -2549.0,
+  "facing": 77.423
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -7002.4,
+  "y": 1026.2,
+  "facing": 200.111
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -2595.3,
+  "y": 1101.2,
+  "facing": 112.932
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -3605.6,
+  "y": -3627.7,
+  "facing": 225.15
+ },
+ {
+  "unitId": "ndog",
+  "name": "Dog",
+  "level": null,
+  "x": -726.4,
+  "y": -4073.4,
+  "facing": 279.863
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -4725.1,
+  "y": -1678.2,
+  "facing": 173.732
+ },
+ {
+  "unitId": "n00Q",
+  "name": "Villager",
+  "level": null,
+  "x": -4773.4,
+  "y": -2898.8,
+  "facing": 324.546
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -3470.1,
+  "y": -2720.4,
+  "facing": 147.946
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -4697.9,
+  "y": -404.6,
+  "facing": 54.098
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -7747.8,
+  "y": -2805.1,
+  "facing": 42.976
+ },
+ {
+  "unitId": "n053",
+  "name": "Villager",
+  "level": null,
+  "x": -5674.6,
+  "y": -3037.5,
+  "facing": 109.614
+ },
+ {
+  "unitId": "n00R",
+  "name": "Villager",
+  "level": null,
+  "x": -7578.1,
+  "y": -2846.1,
+  "facing": 345.251
+ },
+ {
+  "unitId": "n03J",
+  "name": "Weird Magician",
+  "level": null,
+  "x": -11539.3,
+  "y": 10359.1,
+  "facing": 311.814
+ },
+ {
+  "unitId": "e01A",
+  "name": "Expedition Archer",
+  "level": 100,
+  "x": 2406.8,
+  "y": -21812.0,
+  "facing": 335.884
+ },
+ {
+  "unitId": "e01A",
+  "name": "Expedition Archer",
+  "level": 100,
+  "x": 2434.9,
+  "y": -21990.0,
+  "facing": 242.113
+ },
+ {
+  "unitId": "e01A",
+  "name": "Expedition Archer",
+  "level": 100,
+  "x": 2453.4,
+  "y": -22576.6,
+  "facing": 178.786
+ },
+ {
+  "unitId": "e01A",
+  "name": "Expedition Archer",
+  "level": 100,
+  "x": 2423.5,
+  "y": -22740.2,
+  "facing": 351.914
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": -3957.1,
+  "y": -5961.6,
+  "facing": 137.344
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": -916.7,
+  "y": -11581.7,
+  "facing": 242.085
+ },
+ {
+  "unitId": "n016",
+  "name": "Captain",
+  "level": null,
+  "x": 20244.7,
+  "y": 14556.0,
+  "facing": 285.722
+ },
+ {
+  "unitId": "e01A",
+  "name": "Expedition Archer",
+  "level": 100,
+  "x": -2526.4,
+  "y": -13147.0,
+  "facing": 16.5
+ },
+ {
+  "unitId": "n029",
+  "name": "Expedition Warrior",
+  "level": null,
+  "x": -1869.4,
+  "y": -12378.3,
+  "facing": 312.669
+ },
+ {
+  "unitId": "n00V",
+  "name": "Expedition Leader",
+  "level": null,
+  "x": -2269.0,
+  "y": -12502.2,
+  "facing": 307.69
+ },
+ {
+  "unitId": "n03J",
+  "name": "Weird Magician",
+  "level": null,
+  "x": -5250.3,
+  "y": -1845.3,
+  "facing": 277.833
+ },
+ {
+  "unitId": "h00N",
+  "name": "Prius Guard",
+  "level": 100,
+  "x": -8756.7,
+  "y": -1736.0,
+  "facing": 213.261
+ },
+ {
+  "unitId": "h00N",
+  "name": "Prius Guard",
+  "level": 100,
+  "x": -8767.5,
+  "y": -2365.2,
+  "facing": 157.653
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 13047.2,
+  "y": -11744.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 13812.8,
+  "y": -11747.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 14636.7,
+  "y": -11734.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 15386.1,
+  "y": -11744.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 16117.4,
+  "y": -11762.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "n03S",
+  "name": "Bone Dragon",
+  "level": 110,
+  "x": 27018.9,
+  "y": -7017.7,
+  "facing": 32.78
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 16893.6,
+  "y": -11765.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 17664.7,
+  "y": -11765.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 18428.6,
+  "y": -11762.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 19189.8,
+  "y": -11765.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 19993.2,
+  "y": -11768.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 20796.4,
+  "y": -11771.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 21578.8,
+  "y": -11759.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "h034",
+  "name": "Frostspider Lord",
+  "level": 90,
+  "x": -3165.6,
+  "y": -21980.1,
+  "facing": 227.16
+ },
+ {
+  "unitId": "h08K",
+  "name": "Duke Lazarus",
+  "level": 130,
+  "x": -10739.0,
+  "y": -29092.3,
+  "facing": 268.33
+ },
+ {
+  "unitId": "h04O",
+  "name": "Lightning God Valtora",
+  "level": 120,
+  "x": 21661.6,
+  "y": -23327.2,
+  "facing": 267.81
+ },
+ {
+  "unitId": "n033",
+  "name": "Zombie Lord",
+  "level": 110,
+  "x": 8088.6,
+  "y": -29042.4,
+  "facing": 265.89
+ },
+ {
+  "unitId": "h09B",
+  "name": "Gaia, the Earth Goddess",
+  "level": 130,
+  "x": -10744.9,
+  "y": -22028.9,
+  "facing": 264.76
+ },
+ {
+  "unitId": "h09V",
+  "name": "Arcane Construct",
+  "level": 130,
+  "x": -11430.3,
+  "y": -15304.0,
+  "facing": 268.238
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 14631.0,
+  "y": -14998.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 13826.9,
+  "y": -14995.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 13046.9,
+  "y": -14998.9,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 15436.9,
+  "y": -15007.6,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 16195.1,
+  "y": -15008.2,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 16961.4,
+  "y": -15007.6,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 17732.0,
+  "y": -15001.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 18502.8,
+  "y": -15010.5,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 19274.9,
+  "y": -15007.6,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 20041.0,
+  "y": -15024.8,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 20807.2,
+  "y": -15020.5,
+  "facing": 208.09
+ },
+ {
+  "unitId": "ogru",
+  "name": "Eye of Colossus",
+  "level": null,
+  "x": 21578.4,
+  "y": -15019.5,
+  "facing": 208.09
+ },
+ {
+  "unitId": "hmpr",
+  "name": "Corruptor Rectus",
+  "level": 100,
+  "x": 12388.3,
+  "y": -30785.9,
+  "facing": 101.63
+ },
+ {
+  "unitId": "n02M",
+  "name": "Spirit Beast",
+  "level": 100,
+  "x": 10518.1,
+  "y": -22898.5,
+  "facing": 270.77
+ },
+ {
+  "unitId": "n02V",
+  "name": "Skeleton King Desperia",
+  "level": 110,
+  "x": 16652.2,
+  "y": -22389.7,
+  "facing": 271.11
+ },
+ {
+  "unitId": "n02Y",
+  "name": "Shadow Dragon Irbert",
+  "level": 110,
+  "x": 28486.4,
+  "y": -14120.3,
+  "facing": 267.74
+ },
+ {
+  "unitId": "h06T",
+  "name": "Nereid",
+  "level": 120,
+  "x": 21629.1,
+  "y": -28974.3,
+  "facing": 266.13
+ },
+ {
+  "unitId": "n030",
+  "name": "Ancient Ent",
+  "level": 110,
+  "x": 16659.6,
+  "y": -29542.3,
+  "facing": 270.0
+ },
+ {
+  "unitId": "h077",
+  "name": "Underlord Agareth",
+  "level": 120,
+  "x": 26600.7,
+  "y": -28997.9,
+  "facing": 272.35
+ }
+]

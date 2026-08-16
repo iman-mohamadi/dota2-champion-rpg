@@ -1,0 +1,933 @@
+[
+ {
+  "label": "(unlabelled)",
+  "spawnCount": 53,
+  "levelMin": 1,
+  "levelMax": 100,
+  "bounds": {
+   "minX": -8767.5,
+   "minY": -5961.6,
+   "maxX": 2290,
+   "maxY": 1718.2
+  },
+  "centroid": {
+   "x": -4598,
+   "y": -1207
+  },
+  "units": [
+   {
+    "name": "Villager",
+    "count": 36
+   },
+   {
+    "name": "Dog",
+    "count": 4
+   },
+   {
+    "name": "Prius Guard",
+    "count": 2
+   },
+   {
+    "name": "Castle Avalon",
+    "count": 1
+   },
+   {
+    "name": "Prius Guard Captain",
+    "count": 1
+   },
+   {
+    "name": "Mystical Statue",
+    "count": 1
+   },
+   {
+    "name": "Blacksmith",
+    "count": 1
+   },
+   {
+    "name": "Captain",
+    "count": 1
+   },
+   {
+    "name": "Food Vendor",
+    "count": 1
+   },
+   {
+    "name": "Weird Magician",
+    "count": 1
+   },
+   {
+    "name": "Coin Trader",
+    "count": 1
+   },
+   {
+    "name": "Recall Stone",
+    "count": 1
+   },
+   {
+    "name": "Innkeeper",
+    "count": 1
+   },
+   {
+    "name": "Mage",
+    "count": 1
+   }
+  ],
+  "locationVotes": []
+ },
+ {
+  "label": "Bottom part of the Wild Life Habitat",
+  "spawnCount": 105,
+  "levelMin": 1,
+  "levelMax": 29,
+  "bounds": {
+   "minX": -13694.7,
+   "minY": 4482.1,
+   "maxX": 2009.0,
+   "maxY": 14720.0
+  },
+  "centroid": {
+   "x": -5088,
+   "y": 8553
+  },
+  "units": [
+   {
+    "name": "Spider",
+    "count": 27
+   },
+   {
+    "name": "Troll",
+    "count": 17
+   },
+   {
+    "name": "Wolf",
+    "count": 12
+   },
+   {
+    "name": "Villager",
+    "count": 9
+   },
+   {
+    "name": "Furbolg Tracker",
+    "count": 7
+   },
+   {
+    "name": "Troll Shaman",
+    "count": 6
+   },
+   {
+    "name": "Dark Wolf",
+    "count": 6
+   },
+   {
+    "name": "Troll Berserker",
+    "count": 5
+   },
+   {
+    "name": "Troll Lord",
+    "count": 1
+   },
+   {
+    "name": "Furbolg Giant",
+    "count": 1
+   },
+   {
+    "name": "Giant Spider",
+    "count": 1
+   },
+   {
+    "name": "Silverback Wolf",
+    "count": 1
+   },
+   {
+    "name": "Recall Stone",
+    "count": 1
+   },
+   {
+    "name": "Innkeeper",
+    "count": 1
+   },
+   {
+    "name": "Dog",
+    "count": 1
+   },
+   {
+    "name": "Village Chief Alphonse",
+    "count": 1
+   },
+   {
+    "name": "Blacksmith",
+    "count": 1
+   },
+   {
+    "name": "Weird Magician",
+    "count": 1
+   },
+   {
+    "name": "Uncle Van",
+    "count": 1
+   },
+   {
+    "name": "Travelling Merchant",
+    "count": 1
+   },
+   {
+    "name": "Witch",
+    "count": 1
+   },
+   {
+    "name": "Warlock",
+    "count": 1
+   },
+   {
+    "name": "Crusader",
+    "count": 1
+   },
+   {
+    "name": "Village Guard",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "Bottom part of the Wild Life Habitat",
+    "votes": 29
+   },
+   {
+    "location": "East of Starter Village",
+    "votes": 28
+   },
+   {
+    "location": "Southeast of Starter Village",
+    "votes": 18
+   }
+  ]
+ },
+ {
+  "label": "Right side of Wild Life Habitat, Seaside",
+  "spawnCount": 34,
+  "levelMin": 33,
+  "levelMax": 43,
+  "bounds": {
+   "minX": 3581.9,
+   "minY": 5789.8,
+   "maxX": 8816.6,
+   "maxY": 10602.7
+  },
+  "centroid": {
+   "x": 6514,
+   "y": 8308
+  },
+  "units": [
+   {
+    "name": "White Murloc",
+    "count": 9
+   },
+   {
+    "name": "Murloc Blue",
+    "count": 9
+   },
+   {
+    "name": "Green Murloc",
+    "count": 6
+   },
+   {
+    "name": "Orange Murloc",
+    "count": 5
+   },
+   {
+    "name": "Purple Murloc",
+    "count": 4
+   },
+   {
+    "name": "Captain",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "Right side of Wild Life Habitat, Seaside",
+    "votes": 24
+   }
+  ]
+ },
+ {
+  "label": "In Duchy of Wallachia",
+  "spawnCount": 3,
+  "levelMin": 60,
+  "levelMax": 67,
+  "bounds": {
+   "minX": 27559.0,
+   "minY": 13323.8,
+   "maxX": 28448.6,
+   "maxY": 13740.5
+  },
+  "centroid": {
+   "x": 27986,
+   "y": 13473
+  },
+  "units": [
+   {
+    "name": "Duchy of Wallachia Guardian",
+    "count": 2
+   },
+   {
+    "name": "Wallachia Death Knight Lord",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In Duchy of Wallachia",
+    "votes": 3
+   }
+  ]
+ },
+ {
+  "label": "In Volcanic Lands",
+  "spawnCount": 63,
+  "levelMin": 62,
+  "levelMax": 70,
+  "bounds": {
+   "minX": 13019.6,
+   "minY": -3287.3,
+   "maxX": 22939.3,
+   "maxY": 1274.7
+  },
+  "centroid": {
+   "x": 17446,
+   "y": -1205
+  },
+  "units": [
+   {
+    "name": "Lava Spawn",
+    "count": 30
+   },
+   {
+    "name": "Lava Hatchling",
+    "count": 20
+   },
+   {
+    "name": "Lava Worm",
+    "count": 10
+   },
+   {
+    "name": "Lava Ancient",
+    "count": 1
+   },
+   {
+    "name": "Captain",
+    "count": 1
+   },
+   {
+    "name": "Ruler of the Flames Ragnaar",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In Volcanic Lands",
+    "votes": 61
+   }
+  ]
+ },
+ {
+  "label": "In Duchy of Wallachia",
+  "spawnCount": 43,
+  "levelMin": 62,
+  "levelMax": 67,
+  "bounds": {
+   "minX": 20044.0,
+   "minY": 9194.9,
+   "maxX": 28256.4,
+   "maxY": 14595.6
+  },
+  "centroid": {
+   "x": 22793,
+   "y": 11453
+  },
+  "units": [
+   {
+    "name": "Duchy of Wallachia Soldier",
+    "count": 17
+   },
+   {
+    "name": "Duchy of Wallachia Guardian",
+    "count": 9
+   },
+   {
+    "name": "Duchy of Wallachia Archer",
+    "count": 8
+   },
+   {
+    "name": "Duchy of Wallachia Cavalry",
+    "count": 8
+   },
+   {
+    "name": "Captain",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In Duchy of Wallachia",
+    "votes": 42
+   }
+  ]
+ },
+ {
+  "label": "In the Deep Sea",
+  "spawnCount": 27,
+  "levelMin": 73,
+  "levelMax": 80,
+  "bounds": {
+   "minX": 22215.4,
+   "minY": 18140.1,
+   "maxX": 28784.2,
+   "maxY": 21618.0
+  },
+  "centroid": {
+   "x": 25544,
+   "y": 19698
+  },
+  "units": [
+   {
+    "name": "Tide Caller",
+    "count": 13
+   },
+   {
+    "name": "Sea Guardian",
+    "count": 8
+   },
+   {
+    "name": "Murloc Giant",
+    "count": 5
+   },
+   {
+    "name": "Tentacle Lord",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In the Deep Sea",
+    "votes": 27
+   }
+  ]
+ },
+ {
+  "label": "Before the entrance of Guardian Angels",
+  "spawnCount": 18,
+  "levelMin": 80,
+  "levelMax": 80,
+  "bounds": {
+   "minX": 13047.2,
+   "minY": -12010.7,
+   "maxX": 21578.8,
+   "maxY": -10240
+  },
+  "centroid": {
+   "x": 16971,
+   "y": -11731
+  },
+  "units": [
+   {
+    "name": "Eye of Colossus",
+    "count": 12
+   },
+   {
+    "name": "Avalon Defender",
+    "count": 3
+   },
+   {
+    "name": "Avalon Protector",
+    "count": 2
+   },
+   {
+    "name": "The 3rd Legion's Archangel Kamael",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "Before the entrance of Guardian Angels",
+    "votes": 5
+   }
+  ]
+ },
+ {
+  "label": "Before the entrance of Guardian Angels",
+  "spawnCount": 17,
+  "levelMin": 80,
+  "levelMax": 80,
+  "bounds": {
+   "minX": 13046.9,
+   "minY": -15024.8,
+   "maxX": 21578.4,
+   "maxY": -14584.1
+  },
+  "centroid": {
+   "x": 17210,
+   "y": -14902
+  },
+  "units": [
+   {
+    "name": "Eye of Colossus",
+    "count": 12
+   },
+   {
+    "name": "Avalon Defender",
+    "count": 3
+   },
+   {
+    "name": "Avalon Protector",
+    "count": 2
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "Before the entrance of Guardian Angels",
+    "votes": 5
+   }
+  ]
+ },
+ {
+  "label": "In the Wallachia Graveyard",
+  "spawnCount": 24,
+  "levelMin": 84,
+  "levelMax": 100,
+  "bounds": {
+   "minX": 5603.7,
+   "minY": -17436.4,
+   "maxX": 9223.7,
+   "maxY": -11080.0
+  },
+  "centroid": {
+   "x": 7153,
+   "y": -13754
+  },
+  "units": [
+   {
+    "name": "Duchy of Wallachia Apostle",
+    "count": 10
+   },
+   {
+    "name": "Duchy of Wallachia Assassin",
+    "count": 7
+   },
+   {
+    "name": "Scarab",
+    "count": 3
+   },
+   {
+    "name": "Wallachia Wraith",
+    "count": 3
+   },
+   {
+    "name": "Wallachia Mad Clown",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In the Wallachia Graveyard",
+    "votes": 24
+   }
+  ]
+ },
+ {
+  "label": "In the Cave",
+  "spawnCount": 17,
+  "levelMin": 86,
+  "levelMax": 90,
+  "bounds": {
+   "minX": 6280.9,
+   "minY": 14717.2,
+   "maxX": 12217.7,
+   "maxY": 16962.2
+  },
+  "centroid": {
+   "x": 8999,
+   "y": 15874
+  },
+  "units": [
+   {
+    "name": "Stone Golem",
+    "count": 11
+   },
+   {
+    "name": "Solid Golem",
+    "count": 5
+   },
+   {
+    "name": "Giant Golem",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In the Cave",
+    "votes": 17
+   }
+  ]
+ },
+ {
+  "label": "In Fairy Forest",
+  "spawnCount": 30,
+  "levelMin": 93,
+  "levelMax": 96,
+  "bounds": {
+   "minX": -15065.9,
+   "minY": -7963.7,
+   "maxX": -11375.2,
+   "maxY": 1730.7
+  },
+  "centroid": {
+   "x": -13011,
+   "y": -2682
+  },
+  "units": [
+   {
+    "name": "Forest Spirit",
+    "count": 17
+   },
+   {
+    "name": "Fairy",
+    "count": 13
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In Fairy Forest",
+    "votes": 30
+   }
+  ]
+ },
+ {
+  "label": "East of Volcanic Lands, within the Dragon Lair",
+  "spawnCount": 17,
+  "levelMin": 100,
+  "levelMax": 100,
+  "bounds": {
+   "minX": 25717.6,
+   "minY": -4063.4,
+   "maxX": 28760.5,
+   "maxY": 275.8
+  },
+  "centroid": {
+   "x": 27415,
+   "y": -2019
+  },
+  "units": [
+   {
+    "name": "Dragon Hatchling",
+    "count": 12
+   },
+   {
+    "name": "Dragonic Warrior",
+    "count": 5
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "East of Volcanic Lands, within the Dragon Lair",
+    "votes": 17
+   }
+  ]
+ },
+ {
+  "label": "In Fairy Forest - Deep Forest",
+  "spawnCount": 22,
+  "levelMin": 100,
+  "levelMax": 100,
+  "bounds": {
+   "minX": 8230.1,
+   "minY": -25002.3,
+   "maxX": 13109.9,
+   "maxY": -22563.6
+  },
+  "centroid": {
+   "x": 11044,
+   "y": -23860
+  },
+  "units": [
+   {
+    "name": "Fairy Spirit",
+    "count": 13
+   },
+   {
+    "name": "Dryad",
+    "count": 8
+   },
+   {
+    "name": "Spirit Beast",
+    "count": 1
+   }
+  ],
+  "locationVotes": [
+   {
+    "location": "In Fairy Forest - Deep Forest",
+    "votes": 22
+   }
+  ]
+ },
+ {
+  "label": "(unlabelled)",
+  "spawnCount": 10,
+  "levelMin": 100,
+  "levelMax": 100,
+  "bounds": {
+   "minX": 1402.1,
+   "minY": -22748.3,
+   "maxX": 2654.9,
+   "maxY": -21812.0
+  },
+  "centroid": {
+   "x": 2104,
+   "y": -22271
+  },
+  "units": [
+   {
+    "name": "Expedition Archer",
+    "count": 4
+   },
+   {
+    "name": "Expedition Magician",
+    "count": 3
+   },
+   {
+    "name": "Expedition Warrior",
+    "count": 2
+   },
+   {
+    "name": "Expedition Priest",
+    "count": 1
+   }
+  ],
+  "locationVotes": []
+ },
+ {
+  "label": "(unlabelled)",
+  "spawnCount": 5,
+  "levelMin": 100,
+  "levelMax": 100,
+  "bounds": {
+   "minX": -2526.4,
+   "minY": -13147.0,
+   "maxX": -916.7,
+   "maxY": -11581.7
+  },
+  "centroid": {
+   "x": -2014,
+   "y": -12481
+  },
+  "units": [
+   {
+    "name": "Expedition Magician",
+    "count": 1
+   },
+   {
+    "name": "Expedition Archer",
+    "count": 1
+   },
+   {
+    "name": "Captain",
+    "count": 1
+   },
+   {
+    "name": "Expedition Warrior",
+    "count": 1
+   },
+   {
+    "name": "Expedition Leader",
+    "count": 1
+   }
+  ],
+  "locationVotes": []
+ },
+ {
+  "label": "(unlabelled)",
+  "spawnCount": 42,
+  "levelMin": null,
+  "levelMax": null,
+  "bounds": {
+   "minX": -28565.3,
+   "minY": 21689.8,
+   "maxX": -25773.1,
+   "maxY": 28578.1
+  },
+  "centroid": {
+   "x": -26993,
+   "y": 26778
+  },
+  "units": [
+   {
+    "name": "Mage",
+    "count": 7
+   },
+   {
+    "name": "Bookshelf",
+    "count": 2
+   },
+   {
+    "name": "Dean Jaina",
+    "count": 1
+   },
+   {
+    "name": "Merchant",
+    "count": 1
+   },
+   {
+    "name": "Lightseeker",
+    "count": 1
+   },
+   {
+    "name": "Lancer",
+    "count": 1
+   },
+   {
+    "name": "Dark Knight",
+    "count": 1
+   },
+   {
+    "name": "Fighter",
+    "count": 1
+   },
+   {
+    "name": "Blaster",
+    "count": 1
+   },
+   {
+    "name": "Elementalist",
+    "count": 1
+   },
+   {
+    "name": "Warlock",
+    "count": 1
+   },
+   {
+    "name": "Witch",
+    "count": 1
+   },
+   {
+    "name": "Priest",
+    "count": 1
+   },
+   {
+    "name": "Mage (Fire)",
+    "count": 1
+   },
+   {
+    "name": "Martial Artist",
+    "count": 1
+   },
+   {
+    "name": "Alchemist",
+    "count": 1
+   },
+   {
+    "name": "Swordsman",
+    "count": 1
+   },
+   {
+    "name": "Sniper",
+    "count": 1
+   },
+   {
+    "name": "Trickster",
+    "count": 1
+   },
+   {
+    "name": "Shrine Priestess",
+    "count": 1
+   },
+   {
+    "name": "Hermit",
+    "count": 1
+   },
+   {
+    "name": "Assassin",
+    "count": 1
+   },
+   {
+    "name": "Bow Master",
+    "count": 1
+   },
+   {
+    "name": "Shooter",
+    "count": 1
+   },
+   {
+    "name": "Sword Enchanter",
+    "count": 1
+   },
+   {
+    "name": "Thunderer",
+    "count": 1
+   },
+   {
+    "name": "Phantom Blade",
+    "count": 1
+   },
+   {
+    "name": "Gunner",
+    "count": 1
+   },
+   {
+    "name": "Reaper",
+    "count": 1
+   },
+   {
+    "name": "Soul Weaver",
+    "count": 1
+   },
+   {
+    "name": "Berserker",
+    "count": 1
+   },
+   {
+    "name": "Crusader",
+    "count": 1
+   },
+   {
+    "name": "Paladin",
+    "count": 1
+   },
+   {
+    "name": "Blood Weaver",
+    "count": 1
+   },
+   {
+    "name": "Knight",
+    "count": 1
+   }
+  ],
+  "locationVotes": []
+ },
+ {
+  "label": "(unlabelled)",
+  "spawnCount": 6,
+  "levelMin": null,
+  "levelMax": null,
+  "bounds": {
+   "minX": -1121.1,
+   "minY": -4073.4,
+   "maxX": 37.4,
+   "maxY": -3220.7
+  },
+  "centroid": {
+   "x": -386,
+   "y": -3757
+  },
+  "units": [
+   {
+    "name": "Villager",
+    "count": 5
+   },
+   {
+    "name": "Dog",
+    "count": 1
+   }
+  ],
+  "locationVotes": []
+ }
+]

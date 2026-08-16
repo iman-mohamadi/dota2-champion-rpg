@@ -1,0 +1,807 @@
+{
+ "source": "war3mapMisc.txt (gameplay constants, not obfuscated)",
+ "maxHeroLevel": 100,
+ "maxUnitLevel": 1000,
+ "xpCurve": {
+  "formula": {
+   "base": 150.0,
+   "A": 1.05,
+   "B": 75.0,
+   "closedForm": "Need(L) = (base + B/(A-1)) * A^(L-1) - B/(A-1)"
+  },
+  "table": [
+   {
+    "fromLevel": 1,
+    "toLevel": 2,
+    "xpForLevel": 150.0,
+    "cumulativeXp": 150.0
+   },
+   {
+    "fromLevel": 2,
+    "toLevel": 3,
+    "xpForLevel": 232.5,
+    "cumulativeXp": 382.5
+   },
+   {
+    "fromLevel": 3,
+    "toLevel": 4,
+    "xpForLevel": 319.1,
+    "cumulativeXp": 701.6
+   },
+   {
+    "fromLevel": 4,
+    "toLevel": 5,
+    "xpForLevel": 410.1,
+    "cumulativeXp": 1111.7
+   },
+   {
+    "fromLevel": 5,
+    "toLevel": 6,
+    "xpForLevel": 505.6,
+    "cumulativeXp": 1617.3
+   },
+   {
+    "fromLevel": 6,
+    "toLevel": 7,
+    "xpForLevel": 605.9,
+    "cumulativeXp": 2223.2
+   },
+   {
+    "fromLevel": 7,
+    "toLevel": 8,
+    "xpForLevel": 711.2,
+    "cumulativeXp": 2934.3
+   },
+   {
+    "fromLevel": 8,
+    "toLevel": 9,
+    "xpForLevel": 821.7,
+    "cumulativeXp": 3756.0
+   },
+   {
+    "fromLevel": 9,
+    "toLevel": 10,
+    "xpForLevel": 937.8,
+    "cumulativeXp": 4693.8
+   },
+   {
+    "fromLevel": 10,
+    "toLevel": 11,
+    "xpForLevel": 1059.7,
+    "cumulativeXp": 5753.5
+   },
+   {
+    "fromLevel": 11,
+    "toLevel": 12,
+    "xpForLevel": 1187.7,
+    "cumulativeXp": 6941.2
+   },
+   {
+    "fromLevel": 12,
+    "toLevel": 13,
+    "xpForLevel": 1322.1,
+    "cumulativeXp": 8263.3
+   },
+   {
+    "fromLevel": 13,
+    "toLevel": 14,
+    "xpForLevel": 1463.2,
+    "cumulativeXp": 9726.4
+   },
+   {
+    "fromLevel": 14,
+    "toLevel": 15,
+    "xpForLevel": 1611.3,
+    "cumulativeXp": 11337.7
+   },
+   {
+    "fromLevel": 15,
+    "toLevel": 16,
+    "xpForLevel": 1766.9,
+    "cumulativeXp": 13104.6
+   },
+   {
+    "fromLevel": 16,
+    "toLevel": 17,
+    "xpForLevel": 1930.2,
+    "cumulativeXp": 15034.9
+   },
+   {
+    "fromLevel": 17,
+    "toLevel": 18,
+    "xpForLevel": 2101.7,
+    "cumulativeXp": 17136.6
+   },
+   {
+    "fromLevel": 18,
+    "toLevel": 19,
+    "xpForLevel": 2281.8,
+    "cumulativeXp": 19418.4
+   },
+   {
+    "fromLevel": 19,
+    "toLevel": 20,
+    "xpForLevel": 2470.9,
+    "cumulativeXp": 21889.4
+   },
+   {
+    "fromLevel": 20,
+    "toLevel": 21,
+    "xpForLevel": 2669.5,
+    "cumulativeXp": 24558.8
+   },
+   {
+    "fromLevel": 21,
+    "toLevel": 22,
+    "xpForLevel": 2877.9,
+    "cumulativeXp": 27436.8
+   },
+   {
+    "fromLevel": 22,
+    "toLevel": 23,
+    "xpForLevel": 3096.8,
+    "cumulativeXp": 30533.6
+   },
+   {
+    "fromLevel": 23,
+    "toLevel": 24,
+    "xpForLevel": 3326.7,
+    "cumulativeXp": 33860.3
+   },
+   {
+    "fromLevel": 24,
+    "toLevel": 25,
+    "xpForLevel": 3568.0,
+    "cumulativeXp": 37428.3
+   },
+   {
+    "fromLevel": 25,
+    "toLevel": 26,
+    "xpForLevel": 3821.4,
+    "cumulativeXp": 41249.7
+   },
+   {
+    "fromLevel": 26,
+    "toLevel": 27,
+    "xpForLevel": 4087.5,
+    "cumulativeXp": 45337.2
+   },
+   {
+    "fromLevel": 27,
+    "toLevel": 28,
+    "xpForLevel": 4366.9,
+    "cumulativeXp": 49704.1
+   },
+   {
+    "fromLevel": 28,
+    "toLevel": 29,
+    "xpForLevel": 4660.2,
+    "cumulativeXp": 54364.3
+   },
+   {
+    "fromLevel": 29,
+    "toLevel": 30,
+    "xpForLevel": 4968.2,
+    "cumulativeXp": 59332.5
+   },
+   {
+    "fromLevel": 30,
+    "toLevel": 31,
+    "xpForLevel": 5291.6,
+    "cumulativeXp": 64624.1
+   },
+   {
+    "fromLevel": 31,
+    "toLevel": 32,
+    "xpForLevel": 5631.2,
+    "cumulativeXp": 70255.3
+   },
+   {
+    "fromLevel": 32,
+    "toLevel": 33,
+    "xpForLevel": 5987.8,
+    "cumulativeXp": 76243.1
+   },
+   {
+    "fromLevel": 33,
+    "toLevel": 34,
+    "xpForLevel": 6362.2,
+    "cumulativeXp": 82605.2
+   },
+   {
+    "fromLevel": 34,
+    "toLevel": 35,
+    "xpForLevel": 6755.3,
+    "cumulativeXp": 89360.5
+   },
+   {
+    "fromLevel": 35,
+    "toLevel": 36,
+    "xpForLevel": 7168.0,
+    "cumulativeXp": 96528.5
+   },
+   {
+    "fromLevel": 36,
+    "toLevel": 37,
+    "xpForLevel": 7601.4,
+    "cumulativeXp": 104129.9
+   },
+   {
+    "fromLevel": 37,
+    "toLevel": 38,
+    "xpForLevel": 8056.5,
+    "cumulativeXp": 112186.4
+   },
+   {
+    "fromLevel": 38,
+    "toLevel": 39,
+    "xpForLevel": 8534.3,
+    "cumulativeXp": 120720.8
+   },
+   {
+    "fromLevel": 39,
+    "toLevel": 40,
+    "xpForLevel": 9036.0,
+    "cumulativeXp": 129756.8
+   },
+   {
+    "fromLevel": 40,
+    "toLevel": 41,
+    "xpForLevel": 9562.8,
+    "cumulativeXp": 139319.6
+   },
+   {
+    "fromLevel": 41,
+    "toLevel": 42,
+    "xpForLevel": 10116.0,
+    "cumulativeXp": 149435.6
+   },
+   {
+    "fromLevel": 42,
+    "toLevel": 43,
+    "xpForLevel": 10696.8,
+    "cumulativeXp": 160132.4
+   },
+   {
+    "fromLevel": 43,
+    "toLevel": 44,
+    "xpForLevel": 11306.6,
+    "cumulativeXp": 171439.0
+   },
+   {
+    "fromLevel": 44,
+    "toLevel": 45,
+    "xpForLevel": 11947.0,
+    "cumulativeXp": 183386.0
+   },
+   {
+    "fromLevel": 45,
+    "toLevel": 46,
+    "xpForLevel": 12619.3,
+    "cumulativeXp": 196005.3
+   },
+   {
+    "fromLevel": 46,
+    "toLevel": 47,
+    "xpForLevel": 13325.3,
+    "cumulativeXp": 209330.5
+   },
+   {
+    "fromLevel": 47,
+    "toLevel": 48,
+    "xpForLevel": 14066.5,
+    "cumulativeXp": 223397.0
+   },
+   {
+    "fromLevel": 48,
+    "toLevel": 49,
+    "xpForLevel": 14844.9,
+    "cumulativeXp": 238241.9
+   },
+   {
+    "fromLevel": 49,
+    "toLevel": 50,
+    "xpForLevel": 15662.1,
+    "cumulativeXp": 253904.0
+   },
+   {
+    "fromLevel": 50,
+    "toLevel": 51,
+    "xpForLevel": 16520.2,
+    "cumulativeXp": 270424.2
+   },
+   {
+    "fromLevel": 51,
+    "toLevel": 52,
+    "xpForLevel": 17421.2,
+    "cumulativeXp": 287845.4
+   },
+   {
+    "fromLevel": 52,
+    "toLevel": 53,
+    "xpForLevel": 18367.3,
+    "cumulativeXp": 306212.7
+   },
+   {
+    "fromLevel": 53,
+    "toLevel": 54,
+    "xpForLevel": 19360.6,
+    "cumulativeXp": 325573.3
+   },
+   {
+    "fromLevel": 54,
+    "toLevel": 55,
+    "xpForLevel": 20403.7,
+    "cumulativeXp": 345977.0
+   },
+   {
+    "fromLevel": 55,
+    "toLevel": 56,
+    "xpForLevel": 21498.8,
+    "cumulativeXp": 367475.8
+   },
+   {
+    "fromLevel": 56,
+    "toLevel": 57,
+    "xpForLevel": 22648.8,
+    "cumulativeXp": 390124.6
+   },
+   {
+    "fromLevel": 57,
+    "toLevel": 58,
+    "xpForLevel": 23856.2,
+    "cumulativeXp": 413980.8
+   },
+   {
+    "fromLevel": 58,
+    "toLevel": 59,
+    "xpForLevel": 25124.0,
+    "cumulativeXp": 439104.9
+   },
+   {
+    "fromLevel": 59,
+    "toLevel": 60,
+    "xpForLevel": 26455.2,
+    "cumulativeXp": 465560.1
+   },
+   {
+    "fromLevel": 60,
+    "toLevel": 61,
+    "xpForLevel": 27853.0,
+    "cumulativeXp": 493413.1
+   },
+   {
+    "fromLevel": 61,
+    "toLevel": 62,
+    "xpForLevel": 29320.7,
+    "cumulativeXp": 522733.8
+   },
+   {
+    "fromLevel": 62,
+    "toLevel": 63,
+    "xpForLevel": 30861.7,
+    "cumulativeXp": 553595.5
+   },
+   {
+    "fromLevel": 63,
+    "toLevel": 64,
+    "xpForLevel": 32479.8,
+    "cumulativeXp": 586075.3
+   },
+   {
+    "fromLevel": 64,
+    "toLevel": 65,
+    "xpForLevel": 34178.8,
+    "cumulativeXp": 620254.0
+   },
+   {
+    "fromLevel": 65,
+    "toLevel": 66,
+    "xpForLevel": 35962.7,
+    "cumulativeXp": 656216.7
+   },
+   {
+    "fromLevel": 66,
+    "toLevel": 67,
+    "xpForLevel": 37835.8,
+    "cumulativeXp": 694052.6
+   },
+   {
+    "fromLevel": 67,
+    "toLevel": 68,
+    "xpForLevel": 39802.6,
+    "cumulativeXp": 733855.2
+   },
+   {
+    "fromLevel": 68,
+    "toLevel": 69,
+    "xpForLevel": 41867.8,
+    "cumulativeXp": 775722.9
+   },
+   {
+    "fromLevel": 69,
+    "toLevel": 70,
+    "xpForLevel": 44036.1,
+    "cumulativeXp": 819759.1
+   },
+   {
+    "fromLevel": 70,
+    "toLevel": 71,
+    "xpForLevel": 46313.0,
+    "cumulativeXp": 866072.0
+   },
+   {
+    "fromLevel": 71,
+    "toLevel": 72,
+    "xpForLevel": 48703.6,
+    "cumulativeXp": 914775.6
+   },
+   {
+    "fromLevel": 72,
+    "toLevel": 73,
+    "xpForLevel": 51213.8,
+    "cumulativeXp": 965989.4
+   },
+   {
+    "fromLevel": 73,
+    "toLevel": 74,
+    "xpForLevel": 53849.5,
+    "cumulativeXp": 1019838.9
+   },
+   {
+    "fromLevel": 74,
+    "toLevel": 75,
+    "xpForLevel": 56616.9,
+    "cumulativeXp": 1076455.8
+   },
+   {
+    "fromLevel": 75,
+    "toLevel": 76,
+    "xpForLevel": 59522.8,
+    "cumulativeXp": 1135978.6
+   },
+   {
+    "fromLevel": 76,
+    "toLevel": 77,
+    "xpForLevel": 62573.9,
+    "cumulativeXp": 1198552.6
+   },
+   {
+    "fromLevel": 77,
+    "toLevel": 78,
+    "xpForLevel": 65777.6,
+    "cumulativeXp": 1264330.2
+   },
+   {
+    "fromLevel": 78,
+    "toLevel": 79,
+    "xpForLevel": 69141.5,
+    "cumulativeXp": 1333471.7
+   },
+   {
+    "fromLevel": 79,
+    "toLevel": 80,
+    "xpForLevel": 72673.6,
+    "cumulativeXp": 1406145.3
+   },
+   {
+    "fromLevel": 80,
+    "toLevel": 81,
+    "xpForLevel": 76382.3,
+    "cumulativeXp": 1482527.6
+   },
+   {
+    "fromLevel": 81,
+    "toLevel": 82,
+    "xpForLevel": 80276.4,
+    "cumulativeXp": 1562803.9
+   },
+   {
+    "fromLevel": 82,
+    "toLevel": 83,
+    "xpForLevel": 84365.2,
+    "cumulativeXp": 1647169.1
+   },
+   {
+    "fromLevel": 83,
+    "toLevel": 84,
+    "xpForLevel": 88658.5,
+    "cumulativeXp": 1735827.6
+   },
+   {
+    "fromLevel": 84,
+    "toLevel": 85,
+    "xpForLevel": 93166.4,
+    "cumulativeXp": 1828994.0
+   },
+   {
+    "fromLevel": 85,
+    "toLevel": 86,
+    "xpForLevel": 97899.7,
+    "cumulativeXp": 1926893.7
+   },
+   {
+    "fromLevel": 86,
+    "toLevel": 87,
+    "xpForLevel": 102869.7,
+    "cumulativeXp": 2029763.3
+   },
+   {
+    "fromLevel": 87,
+    "toLevel": 88,
+    "xpForLevel": 108088.2,
+    "cumulativeXp": 2137851.5
+   },
+   {
+    "fromLevel": 88,
+    "toLevel": 89,
+    "xpForLevel": 113567.6,
+    "cumulativeXp": 2251419.1
+   },
+   {
+    "fromLevel": 89,
+    "toLevel": 90,
+    "xpForLevel": 119321.0,
+    "cumulativeXp": 2370740.0
+   },
+   {
+    "fromLevel": 90,
+    "toLevel": 91,
+    "xpForLevel": 125362.0,
+    "cumulativeXp": 2496102.0
+   },
+   {
+    "fromLevel": 91,
+    "toLevel": 92,
+    "xpForLevel": 131705.1,
+    "cumulativeXp": 2627807.1
+   },
+   {
+    "fromLevel": 92,
+    "toLevel": 93,
+    "xpForLevel": 138365.4,
+    "cumulativeXp": 2766172.5
+   },
+   {
+    "fromLevel": 93,
+    "toLevel": 94,
+    "xpForLevel": 145358.6,
+    "cumulativeXp": 2911531.1
+   },
+   {
+    "fromLevel": 94,
+    "toLevel": 95,
+    "xpForLevel": 152701.6,
+    "cumulativeXp": 3064232.7
+   },
+   {
+    "fromLevel": 95,
+    "toLevel": 96,
+    "xpForLevel": 160411.6,
+    "cumulativeXp": 3224644.3
+   },
+   {
+    "fromLevel": 96,
+    "toLevel": 97,
+    "xpForLevel": 168507.2,
+    "cumulativeXp": 3393151.5
+   },
+   {
+    "fromLevel": 97,
+    "toLevel": 98,
+    "xpForLevel": 177007.6,
+    "cumulativeXp": 3570159.1
+   },
+   {
+    "fromLevel": 98,
+    "toLevel": 99,
+    "xpForLevel": 185933.0,
+    "cumulativeXp": 3756092.1
+   },
+   {
+    "fromLevel": 99,
+    "toLevel": 100,
+    "xpForLevel": 195304.6,
+    "cumulativeXp": 3951396.7
+   }
+  ],
+  "totalXpToMax": 3951396.7
+ },
+ "creepXpGranted": {
+  "formula": "XP = 0.85*L^2 + 2.0*L + 2.0",
+  "samples": [
+   {
+    "unitLevel": 3,
+    "xpGranted": 15.6
+   },
+   {
+    "unitLevel": 5,
+    "xpGranted": 33.2
+   },
+   {
+    "unitLevel": 10,
+    "xpGranted": 107.0
+   },
+   {
+    "unitLevel": 20,
+    "xpGranted": 382.0
+   },
+   {
+    "unitLevel": 30,
+    "xpGranted": 827.0
+   },
+   {
+    "unitLevel": 45,
+    "xpGranted": 1813.2
+   },
+   {
+    "unitLevel": 60,
+    "xpGranted": 3182.0
+   },
+   {
+    "unitLevel": 70,
+    "xpGranted": 4307.0
+   },
+   {
+    "unitLevel": 80,
+    "xpGranted": 5602.0
+   },
+   {
+    "unitLevel": 90,
+    "xpGranted": 7067.0
+   },
+   {
+    "unitLevel": 100,
+    "xpGranted": 8702.0
+   },
+   {
+    "unitLevel": 110,
+    "xpGranted": 10507.0
+   },
+   {
+    "unitLevel": 120,
+    "xpGranted": 12482.0
+   },
+   {
+    "unitLevel": 130,
+    "xpGranted": 14627.0
+   }
+  ]
+ },
+ "heroXpGranted": {
+  "GrantHeroXP": "0",
+  "note": "0 = killing heroes grants no XP"
+ },
+ "armor": {
+  "DefenseArmor": 0.02,
+  "formula": "reduction = (k*armor)/(1 + k*armor)",
+  "retailDefault": 0.06,
+  "table": [
+   {
+    "armor": 0,
+    "reductionPct": 0.0,
+    "damageMultiplier": 1.0,
+    "effectiveHpMultiplier": 1.0
+   },
+   {
+    "armor": 50,
+    "reductionPct": 50.0,
+    "damageMultiplier": 0.5,
+    "effectiveHpMultiplier": 2.0
+   },
+   {
+    "armor": 100,
+    "reductionPct": 66.667,
+    "damageMultiplier": 0.333333,
+    "effectiveHpMultiplier": 3.0
+   },
+   {
+    "armor": 200,
+    "reductionPct": 80.0,
+    "damageMultiplier": 0.2,
+    "effectiveHpMultiplier": 5.0
+   },
+   {
+    "armor": 300,
+    "reductionPct": 85.714,
+    "damageMultiplier": 0.142857,
+    "effectiveHpMultiplier": 7.0
+   },
+   {
+    "armor": 500,
+    "reductionPct": 90.909,
+    "damageMultiplier": 0.090909,
+    "effectiveHpMultiplier": 11.0
+   },
+   {
+    "armor": 730,
+    "reductionPct": 93.59,
+    "damageMultiplier": 0.064103,
+    "effectiveHpMultiplier": 15.6
+   },
+   {
+    "armor": 750,
+    "reductionPct": 93.75,
+    "damageMultiplier": 0.0625,
+    "effectiveHpMultiplier": 16.0
+   },
+   {
+    "armor": 800,
+    "reductionPct": 94.118,
+    "damageMultiplier": 0.058824,
+    "effectiveHpMultiplier": 17.0
+   },
+   {
+    "armor": 850,
+    "reductionPct": 94.444,
+    "damageMultiplier": 0.055556,
+    "effectiveHpMultiplier": 18.0
+   },
+   {
+    "armor": 900,
+    "reductionPct": 94.737,
+    "damageMultiplier": 0.052632,
+    "effectiveHpMultiplier": 19.0
+   },
+   {
+    "armor": 1120,
+    "reductionPct": 95.726,
+    "damageMultiplier": 0.042735,
+    "effectiveHpMultiplier": 23.4
+   },
+   {
+    "armor": 1240,
+    "reductionPct": 96.124,
+    "damageMultiplier": 0.03876,
+    "effectiveHpMultiplier": 25.8
+   },
+   {
+    "armor": 1290,
+    "reductionPct": 96.269,
+    "damageMultiplier": 0.037313,
+    "effectiveHpMultiplier": 26.8
+   },
+   {
+    "armor": 1500,
+    "reductionPct": 96.774,
+    "damageMultiplier": 0.032258,
+    "effectiveHpMultiplier": 31.0
+   },
+   {
+    "armor": 2000,
+    "reductionPct": 97.561,
+    "damageMultiplier": 0.02439,
+    "effectiveHpMultiplier": 41.0
+   }
+  ]
+ },
+ "attributeBonusesDisabled": {
+  "StrHitPointBonus": "0.0",
+  "StrRegenBonus": "0.0",
+  "AgiDefenseBonus": "0.0",
+  "AgiDefenseBase": "0.0",
+  "AgiAttackSpeedBonus": "0.0",
+  "AgiMoveBonus": "0.0",
+  "IntManaBonus": "0.0",
+  "IntRegenBonus": "0.0"
+ },
+ "primaryAttributeAttackBonus": "3.0",
+ "damageBonusTable": {
+  "DamageBonusSpells": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",
+  "DamageBonusMagic": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",
+  "DamageBonusNormal": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",
+  "DamageBonusHero": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",
+  "DamageBonusPierce": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00",
+  "DamageBonusSiege": "1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00"
+ },
+ "misc": {
+  "ChanceToMiss": "0.0",
+  "MissDamageReduction": "0.2",
+  "MaxUnitSpeed": "500.0",
+  "MinUnitSpeed": "1.0",
+  "FrostAttackSpeedDecrease": "0.2",
+  "FrostMoveSpeedDecrease": "0.4",
+  "PickupItemRange": "300.0",
+  "GlobalExperience": "0"
+ }
+}

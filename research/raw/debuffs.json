@@ -1,0 +1,119 @@
+[
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "debufftype": "Armor Reduction",
+        "names": [
+            "Corruptor (Passive)",
+            "Anger (Passive) - 15%",
+            "Oblivion (Passive) - 15%",
+            "Desolation (Passive) - 15%",
+            "Chaos (Passive) - 15%",
+            "Heart of Ifrit (Passive) - 12%",
+            "Frost Web Brooch (Passive) - 12%",
+            "Fairy Robe - Fairy Fire (Active)",
+            "Horns of Destruction (Active)",
+            "Heaven's Fist (Passive) - 15%",
+            "Demonic Fist (Passive) - 15%"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "debufftype": "Armor Reduction",
+        "names": [
+            "Guardian of the Skies (Active) - 20%",
+            "Ruler of the Skies (Active) - 20%"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "None",
+        "debufftype": "Armor Reduction",
+        "names": [
+            "Martial Artist - Vacuum Palm (Passive) - 15%"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "debufftype": "Increased Magic Damage taken",
+        "names": [
+            "Staff of Souls (Active)",
+            "Hell Riser (Active)",
+            "Armageddon (Active)",
+            "Prelude to Demise (Active)",
+            "Eyes of the Watcher (Active)"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "debufftype": "Increased Magic Damage taken",
+        "names": [
+            "Ring of Composure (Passive)",
+            "Ring of Despair (Passive)",
+            "Cloak of the Fallen Shadows (Passive)",
+            "Cape of Deep Abyss (Passive)"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "None",
+        "debufftype": "Increased Magic Damage taken",
+        "names": [
+            "Soul Weaver - Astral Walk (Active)",
+            "Elementalist - Charge (Passive)",
+            "Berserker - Howling [W] (Active)"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "debufftype": "Increased Damage Taken",
+        "names": [
+            "Lancer - Pierce [Q]",
+            "Crusader - Empowered Strike of Honor [R] → [R] → [E]",
+            "Swordsman - Illusal Dance [T]",
+            "Alchemist - Rolling Golem [R] → [R] → [W]",
+            "Fighter - Chain Blow [E]"
+        ]
+    },
+    {
+        "type": "Type-B",
+        "suffix": "None",
+        "debufftype": "Increased Damage Taken",
+        "names": [
+            "Hades, the Armor of Despair [Passive]",
+            "Cage of Twisted Souls (4% [Passive], 8% [Active])"
+        ]
+    },
+    {
+        "type": "Type-C",
+        "suffix": "None",
+        "debufftype": "Increased Damage Taken",
+        "names": [
+            "Shooter - Distortion [R]",
+            "Paladin - Divine Cross [R]"
+        ]
+    },
+    {
+        "type": "Type-D",
+        "suffix": "None",
+        "debufftype": "Increased Damage Taken",
+        "names": [
+            "Soul Weaver - Unholy Blast [Q]"
+        ]
+    },
+    {
+        "type": "Type-A",
+        "suffix": "None",
+        "debufftype": "Reduced Healing Received",
+        "names": [
+            "Parasitic Staff (Active)",
+            "Staff of Plague (Active)",
+            "Merchant - Throw Money [R]",
+            "Sword Enchanter - Ultimate Enchant [F]"
+        ]
+    }
+]

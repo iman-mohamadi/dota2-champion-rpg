@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# never commit the copyrighted source material
+*.w3x
+*.w3m
+*.mpq
+war3map.j
+war3map.lua
+war3mapMisc.txt
+war3mapSkin.txt
+extracted_raw/
