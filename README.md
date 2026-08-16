@@ -39,11 +39,14 @@ Current state — **Phase 1**: the full content set now generates.
 | Classes (`npc_heroes_custom.txt` + `heroes.lua`) | 37 |
 | Gameplay constants (`constants.lua`) | exact XP curve + armour coefficient |
 | Buff/debuff slot table (`stacking.lua`) | 30 slots, 16 effect kinds, 99 sources |
+| Stat vocabulary (`stats.lua`) | 34 fields, cross-checked both ways against item usage |
 
 Systems layer (`scripts/vscripts/`): `core/damage.lua` (pipeline + armour formula),
 `core/stacking.lua` (Type-A/B/C/D slots), `systems/inventory.lua` (24+24 slots, overflow
-chain), `systems/crafting.lua` (486-recipe graph, Forge plans), `systems/loot.lua`
-(drop rolls, Wish pity, participant-gated chests).
+chain), `core/stats.lua` (base + allocation + equipment + effects → derived),
+`systems/crafting.lua` (486-recipe graph, Forge plans), `systems/loot.lua`
+(drop rolls, Wish pity, participant-gated chests), `systems/persistence.lua`
+(validated save/load over HTTP).
 
 Source validation: 0 errors, 8 warnings. Generated cross-references: all resolve.
 Build is byte-reproducible. See [`tools/build-content/README.md`](tools/build-content/README.md).

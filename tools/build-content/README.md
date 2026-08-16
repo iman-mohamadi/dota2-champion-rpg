@@ -21,6 +21,7 @@ python3 tools/build-content/test_systems.py  # systems-layer rules
 | `gen_abilities.py` | `npc_abilities_custom.txt` + `data/abilities.lua` for 372 hero skills |
 | `gen_heroes.py` | `npc_heroes_custom.txt`, `herolist.txt`, `data/heroes.lua` for 37 classes |
 | `gen_stacking.py` | `data/stacking.lua` — the Type-A/B/C/D slot table |
+| `gen_stats.py` | `data/stats.lua` — the 34-field stat vocabulary |
 | `build.py` | orchestrator |
 | `test_formulas.py` | asserts the maths against docs/05 |
 | `test_systems.py` | asserts the systems-layer rules (stacking, inventory, crafting, loot) |
@@ -45,6 +46,10 @@ python3 tools/build-content/test_systems.py  # systems-layer rules
 - **Sub-menu abilities** (98 of them, `[T] → [W]` style) are emitted HIDDEN and
   are not assigned KV ability slots. They get swapped in at runtime via
   `SwapAbilities`. No class exceeds Dota's 16 usable slots at the top level.
+- **Stat sign conventions are recorded, not assumed.** `drpercent` (Damage
+  Reduction) is better high; `dtpercent` (Damage Taken) is better *low* — Stone
+  Plates is −0.05, Mask of Blood is +0.06 as a drawback. `higherIsBetter` is a
+  per-field flag in `stats.lua`.
 
 ## Known gaps
 
@@ -52,6 +57,12 @@ python3 tools/build-content/test_systems.py  # systems-layer rules
   and every hero's `override_hero` donor is a provisional match by primary
   attribute only. Both need the Workshop Tools asset browser — a Windows session.
   Single constant in `gen_units.py`; one table in `gen_heroes.py`.
+- **How item percentages combine is an assumption.** `core/stats.lua` sums them
+  additively (two 5% skill-damage items give 10%). The source data does not say
+  either way. It is decided in exactly one function, `Stats:SumFraction`, so it
+  is a one-line change if in-game testing says otherwise.
+- **Persistence needs a JSON codec injected** (`Persistence.json`) and an
+  endpoint set. Saving is refused outright rather than silently sending nil.
 - Ability KV entries are **stubs**, all pointing at one placeholder script. The
   data entry next to each is the spec to implement it from; 324 carry the
   original handler name and 164 carry recovered coefficients.

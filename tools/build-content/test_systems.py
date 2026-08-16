@@ -239,11 +239,139 @@ def test_loot():
     check("bosses using the shared chest", n, 9)
 
 
+
+
+# ---------------------------------------------------------------- stats
+
+def test_stats():
+    print("\n== stat vocabulary ==")
+    import gen_stats
+    d = gen_stats.build()
+    check("stat fields", len(d["fields"]), 34)
+    check("fractions stored as 0.05 = 5%",
+          d["fields"]["skilldamagepercent"]["kind"], "fraction")
+    check("critmultiplier is a multiplier",
+          d["fields"]["critmultiplier"]["kind"], "multiplier")
+    check("damage is flat", d["fields"]["damage"]["kind"], "flat")
+    print("\n== sign conventions differ and are recorded, not assumed ==")
+    check("drpercent: higher is better", d["fields"]["drpercent"]["higherIsBetter"], True)
+    check("dtpercent: LOWER is better", d["fields"]["dtpercent"]["higherIsBetter"], False)
+    check("revivaltimepercent: LOWER is better",
+          d["fields"]["revivaltimepercent"]["higherIsBetter"], False)
+
+    print("\n== attribute rollup: allstat feeds all three, mainstat only primary ==")
+    items = {i["name"]: i for i in C.raw("items.json")}
+
+    def rollup(equip, primary):
+        attrs = {"str": 0, "agi": 0, "int": 0}
+        allstat = sum((items[e].get("stats") or {}).get("allstat", 0) for e in equip)
+        mainstat = sum((items[e].get("stats") or {}).get("mainstat", 0) for e in equip)
+        for f in attrs:
+            attrs[f] = sum((items[e].get("stats") or {}).get(f, 0) for e in equip) + allstat
+        attrs[primary] += mainstat
+        return attrs
+
+    a = rollup(["Anger"], "str")          # Anger: str 555
+    check("Anger gives STR 555", a["str"], 555)
+    check("Anger gives AGI 0", a["agi"], 0)
+
+    print("\n== attack damage = weapon damage + primary * 3.0 ==")
+    perpoint = C.extracted("curves.json")["primaryAttributeAttackBonus"]
+    check("StrAttackBonus", C.num(perpoint), 3.0)
+    dmg = items["Anger"]["stats"]["damage"] + 555 * 3.0
+    check("Anger alone: 6750 + 555*3", dmg, 6750 + 1665)
+
+    print("\n== levelling grants no stats, only points ==")
+    curves = C.extracted("curves.json")
+    zeroed = curves["attributeBonusesDisabled"]
+    check("all 8 stock attribute effects zeroed",
+          sum(1 for v in zeroed.values() if C.num(v) == 0.0), 8)
+
+
+# ---------------------------------------------------------- persistence
+
+MAX_LEVEL, TOTAL_POINTS, TOTAL_XP = 100, 697, 3951397
+
+
+def validate(save, known_items, known_heroes):
+    """Mirror of Persistence.Validate."""
+    if not isinstance(save, dict):
+        return False, "not a table"
+    if save.get("schema") != 1:
+        return False, "schema mismatch"
+    if save.get("hero") not in known_heroes:
+        return False, "unknown hero"
+    lvl = save.get("level")
+    if not isinstance(lvl, int) or lvl < 1 or lvl > MAX_LEVEL:
+        return False, "level out of range"
+    xp = save.get("xp", 0)
+    if xp < 0 or xp > TOTAL_XP:
+        return False, "xp out of range"
+    a = save.get("allocation")
+    if not isinstance(a, dict):
+        return False, "missing allocation"
+    spent = a.get("str", 0) + a.get("agi", 0) + a.get("int", 0)
+    if spent < 0 or spent > TOTAL_POINTS:
+        return False, "allocation over budget"
+    earned = int(TOTAL_POINTS / (MAX_LEVEL - 1) * (lvl - 1) + 0.0001)
+    if spent > earned:
+        return False, "more points than the level earns"
+    for cont in ("bag", "storage"):
+        for e in (save.get("inventory") or {}).get(cont, []):
+            if e["item"] not in known_items:
+                return False, "unknown item"
+            if not 1 <= e["count"] <= 5:
+                return False, "bad stack size"
+    return True, None
+
+
+def test_persistence():
+    print("\n== persistence: saves are rejected, never repaired ==")
+    items = {C.item_key(i["name"]) for i in C.raw("items.json")}
+    heroes = {C.hero_key(h["heroClass"]) for h in C.raw("heros.json")}
+    good = {
+        "schema": 1, "hero": C.hero_key("Berserker"), "level": 50, "xp": 270424,
+        "allocation": {"str": 300, "agi": 0, "int": 0},
+        "inventory": {"bag": [{"slot": 1, "item": C.item_key("Anger"), "count": 1}],
+                      "storage": [], "equipped": {}},
+    }
+    check("a valid save passes", validate(good, items, heroes)[0], True)
+
+    def bad(**over):
+        s = {k: (v.copy() if isinstance(v, dict) else v) for k, v in good.items()}
+        s.update(over)
+        return validate(s, items, heroes)[0]
+
+    check("wrong schema rejected", bad(schema=2), False)
+    check("unknown hero rejected", bad(hero="npc_dota_hero_twrpg_nonexistent"), False)
+    check("level 0 rejected", bad(level=0), False)
+    check("level 101 rejected", bad(level=101), False)
+    check("negative xp rejected", bad(xp=-1), False)
+    check("xp beyond cap rejected", bad(xp=TOTAL_XP + 1), False)
+    check("allocation over 697 rejected",
+          bad(allocation={"str": 700, "agi": 0, "int": 0}), False)
+    check("more points than the level earns rejected",
+          bad(level=2, allocation={"str": 600, "agi": 0, "int": 0}), False)
+    check("unknown item rejected",
+          bad(inventory={"bag": [{"slot": 1, "item": "item_twrpg_forged", "count": 1}],
+                         "storage": [], "equipped": {}}), False)
+    check("stack above the cap of 5 rejected",
+          bad(inventory={"bag": [{"slot": 1, "item": C.item_key("Anger"), "count": 99}],
+                         "storage": [], "equipped": {}}), False)
+
+    print("\n== the point budget is level-gated, not just capped ==")
+    per = TOTAL_POINTS / (MAX_LEVEL - 1)
+    check("level 100 earns the full budget", int(per * 99 + 0.0001), 697)
+    check("level 1 earns none", int(per * 0 + 0.0001), 0)
+
+
 def main():
     test_stacking()
     test_inventory()
     test_crafting()
     test_loot()
+    test_stats()
+    test_persistence()
     print("\n%s" % ("ALL PASS" if not FAILED else "%d FAILURES: %s" % (len(FAILED), FAILED)))
     return 1 if FAILED else 0
 
