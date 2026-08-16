@@ -123,6 +123,44 @@ def main():
         got = float(re.search(r"armor = ([0-9.\-]+)", blk.group(1)).group(1))
         check("%s armour" % name, got, C.num(bosses[name]["stats"]["armor"]))
 
+    print("\n== generated content counts match the source ==")
+    src_items = C.raw("items.json")
+    src_bosses = C.raw("bosses.json")
+    src_heroes = C.raw("heros.json")
+    src_skills = C.raw("skills.json")
+
+    def count_entries(path, indent="\t"):
+        """Top-level keys in a generated Lua table."""
+        txt = open(path, encoding="utf-8").read()
+        return len(re.findall(r"^%s[\w\[\]\"']+ = \{" % indent, txt, re.M))
+
+    check("items.lua entries", count_entries(C.DATA + "/items.lua"), len(src_items))
+    check("units.lua entries", count_entries(C.DATA + "/units.lua"), len(src_bosses))
+    check("heroes.lua entries", count_entries(C.DATA + "/heroes.lua"), len(src_heroes))
+    check("abilities.lua entries", count_entries(C.DATA + "/abilities.lua"), len(src_skills))
+    check("recipes", len([i for i in src_items if i.get("recipe")]), 486)
+
+    print("\n== item grade tiers match docs/00 §3.4 ==")
+    from collections import Counter
+    grades = Counter(i.get("grade", 0) for i in src_items)
+    for g, want, tier in [(1, 100, "Deltirama"), (2, 117, "Neptinos"), (3, 113, "Gnosis"),
+                          (4, 106, "Alteia"), (5, 94, "Arcana")]:
+        check("grade %d (%s)" % (g, tier), grades[g], want)
+
+    print("\n== ability keys are collision-free (class+name, not name) ==")
+    from gen_abilities import ability_id
+    keys = {ability_id(s["heroClass"], s["name"]) for s in src_skills}
+    check("distinct ability keys", len(keys), len(src_skills))
+
+    print("\n== equipment split ==")
+    import gen_items
+    equip = sum(1 for i in src_items if gen_items.normalise_type(i.get("type")) in gen_items.EQUIPMENT)
+    check("equippable items", equip, 576)
+    check("data-only items", len(src_items) - equip, 189)
+    check("'headwear' case variants normalised",
+          len({gen_items.normalise_type(i["type"]) for i in src_items
+               if i["type"].lower() == "headwear"}), 1)
+
     print("\n%s" % ("ALL PASS" if not FAILED else "%d FAILURES: %s" % (len(FAILED), FAILED)))
     return 1 if FAILED else 0
 

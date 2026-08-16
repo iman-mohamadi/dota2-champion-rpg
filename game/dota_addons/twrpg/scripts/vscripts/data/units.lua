@@ -2524,7 +2524,8 @@ local Units = {
 			"Armageddon",
 		},
 		minions = {
-			"npc_twrpg_soul_crystal",
+			"npc_twrpg_green_soul_crystal",
+			"npc_twrpg_purple_soul_crystal",
 			"npc_twrpg_gatekeeper_of_hell",
 			"npc_twrpg_cursed_spirit",
 			"npc_twrpg_hellspawn",

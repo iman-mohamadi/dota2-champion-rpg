@@ -25,6 +25,15 @@ ARMOR_TYPE_MAP = {"light": "Light", "medium": "Medium", "heavy": "Heavy",
                   "fort": "Fortified", "small": "Light", "large": "Heavy",
                   "hero": "Hero", "divine": "Divine", "none": "None"}
 
+# A boss's `minions` list can name a unit that does not exist under that exact
+# name. Only aliases verified against the data belong here.
+#   'Soul Crystal': Agareth's minion list uses the generic name, but the units
+#   are 'Green Soul Crystal' and 'Purple Soul Crystal', both of which are located
+#   "In the mini-game during the fight with Underlord Agareth".
+MINION_ALIASES = {
+    "Soul Crystal": ["Green Soul Crystal", "Purple Soul Crystal"],
+}
+
 
 def creep_xp(level, k):
     return k["A"] * level * level + k["B"] * level + k["C"]
@@ -32,6 +41,7 @@ def creep_xp(level, k):
 
 def build(constants):
     bosses = C.raw("bosses.json")
+    known_units = {b["name"] for b in bosses}
     items_by_id = {i["id"]: i["name"] for i in C.raw("items.json")}
     xp_k = constants["CREEP_XP"]
 
@@ -110,7 +120,19 @@ def build(constants):
         if b.get("spells"):
             entry["spells"] = b["spells"]
         if b.get("minions"):
-            entry["minions"] = [C.unit_key(m) for m in b["minions"]]
+            resolved, unresolved = [], []
+            for m in b["minions"]:
+                targets = MINION_ALIASES.get(m, [m])
+                for t in targets:
+                    if t in known_units:
+                        resolved.append(C.unit_key(t))
+                    else:
+                        unresolved.append(t)
+            if resolved:
+                entry["minions"] = resolved
+            # never silently drop: keep the raw name so it can be chased later
+            if unresolved:
+                entry["unresolvedMinions"] = unresolved
         if b.get("drops"):
             entry["drops"] = [C.item_key(items_by_id[d]) for d in b["drops"] if d in items_by_id]
         if b.get("empoweredStats"):

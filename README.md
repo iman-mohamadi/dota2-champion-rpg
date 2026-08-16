@@ -27,10 +27,19 @@ python3 tools/build-content/build.py         # validate + generate the Dota addo
 python3 tools/build-content/test_formulas.py # formula/constants regression tests
 ```
 
-Current state — **Phase 1 in progress**: reference validator (0 errors across 765 items /
-486 recipes), recovered constants installed as `data/constants.lua`, and all 147 monsters
-generated into `npc_units_custom.txt` + `data/units.lua`. Items, heroes and abilities are
-next. See [`tools/build-content/README.md`](tools/build-content/README.md).
+Current state — **Phase 1**: the full content set now generates.
+
+| Generated | Count |
+|---|---|
+| Monsters (`npc_units_custom.txt` + `units.lua`) | 147 (52 bosses) |
+| Items (`items.lua`), of which equippable in `npc_items_custom.txt` | 765 / 576 |
+| Recipes (`recipes.lua`) | 486 |
+| Hero abilities (`npc_abilities_custom.txt` + `abilities.lua`) | 372 (98 sub-menu) |
+| Classes (`npc_heroes_custom.txt` + `heroes.lua`) | 37 |
+| Gameplay constants (`constants.lua`) | exact XP curve + armour coefficient |
+
+Source validation: 0 errors, 8 warnings. Generated cross-references: all resolve.
+Build is byte-reproducible. See [`tools/build-content/README.md`](tools/build-content/README.md).
 
 ## Research data
 
