@@ -25,6 +25,7 @@ Warcraft III.
 ```bash
 python3 tools/build-content/build.py         # validate + generate the Dota addon content
 python3 tools/build-content/test_formulas.py # formula/constants regression tests
+python3 tools/build-content/test_systems.py  # systems-layer rule tests
 ```
 
 Current state — **Phase 1**: the full content set now generates.
@@ -37,6 +38,12 @@ Current state — **Phase 1**: the full content set now generates.
 | Hero abilities (`npc_abilities_custom.txt` + `abilities.lua`) | 372 (98 sub-menu) |
 | Classes (`npc_heroes_custom.txt` + `heroes.lua`) | 37 |
 | Gameplay constants (`constants.lua`) | exact XP curve + armour coefficient |
+| Buff/debuff slot table (`stacking.lua`) | 30 slots, 16 effect kinds, 99 sources |
+
+Systems layer (`scripts/vscripts/`): `core/damage.lua` (pipeline + armour formula),
+`core/stacking.lua` (Type-A/B/C/D slots), `systems/inventory.lua` (24+24 slots, overflow
+chain), `systems/crafting.lua` (486-recipe graph, Forge plans), `systems/loot.lua`
+(drop rolls, Wish pity, participant-gated chests).
 
 Source validation: 0 errors, 8 warnings. Generated cross-references: all resolve.
 Build is byte-reproducible. See [`tools/build-content/README.md`](tools/build-content/README.md).

@@ -3,9 +3,10 @@
 Turns the research dataset into Dota 2 addon content.
 
 ```bash
-python3 tools/build-content/build.py        # validate, then generate
-python3 tools/build-content/validate.py     # references only (CI gate)
+python3 tools/build-content/build.py         # validate, then generate
+python3 tools/build-content/validate.py      # references only (CI gate)
 python3 tools/build-content/test_formulas.py # formula + constants regression
+python3 tools/build-content/test_systems.py  # systems-layer rules
 ```
 
 ## Layout
@@ -19,8 +20,10 @@ python3 tools/build-content/test_formulas.py # formula + constants regression
 | `gen_items.py` | `npc_items_custom.txt` (576 equippable) + `data/items.lua` (765) + `data/recipes.lua` (486) |
 | `gen_abilities.py` | `npc_abilities_custom.txt` + `data/abilities.lua` for 372 hero skills |
 | `gen_heroes.py` | `npc_heroes_custom.txt`, `herolist.txt`, `data/heroes.lua` for 37 classes |
+| `gen_stacking.py` | `data/stacking.lua` — the Type-A/B/C/D slot table |
 | `build.py` | orchestrator |
 | `test_formulas.py` | asserts the maths against docs/05 |
+| `test_systems.py` | asserts the systems-layer rules (stacking, inventory, crafting, loot) |
 
 ## Rules
 

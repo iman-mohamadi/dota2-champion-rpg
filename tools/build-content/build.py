@@ -20,6 +20,7 @@ import gen_units            # noqa: E402
 import gen_items            # noqa: E402
 import gen_abilities        # noqa: E402
 import gen_heroes           # noqa: E402
+import gen_stacking         # noqa: E402
 
 
 def cross_check(units, items, recipes, abilities, heroes):
@@ -82,6 +83,10 @@ def main():
 
     hkv, heroes = gen_heroes.build(consts)
     print("  npc_heroes_custom.txt  %d classes" % len(hkv))
+
+    stacking = gen_stacking.build()
+    print("  stacking.lua           %d slots over %d effect kinds, %d sources"
+          % (len(stacking["slots"]), len(stacking["byKind"]), len(stacking["bySource"])))
 
     print("\n== cross-checking generated set ==")
     errors = cross_check(units, items, recipes, abilities, heroes)
