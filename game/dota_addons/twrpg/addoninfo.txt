@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"TeamCount"			"2"
+	"maxplayers"			"10"
+	"IsPlayableMap"			"1"
+	"IsHeroSelectionEnabled"	"1"
+	"IsPregameLaneSelectionEnabled"	"0"
+	"UseCustomHeroMaxLevel"		"1"
+	"CustomHeroMaxLevel"		"100"
+}

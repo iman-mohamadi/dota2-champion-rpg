@@ -20,6 +20,18 @@ Warcraft III.
 | [`docs/07-PLATFORM-DECISION.md`](docs/07-PLATFORM-DECISION.md) | Dota 2 custom game vs standalone: effort, cost, and the one blocker that decided it |
 | [`docs/08-DOTA2-IMPLEMENTATION-PLAN.md`](docs/08-DOTA2-IMPLEMENTATION-PLAN.md) | **The active build plan** — concept mapping, friction points, revised roadmap |
 
+## Build
+
+```bash
+python3 tools/build-content/build.py         # validate + generate the Dota addon content
+python3 tools/build-content/test_formulas.py # formula/constants regression tests
+```
+
+Current state — **Phase 1 in progress**: reference validator (0 errors across 765 items /
+486 recipes), recovered constants installed as `data/constants.lua`, and all 147 monsters
+generated into `npc_units_custom.txt` + `data/units.lua`. Items, heroes and abilities are
+next. See [`tools/build-content/README.md`](tools/build-content/README.md).
+
 ## Research data
 
 `research/raw/` — the vendored community dataset (read-only):
