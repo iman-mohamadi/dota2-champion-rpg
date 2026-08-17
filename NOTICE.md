@@ -24,17 +24,30 @@ boss names and systems described are theirs.
 
 ## 3. Third-party data vendored in `research/raw/`
 
-| Source | Contents | Licence |
-|---|---|---|
-| [sfarmani/twrpg-info](https://github.com/sfarmani/twrpg-info) (TWRPG-BOT) | items, bosses, heroes, skills, buffs/debuffs, builds, changelog | **none stated** |
-| [alecpayos/twrpg-guidebook](https://github.com/alecpayos/twrpg-guidebook) | stat vocabulary, grade tier names (`*.ts`) | **none stated** |
-| [TWRPG Wiki (Miraheze)](https://twrpg.miraheze.org/) | page-title index only | see wiki |
+Per-file provenance, and why each source matters:
+**[`research/raw/PROVENANCE.md`](research/raw/PROVENANCE.md)**.
+
+| Source | Author | Contents | Licence |
+|---|---|---|---|
+| [sfarmani/twrpg-info](https://github.com/sfarmani/twrpg-info) (TWRPG-BOT) | **sfarmani / RockLeeNBU ("Rock Lee")** | 765 items, 147 monsters, 37 heroes, 652 abilities, 486 recipes, 381 patch changelogs, the buff/debuff stacking tables | **none stated** |
+| [alecpayos/twrpg-guidebook](https://github.com/alecpayos/twrpg-guidebook) | **alecpayos** | the 34-field stat vocabulary and the grade tier names (Deltirama…Arcana) | **none stated** |
+| [TWRPG Wiki (Miraheze)](https://twrpg.miraheze.org/) | wiki contributors | page-title index only, no article text | see wiki |
+
+**sfarmani's dataset is the backbone of this entire project.** Every generated item, monster,
+ability and recipe is read from it. The stacking-slot tables document a mechanic recorded
+nowhere else, and the changelog is the only surviving record of how TWRPG's systems evolved.
+alecpayos's two small files are the only source naming the item grade tiers.
 
 > **Neither upstream repository states a licence.** Under GitHub's terms that means
-> *all rights reserved* — public availability is not permission to redistribute. These files
-> are mirrored here in good faith for a non-commercial fan project, with attribution. **If you
-> are a maintainer of either project and want them removed, open an issue and they will be
-> removed immediately.**
+> *all rights reserved* — public availability is not permission to redistribute.
+>
+> **Attribution is not a licence, and this project does not pretend otherwise.** Crediting
+> these authors is the right thing to do, but it does not by itself make the mirror
+> authorised. **Permission has not yet been granted.** Maintainers have been contacted; until
+> someone says yes, these files are here on good faith alone.
+>
+> **If you are a maintainer of any source above and want your work removed, open an issue or
+> contact the repository owner — it will be removed promptly and without argument.**
 >
 > If you are reusing this repository, do not assume you have the right to redistribute
 > `research/raw/`. Fetch it from the upstream sources instead.

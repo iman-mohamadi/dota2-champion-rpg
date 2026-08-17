@@ -136,10 +136,17 @@ Warcraft III is © Blizzard Entertainment; Dota 2 and Source 2 are © Valve. Thi
 unaffiliated, **non-commercial fan tribute** — the Dota Workshop licence is non-commercial by
 definition.
 
-The dataset in `research/raw/` comes from [sfarmani/twrpg-info](https://github.com/sfarmani/twrpg-info)
-(TWRPG-BOT), with supporting material from [alecpayos/twrpg-guidebook](https://github.com/alecpayos/twrpg-guidebook)
-and the [TWRPG Wiki](https://twrpg.miraheze.org/wiki/Main_Page). **Neither upstream repo states
-a licence**, so it is mirrored in good faith with attribution, not under any granted right.
+The dataset in `research/raw/` is the work of **[sfarmani](https://github.com/sfarmani)**
+(*RockLeeNBU* / "Rock Lee"), author of [twrpg-info](https://github.com/sfarmani/twrpg-info)
+and TWRPG-BOT — **it is the backbone of this entire project**, and every generated item,
+monster, ability and recipe is read from it. Supporting material from
+**[alecpayos](https://github.com/alecpayos)** ([twrpg-guidebook](https://github.com/alecpayos/twrpg-guidebook)),
+whose two small files are the only source naming the item grade tiers, and the
+[TWRPG Wiki](https://twrpg.miraheze.org/wiki/Main_Page).
+
+**Neither upstream repo states a licence**, so both are mirrored in good faith with
+attribution — *not* under any granted right. Attribution is not a licence; permission has not
+yet been granted. Per-file provenance: **[`research/raw/PROVENANCE.md`](research/raw/PROVENANCE.md)**.
 
 The map file, its script and all art/assets are **deliberately not included** — only derived
 factual data, reproducible via `tools/extract-w3x/`.
