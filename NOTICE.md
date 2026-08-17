@@ -7,8 +7,8 @@ game code yet. Please read this before reusing anything here.
 
 ## 1. What this project is
 
-A plan to rebuild **The World RPG (TWRPG)** — a Warcraft III custom map — as a **Dota 2 custom
-game**. The Dota Workshop licence is *strictly non-commercial*, and this project is
+**ChampionRPG** rebuilds **The World RPG (TWRPG)** — a Warcraft III custom map — as a
+**Dota 2 custom game**. The Dota Workshop licence is *strictly non-commercial*, and this project is
 non-commercial by construction. It is a tribute, not a product, and not affiliated with or
 endorsed by any rightsholder below.
 

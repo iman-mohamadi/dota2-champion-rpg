@@ -1,4 +1,4 @@
-# TWRPG Standalone — Game Design Specification
+# ChampionRPG — Game Design Specification
 
 The game we are building: a standalone co-op raid/farm ARPG that reproduces The World RPG's
 systems and content without Warcraft III.

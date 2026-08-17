@@ -3,7 +3,7 @@
 
 "DOTAAbilities"
 {
-	"twrpg_sniper_emergency_rations"
+	"championrpg_sniper_emergency_rations"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -15,7 +15,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_storm_shaft"
+	"championrpg_sniper_storm_shaft"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -27,7 +27,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_glide"
+	"championrpg_sniper_glide"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -39,7 +39,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_storm_aegis"
+	"championrpg_sniper_storm_aegis"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -51,7 +51,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_explosive_shot"
+	"championrpg_sniper_explosive_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -63,7 +63,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_snipe"
+	"championrpg_sniper_snipe"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -75,7 +75,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sniper_demolition"
+	"championrpg_sniper_demolition"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -87,7 +87,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_soul_collector"
+	"championrpg_soul_weaver_soul_collector"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -99,7 +99,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_harvest"
+	"championrpg_soul_weaver_harvest"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -111,7 +111,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_unholy_blast"
+	"championrpg_soul_weaver_unholy_blast"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -123,7 +123,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_soul_materia"
+	"championrpg_soul_weaver_soul_materia"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -135,7 +135,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_soul_transfer"
+	"championrpg_soul_weaver_soul_transfer"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -147,7 +147,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_astral_walk"
+	"championrpg_soul_weaver_astral_walk"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -159,7 +159,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_soul_cradle"
+	"championrpg_soul_weaver_soul_cradle"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -171,7 +171,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_soul_weaver_infinite_void"
+	"championrpg_soul_weaver_infinite_void"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -183,7 +183,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_infusion"
+	"championrpg_alchemist_infusion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -195,7 +195,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_conjure_fire"
+	"championrpg_alchemist_conjure_fire"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -207,7 +207,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_blaze"
+	"championrpg_alchemist_blaze"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -219,7 +219,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_magma_explosion"
+	"championrpg_alchemist_magma_explosion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -231,7 +231,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_flamer"
+	"championrpg_alchemist_flamer"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -243,7 +243,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_boulder_strike"
+	"championrpg_alchemist_boulder_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -255,7 +255,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_conjure_water"
+	"championrpg_alchemist_conjure_water"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -267,7 +267,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_water_bomb"
+	"championrpg_alchemist_water_bomb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -279,7 +279,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_water_stream"
+	"championrpg_alchemist_water_stream"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -291,7 +291,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_icicle_transmutation"
+	"championrpg_alchemist_icicle_transmutation"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -303,7 +303,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_healing_rain"
+	"championrpg_alchemist_healing_rain"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -315,7 +315,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_conjure_air"
+	"championrpg_alchemist_conjure_air"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -327,7 +327,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_burning_hand"
+	"championrpg_alchemist_burning_hand"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -339,7 +339,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_eye_of_the_storm"
+	"championrpg_alchemist_eye_of_the_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -351,7 +351,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_wind_blast"
+	"championrpg_alchemist_wind_blast"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -363,7 +363,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_rock_storm"
+	"championrpg_alchemist_rock_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -375,7 +375,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_conjure_earth"
+	"championrpg_alchemist_conjure_earth"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -387,7 +387,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_conjure_cannon"
+	"championrpg_alchemist_conjure_cannon"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -399,7 +399,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_potion_transmutation"
+	"championrpg_alchemist_potion_transmutation"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -411,7 +411,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_ground_collapse"
+	"championrpg_alchemist_ground_collapse"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -423,7 +423,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_stone_golem"
+	"championrpg_alchemist_stone_golem"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -435,7 +435,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_earth_protection"
+	"championrpg_alchemist_earth_protection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -447,7 +447,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_recall"
+	"championrpg_alchemist_recall"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -459,7 +459,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_taunt"
+	"championrpg_alchemist_taunt"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -471,7 +471,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_rolling_golem"
+	"championrpg_alchemist_rolling_golem"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -483,7 +483,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_power_slam"
+	"championrpg_alchemist_power_slam"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -495,7 +495,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_philosophers_stone"
+	"championrpg_alchemist_philosophers_stone"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -507,7 +507,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_gate_of_truth"
+	"championrpg_alchemist_gate_of_truth"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -519,7 +519,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_alchemist_obtain_truth"
+	"championrpg_alchemist_obtain_truth"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -531,7 +531,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_dark_whisper"
+	"championrpg_warlock_dark_whisper"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -543,7 +543,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_crucifixion"
+	"championrpg_warlock_crucifixion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -555,7 +555,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_dimension_collapse"
+	"championrpg_warlock_dimension_collapse"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -567,7 +567,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_vengeance"
+	"championrpg_warlock_vengeance"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -579,7 +579,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_soul_grimoire"
+	"championrpg_warlock_soul_grimoire"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -591,7 +591,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_demonic_fury"
+	"championrpg_warlock_demonic_fury"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -603,7 +603,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_hunger"
+	"championrpg_warlock_hunger"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -615,7 +615,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_flames_of_ruin"
+	"championrpg_warlock_flames_of_ruin"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -627,7 +627,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_destruction"
+	"championrpg_warlock_destruction"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -639,7 +639,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_leap_of_execution"
+	"championrpg_warlock_leap_of_execution"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -651,7 +651,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_soul_offering"
+	"championrpg_warlock_soul_offering"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -663,7 +663,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_warlock_apocalypse"
+	"championrpg_warlock_apocalypse"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -675,7 +675,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_blood_mastery"
+	"championrpg_blood_weaver_blood_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -687,7 +687,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_blood_claw"
+	"championrpg_blood_weaver_blood_claw"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -699,7 +699,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_rose_dance"
+	"championrpg_blood_weaver_rose_dance"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -711,7 +711,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_life_drain"
+	"championrpg_blood_weaver_life_drain"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -723,7 +723,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_blood_boil"
+	"championrpg_blood_weaver_blood_boil"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -735,7 +735,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_crimson_pillar"
+	"championrpg_blood_weaver_crimson_pillar"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -747,7 +747,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blood_weaver_sacrifice"
+	"championrpg_blood_weaver_sacrifice"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -759,7 +759,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_flame_mastery"
+	"championrpg_fire_mage_flame_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -771,7 +771,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_fireball"
+	"championrpg_fire_mage_fireball"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -783,7 +783,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_flame_spirit"
+	"championrpg_fire_mage_flame_spirit"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -795,7 +795,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_flame_nova"
+	"championrpg_fire_mage_flame_nova"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -807,7 +807,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_flame_combustion"
+	"championrpg_fire_mage_flame_combustion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -819,7 +819,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_meteor_fragment"
+	"championrpg_fire_mage_meteor_fragment"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -831,7 +831,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fire_mage_meteor_strike"
+	"championrpg_fire_mage_meteor_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -843,7 +843,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_probe"
+	"championrpg_shooter_probe"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -855,7 +855,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_twin_star"
+	"championrpg_shooter_twin_star"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -867,7 +867,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_water_bullet"
+	"championrpg_shooter_water_bullet"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -879,7 +879,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_nanomachine_injection"
+	"championrpg_shooter_nanomachine_injection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -891,7 +891,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_break_shot"
+	"championrpg_shooter_break_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -903,7 +903,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_distortion"
+	"championrpg_shooter_distortion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -915,7 +915,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_stardust_rain"
+	"championrpg_shooter_stardust_rain"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -927,7 +927,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shooter_comet_storm"
+	"championrpg_shooter_comet_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -939,7 +939,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_sword_enchant"
+	"championrpg_sword_enchanter_sword_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -951,7 +951,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_weapon_enchant"
+	"championrpg_sword_enchanter_weapon_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -963,7 +963,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_speed_enchant"
+	"championrpg_sword_enchanter_speed_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -975,7 +975,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_power_enchant"
+	"championrpg_sword_enchanter_power_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -987,7 +987,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_guard_enchant"
+	"championrpg_sword_enchanter_guard_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -999,7 +999,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_enchant_mastery"
+	"championrpg_sword_enchanter_enchant_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1011,7 +1011,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_speed_enchant_allies_only"
+	"championrpg_sword_enchanter_speed_enchant_allies_only"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1023,7 +1023,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_power_enchant_allies_only"
+	"championrpg_sword_enchanter_power_enchant_allies_only"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1035,7 +1035,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_guard_enchant_allies_only"
+	"championrpg_sword_enchanter_guard_enchant_allies_only"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1047,7 +1047,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_enchanter_ultimate_enchant"
+	"championrpg_sword_enchanter_ultimate_enchant"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1059,7 +1059,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_beyond_the_horizon"
+	"championrpg_gunner_beyond_the_horizon"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1071,7 +1071,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_tumble"
+	"championrpg_gunner_tumble"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1083,7 +1083,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_outlaw"
+	"championrpg_gunner_outlaw"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1095,7 +1095,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_he_bomb"
+	"championrpg_gunner_he_bomb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1107,7 +1107,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_fanning"
+	"championrpg_gunner_fanning"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1119,7 +1119,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_bullet_time"
+	"championrpg_gunner_bullet_time"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1131,7 +1131,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_gunner_deadeye"
+	"championrpg_gunner_deadeye"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1143,7 +1143,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_quick_draw"
+	"championrpg_swordsman_quick_draw"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1155,7 +1155,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_rising_dragon_strike"
+	"championrpg_swordsman_rising_dragon_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1167,7 +1167,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_slice"
+	"championrpg_swordsman_slice"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1179,7 +1179,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_crescent_slash"
+	"championrpg_swordsman_crescent_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1191,7 +1191,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_wind_slash"
+	"championrpg_swordsman_wind_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1203,7 +1203,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_sword_storm"
+	"championrpg_swordsman_sword_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1215,7 +1215,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_flash_step"
+	"championrpg_swordsman_flash_step"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1227,7 +1227,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_sword_of_illusion"
+	"championrpg_swordsman_sword_of_illusion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1239,7 +1239,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_illusal_dance"
+	"championrpg_swordsman_illusal_dance"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1251,7 +1251,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_swordsman_genocide_storm"
+	"championrpg_swordsman_genocide_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1263,7 +1263,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_wind_blessing"
+	"championrpg_elementalist_wind_blessing"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1275,7 +1275,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_seal_of_flame"
+	"championrpg_elementalist_seal_of_flame"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1287,7 +1287,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_flame_release"
+	"championrpg_elementalist_flame_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1299,7 +1299,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_explosion"
+	"championrpg_elementalist_explosion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1311,7 +1311,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_burning_reach"
+	"championrpg_elementalist_burning_reach"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1323,7 +1323,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_fervor"
+	"championrpg_elementalist_fervor"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1335,7 +1335,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_seal_of_water"
+	"championrpg_elementalist_seal_of_water"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1347,7 +1347,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_water_release"
+	"championrpg_elementalist_water_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1359,7 +1359,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_purify"
+	"championrpg_elementalist_purify"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1371,7 +1371,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_water_bolt"
+	"championrpg_elementalist_water_bolt"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1383,7 +1383,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_refreshing_water"
+	"championrpg_elementalist_refreshing_water"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1395,7 +1395,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_seal_of_lightning"
+	"championrpg_elementalist_seal_of_lightning"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1407,7 +1407,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_lightning_release"
+	"championrpg_elementalist_lightning_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1419,7 +1419,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_lightning_beam"
+	"championrpg_elementalist_lightning_beam"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1431,7 +1431,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_shock"
+	"championrpg_elementalist_shock"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1443,7 +1443,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_electric_charge"
+	"championrpg_elementalist_electric_charge"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1455,7 +1455,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_seal_of_earth"
+	"championrpg_elementalist_seal_of_earth"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1467,7 +1467,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_earth_release"
+	"championrpg_elementalist_earth_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1479,7 +1479,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_earthen_link"
+	"championrpg_elementalist_earthen_link"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1491,7 +1491,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_earthen_pulse"
+	"championrpg_elementalist_earthen_pulse"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1503,7 +1503,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_earthen_protection"
+	"championrpg_elementalist_earthen_protection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1515,7 +1515,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_elemental_link"
+	"championrpg_elementalist_elemental_link"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1527,7 +1527,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_elemental_link_disable"
+	"championrpg_elementalist_elemental_link_disable"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1539,7 +1539,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_seal_of_chaos"
+	"championrpg_elementalist_seal_of_chaos"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1551,7 +1551,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_abyss_walk"
+	"championrpg_elementalist_abyss_walk"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1563,7 +1563,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_collapse_dimension"
+	"championrpg_elementalist_collapse_dimension"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1575,7 +1575,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_eye_of_chaos"
+	"championrpg_elementalist_eye_of_chaos"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1587,7 +1587,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_dark_reach"
+	"championrpg_elementalist_dark_reach"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1599,7 +1599,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_elementalist_power_of_chaos"
+	"championrpg_elementalist_power_of_chaos"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1611,7 +1611,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_short_circuit"
+	"championrpg_lightning_mage_short_circuit"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1623,7 +1623,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_lightning_bolt"
+	"championrpg_lightning_mage_lightning_bolt"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1635,7 +1635,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_static_sweep"
+	"championrpg_lightning_mage_static_sweep"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1647,7 +1647,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_breaker"
+	"championrpg_lightning_mage_breaker"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1659,7 +1659,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_static_burst"
+	"championrpg_lightning_mage_static_burst"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1671,7 +1671,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_discharge"
+	"championrpg_lightning_mage_discharge"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1683,7 +1683,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_lightning_strike"
+	"championrpg_lightning_mage_lightning_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1695,7 +1695,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_hypercharge"
+	"championrpg_lightning_mage_hypercharge"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1707,7 +1707,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightning_mage_lightning_blade"
+	"championrpg_lightning_mage_lightning_blade"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1719,7 +1719,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_execution_sword"
+	"championrpg_crusader_execution_sword"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1731,7 +1731,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_remains_of_rage"
+	"championrpg_crusader_remains_of_rage"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1743,7 +1743,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_flash_of_immortality"
+	"championrpg_crusader_flash_of_immortality"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1755,7 +1755,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_strike_of_honor"
+	"championrpg_crusader_strike_of_honor"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1767,7 +1767,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_1st_sword_dance_strike"
+	"championrpg_crusader_1st_sword_dance_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1779,7 +1779,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_2nd_sword_dance_sword"
+	"championrpg_crusader_2nd_sword_dance_sword"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1791,7 +1791,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_max_amplification_execution_sword"
+	"championrpg_crusader_max_amplification_execution_sword"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1803,7 +1803,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_crusader_original_sin"
+	"championrpg_crusader_original_sin"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1815,7 +1815,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_martial_movement"
+	"championrpg_martial_artist_martial_movement"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1827,7 +1827,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_emperors_strikes"
+	"championrpg_martial_artist_emperors_strikes"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1839,7 +1839,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_eight_palm_strike"
+	"championrpg_martial_artist_eight_palm_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1851,7 +1851,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_vacuum_palm"
+	"championrpg_martial_artist_vacuum_palm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1863,7 +1863,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_inner_meditation"
+	"championrpg_martial_artist_inner_meditation"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1875,7 +1875,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_heavenly_emperors_strikes"
+	"championrpg_martial_artist_heavenly_emperors_strikes"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1887,7 +1887,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_martial_artist_nameless_arts"
+	"championrpg_martial_artist_nameless_arts"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1899,7 +1899,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_oriental_spear_mastery"
+	"championrpg_lancer_oriental_spear_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1911,7 +1911,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_pierce"
+	"championrpg_lancer_pierce"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1923,7 +1923,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_flash_strike"
+	"championrpg_lancer_flash_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1935,7 +1935,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_nerve_strike"
+	"championrpg_lancer_nerve_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1947,7 +1947,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_battle_recovery"
+	"championrpg_lancer_battle_recovery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1959,7 +1959,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_meteor_spear"
+	"championrpg_lancer_meteor_spear"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1971,7 +1971,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lancer_dragon_slam"
+	"championrpg_lancer_dragon_slam"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1983,7 +1983,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_scythe_mastery"
+	"championrpg_reaper_scythe_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -1995,7 +1995,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_whirl_of_death"
+	"championrpg_reaper_whirl_of_death"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2007,7 +2007,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_consecutive_strikes"
+	"championrpg_reaper_consecutive_strikes"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2019,7 +2019,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_deaths_dash"
+	"championrpg_reaper_deaths_dash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2031,7 +2031,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_deaths_slash"
+	"championrpg_reaper_deaths_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2043,7 +2043,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_extreme_focus"
+	"championrpg_reaper_extreme_focus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2055,7 +2055,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_reaper_death_mark"
+	"championrpg_reaper_death_mark"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2067,7 +2067,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_dark_shroud"
+	"championrpg_assassin_dark_shroud"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2079,7 +2079,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_shadow_slash"
+	"championrpg_assassin_shadow_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2091,7 +2091,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_ambush"
+	"championrpg_assassin_ambush"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2103,7 +2103,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_shadow_walk"
+	"championrpg_assassin_shadow_walk"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2115,7 +2115,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_smoke_bomb"
+	"championrpg_assassin_smoke_bomb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2127,7 +2127,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_shadow_rush"
+	"championrpg_assassin_shadow_rush"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2139,7 +2139,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_assassin_night_fury"
+	"championrpg_assassin_night_fury"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2151,7 +2151,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_feather_of_aeolus"
+	"championrpg_wind_mage_feather_of_aeolus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2163,7 +2163,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_blessing_of_zephyrus"
+	"championrpg_wind_mage_blessing_of_zephyrus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2175,7 +2175,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_arrow_of_zephyrus"
+	"championrpg_wind_mage_arrow_of_zephyrus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2187,7 +2187,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_gentle_winds"
+	"championrpg_wind_mage_gentle_winds"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2199,7 +2199,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_mirror_of_aeolus"
+	"championrpg_wind_mage_mirror_of_aeolus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2211,7 +2211,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_light_breeze"
+	"championrpg_wind_mage_light_breeze"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2223,7 +2223,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_horn_of_notus"
+	"championrpg_wind_mage_horn_of_notus"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2235,7 +2235,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_guardian_of_wind"
+	"championrpg_wind_mage_guardian_of_wind"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2247,7 +2247,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_wind_guardian"
+	"championrpg_wind_mage_wind_guardian"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2259,7 +2259,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_gift"
+	"championrpg_wind_mage_gift"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2271,7 +2271,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_anger"
+	"championrpg_wind_mage_anger"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2283,7 +2283,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_blessing_of_vayu"
+	"championrpg_wind_mage_blessing_of_vayu"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2295,7 +2295,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_wind_mage_judgment_of_vayu"
+	"championrpg_wind_mage_judgment_of_vayu"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2307,7 +2307,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_this_bag_isnt_a_decoration"
+	"championrpg_merchant_this_bag_isnt_a_decoration"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2319,7 +2319,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_this_bag_is_kinda_dangerous"
+	"championrpg_merchant_this_bag_is_kinda_dangerous"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2331,7 +2331,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_bag_slam"
+	"championrpg_merchant_bag_slam"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2343,7 +2343,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_throwing_healing_potion"
+	"championrpg_merchant_throwing_healing_potion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2355,7 +2355,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_throw_bomb"
+	"championrpg_merchant_throw_bomb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2367,7 +2367,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_life_shield_scroll"
+	"championrpg_merchant_life_shield_scroll"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2379,7 +2379,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_throw_money"
+	"championrpg_merchant_throw_money"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2391,7 +2391,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_devour"
+	"championrpg_merchant_devour"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2403,7 +2403,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_holy_water_of_resurrection"
+	"championrpg_merchant_holy_water_of_resurrection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2415,7 +2415,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_dangerous_explosive"
+	"championrpg_merchant_dangerous_explosive"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2427,7 +2427,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_cursed_doll"
+	"championrpg_merchant_cursed_doll"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2439,7 +2439,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_merchant_scroll_of_gods_blessing"
+	"championrpg_merchant_scroll_of_gods_blessing"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2451,7 +2451,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_fierce_strikes"
+	"championrpg_thunderer_fierce_strikes"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2463,7 +2463,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_three_talon_strike"
+	"championrpg_thunderer_three_talon_strike"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2475,7 +2475,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_magnetic_field"
+	"championrpg_thunderer_magnetic_field"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2487,7 +2487,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_lightning_rush"
+	"championrpg_thunderer_lightning_rush"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2499,7 +2499,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_thunder_shield"
+	"championrpg_thunderer_thunder_shield"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2511,7 +2511,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_heart_break"
+	"championrpg_thunderer_heart_break"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2523,7 +2523,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_thunderer_thunderfury"
+	"championrpg_thunderer_thunderfury"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2535,7 +2535,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_bloodbath"
+	"championrpg_berserker_bloodbath"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2547,7 +2547,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_brandish"
+	"championrpg_berserker_brandish"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2559,7 +2559,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_howling"
+	"championrpg_berserker_howling"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2571,7 +2571,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_blood_fury"
+	"championrpg_berserker_blood_fury"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2583,7 +2583,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_blade_rush"
+	"championrpg_berserker_blade_rush"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2595,7 +2595,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_berserk"
+	"championrpg_berserker_berserk"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2607,7 +2607,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_berserker_rabid_storm"
+	"championrpg_berserker_rabid_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2619,7 +2619,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_elven_arrow"
+	"championrpg_bow_master_elven_arrow"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2631,7 +2631,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_flame_shot"
+	"championrpg_bow_master_flame_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2643,7 +2643,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_freezing_shot"
+	"championrpg_bow_master_freezing_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2655,7 +2655,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_guardian_scout"
+	"championrpg_bow_master_guardian_scout"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2667,7 +2667,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_purestorm_shot"
+	"championrpg_bow_master_purestorm_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2679,7 +2679,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_arrow_rain"
+	"championrpg_bow_master_arrow_rain"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2691,7 +2691,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_heartseeker"
+	"championrpg_bow_master_heartseeker"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2703,7 +2703,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_bow_master_magic_ballista"
+	"championrpg_bow_master_magic_ballista"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2715,7 +2715,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_release_mana"
+	"championrpg_knight_release_mana"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2727,7 +2727,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_grand_sword"
+	"championrpg_knight_grand_sword"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2739,7 +2739,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_blitz"
+	"championrpg_knight_blitz"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2751,7 +2751,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_instincts"
+	"championrpg_knight_instincts"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2763,7 +2763,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_assault"
+	"championrpg_knight_assault"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2775,7 +2775,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_mana_blaster"
+	"championrpg_knight_mana_blaster"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2787,7 +2787,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_mana_blast"
+	"championrpg_knight_mana_blast"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2799,7 +2799,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_seal_of_mana"
+	"championrpg_knight_seal_of_mana"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2811,7 +2811,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_knight_excalibur"
+	"championrpg_knight_excalibur"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2823,7 +2823,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_dark_arts"
+	"championrpg_dark_knight_dark_arts"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2835,7 +2835,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_dark_advent"
+	"championrpg_dark_knight_dark_advent"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2847,7 +2847,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_abyssal_slam"
+	"championrpg_dark_knight_abyssal_slam"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2859,7 +2859,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_phantom_rush"
+	"championrpg_dark_knight_phantom_rush"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2871,7 +2871,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_soul_break"
+	"championrpg_dark_knight_soul_break"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2883,7 +2883,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_unholy_light"
+	"championrpg_dark_knight_unholy_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2895,7 +2895,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_hollow_impact"
+	"championrpg_dark_knight_hollow_impact"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2907,7 +2907,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_requiem"
+	"championrpg_dark_knight_requiem"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2919,7 +2919,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_dark_knight_hymn_of_death"
+	"championrpg_dark_knight_hymn_of_death"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2931,7 +2931,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_moonlight_link"
+	"championrpg_arcane_mage_moonlight_link"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2943,7 +2943,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_magic_star"
+	"championrpg_arcane_mage_magic_star"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2955,7 +2955,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_flash_storm"
+	"championrpg_arcane_mage_flash_storm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2967,7 +2967,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_gravity_field"
+	"championrpg_arcane_mage_gravity_field"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2979,7 +2979,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_illusion"
+	"championrpg_arcane_mage_illusion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -2991,7 +2991,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_barrage"
+	"championrpg_arcane_mage_barrage"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3003,7 +3003,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_starlight"
+	"championrpg_arcane_mage_starlight"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3015,7 +3015,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_arcane_mage_protection_of_stars"
+	"championrpg_arcane_mage_protection_of_stars"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3027,7 +3027,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_frozen_emotion"
+	"championrpg_water_mage_frozen_emotion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3039,7 +3039,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_ice_shard"
+	"championrpg_water_mage_ice_shard"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3051,7 +3051,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_frozen_burst"
+	"championrpg_water_mage_frozen_burst"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3063,7 +3063,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_tidal_riding"
+	"championrpg_water_mage_tidal_riding"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3075,7 +3075,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_frost_nova"
+	"championrpg_water_mage_frost_nova"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3087,7 +3087,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_glacier_orb"
+	"championrpg_water_mage_glacier_orb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3099,7 +3099,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_ice_age"
+	"championrpg_water_mage_ice_age"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3111,7 +3111,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_water_mage_shatter"
+	"championrpg_water_mage_shatter"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3123,7 +3123,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_heal"
+	"championrpg_priest_heal"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3135,7 +3135,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_holy_wave"
+	"championrpg_priest_holy_wave"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3147,7 +3147,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_divine_orb"
+	"championrpg_priest_divine_orb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3159,7 +3159,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_holy_aurora"
+	"championrpg_priest_holy_aurora"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3171,7 +3171,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_release_light"
+	"championrpg_priest_release_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3183,7 +3183,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_dark_aurora_lv_1"
+	"championrpg_priest_dark_aurora_lv_1"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3195,7 +3195,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_dark_aurora_lv_2"
+	"championrpg_priest_dark_aurora_lv_2"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3207,7 +3207,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_dark_aurora_lv_3"
+	"championrpg_priest_dark_aurora_lv_3"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3219,7 +3219,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_divine_light"
+	"championrpg_priest_divine_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3231,7 +3231,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_heavens_gate"
+	"championrpg_priest_heavens_gate"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3243,7 +3243,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_holy_power"
+	"championrpg_priest_holy_power"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3255,7 +3255,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_recall"
+	"championrpg_priest_recall"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3267,7 +3267,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_holy_light"
+	"championrpg_priest_holy_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3279,7 +3279,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_leap_of_faith"
+	"championrpg_priest_leap_of_faith"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3291,7 +3291,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_divine_blessing"
+	"championrpg_priest_divine_blessing"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3303,7 +3303,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_priest_heaven_field"
+	"championrpg_priest_heaven_field"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3315,7 +3315,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_holy_aura"
+	"championrpg_paladin_holy_aura"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3327,7 +3327,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_aura_of_retribution"
+	"championrpg_paladin_aura_of_retribution"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3339,7 +3339,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_aura_of_protection"
+	"championrpg_paladin_aura_of_protection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3351,7 +3351,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_aura_of_restoration"
+	"championrpg_paladin_aura_of_restoration"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3363,7 +3363,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_aura_of_awakening"
+	"championrpg_paladin_aura_of_awakening"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3375,7 +3375,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_holy_divide"
+	"championrpg_paladin_holy_divide"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3387,7 +3387,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_divine_spirit"
+	"championrpg_paladin_divine_spirit"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3399,7 +3399,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_holy_grace"
+	"championrpg_paladin_holy_grace"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3411,7 +3411,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_divine_cross"
+	"championrpg_paladin_divine_cross"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3423,7 +3423,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_divine_shield"
+	"championrpg_paladin_divine_shield"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3435,7 +3435,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_paladin_genesis"
+	"championrpg_paladin_genesis"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3447,7 +3447,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_slash"
+	"championrpg_phantom_blade_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3459,7 +3459,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_soul"
+	"championrpg_phantom_blade_soul"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3471,7 +3471,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_alacrity"
+	"championrpg_phantom_blade_alacrity"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3483,7 +3483,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_crescent"
+	"championrpg_phantom_blade_crescent"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3495,7 +3495,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_daze"
+	"championrpg_phantom_blade_daze"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3507,7 +3507,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_harmony"
+	"championrpg_phantom_blade_harmony"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3519,7 +3519,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_release"
+	"championrpg_phantom_blade_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3531,7 +3531,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_phantom_blade_obliterate"
+	"championrpg_phantom_blade_obliterate"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3543,7 +3543,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_perfect_harmony"
+	"championrpg_hermit_perfect_harmony"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3555,7 +3555,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_flowing_fist"
+	"championrpg_hermit_flowing_fist"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3567,7 +3567,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_restoration"
+	"championrpg_hermit_restoration"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3579,7 +3579,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_wind_walk"
+	"championrpg_hermit_wind_walk"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3591,7 +3591,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_orb_of_harmony"
+	"championrpg_hermit_orb_of_harmony"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3603,7 +3603,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_purge"
+	"championrpg_hermit_purge"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3615,7 +3615,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_inner_release"
+	"championrpg_hermit_inner_release"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3627,7 +3627,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_hermit_purify"
+	"championrpg_hermit_purify"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3639,7 +3639,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_magical_broom"
+	"championrpg_witch_magical_broom"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3651,7 +3651,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_death_bomb"
+	"championrpg_witch_death_bomb"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3663,7 +3663,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_star_shower"
+	"championrpg_witch_star_shower"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3675,7 +3675,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_mystical_cauldron"
+	"championrpg_witch_mystical_cauldron"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3687,7 +3687,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_hex"
+	"championrpg_witch_hex"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3699,7 +3699,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_hell_gate"
+	"championrpg_witch_hell_gate"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3711,7 +3711,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_recall"
+	"championrpg_witch_recall"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3723,7 +3723,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_fallen_power"
+	"championrpg_witch_fallen_power"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3735,7 +3735,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_arrow_of_destruction"
+	"championrpg_witch_arrow_of_destruction"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3747,7 +3747,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_mark_of_power"
+	"championrpg_witch_mark_of_power"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3759,7 +3759,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_unleash"
+	"championrpg_witch_unleash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3771,7 +3771,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_witch_death_field"
+	"championrpg_witch_death_field"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3783,7 +3783,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_combo_mastery"
+	"championrpg_fighter_combo_mastery"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3795,7 +3795,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_swing"
+	"championrpg_fighter_swing"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3807,7 +3807,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_skull_pounder"
+	"championrpg_fighter_skull_pounder"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3819,7 +3819,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_footwork"
+	"championrpg_fighter_footwork"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3831,7 +3831,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_chain_blow"
+	"championrpg_fighter_chain_blow"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3843,7 +3843,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_iron_body"
+	"championrpg_fighter_iron_body"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3855,7 +3855,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_dragon_fist"
+	"championrpg_fighter_dragon_fist"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3867,7 +3867,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_fighter_takedown"
+	"championrpg_fighter_takedown"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3879,7 +3879,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_fantasm"
+	"championrpg_trickster_fantasm"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3891,7 +3891,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_recall"
+	"championrpg_trickster_recall"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3903,7 +3903,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_hidden_fang"
+	"championrpg_trickster_hidden_fang"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3915,7 +3915,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_wonder_hand"
+	"championrpg_trickster_wonder_hand"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3927,7 +3927,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_devils_mirror"
+	"championrpg_trickster_devils_mirror"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3939,7 +3939,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_card_trick"
+	"championrpg_trickster_card_trick"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3951,7 +3951,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_retrieve_cards"
+	"championrpg_trickster_retrieve_cards"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3963,7 +3963,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_stage_finisher"
+	"championrpg_trickster_stage_finisher"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3975,7 +3975,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_trickster_sinister_trick"
+	"championrpg_trickster_sinister_trick"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3987,7 +3987,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_go_forth_meeko"
+	"championrpg_shrine_priestess_go_forth_meeko"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -3999,7 +3999,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_bullet_of_fire"
+	"championrpg_shrine_priestess_bullet_of_fire"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4011,7 +4011,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_spirit_of_flame"
+	"championrpg_shrine_priestess_spirit_of_flame"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4023,7 +4023,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_touch_of_grace"
+	"championrpg_shrine_priestess_touch_of_grace"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4035,7 +4035,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_shield_of_grace"
+	"championrpg_shrine_priestess_shield_of_grace"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4047,7 +4047,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_water_explosion"
+	"championrpg_shrine_priestess_water_explosion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4059,7 +4059,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_water_sphere"
+	"championrpg_shrine_priestess_water_sphere"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4071,7 +4071,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_water_pillar"
+	"championrpg_shrine_priestess_water_pillar"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4083,7 +4083,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_form_talismans"
+	"championrpg_shrine_priestess_form_talismans"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4095,7 +4095,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_water_dome"
+	"championrpg_shrine_priestess_water_dome"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4107,7 +4107,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_spirit_fusion"
+	"championrpg_shrine_priestess_spirit_fusion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4119,7 +4119,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_spirit_shift"
+	"championrpg_shrine_priestess_spirit_shift"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4131,7 +4131,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_fire_explosion"
+	"championrpg_shrine_priestess_fire_explosion"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4143,7 +4143,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_fire_sphere"
+	"championrpg_shrine_priestess_fire_sphere"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4155,7 +4155,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_fire_pillar"
+	"championrpg_shrine_priestess_fire_pillar"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4167,7 +4167,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_fire_dome"
+	"championrpg_shrine_priestess_fire_dome"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4179,7 +4179,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_shrine_priestess_dance_of_fire"
+	"championrpg_shrine_priestess_dance_of_fire"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4191,7 +4191,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_gather_light"
+	"championrpg_lightseeker_gather_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4203,7 +4203,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_light_dash"
+	"championrpg_lightseeker_light_dash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4215,7 +4215,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_converging_light"
+	"championrpg_lightseeker_converging_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4227,7 +4227,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_scatter_light"
+	"championrpg_lightseeker_scatter_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4239,7 +4239,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_resonance_of_light"
+	"championrpg_lightseeker_resonance_of_light"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4251,7 +4251,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_light_seeker"
+	"championrpg_lightseeker_light_seeker"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4263,7 +4263,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_enlightenment"
+	"championrpg_lightseeker_enlightenment"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4275,7 +4275,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_lightseeker_light_of_judgment"
+	"championrpg_lightseeker_light_of_judgment"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4287,7 +4287,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_heavy_tech"
+	"championrpg_blaster_heavy_tech"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4299,7 +4299,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_rapid_fire"
+	"championrpg_blaster_rapid_fire"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4311,7 +4311,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_steam_blast"
+	"championrpg_blaster_steam_blast"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4323,7 +4323,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_buster_shot"
+	"championrpg_blaster_buster_shot"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4335,7 +4335,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_mecha_call"
+	"championrpg_blaster_mecha_call"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4347,7 +4347,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_mecha_blast"
+	"championrpg_blaster_mecha_blast"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4359,7 +4359,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_homing_missile"
+	"championrpg_blaster_homing_missile"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4371,7 +4371,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_blaster_orbital_bombardment"
+	"championrpg_blaster_orbital_bombardment"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4383,7 +4383,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_comet_trail"
+	"championrpg_sword_saint_comet_trail"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4395,7 +4395,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_aura_blade"
+	"championrpg_sword_saint_aura_blade"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4407,7 +4407,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_flash_slash"
+	"championrpg_sword_saint_flash_slash"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4419,7 +4419,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_reflection"
+	"championrpg_sword_saint_reflection"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4431,7 +4431,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_starfall"
+	"championrpg_sword_saint_starfall"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4443,7 +4443,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_lunar_divide"
+	"championrpg_sword_saint_lunar_divide"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"
@@ -4455,7 +4455,7 @@
 		"AbilityType"			"DOTA_ABILITY_TYPE_BASIC"
 	}
 
-	"twrpg_sword_saint_twilight_reverie"
+	"championrpg_sword_saint_twilight_reverie"
 	{
 		"BaseClass"			"ability_lua"
 		"ScriptFile"			"abilities/placeholder_ability.lua"

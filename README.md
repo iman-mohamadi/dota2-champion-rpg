@@ -1,10 +1,12 @@
-# TWRPG Standalone
+# ChampionRPG
 
-A planned standalone reimplementation of **The World RPG (TWRPG)** — the Warcraft III custom
-map by Keekero, currently maintained by greenFruit — as a game that runs on its own, without
-Warcraft III.
+A **Dota 2 custom game** rebuilding **The World RPG (TWRPG)** — the Warcraft III custom map
+by Keekero, currently maintained by greenFruit — so it runs without Warcraft III.
 
-**Status: planning. No code written yet.**
+Non-commercial fan tribute. "TWRPG" throughout this repo refers to the *original* map;
+"ChampionRPG" is this project.
+
+**Status: content pipeline and systems layer built; nothing has run in-engine yet.**
 
 ## Read in this order
 

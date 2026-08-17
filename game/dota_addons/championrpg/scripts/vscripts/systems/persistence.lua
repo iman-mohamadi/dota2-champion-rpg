@@ -126,7 +126,7 @@ local function request(method, url, body, onDone)
     local req = CreateHTTPRequestScriptVM(method, url)
     -- lets the backend distinguish a real Valve-hosted match from a forged call
     if GetDedicatedServerKeyV2 then
-        req:SetHTTPRequestHeaderValue("X-Dedicated-Key", GetDedicatedServerKeyV2("twrpg"))
+        req:SetHTTPRequestHeaderValue("X-Dedicated-Key", GetDedicatedServerKeyV2("championrpg"))
     end
     req:SetHTTPRequestHeaderValue("Content-Type", "application/json")
     if body then
@@ -141,7 +141,7 @@ end
 function Persistence.Save(steamId, save, onDone)
     local ok, err = Persistence.Validate(save)
     if not ok then
-        print("[TWRPG] refusing to save malformed state: " .. tostring(err))
+        print("[ChampionRPG] refusing to save malformed state: " .. tostring(err))
         if onDone then onDone(false, err) end
         return
     end
@@ -172,7 +172,7 @@ function Persistence.Load(steamId, onDone)
             local valid, err = Persistence.Validate(decoded)
             if not valid then
                 -- A save that fails validation is discarded, never repaired.
-                print("[TWRPG] rejecting loaded save: " .. tostring(err))
+                print("[ChampionRPG] rejecting loaded save: " .. tostring(err))
                 onDone(false, err)
                 return
             end

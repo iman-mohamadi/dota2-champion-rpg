@@ -2,8 +2,8 @@
 -- Source: research/. Regenerate with: python3 tools/build-content/build.py
 
 local Encounters = {
-	npc_twrpg_silverback_wolf = {
-		unit = "npc_twrpg_silverback_wolf",
+	npc_championrpg_silverback_wolf = {
+		unit = "npc_championrpg_silverback_wolf",
 		displayName = "Silverback Wolf",
 		tier = "Creep",
 		level = 10,
@@ -39,13 +39,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_shadow_wolf" },
+		minionTypes = { "npc_championrpg_shadow_wolf" },
 		partyLimit = 1,
 		enrageTimer = 60,
 		bark = "Grr..",
 	},
-	npc_twrpg_troll_lord = {
-		unit = "npc_twrpg_troll_lord",
+	npc_championrpg_troll_lord = {
+		unit = "npc_championrpg_troll_lord",
 		displayName = "Troll Lord",
 		tier = "Creep",
 		level = 20,
@@ -84,8 +84,8 @@ local Encounters = {
 		partyLimit = 1,
 		enrageTimer = 90,
 	},
-	npc_twrpg_furbolg_giant = {
-		unit = "npc_twrpg_furbolg_giant",
+	npc_championrpg_furbolg_giant = {
+		unit = "npc_championrpg_furbolg_giant",
 		displayName = "Furbolg Giant",
 		tier = "Creep",
 		level = 29,
@@ -124,8 +124,8 @@ local Encounters = {
 		partyLimit = 1,
 		enrageTimer = 60,
 	},
-	npc_twrpg_protector_of_nature = {
-		unit = "npc_twrpg_protector_of_nature",
+	npc_championrpg_protector_of_nature = {
+		unit = "npc_championrpg_protector_of_nature",
 		displayName = "Protector of Nature",
 		tier = "Field",
 		level = 30,
@@ -164,8 +164,8 @@ local Encounters = {
 		partyLimit = 2,
 		bark = "The nature purges you!",
 	},
-	npc_twrpg_dragon_turtle = {
-		unit = "npc_twrpg_dragon_turtle",
+	npc_championrpg_dragon_turtle = {
+		unit = "npc_championrpg_dragon_turtle",
 		displayName = "Dragon Turtle",
 		tier = "Creep",
 		level = 45,
@@ -204,8 +204,8 @@ local Encounters = {
 		partyLimit = 1,
 		enrageTimer = 120,
 	},
-	npc_twrpg_king_crab = {
-		unit = "npc_twrpg_king_crab",
+	npc_championrpg_king_crab = {
+		unit = "npc_championrpg_king_crab",
 		displayName = "King Crab",
 		tier = "Field",
 		level = 40,
@@ -244,8 +244,8 @@ local Encounters = {
 		partyLimit = 1,
 		bark = "MRGLMRGL",
 	},
-	npc_twrpg_walrus = {
-		unit = "npc_twrpg_walrus",
+	npc_championrpg_walrus = {
+		unit = "npc_championrpg_walrus",
 		displayName = "Walrus",
 		tier = "Field",
 		level = 40,
@@ -284,8 +284,8 @@ local Encounters = {
 		partyLimit = 1,
 		bark = "It's slippery..",
 	},
-	npc_twrpg_polar_bear_giant = {
-		unit = "npc_twrpg_polar_bear_giant",
+	npc_championrpg_polar_bear_giant = {
+		unit = "npc_championrpg_polar_bear_giant",
 		displayName = "Polar Bear Giant",
 		tier = "Creep",
 		level = 50,
@@ -324,8 +324,8 @@ local Encounters = {
 		partyLimit = 1,
 		enrageTimer = 120,
 	},
-	npc_twrpg_mammoth = {
-		unit = "npc_twrpg_mammoth",
+	npc_championrpg_mammoth = {
+		unit = "npc_championrpg_mammoth",
 		displayName = "Mammoth",
 		tier = "Field",
 		level = 50,
@@ -364,8 +364,8 @@ local Encounters = {
 		partyLimit = 1,
 		bark = "BARANG",
 	},
-	npc_twrpg_king_kong = {
-		unit = "npc_twrpg_king_kong",
+	npc_championrpg_king_kong = {
+		unit = "npc_championrpg_king_kong",
 		displayName = "King Kong",
 		tier = "Field",
 		level = 50,
@@ -404,8 +404,8 @@ local Encounters = {
 		partyLimit = 1,
 		bark = "Monke.",
 	},
-	npc_twrpg_wallachia_death_knight_lord = {
-		unit = "npc_twrpg_wallachia_death_knight_lord",
+	npc_championrpg_wallachia_death_knight_lord = {
+		unit = "npc_championrpg_wallachia_death_knight_lord",
 		displayName = "Wallachia Death Knight Lord",
 		tier = "Creep",
 		level = 60,
@@ -441,12 +441,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_wraith" },
+		minionTypes = { "npc_championrpg_wraith" },
 		partyLimit = 5,
 		enrageTimer = 240,
 	},
-	npc_twrpg_blood_wraith = {
-		unit = "npc_twrpg_blood_wraith",
+	npc_championrpg_blood_wraith = {
+		unit = "npc_championrpg_blood_wraith",
 		displayName = "Blood Wraith",
 		tier = "Field",
 		level = 60,
@@ -482,12 +482,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_soldier_of_blood" },
+		minionTypes = { "npc_championrpg_soldier_of_blood" },
 		partyLimit = 2,
 		bark = "I shall be unleashed!!",
 	},
-	npc_twrpg_wallachia_monstrosity = {
-		unit = "npc_twrpg_wallachia_monstrosity",
+	npc_championrpg_wallachia_monstrosity = {
+		unit = "npc_championrpg_wallachia_monstrosity",
 		displayName = "Wallachia Monstrosity",
 		tier = "Field",
 		level = 60,
@@ -525,12 +525,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_bat_statue" },
+		minionTypes = { "npc_championrpg_bat_statue" },
 		partyLimit = 2,
 		bark = "Bats! Bats! BATS!",
 	},
-	npc_twrpg_lava_ancient = {
-		unit = "npc_twrpg_lava_ancient",
+	npc_championrpg_lava_ancient = {
+		unit = "npc_championrpg_lava_ancient",
 		displayName = "Lava Ancient",
 		tier = "Creep",
 		level = 68,
@@ -569,8 +569,8 @@ local Encounters = {
 		partyLimit = 1,
 		enrageTimer = 30,
 	},
-	npc_twrpg_ruler_of_flames_ragnaar = {
-		unit = "npc_twrpg_ruler_of_flames_ragnaar",
+	npc_championrpg_ruler_of_flames_ragnaar = {
+		unit = "npc_championrpg_ruler_of_flames_ragnaar",
 		displayName = "Ruler of Flames Ragnaar",
 		tier = "Creep",
 		level = 70,
@@ -606,12 +606,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_slave_of_trueflame" },
+		minionTypes = { "npc_championrpg_slave_of_trueflame" },
 		partyLimit = 2,
 		enrageTimer = 90,
 	},
-	npc_twrpg_evil_lava_spawn = {
-		unit = "npc_twrpg_evil_lava_spawn",
+	npc_championrpg_evil_lava_spawn = {
+		unit = "npc_championrpg_evil_lava_spawn",
 		displayName = "Evil Lava Spawn",
 		tier = "Field",
 		level = 70,
@@ -652,8 +652,8 @@ local Encounters = {
 		partyLimit = 2,
 		bark = "Nyohoho!!",
 	},
-	npc_twrpg_tentacle_lord = {
-		unit = "npc_twrpg_tentacle_lord",
+	npc_championrpg_tentacle_lord = {
+		unit = "npc_championrpg_tentacle_lord",
 		displayName = "Tentacle Lord",
 		tier = "Creep",
 		level = 80,
@@ -692,8 +692,8 @@ local Encounters = {
 		partyLimit = 5,
 		enrageTimer = 90,
 	},
-	npc_twrpg_guardian_of_sea = {
-		unit = "npc_twrpg_guardian_of_sea",
+	npc_championrpg_guardian_of_sea = {
+		unit = "npc_championrpg_guardian_of_sea",
 		displayName = "Guardian of Sea",
 		tier = "Field",
 		level = 80,
@@ -734,8 +734,8 @@ local Encounters = {
 		partyLimit = 2,
 		bark = "Feel the might of sea!",
 	},
-	npc_twrpg_giant_golem = {
-		unit = "npc_twrpg_giant_golem",
+	npc_championrpg_giant_golem = {
+		unit = "npc_championrpg_giant_golem",
 		displayName = "Giant Golem",
 		tier = "Creep",
 		level = 90,
@@ -774,8 +774,8 @@ local Encounters = {
 		partyLimit = 2,
 		enrageTimer = 90,
 	},
-	npc_twrpg_mana_ancient = {
-		unit = "npc_twrpg_mana_ancient",
+	npc_championrpg_mana_ancient = {
+		unit = "npc_championrpg_mana_ancient",
 		displayName = "Mana Ancient",
 		tier = "Creep",
 		level = 90,
@@ -814,8 +814,8 @@ local Encounters = {
 		partyLimit = 2,
 		enrageTimer = 90,
 	},
-	npc_twrpg_ruler_of_the_lav_sea_hydra = {
-		unit = "npc_twrpg_ruler_of_the_lav_sea_hydra",
+	npc_championrpg_ruler_of_the_lav_sea_hydra = {
+		unit = "npc_championrpg_ruler_of_the_lav_sea_hydra",
 		displayName = "Ruler of the Lav Sea Hydra",
 		tier = "Minor",
 		level = 50,
@@ -855,8 +855,8 @@ local Encounters = {
 		respawnMinutes = 4,
 		bark = "grwwowowrwo !",
 	},
-	npc_twrpg_duchy_of_wallachia_count = {
-		unit = "npc_twrpg_duchy_of_wallachia_count",
+	npc_championrpg_duchy_of_wallachia_count = {
+		unit = "npc_championrpg_duchy_of_wallachia_count",
 		displayName = "Duchy of Wallachia Count",
 		tier = "Minor",
 		level = 60,
@@ -898,8 +898,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "The night begins now !",
 	},
-	npc_twrpg_jack_o_lantern = {
-		unit = "npc_twrpg_jack_o_lantern",
+	npc_championrpg_jack_o_lantern = {
+		unit = "npc_championrpg_jack_o_lantern",
 		displayName = "Jack o Lantern",
 		tier = "Minor",
 		level = 60,
@@ -939,8 +939,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "..It's not Halloween yet !",
 	},
-	npc_twrpg_mage_lord = {
-		unit = "npc_twrpg_mage_lord",
+	npc_championrpg_mage_lord = {
+		unit = "npc_championrpg_mage_lord",
 		displayName = "Mage Lord",
 		tier = "Minor",
 		level = 70,
@@ -982,8 +982,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "I shall give you a taste of my magic!",
 	},
-	npc_twrpg_wings_of_death = {
-		unit = "npc_twrpg_wings_of_death",
+	npc_championrpg_wings_of_death = {
+		unit = "npc_championrpg_wings_of_death",
 		displayName = "Wings of Death",
 		tier = "Minor",
 		level = 70,
@@ -1025,8 +1025,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "Feel the might of dragons !",
 	},
-	npc_twrpg_castle_avalon_gatekeeper = {
-		unit = "npc_twrpg_castle_avalon_gatekeeper",
+	npc_championrpg_castle_avalon_gatekeeper = {
+		unit = "npc_championrpg_castle_avalon_gatekeeper",
 		displayName = "Castle Avalon Gatekeeper",
 		tier = "Minor",
 		level = 80,
@@ -1065,8 +1065,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "...",
 	},
-	npc_twrpg_the_3rd_armys_guardian_angel = {
-		unit = "npc_twrpg_the_3rd_armys_guardian_angel",
+	npc_championrpg_the_3rd_armys_guardian_angel = {
+		unit = "npc_championrpg_the_3rd_armys_guardian_angel",
 		displayName = "The 3rd Army's Guardian Angel",
 		tier = "Minor",
 		level = 80,
@@ -1108,8 +1108,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "Behold, your end is nigh !",
 	},
-	npc_twrpg_the_devils_right_arm_corrupt_angel = {
-		unit = "npc_twrpg_the_devils_right_arm_corrupt_angel",
+	npc_championrpg_the_devils_right_arm_corrupt_angel = {
+		unit = "npc_championrpg_the_devils_right_arm_corrupt_angel",
 		displayName = "The Devil's Right Arm Corrupt Angel",
 		tier = "Minor",
 		level = 80,
@@ -1151,8 +1151,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "Die !!",
 	},
-	npc_twrpg_wallachia_mad_clown = {
-		unit = "npc_twrpg_wallachia_mad_clown",
+	npc_championrpg_wallachia_mad_clown = {
+		unit = "npc_championrpg_wallachia_mad_clown",
 		displayName = "Wallachia Mad Clown",
 		tier = "Minor",
 		level = 100,
@@ -1194,8 +1194,8 @@ local Encounters = {
 		respawnMinutes = 4,
 		bark = "Dance !",
 	},
-	npc_twrpg_soul_of_everfrost = {
-		unit = "npc_twrpg_soul_of_everfrost",
+	npc_championrpg_soul_of_everfrost = {
+		unit = "npc_championrpg_soul_of_everfrost",
 		displayName = "Soul of Everfrost",
 		tier = "Minor",
 		level = 90,
@@ -1231,13 +1231,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_frozen_soul" },
+		minionTypes = { "npc_championrpg_frozen_soul" },
 		partyLimit = 4,
 		respawnMinutes = 4,
 		bark = "Freeze !!",
 	},
-	npc_twrpg_frostspider_queen = {
-		unit = "npc_twrpg_frostspider_queen",
+	npc_championrpg_frostspider_queen = {
+		unit = "npc_championrpg_frostspider_queen",
 		displayName = "Frostspider Queen",
 		tier = "Minor",
 		level = 90,
@@ -1277,8 +1277,8 @@ local Encounters = {
 		respawnMinutes = 4,
 		bark = "Kiiik !!",
 	},
-	npc_twrpg_frostspider_lord = {
-		unit = "npc_twrpg_frostspider_lord",
+	npc_championrpg_frostspider_lord = {
+		unit = "npc_championrpg_frostspider_lord",
 		displayName = "Frostspider Lord",
 		tier = "Minor",
 		level = 90,
@@ -1320,8 +1320,8 @@ local Encounters = {
 		respawnMinutes = 4,
 		bark = "Be purged by Frost !!",
 	},
-	npc_twrpg_demon_lord_beriel = {
-		unit = "npc_twrpg_demon_lord_beriel",
+	npc_championrpg_demon_lord_beriel = {
+		unit = "npc_championrpg_demon_lord_beriel",
 		displayName = "Demon Lord Beriel",
 		tier = "Minor",
 		level = 90,
@@ -1359,14 +1359,14 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_hell_golem" },
+		minionTypes = { "npc_championrpg_hell_golem" },
 		partyLimit = 4,
 		respawnMinutes = 4,
 		bark = "It's time for your doom !",
 		needsScriptedHook = "wave phase gated on not killing the gate",
 	},
-	npc_twrpg_spirit_beast = {
-		unit = "npc_twrpg_spirit_beast",
+	npc_championrpg_spirit_beast = {
+		unit = "npc_championrpg_spirit_beast",
 		displayName = "Spirit Beast",
 		tier = "Mid",
 		level = 100,
@@ -1406,8 +1406,8 @@ local Encounters = {
 		respawnMinutes = 4,
 		bark = "Oh Heaven, Aid Me!",
 	},
-	npc_twrpg_corruptor_rectus = {
-		unit = "npc_twrpg_corruptor_rectus",
+	npc_championrpg_corruptor_rectus = {
+		unit = "npc_championrpg_corruptor_rectus",
 		displayName = "Corruptor Rectus",
 		tier = "Mid",
 		level = 100,
@@ -1453,13 +1453,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_stalker", "npc_twrpg_avenger", "npc_twrpg_life_orb" },
+		minionTypes = { "npc_championrpg_stalker", "npc_championrpg_avenger", "npc_championrpg_life_orb" },
 		partyLimit = 5,
 		respawnMinutes = 4,
 		bark = "Welcome to your ceremony of death!",
 	},
-	npc_twrpg_flame_nightmare = {
-		unit = "npc_twrpg_flame_nightmare",
+	npc_championrpg_flame_nightmare = {
+		unit = "npc_championrpg_flame_nightmare",
 		displayName = "Flame Nightmare",
 		tier = "Mid",
 		level = 100,
@@ -1497,13 +1497,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_flame_spawn", "npc_twrpg_anger", "npc_twrpg_hatred" },
+		minionTypes = { "npc_championrpg_flame_spawn", "npc_championrpg_anger", "npc_championrpg_hatred" },
 		partyLimit = 4,
 		respawnMinutes = 4,
 		bark = "Fall on your knees!",
 	},
-	npc_twrpg_turtle_lord = {
-		unit = "npc_twrpg_turtle_lord",
+	npc_championrpg_turtle_lord = {
+		unit = "npc_championrpg_turtle_lord",
 		displayName = "Turtle Lord",
 		tier = "Mid",
 		level = 100,
@@ -1548,13 +1548,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_turtle", "npc_twrpg_healing_turtle" },
+		minionTypes = { "npc_championrpg_turtle", "npc_championrpg_healing_turtle" },
 		partyLimit = 4,
 		respawnMinutes = 4,
 		bark = "Gurgle!",
 	},
-	npc_twrpg_bone_dragon = {
-		unit = "npc_twrpg_bone_dragon",
+	npc_championrpg_bone_dragon = {
+		unit = "npc_championrpg_bone_dragon",
 		displayName = "Bone Dragon",
 		tier = "High",
 		level = 110,
@@ -1592,12 +1592,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_flame_spirit" },
+		minionTypes = { "npc_championrpg_flame_spirit" },
 		respawnMinutes = 3,
 		bark = "I'll show you my true powers!",
 	},
-	npc_twrpg_skeletal_king_desperia = {
-		unit = "npc_twrpg_skeletal_king_desperia",
+	npc_championrpg_skeletal_king_desperia = {
+		unit = "npc_championrpg_skeletal_king_desperia",
 		displayName = "Skeletal King Desperia",
 		tier = "High",
 		level = 110,
@@ -1645,8 +1645,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "This is the difference between your power and mine!",
 	},
-	npc_twrpg_zombie_lord = {
-		unit = "npc_twrpg_zombie_lord",
+	npc_championrpg_zombie_lord = {
+		unit = "npc_championrpg_zombie_lord",
 		displayName = "Zombie Lord",
 		tier = "High",
 		level = 110,
@@ -1684,12 +1684,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_zombie", "npc_twrpg_worshipper_of_immortality" },
+		minionTypes = { "npc_championrpg_zombie", "npc_championrpg_worshipper_of_immortality" },
 		respawnMinutes = 5,
 		bark = "None shall take my eternal life away!",
 	},
-	npc_twrpg_ancient_ent = {
-		unit = "npc_twrpg_ancient_ent",
+	npc_championrpg_ancient_ent = {
+		unit = "npc_championrpg_ancient_ent",
 		displayName = "Ancient Ent",
 		tier = "High",
 		level = 110,
@@ -1727,13 +1727,13 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_elder_ent", "npc_twrpg_giant_ent", "npc_twrpg_ent" },
+		minionTypes = { "npc_championrpg_elder_ent", "npc_championrpg_giant_ent", "npc_championrpg_ent" },
 		respawnMinutes = 5,
 		bark = "Feel the might of Mother Nature!",
 		needsScriptedHook = "75M HP, domain-based mechanics",
 	},
-	npc_twrpg_archangel_samael = {
-		unit = "npc_twrpg_archangel_samael",
+	npc_championrpg_archangel_samael = {
+		unit = "npc_championrpg_archangel_samael",
 		displayName = "Archangel Samael",
 		tier = "High",
 		level = 110,
@@ -1781,8 +1781,8 @@ local Encounters = {
 		respawnMinutes = 5,
 		bark = "You mortals cannot escape your fate!",
 	},
-	npc_twrpg_shadow_dragon_irbert = {
-		unit = "npc_twrpg_shadow_dragon_irbert",
+	npc_championrpg_shadow_dragon_irbert = {
+		unit = "npc_championrpg_shadow_dragon_irbert",
 		displayName = "Shadow Dragon Irbert",
 		tier = "High",
 		level = 110,
@@ -1830,12 +1830,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_illusion_of_irbert", "npc_twrpg_illusion_of_irbert_large" },
+		minionTypes = { "npc_championrpg_illusion_of_irbert", "npc_championrpg_illusion_of_irbert_large" },
 		respawnMinutes = 5,
 		bark = "Face your inner evils...",
 	},
-	npc_twrpg_death_fiend = {
-		unit = "npc_twrpg_death_fiend",
+	npc_championrpg_death_fiend = {
+		unit = "npc_championrpg_death_fiend",
 		displayName = "Death Fiend",
 		tier = "Late",
 		level = 120,
@@ -1881,14 +1881,14 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_death_huntress", "npc_twrpg_death_devourer", "npc_twrpg_death_weaver" },
+		minionTypes = { "npc_championrpg_death_huntress", "npc_championrpg_death_devourer", "npc_championrpg_death_weaver" },
 		partyLimit = 4,
 		respawnMinutes = 3,
 		bark = "Resistance is futile!",
 		needsScriptedHook = "Fog phase disables self-resurrection",
 	},
-	npc_twrpg_valtora = {
-		unit = "npc_twrpg_valtora",
+	npc_championrpg_valtora = {
+		unit = "npc_championrpg_valtora",
 		displayName = "Valtora",
 		tier = "Late",
 		level = 120,
@@ -1935,12 +1935,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_servant_of_lightning_god" },
+		minionTypes = { "npc_championrpg_servant_of_lightning_god" },
 		respawnMinutes = 5,
 		bark = "The skies shall judge you!",
 	},
-	npc_twrpg_ifrit = {
-		unit = "npc_twrpg_ifrit",
+	npc_championrpg_ifrit = {
+		unit = "npc_championrpg_ifrit",
 		displayName = "Ifrit",
 		tier = "Late",
 		level = 120,
@@ -1986,12 +1986,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_obsidian_golem", "npc_twrpg_lava_spirit" },
+		minionTypes = { "npc_championrpg_obsidian_golem", "npc_championrpg_lava_spirit" },
 		respawnMinutes = 5,
 		bark = "It's time for some serious fun...",
 	},
-	npc_twrpg_nereid = {
-		unit = "npc_twrpg_nereid",
+	npc_championrpg_nereid = {
+		unit = "npc_championrpg_nereid",
 		displayName = "Nereid",
 		tier = "Endgame",
 		level = 120,
@@ -2041,12 +2041,12 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_wavecaller", "npc_twrpg_large_wavecaller" },
+		minionTypes = { "npc_championrpg_wavecaller", "npc_championrpg_large_wavecaller" },
 		respawnMinutes = 5,
 		bark = "The sea shall consume you!",
 	},
-	npc_twrpg_underlord_agareth = {
-		unit = "npc_twrpg_underlord_agareth",
+	npc_championrpg_underlord_agareth = {
+		unit = "npc_championrpg_underlord_agareth",
 		displayName = "Underlord Agareth",
 		tier = "Endgame",
 		level = 120,
@@ -2102,7 +2102,7 @@ local Encounters = {
 				runeDrain = -0.25,
 			},
 		},
-		minionTypes = { "npc_twrpg_gatekeeper_of_hell", "npc_twrpg_cursed_spirit", "npc_twrpg_hellspawn" },
+		minionTypes = { "npc_championrpg_gatekeeper_of_hell", "npc_championrpg_cursed_spirit", "npc_championrpg_hellspawn" },
 		empowered = {
 			damageResist = 75,
 		},
@@ -2110,8 +2110,8 @@ local Encounters = {
 		bark = "The end is nigh!",
 		needsScriptedHook = "instanced mini-game arena with its own units",
 	},
-	npc_twrpg_duke_lazarus = {
-		unit = "npc_twrpg_duke_lazarus",
+	npc_championrpg_duke_lazarus = {
+		unit = "npc_championrpg_duke_lazarus",
 		displayName = "Duke Lazarus",
 		tier = "Endgame",
 		level = 130,
@@ -2169,10 +2169,10 @@ local Encounters = {
 			},
 		},
 		minionTypes = {
-			"npc_twrpg_vampiric_monstrosity",
-			"npc_twrpg_servant_of_blood",
-			"npc_twrpg_blood_baron",
-			"npc_twrpg_spike",
+			"npc_championrpg_vampiric_monstrosity",
+			"npc_championrpg_servant_of_blood",
+			"npc_championrpg_blood_baron",
+			"npc_championrpg_spike",
 		},
 		empowered = {
 			damageResist = 40,
@@ -2186,8 +2186,8 @@ local Encounters = {
 		bark = "Dance Mortals and delight me further!",
 		needsScriptedHook = "second form 'Lord of Sacrifice' with a different stat block",
 	},
-	npc_twrpg_gaia = {
-		unit = "npc_twrpg_gaia",
+	npc_championrpg_gaia = {
+		unit = "npc_championrpg_gaia",
 		displayName = "Gaia",
 		tier = "Endgame",
 		level = 130,
@@ -2226,8 +2226,8 @@ local Encounters = {
 		empoweredUnknown = true,
 		respawnMinutes = 3,
 	},
-	npc_twrpg_arcane_construct = {
-		unit = "npc_twrpg_arcane_construct",
+	npc_championrpg_arcane_construct = {
+		unit = "npc_championrpg_arcane_construct",
 		displayName = "Arcane Construct",
 		tier = "Endgame",
 		level = 130,
@@ -2265,8 +2265,8 @@ local Encounters = {
 		},
 		respawnMinutes = 3,
 	},
-	npc_twrpg_styrix_the_harvester_of_souls = {
-		unit = "npc_twrpg_styrix_the_harvester_of_souls",
+	npc_championrpg_styrix_the_harvester_of_souls = {
+		unit = "npc_championrpg_styrix_the_harvester_of_souls",
 		displayName = "Styrix, the Harvester of Souls",
 		tier = "Endgame",
 		level = 130,

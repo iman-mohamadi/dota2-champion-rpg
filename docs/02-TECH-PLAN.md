@@ -5,7 +5,7 @@
 > §1 (data-driven constraint), §4 (content pipeline), §5 (extraction), §8 (testing) and
 > §9 (legal) all still apply.
 
-# TWRPG Standalone — Technical Plan
+# ChampionRPG — Technical Plan
 
 How to build what `01-GAME-DESIGN-SPEC.md` describes.
 

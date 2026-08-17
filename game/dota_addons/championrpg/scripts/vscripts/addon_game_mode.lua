@@ -1,4 +1,4 @@
---- TWRPG addon entry point.
+--- ChampionRPG addon entry point.
 --
 -- Installs the gameplay constants recovered from the original map
 -- (docs/05-COMBAT-FORMULAS.md) into Dota's custom-game API.
@@ -13,8 +13,8 @@ require("core/damage")
 
 local Constants = require("data/constants")
 
-if TWRPG == nil then
-    TWRPG = class({})
+if ChampionRPG == nil then
+    ChampionRPG = class({})
 end
 
 function Precache(context)
@@ -22,11 +22,11 @@ function Precache(context)
 end
 
 function Activate()
-    GameRules.TWRPG = TWRPG()
-    GameRules.TWRPG:InitGameMode()
+    GameRules.ChampionRPG = ChampionRPG()
+    GameRules.ChampionRPG:InitGameMode()
 end
 
-function TWRPG:InitGameMode()
+function ChampionRPG:InitGameMode()
     local mode = GameRules:GetGameModeEntity()
 
     -- ---- levelling ---------------------------------------------------------
@@ -48,7 +48,7 @@ function TWRPG:InitGameMode()
     -- ---- combat ------------------------------------------------------------
     -- Every damage instance is resolved by our own pipeline; Dota's armour
     -- curve is bypassed (units carry ArmorPhysical 0). See core/damage.lua.
-    mode:SetDamageFilter(Dynamic_Wrap(TWRPG, "DamageFilter"), self)
+    mode:SetDamageFilter(Dynamic_Wrap(ChampionRPG, "DamageFilter"), self)
 
     -- WC3 camera distance: boss AoE mechanics were tuned to what the player
     -- can see, so this is a gameplay value, not a preference.
@@ -61,13 +61,13 @@ function TWRPG:InitGameMode()
     GameRules:SetPreGameTime(15.0)
     GameRules:SetCustomGameSetupAutoLaunchDelay(10.0)
 
-    print("[TWRPG] initialised: max level " .. Constants.MAX_HERO_LEVEL ..
+    print("[ChampionRPG] initialised: max level " .. Constants.MAX_HERO_LEVEL ..
           ", armour k=" .. Constants.ARMOR_K)
 end
 
 --- Intercepts every damage instance, the equivalent of the original's `pdo`.
 -- Returning true lets the (rewritten) damage through.
-function TWRPG:DamageFilter(event)
+function ChampionRPG:DamageFilter(event)
     -- event.damage / event.entindex_victim_const / event.entindex_attacker_const
     -- Full resolution lands here once the stat and modifier systems exist;
     -- for now damage passes through unmodified so the mode boots cleanly.

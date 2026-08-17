@@ -4,8 +4,8 @@
 local Codex = {
 	NOTE = "Hunt is generated from boss conditions; Forge comes from the recipe graph at runtime; Chronicle is authored. See docs/01 §7.",
 	hunt = {
-		npc_twrpg_silverback_wolf = {
-			target = "npc_twrpg_silverback_wolf",
+		npc_championrpg_silverback_wolf = {
+			target = "npc_championrpg_silverback_wolf",
 			displayName = "Silverback Wolf",
 			tier = "Creep",
 			level = 10,
@@ -19,8 +19,8 @@ local Codex = {
 			location = "Bottom left of the Kalidi Forest",
 			partyLimit = 1,
 		},
-		npc_twrpg_troll_lord = {
-			target = "npc_twrpg_troll_lord",
+		npc_championrpg_troll_lord = {
+			target = "npc_championrpg_troll_lord",
 			displayName = "Troll Lord",
 			tier = "Creep",
 			level = 20,
@@ -34,8 +34,8 @@ local Codex = {
 			location = "Bottom part of the Wild Life Habitat",
 			partyLimit = 1,
 		},
-		npc_twrpg_furbolg_giant = {
-			target = "npc_twrpg_furbolg_giant",
+		npc_championrpg_furbolg_giant = {
+			target = "npc_championrpg_furbolg_giant",
 			displayName = "Furbolg Giant",
 			tier = "Creep",
 			level = 29,
@@ -49,8 +49,8 @@ local Codex = {
 			location = "Top side of the Wild Life Habitat",
 			partyLimit = 1,
 		},
-		npc_twrpg_protector_of_nature = {
-			target = "npc_twrpg_protector_of_nature",
+		npc_championrpg_protector_of_nature = {
+			target = "npc_championrpg_protector_of_nature",
 			displayName = "Protector of Nature",
 			tier = "Field",
 			level = 30,
@@ -61,7 +61,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_ancient_branch",
+					item = "item_championrpg_ancient_branch",
 					count = 3,
 					locationHint = "at big tree",
 				},
@@ -71,8 +71,8 @@ local Codex = {
 			location = "At the big tree at the top side of Wild Life habitat",
 			partyLimit = 2,
 		},
-		npc_twrpg_dragon_turtle = {
-			target = "npc_twrpg_dragon_turtle",
+		npc_championrpg_dragon_turtle = {
+			target = "npc_championrpg_dragon_turtle",
 			displayName = "Dragon Turtle",
 			tier = "Creep",
 			level = 45,
@@ -86,8 +86,8 @@ local Codex = {
 			location = "Right side of Wild Life Habitat, far south of Seaside",
 			partyLimit = 1,
 		},
-		npc_twrpg_king_crab = {
-			target = "npc_twrpg_king_crab",
+		npc_championrpg_king_crab = {
+			target = "npc_championrpg_king_crab",
 			displayName = "King Crab",
 			tier = "Field",
 			level = 40,
@@ -99,7 +99,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_magical_horn",
+					item = "item_championrpg_magical_horn",
 					count = 1,
 				},
 			},
@@ -108,8 +108,8 @@ local Codex = {
 			location = "Right side of Wild Life Habitat, Seaside",
 			partyLimit = 1,
 		},
-		npc_twrpg_walrus = {
-			target = "npc_twrpg_walrus",
+		npc_championrpg_walrus = {
+			target = "npc_championrpg_walrus",
 			displayName = "Walrus",
 			tier = "Field",
 			level = 40,
@@ -121,7 +121,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_magical_horn",
+					item = "item_championrpg_magical_horn",
 					count = 1,
 				},
 			},
@@ -130,8 +130,8 @@ local Codex = {
 			location = "Right side of Wild Life Habitat, Seaside",
 			partyLimit = 1,
 		},
-		npc_twrpg_polar_bear_giant = {
-			target = "npc_twrpg_polar_bear_giant",
+		npc_championrpg_polar_bear_giant = {
+			target = "npc_championrpg_polar_bear_giant",
 			displayName = "Polar Bear Giant",
 			tier = "Creep",
 			level = 50,
@@ -144,8 +144,8 @@ local Codex = {
 			location = "In Frosty Snowfield",
 			partyLimit = 1,
 		},
-		npc_twrpg_mammoth = {
-			target = "npc_twrpg_mammoth",
+		npc_championrpg_mammoth = {
+			target = "npc_championrpg_mammoth",
 			displayName = "Mammoth",
 			tier = "Field",
 			level = 50,
@@ -156,7 +156,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_frozen_crystal",
+					item = "item_championrpg_frozen_crystal",
 					count = 1,
 				},
 			},
@@ -165,8 +165,8 @@ local Codex = {
 			location = "In Frosty Snowfield",
 			partyLimit = 1,
 		},
-		npc_twrpg_king_kong = {
-			target = "npc_twrpg_king_kong",
+		npc_championrpg_king_kong = {
+			target = "npc_championrpg_king_kong",
 			displayName = "King Kong",
 			tier = "Field",
 			level = 50,
@@ -177,7 +177,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_frozen_crystal",
+					item = "item_championrpg_frozen_crystal",
 					count = 1,
 				},
 			},
@@ -186,8 +186,8 @@ local Codex = {
 			location = "In Frosty Snowfield",
 			partyLimit = 1,
 		},
-		npc_twrpg_wallachia_death_knight_lord = {
-			target = "npc_twrpg_wallachia_death_knight_lord",
+		npc_championrpg_wallachia_death_knight_lord = {
+			target = "npc_championrpg_wallachia_death_knight_lord",
 			displayName = "Wallachia Death Knight Lord",
 			tier = "Creep",
 			level = 60,
@@ -200,8 +200,8 @@ local Codex = {
 			location = "In Duchy of Wallachia",
 			partyLimit = 5,
 		},
-		npc_twrpg_blood_wraith = {
-			target = "npc_twrpg_blood_wraith",
+		npc_championrpg_blood_wraith = {
+			target = "npc_championrpg_blood_wraith",
 			displayName = "Blood Wraith",
 			tier = "Field",
 			level = 60,
@@ -212,7 +212,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_cursed_mask",
+					item = "item_championrpg_cursed_mask",
 					count = 1,
 				},
 			},
@@ -221,8 +221,8 @@ local Codex = {
 			location = "In Duchy of Wallachia",
 			partyLimit = 2,
 		},
-		npc_twrpg_wallachia_monstrosity = {
-			target = "npc_twrpg_wallachia_monstrosity",
+		npc_championrpg_wallachia_monstrosity = {
+			target = "npc_championrpg_wallachia_monstrosity",
 			displayName = "Wallachia Monstrosity",
 			tier = "Field",
 			level = 60,
@@ -233,7 +233,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_cursed_mask",
+					item = "item_championrpg_cursed_mask",
 					count = 1,
 				},
 			},
@@ -242,8 +242,8 @@ local Codex = {
 			location = "In Duchy of Wallachia",
 			partyLimit = 2,
 		},
-		npc_twrpg_lava_ancient = {
-			target = "npc_twrpg_lava_ancient",
+		npc_championrpg_lava_ancient = {
+			target = "npc_championrpg_lava_ancient",
 			displayName = "Lava Ancient",
 			tier = "Creep",
 			level = 68,
@@ -256,8 +256,8 @@ local Codex = {
 			location = "In Volcanic Lands",
 			partyLimit = 1,
 		},
-		npc_twrpg_ruler_of_flames_ragnaar = {
-			target = "npc_twrpg_ruler_of_flames_ragnaar",
+		npc_championrpg_ruler_of_flames_ragnaar = {
+			target = "npc_championrpg_ruler_of_flames_ragnaar",
 			displayName = "Ruler of Flames Ragnaar",
 			tier = "Creep",
 			level = 70,
@@ -270,8 +270,8 @@ local Codex = {
 			location = "In Volcanic Lands",
 			partyLimit = 2,
 		},
-		npc_twrpg_evil_lava_spawn = {
-			target = "npc_twrpg_evil_lava_spawn",
+		npc_championrpg_evil_lava_spawn = {
+			target = "npc_championrpg_evil_lava_spawn",
 			displayName = "Evil Lava Spawn",
 			tier = "Field",
 			level = 70,
@@ -282,7 +282,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_nightmare_rod",
+					item = "item_championrpg_nightmare_rod",
 					count = 1,
 				},
 			},
@@ -291,8 +291,8 @@ local Codex = {
 			location = "In Volcanic Lands, at the red circle",
 			partyLimit = 2,
 		},
-		npc_twrpg_tentacle_lord = {
-			target = "npc_twrpg_tentacle_lord",
+		npc_championrpg_tentacle_lord = {
+			target = "npc_championrpg_tentacle_lord",
 			displayName = "Tentacle Lord",
 			tier = "Creep",
 			level = 80,
@@ -306,8 +306,8 @@ local Codex = {
 			location = "In the Deep Sea",
 			partyLimit = 5,
 		},
-		npc_twrpg_guardian_of_sea = {
-			target = "npc_twrpg_guardian_of_sea",
+		npc_championrpg_guardian_of_sea = {
+			target = "npc_championrpg_guardian_of_sea",
 			displayName = "Guardian of Sea",
 			tier = "Field",
 			level = 80,
@@ -327,8 +327,8 @@ local Codex = {
 			location = "In Deep Sea, far east in the light",
 			partyLimit = 2,
 		},
-		npc_twrpg_giant_golem = {
-			target = "npc_twrpg_giant_golem",
+		npc_championrpg_giant_golem = {
+			target = "npc_championrpg_giant_golem",
 			displayName = "Giant Golem",
 			tier = "Creep",
 			level = 90,
@@ -341,8 +341,8 @@ local Codex = {
 			location = "In the Cave",
 			partyLimit = 2,
 		},
-		npc_twrpg_mana_ancient = {
-			target = "npc_twrpg_mana_ancient",
+		npc_championrpg_mana_ancient = {
+			target = "npc_championrpg_mana_ancient",
 			displayName = "Mana Ancient",
 			tier = "Creep",
 			level = 90,
@@ -355,8 +355,8 @@ local Codex = {
 			location = "In Fairy Forest",
 			partyLimit = 2,
 		},
-		npc_twrpg_ruler_of_the_lav_sea_hydra = {
-			target = "npc_twrpg_ruler_of_the_lav_sea_hydra",
+		npc_championrpg_ruler_of_the_lav_sea_hydra = {
+			target = "npc_championrpg_ruler_of_the_lav_sea_hydra",
 			displayName = "Ruler of the Lav Sea Hydra",
 			tier = "Minor",
 			level = 50,
@@ -367,7 +367,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_blue_magic_stone",
+					item = "item_championrpg_blue_magic_stone",
 					count = 4,
 					locationHint = "at shipwreck",
 				},
@@ -377,8 +377,8 @@ local Codex = {
 			location = "Top right area of Seaside at Area 3",
 			partyLimit = 5,
 		},
-		npc_twrpg_duchy_of_wallachia_count = {
-			target = "npc_twrpg_duchy_of_wallachia_count",
+		npc_championrpg_duchy_of_wallachia_count = {
+			target = "npc_championrpg_duchy_of_wallachia_count",
 			displayName = "Duchy of Wallachia Count",
 			tier = "Minor",
 			level = 60,
@@ -389,7 +389,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_white_magic_stone",
+					item = "item_championrpg_white_magic_stone",
 					count = 4,
 					locationHint = "in front of church",
 				},
@@ -399,8 +399,8 @@ local Codex = {
 			location = "East area of Duchy of Wallachia, in the fort at Area 7",
 			partyLimit = 5,
 		},
-		npc_twrpg_jack_o_lantern = {
-			target = "npc_twrpg_jack_o_lantern",
+		npc_championrpg_jack_o_lantern = {
+			target = "npc_championrpg_jack_o_lantern",
 			displayName = "Jack o Lantern",
 			tier = "Minor",
 			level = 60,
@@ -411,7 +411,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_white_magic_stone",
+					item = "item_championrpg_white_magic_stone",
 					count = 4,
 				},
 			},
@@ -420,8 +420,8 @@ local Codex = {
 			location = "Middle of Capital Prius, near the fountain",
 			partyLimit = 3,
 		},
-		npc_twrpg_mage_lord = {
-			target = "npc_twrpg_mage_lord",
+		npc_championrpg_mage_lord = {
+			target = "npc_championrpg_mage_lord",
 			displayName = "Mage Lord",
 			tier = "Minor",
 			level = 70,
@@ -432,7 +432,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_red_magic_stone",
+					item = "item_championrpg_red_magic_stone",
 					count = 4,
 				},
 			},
@@ -441,8 +441,8 @@ local Codex = {
 			location = "South area of Frosty Snowfield, below the blue obelisk and next to the igloo",
 			partyLimit = 4,
 		},
-		npc_twrpg_wings_of_death = {
-			target = "npc_twrpg_wings_of_death",
+		npc_championrpg_wings_of_death = {
+			target = "npc_championrpg_wings_of_death",
 			displayName = "Wings of Death",
 			tier = "Minor",
 			level = 70,
@@ -453,7 +453,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_red_magic_stone",
+					item = "item_championrpg_red_magic_stone",
 					count = 4,
 					locationHint = "above lava ancient",
 				},
@@ -463,8 +463,8 @@ local Codex = {
 			location = "In Volcanic Lands at the entrance to the Dragon Lair",
 			partyLimit = 5,
 		},
-		npc_twrpg_castle_avalon_gatekeeper = {
-			target = "npc_twrpg_castle_avalon_gatekeeper",
+		npc_championrpg_castle_avalon_gatekeeper = {
+			target = "npc_championrpg_castle_avalon_gatekeeper",
 			displayName = "Castle Avalon Gatekeeper",
 			tier = "Minor",
 			level = 80,
@@ -482,8 +482,8 @@ local Codex = {
 			rawConditions = "Level 80, and Avalon summoned",
 			location = "Before the entrance of Guardian Angels",
 		},
-		npc_twrpg_the_3rd_armys_guardian_angel = {
-			target = "npc_twrpg_the_3rd_armys_guardian_angel",
+		npc_championrpg_the_3rd_armys_guardian_angel = {
+			target = "npc_championrpg_the_3rd_armys_guardian_angel",
 			displayName = "The 3rd Army's Guardian Angel",
 			tier = "Minor",
 			level = 80,
@@ -494,7 +494,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_white_magic_stone",
+					item = "item_championrpg_white_magic_stone",
 					count = 6,
 					locationHint = "in the far top right of the Cave",
 				},
@@ -504,8 +504,8 @@ local Codex = {
 			location = "In the inner-most sanctum of Avalon, next to East Prius Gate",
 			partyLimit = 4,
 		},
-		npc_twrpg_the_devils_right_arm_corrupt_angel = {
-			target = "npc_twrpg_the_devils_right_arm_corrupt_angel",
+		npc_championrpg_the_devils_right_arm_corrupt_angel = {
+			target = "npc_championrpg_the_devils_right_arm_corrupt_angel",
 			displayName = "The Devil's Right Arm Corrupt Angel",
 			tier = "Minor",
 			level = 80,
@@ -524,8 +524,8 @@ local Codex = {
 			location = "In Frosty Snowfield after 2 minutes of summoning Avalon",
 			partyLimit = 4,
 		},
-		npc_twrpg_wallachia_mad_clown = {
-			target = "npc_twrpg_wallachia_mad_clown",
+		npc_championrpg_wallachia_mad_clown = {
+			target = "npc_championrpg_wallachia_mad_clown",
 			displayName = "Wallachia Mad Clown",
 			tier = "Minor",
 			level = 100,
@@ -538,8 +538,8 @@ local Codex = {
 			location = "In the Wallachia Graveyard",
 			partyLimit = 3,
 		},
-		npc_twrpg_soul_of_everfrost = {
-			target = "npc_twrpg_soul_of_everfrost",
+		npc_championrpg_soul_of_everfrost = {
+			target = "npc_championrpg_soul_of_everfrost",
 			displayName = "Soul of Everfrost",
 			tier = "Minor",
 			level = 90,
@@ -558,8 +558,8 @@ local Codex = {
 			location = "Summoned during waves of Frostspider Lord at the expedition in area 6",
 			partyLimit = 4,
 		},
-		npc_twrpg_frostspider_queen = {
-			target = "npc_twrpg_frostspider_queen",
+		npc_championrpg_frostspider_queen = {
+			target = "npc_championrpg_frostspider_queen",
 			displayName = "Frostspider Queen",
 			tier = "Minor",
 			level = 90,
@@ -578,8 +578,8 @@ local Codex = {
 			location = "Summoned during waves of Frostspider Lord at the expedition in area 6",
 			partyLimit = 4,
 		},
-		npc_twrpg_frostspider_lord = {
-			target = "npc_twrpg_frostspider_lord",
+		npc_championrpg_frostspider_lord = {
+			target = "npc_championrpg_frostspider_lord",
 			displayName = "Frostspider Lord",
 			tier = "Minor",
 			level = 90,
@@ -590,7 +590,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_blue_magic_stone",
+					item = "item_championrpg_blue_magic_stone",
 					count = 6,
 					locationHint = "where 3 Pruis Magicians are gathered",
 				},
@@ -600,8 +600,8 @@ local Codex = {
 			location = "In Spider Cave at the expedition at area 6",
 			partyLimit = 4,
 		},
-		npc_twrpg_demon_lord_beriel = {
-			target = "npc_twrpg_demon_lord_beriel",
+		npc_championrpg_demon_lord_beriel = {
+			target = "npc_championrpg_demon_lord_beriel",
 			displayName = "Demon Lord Beriel",
 			tier = "Minor",
 			level = 90,
@@ -612,7 +612,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_red_magic_stone",
+					item = "item_championrpg_red_magic_stone",
 					count = 6,
 					locationHint = "in Area 7 at the pile of skulls close to the portal entrance",
 				},
@@ -626,8 +626,8 @@ local Codex = {
 			location = "East Prius Gate.",
 			partyLimit = 4,
 		},
-		npc_twrpg_spirit_beast = {
-			target = "npc_twrpg_spirit_beast",
+		npc_championrpg_spirit_beast = {
+			target = "npc_championrpg_spirit_beast",
 			displayName = "Spirit Beast",
 			tier = "Mid",
 			level = 100,
@@ -640,8 +640,8 @@ local Codex = {
 			location = "In Fairy Forest - Deep Forest",
 			partyLimit = 3,
 		},
-		npc_twrpg_corruptor_rectus = {
-			target = "npc_twrpg_corruptor_rectus",
+		npc_championrpg_corruptor_rectus = {
+			target = "npc_championrpg_corruptor_rectus",
 			displayName = "Corruptor Rectus",
 			tier = "Mid",
 			level = 100,
@@ -654,8 +654,8 @@ local Codex = {
 			location = "In Fairy Forest - Plagued Tower",
 			partyLimit = 5,
 		},
-		npc_twrpg_flame_nightmare = {
-			target = "npc_twrpg_flame_nightmare",
+		npc_championrpg_flame_nightmare = {
+			target = "npc_championrpg_flame_nightmare",
 			displayName = "Flame Nightmare",
 			tier = "Mid",
 			level = 100,
@@ -666,12 +666,12 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_nightmare_rod",
+					item = "item_championrpg_nightmare_rod",
 					count = 1,
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_red_magic_stone",
+					item = "item_championrpg_red_magic_stone",
 					count = 8,
 				},
 			},
@@ -680,8 +680,8 @@ local Codex = {
 			location = "In Volcanic Lands",
 			partyLimit = 4,
 		},
-		npc_twrpg_turtle_lord = {
-			target = "npc_twrpg_turtle_lord",
+		npc_championrpg_turtle_lord = {
+			target = "npc_championrpg_turtle_lord",
 			displayName = "Turtle Lord",
 			tier = "Mid",
 			level = 100,
@@ -692,17 +692,17 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_orb_of_the_deep_sea",
+					item = "item_championrpg_orb_of_the_deep_sea",
 					count = 1,
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_green_magic_stone",
+					item = "item_championrpg_green_magic_stone",
 					count = 4,
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_blue_magic_stone",
+					item = "item_championrpg_blue_magic_stone",
 					count = 4,
 				},
 			},
@@ -711,8 +711,8 @@ local Codex = {
 			location = "In Deep Sea in the far East where light shines from above",
 			partyLimit = 4,
 		},
-		npc_twrpg_bone_dragon = {
-			target = "npc_twrpg_bone_dragon",
+		npc_championrpg_bone_dragon = {
+			target = "npc_championrpg_bone_dragon",
 			displayName = "Bone Dragon",
 			tier = "High",
 			level = 110,
@@ -724,8 +724,8 @@ local Codex = {
 			rawConditions = "Level 100",
 			location = "To the Southeast of Volcanic Lands inside of Dragon Nest",
 		},
-		npc_twrpg_skeletal_king_desperia = {
-			target = "npc_twrpg_skeletal_king_desperia",
+		npc_championrpg_skeletal_king_desperia = {
+			target = "npc_championrpg_skeletal_king_desperia",
 			displayName = "Skeletal King Desperia",
 			tier = "High",
 			level = 110,
@@ -737,8 +737,8 @@ local Codex = {
 			rawConditions = "Level 100",
 			location = "In Prius Forward camp, the Sealed Land to the North",
 		},
-		npc_twrpg_zombie_lord = {
-			target = "npc_twrpg_zombie_lord",
+		npc_championrpg_zombie_lord = {
+			target = "npc_championrpg_zombie_lord",
 			displayName = "Zombie Lord",
 			tier = "High",
 			level = 110,
@@ -750,8 +750,8 @@ local Codex = {
 			rawConditions = "Level 100",
 			location = "In Prius Forward camp, the Graveyard of Eternal Life to the East",
 		},
-		npc_twrpg_ancient_ent = {
-			target = "npc_twrpg_ancient_ent",
+		npc_championrpg_ancient_ent = {
+			target = "npc_championrpg_ancient_ent",
 			displayName = "Ancient Ent",
 			tier = "High",
 			level = 110,
@@ -762,7 +762,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_seal_breaking_gemstone",
+					item = "item_championrpg_seal_breaking_gemstone",
 					count = 1,
 					locationHint = "to unseal Ancient Ent",
 				},
@@ -771,8 +771,8 @@ local Codex = {
 			rawConditions = "Level 100, Seal Breaking Gemstone to unseal Ancient Ent",
 			location = "In Fairy Forest where a statue resides",
 		},
-		npc_twrpg_archangel_samael = {
-			target = "npc_twrpg_archangel_samael",
+		npc_championrpg_archangel_samael = {
+			target = "npc_championrpg_archangel_samael",
 			displayName = "Archangel Samael",
 			tier = "High",
 			level = 110,
@@ -787,7 +787,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_white_magic_stone",
+					item = "item_championrpg_white_magic_stone",
 					count = 3,
 				},
 			},
@@ -795,8 +795,8 @@ local Codex = {
 			rawConditions = "Recommended Level 100, Guardian Angels defeated, and White Magic Stone x3",
 			location = "In Castle Avalon, fighting area of Guardian Angels",
 		},
-		npc_twrpg_shadow_dragon_irbert = {
-			target = "npc_twrpg_shadow_dragon_irbert",
+		npc_championrpg_shadow_dragon_irbert = {
+			target = "npc_championrpg_shadow_dragon_irbert",
 			displayName = "Shadow Dragon Irbert",
 			tier = "High",
 			level = 110,
@@ -807,7 +807,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_blue_magic_stone",
+					item = "item_championrpg_blue_magic_stone",
 					count = 12,
 				},
 			},
@@ -815,8 +815,8 @@ local Codex = {
 			rawConditions = "Level 100 and Blue Magic Stone x12",
 			location = "South of Frosty Snowfield, in Deep Snowfield",
 		},
-		npc_twrpg_death_fiend = {
-			target = "npc_twrpg_death_fiend",
+		npc_championrpg_death_fiend = {
+			target = "npc_championrpg_death_fiend",
 			displayName = "Death Fiend",
 			tier = "Late",
 			level = 120,
@@ -827,7 +827,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_red_magic_stone",
+					item = "item_championrpg_red_magic_stone",
 					count = 12,
 				},
 			},
@@ -836,8 +836,8 @@ local Codex = {
 			location = "In Abandoned Graveyard, at spawn of Mad Clown",
 			partyLimit = 4,
 		},
-		npc_twrpg_valtora = {
-			target = "npc_twrpg_valtora",
+		npc_championrpg_valtora = {
+			target = "npc_championrpg_valtora",
 			displayName = "Valtora",
 			tier = "Late",
 			level = 120,
@@ -848,7 +848,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_key_of_storm",
+					item = "item_championrpg_key_of_storm",
 					count = 1,
 					mustCraft = true,
 				},
@@ -857,8 +857,8 @@ local Codex = {
 			rawConditions = "Level 100 and Key of Storm crafted",
 			location = "Teleporter: second page, option [2]. Bottom left corner portal.",
 		},
-		npc_twrpg_ifrit = {
-			target = "npc_twrpg_ifrit",
+		npc_championrpg_ifrit = {
+			target = "npc_championrpg_ifrit",
 			displayName = "Ifrit",
 			tier = "Late",
 			level = 120,
@@ -869,7 +869,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_key_of_flame",
+					item = "item_championrpg_key_of_flame",
 					count = 1,
 					mustCraft = true,
 				},
@@ -878,8 +878,8 @@ local Codex = {
 			rawConditions = "Level 100 and Key of Flame crafted",
 			location = "Teleporter: second page, option [2]. Bottom right corner portal.",
 		},
-		npc_twrpg_nereid = {
-			target = "npc_twrpg_nereid",
+		npc_championrpg_nereid = {
+			target = "npc_championrpg_nereid",
 			displayName = "Nereid",
 			tier = "Endgame",
 			level = 120,
@@ -890,7 +890,7 @@ local Codex = {
 				},
 				{
 					kind = "item",
-					item = "item_twrpg_key_of_sea",
+					item = "item_championrpg_key_of_sea",
 					count = 1,
 					mustCraft = true,
 				},
@@ -899,8 +899,8 @@ local Codex = {
 			rawConditions = "Level 100 and Key of Sea crafted",
 			location = "Teleporter: second page, option [2]. Top left corner portal.",
 		},
-		npc_twrpg_underlord_agareth = {
-			target = "npc_twrpg_underlord_agareth",
+		npc_championrpg_underlord_agareth = {
+			target = "npc_championrpg_underlord_agareth",
 			displayName = "Underlord Agareth",
 			tier = "Endgame",
 			level = 120,
@@ -922,8 +922,8 @@ local Codex = {
 			rawConditions = "Level 100, Demon Lord summoned, and Demonic portal destroyed",
 			location = "Through the destroyed demonic portal during the Hell Invasion",
 		},
-		npc_twrpg_duke_lazarus = {
-			target = "npc_twrpg_duke_lazarus",
+		npc_championrpg_duke_lazarus = {
+			target = "npc_championrpg_duke_lazarus",
 			displayName = "Duke Lazarus",
 			tier = "Endgame",
 			level = 130,
@@ -935,8 +935,8 @@ local Codex = {
 			rawConditions = "Level 100",
 			location = "Through the portal in front of Wallachia castle (next to Death Knight)",
 		},
-		npc_twrpg_gaia = {
-			target = "npc_twrpg_gaia",
+		npc_championrpg_gaia = {
+			target = "npc_championrpg_gaia",
 			displayName = "Gaia",
 			tier = "Endgame",
 			level = 130,
@@ -948,8 +948,8 @@ local Codex = {
 			rawConditions = "Level 100",
 			location = "Teleporter: second page, option [2]. Top right corner portal.",
 		},
-		npc_twrpg_arcane_construct = {
-			target = "npc_twrpg_arcane_construct",
+		npc_championrpg_arcane_construct = {
+			target = "npc_championrpg_arcane_construct",
 			displayName = "Arcane Construct",
 			tier = "Endgame",
 			level = 130,
@@ -967,8 +967,8 @@ local Codex = {
 			rawConditions = "Level 100, destroy Stange Rock",
 			location = "Right side of Golem Cave",
 		},
-		npc_twrpg_styrix_the_harvester_of_souls = {
-			target = "npc_twrpg_styrix_the_harvester_of_souls",
+		npc_championrpg_styrix_the_harvester_of_souls = {
+			target = "npc_championrpg_styrix_the_harvester_of_souls",
 			displayName = "Styrix, the Harvester of Souls",
 			tier = "Endgame",
 			level = 130,
@@ -990,7 +990,7 @@ local Codex = {
 					text = "Summon Demon Lord Beriel at East Prius Gate",
 					requires = {
 						kind = "boss",
-						unit = "npc_twrpg_demon_lord_beriel",
+						unit = "npc_championrpg_demon_lord_beriel",
 					},
 				},
 				{
@@ -1002,7 +1002,7 @@ local Codex = {
 					text = "Destroy the demonic portal",
 					requires = {
 						kind = "unit",
-						unit = "npc_twrpg_hell_portal",
+						unit = "npc_championrpg_hell_portal",
 					},
 				},
 				{
@@ -1010,7 +1010,7 @@ local Codex = {
 					text = "Defeat Underlord Agareth",
 					requires = {
 						kind = "boss",
-						unit = "npc_twrpg_underlord_agareth",
+						unit = "npc_championrpg_underlord_agareth",
 					},
 				},
 			},
@@ -1023,7 +1023,7 @@ local Codex = {
 					text = "Defeat the Castle Avalon Gatekeeper",
 					requires = {
 						kind = "boss",
-						unit = "npc_twrpg_castle_avalon_gatekeeper",
+						unit = "npc_championrpg_castle_avalon_gatekeeper",
 					},
 				},
 				{
@@ -1031,7 +1031,7 @@ local Codex = {
 					text = "Defeat Archangel Samael",
 					requires = {
 						kind = "boss",
-						unit = "npc_twrpg_archangel_samael",
+						unit = "npc_championrpg_archangel_samael",
 					},
 				},
 				{

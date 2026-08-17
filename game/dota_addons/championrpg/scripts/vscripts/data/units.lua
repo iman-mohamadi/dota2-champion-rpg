@@ -2,7 +2,7 @@
 -- Source: research/. Regenerate with: python3 tools/build-content/build.py
 
 local Units = {
-	npc_twrpg_spider = {
+	npc_championrpg_spider = {
 		displayName = "Spider",
 		level = 3,
 		category = "Creep",
@@ -14,7 +14,7 @@ local Units = {
 		attackSpeed = 0.625,
 		location = "East of Starter Village",
 	},
-	npc_twrpg_giant_spider = {
+	npc_championrpg_giant_spider = {
 		displayName = "Giant Spider",
 		level = 8,
 		category = "Creep",
@@ -26,7 +26,7 @@ local Units = {
 		attackSpeed = 0.556,
 		location = "East of Starter Village",
 	},
-	npc_twrpg_wolf = {
+	npc_championrpg_wolf = {
 		displayName = "Wolf",
 		level = 5,
 		category = "Creep",
@@ -38,7 +38,7 @@ local Units = {
 		attackSpeed = 0.625,
 		location = "Southeast of Starter Village",
 	},
-	npc_twrpg_dark_wolf = {
+	npc_championrpg_dark_wolf = {
 		displayName = "Dark Wolf",
 		level = 6,
 		category = "Creep",
@@ -50,7 +50,7 @@ local Units = {
 		attackSpeed = 0.625,
 		location = "Southeast of Starter Village",
 	},
-	npc_twrpg_silverback_wolf = {
+	npc_championrpg_silverback_wolf = {
 		displayName = "Silverback Wolf",
 		level = 10,
 		category = "Creep",
@@ -66,10 +66,10 @@ local Units = {
 		conditions = "Level 1 ~ 10",
 		quote = "Grr..",
 		spells = { "Summon Shadow Wolf", "Critical Strike" },
-		minions = { "npc_twrpg_shadow_wolf" },
-		drops = { "item_twrpg_silver_fang", "item_twrpg_silverfang_vest" },
+		minions = { "npc_championrpg_shadow_wolf" },
+		drops = { "item_championrpg_silver_fang", "item_championrpg_silverfang_vest" },
 	},
-	npc_twrpg_shadow_wolf = {
+	npc_championrpg_shadow_wolf = {
 		displayName = "Shadow Wolf",
 		level = 10,
 		category = "Creep",
@@ -82,7 +82,7 @@ local Units = {
 		location = "Bottom part of the Wild Life Habitat",
 		conditions = "Summoned by Silverback Wolf",
 	},
-	npc_twrpg_troll = {
+	npc_championrpg_troll = {
 		displayName = "Troll",
 		level = 12,
 		category = "Creep",
@@ -96,9 +96,9 @@ local Units = {
 		enrageTimer = 15,
 		location = "Bottom part of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_troll_axe" },
+		drops = { "item_championrpg_troll_axe" },
 	},
-	npc_twrpg_troll_shaman = {
+	npc_championrpg_troll_shaman = {
 		displayName = "Troll Shaman",
 		level = 12,
 		category = "Creep",
@@ -112,9 +112,9 @@ local Units = {
 		enrageTimer = 15,
 		location = "Bottom part of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_troll_battlewear" },
+		drops = { "item_championrpg_troll_battlewear" },
 	},
-	npc_twrpg_troll_berserker = {
+	npc_championrpg_troll_berserker = {
 		displayName = "Troll Berserker",
 		level = 16,
 		category = "Creep",
@@ -128,9 +128,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "Bottom part of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_berserker_mask" },
+		drops = { "item_championrpg_berserker_mask" },
 	},
-	npc_twrpg_troll_lord = {
+	npc_championrpg_troll_lord = {
 		displayName = "Troll Lord",
 		level = 20,
 		category = "Creep",
@@ -145,9 +145,9 @@ local Units = {
 		location = "Bottom part of the Wild Life Habitat",
 		conditions = "Recommended Level 10 ~ 20",
 		spells = { "Mirror Image" },
-		drops = { "item_twrpg_fang_necklace", "item_twrpg_troll_blood" },
+		drops = { "item_championrpg_fang_necklace", "item_championrpg_troll_blood" },
 	},
-	npc_twrpg_furbolg = {
+	npc_championrpg_furbolg = {
 		displayName = "Furbolg",
 		level = 24,
 		category = "Creep",
@@ -161,9 +161,9 @@ local Units = {
 		enrageTimer = 15,
 		location = "Top side of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_forest_armor", "item_twrpg_ancient_branch" },
+		drops = { "item_championrpg_forest_armor", "item_championrpg_ancient_branch" },
 	},
-	npc_twrpg_furbolg_tracker = {
+	npc_championrpg_furbolg_tracker = {
 		displayName = "Furbolg Tracker",
 		level = 25,
 		category = "Creep",
@@ -177,9 +177,9 @@ local Units = {
 		enrageTimer = 15,
 		location = "Top side of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_forest_helm", "item_twrpg_ancient_branch" },
+		drops = { "item_championrpg_forest_helm", "item_championrpg_ancient_branch" },
 	},
-	npc_twrpg_furbolg_shaman = {
+	npc_championrpg_furbolg_shaman = {
 		displayName = "Furbolg Shaman",
 		level = 27,
 		category = "Creep",
@@ -193,9 +193,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "Top side of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_forest_robe", "item_twrpg_ancient_branch" },
+		drops = { "item_championrpg_forest_robe", "item_championrpg_ancient_branch" },
 	},
-	npc_twrpg_furbolg_giant = {
+	npc_championrpg_furbolg_giant = {
 		displayName = "Furbolg Giant",
 		level = 29,
 		category = "Creep",
@@ -209,9 +209,9 @@ local Units = {
 		enrageTimer = 60,
 		location = "Top side of the Wild Life Habitat",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_ancient_branch" },
+		drops = { "item_championrpg_ancient_branch" },
 	},
-	npc_twrpg_protector_of_nature = {
+	npc_championrpg_protector_of_nature = {
 		displayName = "Protector of Nature",
 		level = 30,
 		category = "Field",
@@ -227,16 +227,16 @@ local Units = {
 		quote = "The nature purges you!",
 		spells = { "Wrath of Nature", "Shackle of Nature" },
 		drops = {
-			"item_twrpg_wings_of_nature",
-			"item_twrpg_ancient_leaf",
-			"item_twrpg_ancient_tree_sword",
-			"item_twrpg_ancient_tree_staff",
-			"item_twrpg_ancient_tree_bow",
-			"item_twrpg_ancient_tree_rifle",
-			"item_twrpg_green_crystal_golem_token",
+			"item_championrpg_wings_of_nature",
+			"item_championrpg_ancient_leaf",
+			"item_championrpg_ancient_tree_sword",
+			"item_championrpg_ancient_tree_staff",
+			"item_championrpg_ancient_tree_bow",
+			"item_championrpg_ancient_tree_rifle",
+			"item_championrpg_green_crystal_golem_token",
 		},
 	},
-	npc_twrpg_white_murloc = {
+	npc_championrpg_white_murloc = {
 		displayName = "White Murloc",
 		level = 33,
 		category = "Creep",
@@ -250,9 +250,9 @@ local Units = {
 		enrageTimer = 25,
 		location = "Right side of Wild Life Habitat, Seaside",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_deep_sword", "item_twrpg_deep_staff" },
+		drops = { "item_championrpg_deep_sword", "item_championrpg_deep_staff" },
 	},
-	npc_twrpg_green_murloc = {
+	npc_championrpg_green_murloc = {
 		displayName = "Green Murloc",
 		level = 35,
 		category = "Creep",
@@ -266,9 +266,9 @@ local Units = {
 		enrageTimer = 25,
 		location = "Right side of Wild Life Habitat, Seaside",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_deep_sword", "item_twrpg_deep_bow", "item_twrpg_deep_rifle" },
+		drops = { "item_championrpg_deep_sword", "item_championrpg_deep_bow", "item_championrpg_deep_rifle" },
 	},
-	npc_twrpg_orange_murloc = {
+	npc_championrpg_orange_murloc = {
 		displayName = "Orange Murloc",
 		level = 37,
 		category = "Creep",
@@ -282,9 +282,9 @@ local Units = {
 		enrageTimer = 25,
 		location = "Right side of Wild Life Habitat, Seaside",
 		conditions = "Recommended Level 10 ~ 20",
-		drops = { "item_twrpg_deep_staff", "item_twrpg_deep_bow", "item_twrpg_deep_rifle" },
+		drops = { "item_championrpg_deep_staff", "item_championrpg_deep_bow", "item_championrpg_deep_rifle" },
 	},
-	npc_twrpg_blue_murloc = {
+	npc_championrpg_blue_murloc = {
 		displayName = "Blue Murloc",
 		level = 41,
 		category = "Creep",
@@ -298,9 +298,9 @@ local Units = {
 		enrageTimer = 25,
 		location = "Right side of Wild Life Habitat, Seaside",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_deep_armor", "item_twrpg_deep_robe", "item_twrpg_deep_helm" },
+		drops = { "item_championrpg_deep_armor", "item_championrpg_deep_robe", "item_championrpg_deep_helm" },
 	},
-	npc_twrpg_purple_murloc = {
+	npc_championrpg_purple_murloc = {
 		displayName = "Purple Murloc",
 		level = 43,
 		category = "Creep",
@@ -314,9 +314,9 @@ local Units = {
 		enrageTimer = 25,
 		location = "Right side of Wild Life Habitat, Seaside",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_deep_armor", "item_twrpg_deep_robe", "item_twrpg_deep_helm" },
+		drops = { "item_championrpg_deep_armor", "item_championrpg_deep_robe", "item_championrpg_deep_helm" },
 	},
-	npc_twrpg_dragon_turtle = {
+	npc_championrpg_dragon_turtle = {
 		displayName = "Dragon Turtle",
 		level = 45,
 		category = "Creep",
@@ -330,9 +330,9 @@ local Units = {
 		enrageTimer = 120,
 		location = "Right side of Wild Life Habitat, far south of Seaside",
 		conditions = "Level 10 ~ 20",
-		drops = { "item_twrpg_hard_turtle_shell", "item_twrpg_black_pearl" },
+		drops = { "item_championrpg_hard_turtle_shell", "item_championrpg_black_pearl" },
 	},
-	npc_twrpg_king_crab = {
+	npc_championrpg_king_crab = {
 		displayName = "King Crab",
 		level = 40,
 		category = "Field",
@@ -347,9 +347,9 @@ local Units = {
 		conditions = "Level 10 ~ 20 and Magical Horn",
 		quote = "MRGLMRGL",
 		spells = { "Harden Shell", "Sea Wave", "Hold" },
-		drops = { "item_twrpg_shell_sword", "item_twrpg_crab_armor", "item_twrpg_sea_jewel" },
+		drops = { "item_championrpg_shell_sword", "item_championrpg_crab_armor", "item_championrpg_sea_jewel" },
 	},
-	npc_twrpg_walrus = {
+	npc_championrpg_walrus = {
 		displayName = "Walrus",
 		level = 40,
 		category = "Field",
@@ -364,9 +364,9 @@ local Units = {
 		conditions = "Level 10 ~ 20 and Magical Horn",
 		quote = "It's slippery..",
 		spells = { "Slimy Ball", "Slippery Skin", "Headbutt" },
-		drops = { "item_twrpg_ivory_cane", "item_twrpg_tusk_hunter", "item_twrpg_walrus_skin_cloak" },
+		drops = { "item_championrpg_ivory_cane", "item_championrpg_tusk_hunter", "item_championrpg_walrus_skin_cloak" },
 	},
-	npc_twrpg_ice_troll = {
+	npc_championrpg_ice_troll = {
 		displayName = "Ice Troll",
 		level = 43,
 		category = "Creep",
@@ -380,9 +380,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Frosty Snowfield",
 		conditions = "Level 40",
-		drops = { "item_twrpg_frosty_sword", "item_twrpg_frosty_staff" },
+		drops = { "item_championrpg_frosty_sword", "item_championrpg_frosty_staff" },
 	},
-	npc_twrpg_ice_troll_priest = {
+	npc_championrpg_ice_troll_priest = {
 		displayName = "Ice Troll Priest",
 		level = 45,
 		category = "Creep",
@@ -397,9 +397,9 @@ local Units = {
 		location = "In Frosty Snowfield",
 		conditions = "Level 40",
 		spells = { "Heal" },
-		drops = { "item_twrpg_frosty_bow", "item_twrpg_frosty_rifle" },
+		drops = { "item_championrpg_frosty_bow", "item_championrpg_frosty_rifle" },
 	},
-	npc_twrpg_polar_bear = {
+	npc_championrpg_polar_bear = {
 		displayName = "Polar Bear",
 		level = 47,
 		category = "Creep",
@@ -413,9 +413,9 @@ local Units = {
 		enrageTimer = 40,
 		location = "In Frosty Snowfield",
 		conditions = "Level 40",
-		drops = { "item_twrpg_frosty_armor", "item_twrpg_frosty_robe", "item_twrpg_frosty_helm" },
+		drops = { "item_championrpg_frosty_armor", "item_championrpg_frosty_robe", "item_championrpg_frosty_helm" },
 	},
-	npc_twrpg_polar_bear_giant = {
+	npc_championrpg_polar_bear_giant = {
 		displayName = "Polar Bear Giant",
 		level = 50,
 		category = "Creep",
@@ -429,9 +429,9 @@ local Units = {
 		enrageTimer = 120,
 		location = "In Frosty Snowfield",
 		conditions = "Level 40",
-		drops = { "item_twrpg_bear_fur_cloak", "item_twrpg_warm_fur" },
+		drops = { "item_championrpg_bear_fur_cloak", "item_championrpg_warm_fur" },
 	},
-	npc_twrpg_mammoth = {
+	npc_championrpg_mammoth = {
 		displayName = "Mammoth",
 		level = 50,
 		category = "Field",
@@ -446,9 +446,9 @@ local Units = {
 		conditions = "Level 40 and Frozen Crystal",
 		quote = "BARANG",
 		spells = { "Massive Tusk", "Charge", "Hailstorm" },
-		drops = { "item_twrpg_icicle_bow", "item_twrpg_glacier_guard", "item_twrpg_snowman_pendant" },
+		drops = { "item_championrpg_icicle_bow", "item_championrpg_glacier_guard", "item_championrpg_snowman_pendant" },
 	},
-	npc_twrpg_snowman = {
+	npc_championrpg_snowman = {
 		displayName = "Snowman",
 		level = 50,
 		category = "Creep",
@@ -461,7 +461,7 @@ local Units = {
 		location = "In Frosty Snowfield",
 		conditions = "Summoned by Mammoth",
 	},
-	npc_twrpg_king_kong = {
+	npc_championrpg_king_kong = {
 		displayName = "King Kong",
 		level = 50,
 		category = "Field",
@@ -476,9 +476,13 @@ local Units = {
 		conditions = "Level 40 and Frozen Crystal",
 		quote = "Monke.",
 		spells = { "Enrage", "Throw" },
-		drops = { "item_twrpg_king_kongs_claws", "item_twrpg_wind_protection_clothing", "item_twrpg_meat_bag" },
+		drops = {
+			"item_championrpg_king_kongs_claws",
+			"item_championrpg_wind_protection_clothing",
+			"item_championrpg_meat_bag",
+		},
 	},
-	npc_twrpg_duchy_of_wallachia_soldier = {
+	npc_championrpg_duchy_of_wallachia_soldier = {
 		displayName = "Duchy of Wallachia Soldier",
 		level = 62,
 		category = "Creep",
@@ -492,9 +496,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Duchy of Wallachia",
 		conditions = "Level 50",
-		drops = { "item_twrpg_sword_of_darkness", "item_twrpg_rifle_of_darkness" },
+		drops = { "item_championrpg_sword_of_darkness", "item_championrpg_rifle_of_darkness" },
 	},
-	npc_twrpg_duchy_of_wallachia_archer = {
+	npc_championrpg_duchy_of_wallachia_archer = {
 		displayName = "Duchy of Wallachia Archer",
 		level = 63,
 		category = "Creep",
@@ -508,9 +512,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Duchy of Wallachia",
 		conditions = "Level 50",
-		drops = { "item_twrpg_staff_of_darkness", "item_twrpg_bow_of_darkness" },
+		drops = { "item_championrpg_staff_of_darkness", "item_championrpg_bow_of_darkness" },
 	},
-	npc_twrpg_duchy_of_wallachia_cavalry = {
+	npc_championrpg_duchy_of_wallachia_cavalry = {
 		displayName = "Duchy of Wallachia Cavalry",
 		level = 65,
 		category = "Creep",
@@ -525,13 +529,13 @@ local Units = {
 		location = "In Duchy of Wallachia",
 		conditions = "Level 50",
 		drops = {
-			"item_twrpg_sword_of_darkness",
-			"item_twrpg_staff_of_darkness",
-			"item_twrpg_bow_of_darkness",
-			"item_twrpg_rifle_of_darkness",
+			"item_championrpg_sword_of_darkness",
+			"item_championrpg_staff_of_darkness",
+			"item_championrpg_bow_of_darkness",
+			"item_championrpg_rifle_of_darkness",
 		},
 	},
-	npc_twrpg_duchy_of_wallachia_guardian = {
+	npc_championrpg_duchy_of_wallachia_guardian = {
 		displayName = "Duchy of Wallachia Guardian",
 		level = 67,
 		category = "Creep",
@@ -545,9 +549,13 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Duchy of Wallachia",
 		conditions = "Level 50",
-		drops = { "item_twrpg_armor_of_darkness", "item_twrpg_robe_of_darkness", "item_twrpg_helm_of_darkness" },
+		drops = {
+			"item_championrpg_armor_of_darkness",
+			"item_championrpg_robe_of_darkness",
+			"item_championrpg_helm_of_darkness",
+		},
 	},
-	npc_twrpg_wallachia_death_knight_lord = {
+	npc_championrpg_wallachia_death_knight_lord = {
 		displayName = "Wallachia Death Knight Lord",
 		level = 60,
 		category = "Creep",
@@ -562,17 +570,17 @@ local Units = {
 		location = "In Duchy of Wallachia",
 		conditions = "Level 50",
 		spells = { "Dark Strength", "Death Finger", "Summon Wraith" },
-		minions = { "npc_twrpg_wraith" },
+		minions = { "npc_championrpg_wraith" },
 		drops = {
-			"item_twrpg_helm_of_the_dead",
-			"item_twrpg_raven_sword",
-			"item_twrpg_raven_staff",
-			"item_twrpg_raven_bow",
-			"item_twrpg_raven_rifle",
-			"item_twrpg_token_of_death",
+			"item_championrpg_helm_of_the_dead",
+			"item_championrpg_raven_sword",
+			"item_championrpg_raven_staff",
+			"item_championrpg_raven_bow",
+			"item_championrpg_raven_rifle",
+			"item_championrpg_token_of_death",
 		},
 	},
-	npc_twrpg_wraith = {
+	npc_championrpg_wraith = {
 		displayName = "Wraith",
 		level = 0,
 		category = "Creep",
@@ -585,7 +593,7 @@ local Units = {
 		location = "In Duchy of Wallachia",
 		conditions = "Summoned by Death Knight",
 	},
-	npc_twrpg_blood_wraith = {
+	npc_championrpg_blood_wraith = {
 		displayName = "Blood Wraith",
 		level = 60,
 		category = "Field",
@@ -600,17 +608,17 @@ local Units = {
 		conditions = "Level 50 and Cursed Mask",
 		quote = "I shall be unleashed!!",
 		spells = { "Bloody Echoes", "Blood Anger", "Craze", "True Requiem" },
-		minions = { "npc_twrpg_soldier_of_blood" },
+		minions = { "npc_championrpg_soldier_of_blood" },
 		drops = {
-			"item_twrpg_blade_of_requiem",
-			"item_twrpg_crossbow_of_requiem",
-			"item_twrpg_blood_orb",
-			"item_twrpg_cape_of_the_dead",
-			"item_twrpg_ring_of_the_dead",
-			"item_twrpg_mask_of_blood",
+			"item_championrpg_blade_of_requiem",
+			"item_championrpg_crossbow_of_requiem",
+			"item_championrpg_blood_orb",
+			"item_championrpg_cape_of_the_dead",
+			"item_championrpg_ring_of_the_dead",
+			"item_championrpg_mask_of_blood",
 		},
 	},
-	npc_twrpg_soldier_of_blood = {
+	npc_championrpg_soldier_of_blood = {
 		displayName = "Soldier of Blood",
 		level = 0,
 		category = "Field",
@@ -624,7 +632,7 @@ local Units = {
 		conditions = "Summoned by Blood Wraith",
 		spells = { "Ghostly Strike" },
 	},
-	npc_twrpg_wallachia_monstrosity = {
+	npc_championrpg_wallachia_monstrosity = {
 		displayName = "Wallachia Monstrosity",
 		level = 60,
 		category = "Field",
@@ -639,17 +647,17 @@ local Units = {
 		conditions = "Level 50 and Cursed Mask",
 		quote = "Bats! Bats! BATS!",
 		spells = { "Death Cross", "Summon Bat Statue", "Hear me out!", "Desperate Flight" },
-		minions = { "npc_twrpg_bat_statue" },
+		minions = { "npc_championrpg_bat_statue" },
 		drops = {
-			"item_twrpg_demon_hunter",
-			"item_twrpg_blood_orb",
-			"item_twrpg_stone_plates",
-			"item_twrpg_mask_of_blood",
-			"item_twrpg_ring_of_the_dead",
-			"item_twrpg_bat_wings",
+			"item_championrpg_demon_hunter",
+			"item_championrpg_blood_orb",
+			"item_championrpg_stone_plates",
+			"item_championrpg_mask_of_blood",
+			"item_championrpg_ring_of_the_dead",
+			"item_championrpg_bat_wings",
 		},
 	},
-	npc_twrpg_bat_statue = {
+	npc_championrpg_bat_statue = {
 		displayName = "Bat Statue",
 		level = 60,
 		category = "Field",
@@ -661,7 +669,7 @@ local Units = {
 		attackSpeed = 0,
 		conditions = "Summoned by Wallachia Monstrosity",
 	},
-	npc_twrpg_lava_hatchling = {
+	npc_championrpg_lava_hatchling = {
 		displayName = "Lava Hatchling",
 		level = 62,
 		category = "Creep",
@@ -675,9 +683,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Volcanic Lands",
 		conditions = "Level 60",
-		drops = { "item_twrpg_sword_of_flame", "item_twrpg_staff_of_flame" },
+		drops = { "item_championrpg_sword_of_flame", "item_championrpg_staff_of_flame" },
 	},
-	npc_twrpg_lava_spawn = {
+	npc_championrpg_lava_spawn = {
 		displayName = "Lava Spawn",
 		level = 64,
 		category = "Creep",
@@ -691,9 +699,13 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Volcanic Lands",
 		conditions = "Level 60",
-		drops = { "item_twrpg_sword_of_flame", "item_twrpg_bow_of_flame", "item_twrpg_rifle_of_flame" },
+		drops = {
+			"item_championrpg_sword_of_flame",
+			"item_championrpg_bow_of_flame",
+			"item_championrpg_rifle_of_flame",
+		},
 	},
-	npc_twrpg_lava_worm = {
+	npc_championrpg_lava_worm = {
 		displayName = "Lava Worm",
 		level = 64,
 		category = "Creep",
@@ -707,9 +719,13 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Volcanic Lands",
 		conditions = "Level 60",
-		drops = { "item_twrpg_staff_of_flame", "item_twrpg_bow_of_flame", "item_twrpg_rifle_of_flame" },
+		drops = {
+			"item_championrpg_staff_of_flame",
+			"item_championrpg_bow_of_flame",
+			"item_championrpg_rifle_of_flame",
+		},
 	},
-	npc_twrpg_lava_ancient = {
+	npc_championrpg_lava_ancient = {
 		displayName = "Lava Ancient",
 		level = 68,
 		category = "Creep",
@@ -723,9 +739,13 @@ local Units = {
 		enrageTimer = 30,
 		location = "In Volcanic Lands",
 		conditions = "Level 60",
-		drops = { "item_twrpg_armor_of_flame", "item_twrpg_robe_of_flame", "item_twrpg_helm_of_flame" },
+		drops = {
+			"item_championrpg_armor_of_flame",
+			"item_championrpg_robe_of_flame",
+			"item_championrpg_helm_of_flame",
+		},
 	},
-	npc_twrpg_ruler_of_flames_ragnaar = {
+	npc_championrpg_ruler_of_flames_ragnaar = {
 		displayName = "Ruler of Flames Ragnaar",
 		level = 70,
 		category = "Creep",
@@ -740,18 +760,18 @@ local Units = {
 		location = "In Volcanic Lands",
 		conditions = "Level 60",
 		spells = { "Craze", "Hellflame Nova", "Slaves of Trueflame" },
-		minions = { "npc_twrpg_slave_of_trueflame" },
+		minions = { "npc_championrpg_slave_of_trueflame" },
 		drops = {
-			"item_twrpg_sword_of_crimson_flame",
-			"item_twrpg_staff_of_crimson_flame",
-			"item_twrpg_bow_of_crimson_flame",
-			"item_twrpg_rifle_of_crimson_flame",
-			"item_twrpg_flame_cloak",
-			"item_twrpg_ragnaar_icon",
-			"item_twrpg_flame_token",
+			"item_championrpg_sword_of_crimson_flame",
+			"item_championrpg_staff_of_crimson_flame",
+			"item_championrpg_bow_of_crimson_flame",
+			"item_championrpg_rifle_of_crimson_flame",
+			"item_championrpg_flame_cloak",
+			"item_championrpg_ragnaar_icon",
+			"item_championrpg_flame_token",
 		},
 	},
-	npc_twrpg_slave_of_trueflame = {
+	npc_championrpg_slave_of_trueflame = {
 		displayName = "Slave of Trueflame",
 		level = 70,
 		category = "Creep",
@@ -764,7 +784,7 @@ local Units = {
 		location = "In Volcanic Lands",
 		conditions = "Summoned by Ragnaar",
 	},
-	npc_twrpg_evil_lava_spawn = {
+	npc_championrpg_evil_lava_spawn = {
 		displayName = "Evil Lava Spawn",
 		level = 70,
 		category = "Field",
@@ -780,14 +800,14 @@ local Units = {
 		quote = "Nyohoho!!",
 		spells = { "Fireball Barrage", "Evil Power", "Seal", "Nyohoho", "How fun!" },
 		drops = {
-			"item_twrpg_flamereaver",
-			"item_twrpg_blaster",
-			"item_twrpg_helm_of_passion",
-			"item_twrpg_crimson_stone",
-			"item_twrpg_a_small_piece_of_wrath",
+			"item_championrpg_flamereaver",
+			"item_championrpg_blaster",
+			"item_championrpg_helm_of_passion",
+			"item_championrpg_crimson_stone",
+			"item_championrpg_a_small_piece_of_wrath",
 		},
 	},
-	npc_twrpg_murloc_giant = {
+	npc_championrpg_murloc_giant = {
 		displayName = "Murloc Giant",
 		level = 73,
 		category = "Creep",
@@ -801,9 +821,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In the Deep Sea",
 		conditions = "Level 70 ~ 90",
-		drops = { "item_twrpg_armor_of_deep_sea", "item_twrpg_robe_of_deep_sea" },
+		drops = { "item_championrpg_armor_of_deep_sea", "item_championrpg_robe_of_deep_sea" },
 	},
-	npc_twrpg_tide_caller = {
+	npc_championrpg_tide_caller = {
 		displayName = "Tide Caller",
 		level = 75,
 		category = "Creep",
@@ -818,9 +838,9 @@ local Units = {
 		location = "In the Deep Sea",
 		conditions = "Recommended Level 70 ~ 90",
 		spells = { "Water Bolt" },
-		drops = { "item_twrpg_armor_of_deep_sea", "item_twrpg_robe_of_deep_sea" },
+		drops = { "item_championrpg_armor_of_deep_sea", "item_championrpg_robe_of_deep_sea" },
 	},
-	npc_twrpg_sea_guardian = {
+	npc_championrpg_sea_guardian = {
 		displayName = "Sea Guardian",
 		level = 77,
 		category = "Creep",
@@ -835,9 +855,9 @@ local Units = {
 		location = "In the Deep Sea",
 		conditions = "Level 70 ~ 90",
 		spells = { "Water Shield" },
-		drops = { "item_twrpg_helm_of_deep_sea" },
+		drops = { "item_championrpg_helm_of_deep_sea" },
 	},
-	npc_twrpg_tentacle_lord = {
+	npc_championrpg_tentacle_lord = {
 		displayName = "Tentacle Lord",
 		level = 80,
 		category = "Creep",
@@ -853,17 +873,17 @@ local Units = {
 		conditions = "Level 70 ~ 90",
 		spells = { "Tentacle Slam", "Tentacle Spike", "Tentacles" },
 		drops = {
-			"item_twrpg_horn_of_deep_sea",
-			"item_twrpg_sword_of_deep_sea",
-			"item_twrpg_staff_of_deep_sea",
-			"item_twrpg_bow_of_deep_sea",
-			"item_twrpg_rifle_of_deep_sea",
-			"item_twrpg_infected_tentacle",
-			"item_twrpg_tentacle_lord_icon",
-			"item_twrpg_tentacle_token",
+			"item_championrpg_horn_of_deep_sea",
+			"item_championrpg_sword_of_deep_sea",
+			"item_championrpg_staff_of_deep_sea",
+			"item_championrpg_bow_of_deep_sea",
+			"item_championrpg_rifle_of_deep_sea",
+			"item_championrpg_infected_tentacle",
+			"item_championrpg_tentacle_lord_icon",
+			"item_championrpg_tentacle_token",
 		},
 	},
-	npc_twrpg_guardian_of_sea = {
+	npc_championrpg_guardian_of_sea = {
 		displayName = "Guardian of Sea",
 		level = 80,
 		category = "Field",
@@ -879,13 +899,13 @@ local Units = {
 		quote = "Feel the might of sea!",
 		spells = { "Sea Beam", "Summon Bubble", "Water Splash", "The Sea will Shallow You!" },
 		drops = {
-			"item_twrpg_trident",
-			"item_twrpg_tidal_robe",
-			"item_twrpg_droplet_orb",
-			"item_twrpg_wings_of_purification",
+			"item_championrpg_trident",
+			"item_championrpg_tidal_robe",
+			"item_championrpg_droplet_orb",
+			"item_championrpg_wings_of_purification",
 		},
 	},
-	npc_twrpg_stone_golem = {
+	npc_championrpg_stone_golem = {
 		displayName = "Stone Golem",
 		level = 86,
 		category = "Creep",
@@ -899,9 +919,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In the Cave",
 		conditions = "Level 80",
-		drops = { "item_twrpg_armor_of_corruption", "item_twrpg_robe_of_corruption" },
+		drops = { "item_championrpg_armor_of_corruption", "item_championrpg_robe_of_corruption" },
 	},
-	npc_twrpg_solid_golem = {
+	npc_championrpg_solid_golem = {
 		displayName = "Solid Golem",
 		level = 89,
 		category = "Creep",
@@ -915,9 +935,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In the Cave",
 		conditions = "Level 80",
-		drops = { "item_twrpg_helm_of_corruption" },
+		drops = { "item_championrpg_helm_of_corruption" },
 	},
-	npc_twrpg_giant_golem = {
+	npc_championrpg_giant_golem = {
 		displayName = "Giant Golem",
 		level = 90,
 		category = "Creep",
@@ -933,17 +953,17 @@ local Units = {
 		conditions = "Level 80",
 		spells = { "Crushing Slam", "Unstoppable Force" },
 		drops = {
-			"item_twrpg_corrupt_crystal_fragment",
-			"item_twrpg_sword_of_corruption",
-			"item_twrpg_staff_of_corruption",
-			"item_twrpg_bow_of_corruption",
-			"item_twrpg_rifle_of_corruption",
-			"item_twrpg_corrupt_creations",
-			"item_twrpg_giant_golem_icon",
-			"item_twrpg_big_golem_token",
+			"item_championrpg_corrupt_crystal_fragment",
+			"item_championrpg_sword_of_corruption",
+			"item_championrpg_staff_of_corruption",
+			"item_championrpg_bow_of_corruption",
+			"item_championrpg_rifle_of_corruption",
+			"item_championrpg_corrupt_creations",
+			"item_championrpg_giant_golem_icon",
+			"item_championrpg_big_golem_token",
 		},
 	},
-	npc_twrpg_duchy_of_wallachia_assassin = {
+	npc_championrpg_duchy_of_wallachia_assassin = {
 		displayName = "Duchy of Wallachia Assassin",
 		level = 84,
 		category = "Creep",
@@ -958,9 +978,9 @@ local Units = {
 		location = "In the Wallachia Graveyard",
 		conditions = "Level 80",
 		spells = { "Evasive Movement" },
-		drops = { "item_twrpg_armor_of_corruption", "item_twrpg_robe_of_corruption" },
+		drops = { "item_championrpg_armor_of_corruption", "item_championrpg_robe_of_corruption" },
 	},
-	npc_twrpg_duchy_of_wallachia_apostle = {
+	npc_championrpg_duchy_of_wallachia_apostle = {
 		displayName = "Duchy of Wallachia Apostle",
 		level = 87,
 		category = "Creep",
@@ -974,9 +994,9 @@ local Units = {
 		enrageTimer = 30,
 		location = "In the Wallachia Graveyard",
 		conditions = "Level 80",
-		drops = { "item_twrpg_helm_of_corruption" },
+		drops = { "item_championrpg_helm_of_corruption" },
 	},
-	npc_twrpg_scarab = {
+	npc_championrpg_scarab = {
 		displayName = "Scarab",
 		level = 100,
 		category = "Creep",
@@ -990,9 +1010,9 @@ local Units = {
 		enrageTimer = 300,
 		location = "In the Wallachia Graveyard",
 		conditions = "Level 80",
-		drops = { "item_twrpg_scarab_bone" },
+		drops = { "item_championrpg_scarab_bone" },
 	},
-	npc_twrpg_wallachia_wraith = {
+	npc_championrpg_wallachia_wraith = {
 		displayName = "Wallachia Wraith",
 		level = 100,
 		category = "Creep",
@@ -1007,9 +1027,9 @@ local Units = {
 		location = "In the Wallachia Graveyard",
 		conditions = "Level 80",
 		spells = { "Evasive Movement", "Dark Blast" },
-		drops = { "item_twrpg_ghostly_thread", "item_twrpg_corrupt_creations" },
+		drops = { "item_championrpg_ghostly_thread", "item_championrpg_corrupt_creations" },
 	},
-	npc_twrpg_forest_spirit = {
+	npc_championrpg_forest_spirit = {
 		displayName = "Forest Spirit",
 		level = 100,
 		category = "Creep",
@@ -1024,9 +1044,9 @@ local Units = {
 		location = "In Fairy Forest",
 		conditions = "Level 80",
 		spells = { "Thorns Aura" },
-		drops = { "item_twrpg_seal_breaking_gemstone", "item_twrpg_green_magic_stone" },
+		drops = { "item_championrpg_seal_breaking_gemstone", "item_championrpg_green_magic_stone" },
 	},
-	npc_twrpg_fairy = {
+	npc_championrpg_fairy = {
 		displayName = "Fairy",
 		level = 100,
 		category = "Creep",
@@ -1041,9 +1061,9 @@ local Units = {
 		location = "In Fairy Forest",
 		conditions = "Level 80",
 		spells = { "Rejuvination", "Faerie Fire" },
-		drops = { "item_twrpg_seal_breaking_gemstone", "item_twrpg_green_magic_stone" },
+		drops = { "item_championrpg_seal_breaking_gemstone", "item_championrpg_green_magic_stone" },
 	},
-	npc_twrpg_mana_ancient = {
+	npc_championrpg_mana_ancient = {
 		displayName = "Mana Ancient",
 		level = 90,
 		category = "Creep",
@@ -1059,16 +1079,16 @@ local Units = {
 		conditions = "Level 90+",
 		spells = { "Mana Swipe", "Drain", "Mana Explosion" },
 		drops = {
-			"item_twrpg_plates_of_regeneration",
-			"item_twrpg_vest_of_protection",
-			"item_twrpg_fairy_robe",
-			"item_twrpg_lifestone",
-			"item_twrpg_mana_ancient_icon",
-			"item_twrpg_spirit_orb",
-			"item_twrpg_ancient_token",
+			"item_championrpg_plates_of_regeneration",
+			"item_championrpg_vest_of_protection",
+			"item_championrpg_fairy_robe",
+			"item_championrpg_lifestone",
+			"item_championrpg_mana_ancient_icon",
+			"item_championrpg_spirit_orb",
+			"item_championrpg_ancient_token",
 		},
 	},
-	npc_twrpg_ruler_of_the_lav_sea_hydra = {
+	npc_championrpg_ruler_of_the_lav_sea_hydra = {
 		displayName = "Ruler of the Lav Sea Hydra",
 		level = 50,
 		category = "Minor",
@@ -1085,20 +1105,20 @@ local Units = {
 		quote = "grwwowowrwo !",
 		spells = { "Lethal Poison", "Stomp", "Sea Wave" },
 		drops = {
-			"item_twrpg_sword_of_poison",
-			"item_twrpg_staff_of_poison",
-			"item_twrpg_bow_of_poison",
-			"item_twrpg_rifle_of_poison",
-			"item_twrpg_armor_of_poison",
-			"item_twrpg_robe_of_poison",
-			"item_twrpg_helm_of_poison",
-			"item_twrpg_ring_of_poison",
-			"item_twrpg_hydra_poison_tooth",
-			"item_twrpg_hydra_scale",
-			"item_twrpg_hydra_token",
+			"item_championrpg_sword_of_poison",
+			"item_championrpg_staff_of_poison",
+			"item_championrpg_bow_of_poison",
+			"item_championrpg_rifle_of_poison",
+			"item_championrpg_armor_of_poison",
+			"item_championrpg_robe_of_poison",
+			"item_championrpg_helm_of_poison",
+			"item_championrpg_ring_of_poison",
+			"item_championrpg_hydra_poison_tooth",
+			"item_championrpg_hydra_scale",
+			"item_championrpg_hydra_token",
 		},
 	},
-	npc_twrpg_duchy_of_wallachia_count = {
+	npc_championrpg_duchy_of_wallachia_count = {
 		displayName = "Duchy of Wallachia Count",
 		level = 60,
 		category = "Minor",
@@ -1115,19 +1135,19 @@ local Units = {
 		quote = "The night begins now !",
 		spells = { "Immortal Body", "Death Bind", "Hounds of Berskubil", "Requiem of BLood", "Unleash True Form" },
 		drops = {
-			"item_twrpg_sanguiel_the_bloodspear",
-			"item_twrpg_bloodsword_tepethia",
-			"item_twrpg_blood_cannon_tepes",
-			"item_twrpg_bloody_armor",
-			"item_twrpg_bloody_robe",
-			"item_twrpg_bloody_helm",
-			"item_twrpg_ring_of_count",
-			"item_twrpg_bloodstone",
-			"item_twrpg_counts_memento",
-			"item_twrpg_count_token",
+			"item_championrpg_sanguiel_the_bloodspear",
+			"item_championrpg_bloodsword_tepethia",
+			"item_championrpg_blood_cannon_tepes",
+			"item_championrpg_bloody_armor",
+			"item_championrpg_bloody_robe",
+			"item_championrpg_bloody_helm",
+			"item_championrpg_ring_of_count",
+			"item_championrpg_bloodstone",
+			"item_championrpg_counts_memento",
+			"item_championrpg_count_token",
 		},
 	},
-	npc_twrpg_jack_o_lantern = {
+	npc_championrpg_jack_o_lantern = {
 		displayName = "Jack o Lantern",
 		level = 60,
 		category = "Minor",
@@ -1144,16 +1164,16 @@ local Units = {
 		quote = "..It's not Halloween yet !",
 		spells = { "Jack Impact", "Jack Wave", "Pumpkin Body" },
 		drops = {
-			"item_twrpg_jack_pumpkin_helm",
-			"item_twrpg_jack_pumpkin_hood",
-			"item_twrpg_pumpkin_rod",
-			"item_twrpg_candy_bag",
-			"item_twrpg_orichalcum",
-			"item_twrpg_yellow_crystal_golem_token",
-			"item_twrpg_jack_pumpkin_token",
+			"item_championrpg_jack_pumpkin_helm",
+			"item_championrpg_jack_pumpkin_hood",
+			"item_championrpg_pumpkin_rod",
+			"item_championrpg_candy_bag",
+			"item_championrpg_orichalcum",
+			"item_championrpg_yellow_crystal_golem_token",
+			"item_championrpg_jack_pumpkin_token",
 		},
 	},
-	npc_twrpg_mage_lord = {
+	npc_championrpg_mage_lord = {
 		displayName = "Mage Lord",
 		level = 70,
 		category = "Minor",
@@ -1170,17 +1190,17 @@ local Units = {
 		quote = "I shall give you a taste of my magic!",
 		spells = { "Blizzard", "Chain Lightning", "Dark Star", "Magical Weapon" },
 		drops = {
-			"item_twrpg_sealed_weapon",
-			"item_twrpg_robe_of_the_mage",
-			"item_twrpg_hood_of_mage",
-			"item_twrpg_ring_of_resonance",
-			"item_twrpg_mithril",
-			"item_twrpg_ancient_writings",
-			"item_twrpg_blue_crystal_golem_token",
-			"item_twrpg_magical_token",
+			"item_championrpg_sealed_weapon",
+			"item_championrpg_robe_of_the_mage",
+			"item_championrpg_hood_of_mage",
+			"item_championrpg_ring_of_resonance",
+			"item_championrpg_mithril",
+			"item_championrpg_ancient_writings",
+			"item_championrpg_blue_crystal_golem_token",
+			"item_championrpg_magical_token",
 		},
 	},
-	npc_twrpg_wings_of_death = {
+	npc_championrpg_wings_of_death = {
 		displayName = "Wings of Death",
 		level = 70,
 		category = "Minor",
@@ -1197,19 +1217,19 @@ local Units = {
 		quote = "Feel the might of dragons !",
 		spells = { "Dragon Breath", "Dragon Fear", "Hell Flame", "Dragon's Might" },
 		drops = {
-			"item_twrpg_dragonsword_lainhart",
-			"item_twrpg_dragonbow_aience",
-			"item_twrpg_dragonstaff_irave",
-			"item_twrpg_dragon_cannon_belenus",
-			"item_twrpg_dragon_armor_magron",
-			"item_twrpg_dragons_helm_agron",
-			"item_twrpg_dragon_bone",
-			"item_twrpg_dragon_scale",
-			"item_twrpg_dragon_heart",
-			"item_twrpg_wings_of_death_token",
+			"item_championrpg_dragonsword_lainhart",
+			"item_championrpg_dragonbow_aience",
+			"item_championrpg_dragonstaff_irave",
+			"item_championrpg_dragon_cannon_belenus",
+			"item_championrpg_dragon_armor_magron",
+			"item_championrpg_dragons_helm_agron",
+			"item_championrpg_dragon_bone",
+			"item_championrpg_dragon_scale",
+			"item_championrpg_dragon_heart",
+			"item_championrpg_wings_of_death_token",
 		},
 	},
-	npc_twrpg_avalon_defender = {
+	npc_championrpg_avalon_defender = {
 		displayName = "Avalon Defender",
 		level = 80,
 		category = "Minor",
@@ -1222,7 +1242,7 @@ local Units = {
 		location = "Before the entrance of Guardian Angels",
 		conditions = "Level 80, and Avalon summoned",
 	},
-	npc_twrpg_avalon_protector = {
+	npc_championrpg_avalon_protector = {
 		displayName = "Avalon Protector",
 		level = 80,
 		category = "Minor",
@@ -1235,7 +1255,7 @@ local Units = {
 		location = "Before the entrance of Guardian Angels",
 		conditions = "Level 80, and Avalon summoned",
 	},
-	npc_twrpg_castle_avalon_gatekeeper = {
+	npc_championrpg_castle_avalon_gatekeeper = {
 		displayName = "Castle Avalon Gatekeeper",
 		level = 80,
 		category = "Minor",
@@ -1250,9 +1270,13 @@ local Units = {
 		conditions = "Level 80, and Avalon summoned",
 		quote = "...",
 		spells = { "Genocide Sword", "Nanoscale Armor" },
-		drops = { "item_twrpg_guardian_ring", "item_twrpg_gatekeeper_icon", "item_twrpg_guardian_token" },
+		drops = {
+			"item_championrpg_guardian_ring",
+			"item_championrpg_gatekeeper_icon",
+			"item_championrpg_guardian_token",
+		},
 	},
-	npc_twrpg_the_3rd_armys_guardian_angel = {
+	npc_championrpg_the_3rd_armys_guardian_angel = {
 		displayName = "The 3rd Army's Guardian Angel",
 		level = 80,
 		category = "Minor",
@@ -1269,17 +1293,17 @@ local Units = {
 		quote = "Behold, your end is nigh !",
 		spells = { "Blessed Wings", "Holy Grab", "Sacred Conviction", "Sacred Judgment" },
 		drops = {
-			"item_twrpg_karonphniamm_the_holy_sword",
-			"item_twrpg_klenetia_the_holy_staff",
-			"item_twrpg_eana_the_holy_cannon",
-			"item_twrpg_sacred_armor",
-			"item_twrpg_sacred_helm",
-			"item_twrpg_angels_feather",
-			"item_twrpg_a_page_of_the_bible",
-			"item_twrpg_guardian_angel_token",
+			"item_championrpg_karonphniamm_the_holy_sword",
+			"item_championrpg_klenetia_the_holy_staff",
+			"item_championrpg_eana_the_holy_cannon",
+			"item_championrpg_sacred_armor",
+			"item_championrpg_sacred_helm",
+			"item_championrpg_angels_feather",
+			"item_championrpg_a_page_of_the_bible",
+			"item_championrpg_guardian_angel_token",
 		},
 	},
-	npc_twrpg_the_devils_right_arm_corrupt_angel = {
+	npc_championrpg_the_devils_right_arm_corrupt_angel = {
 		displayName = "The Devil's Right Arm Corrupt Angel",
 		level = 80,
 		category = "Minor",
@@ -1296,17 +1320,17 @@ local Units = {
 		quote = "Die !!",
 		spells = { "Hell Finger", "Craze", "Judgment of Darkness", "Dark Wings", "Darkness Wave" },
 		drops = {
-			"item_twrpg_skeris_the_unholy_helm",
-			"item_twrpg_eximelia_the_unholy_sword",
-			"item_twrpg_dekaros_the_unholy_armor",
-			"item_twrpg_alkate_the_unholy_bow",
-			"item_twrpg_corrupt_angels_feather",
-			"item_twrpg_a_page_of_the_unholy_book",
-			"item_twrpg_corrupt_creations",
-			"item_twrpg_corrupt_angel_token",
+			"item_championrpg_skeris_the_unholy_helm",
+			"item_championrpg_eximelia_the_unholy_sword",
+			"item_championrpg_dekaros_the_unholy_armor",
+			"item_championrpg_alkate_the_unholy_bow",
+			"item_championrpg_corrupt_angels_feather",
+			"item_championrpg_a_page_of_the_unholy_book",
+			"item_championrpg_corrupt_creations",
+			"item_championrpg_corrupt_angel_token",
 		},
 	},
-	npc_twrpg_wallachia_mad_clown = {
+	npc_championrpg_wallachia_mad_clown = {
 		displayName = "Wallachia Mad Clown",
 		level = 100,
 		category = "Minor",
@@ -1323,15 +1347,15 @@ local Units = {
 		quote = "Dance !",
 		spells = { "Instincts", "Darkness Wave", "Mirror Image", "Mad Howl", "Wheel of Fate" },
 		drops = {
-			"item_twrpg_scarab_bone",
-			"item_twrpg_ghostly_thread",
-			"item_twrpg_soul_stone",
-			"item_twrpg_mad_symbol",
-			"item_twrpg_mad_clown_icon",
-			"item_twrpg_clown_token",
+			"item_championrpg_scarab_bone",
+			"item_championrpg_ghostly_thread",
+			"item_championrpg_soul_stone",
+			"item_championrpg_mad_symbol",
+			"item_championrpg_mad_clown_icon",
+			"item_championrpg_clown_token",
 		},
 	},
-	npc_twrpg_frost_spider = {
+	npc_championrpg_frost_spider = {
 		displayName = "Frost Spider",
 		level = 90,
 		category = "Minor",
@@ -1344,7 +1368,7 @@ local Units = {
 		location = "At the expedition in area 6",
 		conditions = "Summoned during waves of Frostspider Lord",
 	},
-	npc_twrpg_frost_skirmisher = {
+	npc_championrpg_frost_skirmisher = {
 		displayName = "Frost Skirmisher",
 		level = 90,
 		category = "Minor",
@@ -1357,7 +1381,7 @@ local Units = {
 		location = "At the expedition in area 6",
 		conditions = "Summoned during waves of Frostspider Lord",
 	},
-	npc_twrpg_frostvemon_spider = {
+	npc_championrpg_frostvemon_spider = {
 		displayName = "Frostvemon Spider",
 		level = 90,
 		category = "Minor",
@@ -1371,7 +1395,7 @@ local Units = {
 		conditions = "Summoned during waves of Frostspider Lord",
 		spells = { "Frostvemon Explosion" },
 	},
-	npc_twrpg_soul_of_everfrost = {
+	npc_championrpg_soul_of_everfrost = {
 		displayName = "Soul of Everfrost",
 		level = 90,
 		category = "Minor",
@@ -1387,22 +1411,22 @@ local Units = {
 		conditions = "Level 90, and Frostspider Lord summoned",
 		quote = "Freeze !!",
 		spells = { "Hellfrost Nova", "Frozen Soul" },
-		minions = { "npc_twrpg_frozen_soul" },
+		minions = { "npc_championrpg_frozen_soul" },
 		drops = {
-			"item_twrpg_okelanq_the_spear_of_frost",
-			"item_twrpg_okelanq_the_bow_of_frost",
-			"item_twrpg_lord_of_revolver",
-			"item_twrpg_robe_of_everfrost",
-			"item_twrpg_helm_of_everfrost",
-			"item_twrpg_hood_of_everfrost",
-			"item_twrpg_winter_rose",
-			"item_twrpg_frost_web_brooch",
-			"item_twrpg_frorist",
-			"item_twrpg_frozen_cobweb",
-			"item_twrpg_everfrost_token",
+			"item_championrpg_okelanq_the_spear_of_frost",
+			"item_championrpg_okelanq_the_bow_of_frost",
+			"item_championrpg_lord_of_revolver",
+			"item_championrpg_robe_of_everfrost",
+			"item_championrpg_helm_of_everfrost",
+			"item_championrpg_hood_of_everfrost",
+			"item_championrpg_winter_rose",
+			"item_championrpg_frost_web_brooch",
+			"item_championrpg_frorist",
+			"item_championrpg_frozen_cobweb",
+			"item_championrpg_everfrost_token",
 		},
 	},
-	npc_twrpg_frozen_soul = {
+	npc_championrpg_frozen_soul = {
 		displayName = "Frozen Soul",
 		level = 90,
 		category = "Minor",
@@ -1415,7 +1439,7 @@ local Units = {
 		location = "At the expedition in area 6",
 		conditions = "Summoned during fight with Soul of Everfrost",
 	},
-	npc_twrpg_frostspider_queen = {
+	npc_championrpg_frostspider_queen = {
 		displayName = "Frostspider Queen",
 		level = 90,
 		category = "Minor",
@@ -1432,20 +1456,20 @@ local Units = {
 		quote = "Kiiik !!",
 		spells = { "Frost Aura", "Frost Spike" },
 		drops = {
-			"item_twrpg_okelanq_the_spear_of_frost",
-			"item_twrpg_okelanq_the_bow_of_frost",
-			"item_twrpg_lord_of_revolver",
-			"item_twrpg_robe_of_everfrost",
-			"item_twrpg_helm_of_everfrost",
-			"item_twrpg_hood_of_everfrost",
-			"item_twrpg_winter_rose",
-			"item_twrpg_frost_web_brooch",
-			"item_twrpg_frorist",
-			"item_twrpg_frozen_cobweb",
-			"item_twrpg_spider_token",
+			"item_championrpg_okelanq_the_spear_of_frost",
+			"item_championrpg_okelanq_the_bow_of_frost",
+			"item_championrpg_lord_of_revolver",
+			"item_championrpg_robe_of_everfrost",
+			"item_championrpg_helm_of_everfrost",
+			"item_championrpg_hood_of_everfrost",
+			"item_championrpg_winter_rose",
+			"item_championrpg_frost_web_brooch",
+			"item_championrpg_frorist",
+			"item_championrpg_frozen_cobweb",
+			"item_championrpg_spider_token",
 		},
 	},
-	npc_twrpg_frostspider_lord = {
+	npc_championrpg_frostspider_lord = {
 		displayName = "Frostspider Lord",
 		level = 90,
 		category = "Minor",
@@ -1462,18 +1486,18 @@ local Units = {
 		quote = "Be purged by Frost !!",
 		spells = { "Frozen Barrier", "Frozen Shatter", "Ice Storm", "Hellfrost Body", "Web Binding" },
 		drops = {
-			"item_twrpg_winters_tear",
-			"item_twrpg_frostbane",
-			"item_twrpg_niflheim",
-			"item_twrpg_ripple_snow",
-			"item_twrpg_frorist",
-			"item_twrpg_frozen_cobweb",
-			"item_twrpg_adamantium",
-			"item_twrpg_white_crystal_golem_token",
-			"item_twrpg_frostspider_lord_token",
+			"item_championrpg_winters_tear",
+			"item_championrpg_frostbane",
+			"item_championrpg_niflheim",
+			"item_championrpg_ripple_snow",
+			"item_championrpg_frorist",
+			"item_championrpg_frozen_cobweb",
+			"item_championrpg_adamantium",
+			"item_championrpg_white_crystal_golem_token",
+			"item_championrpg_frostspider_lord_token",
 		},
 	},
-	npc_twrpg_demon_lord_beriel = {
+	npc_championrpg_demon_lord_beriel = {
 		displayName = "Demon Lord Beriel",
 		level = 90,
 		category = "Minor",
@@ -1489,20 +1513,20 @@ local Units = {
 		conditions = "Level 90, Red Magic Stone x6 in Area 7 at the pile of skulls close to the portal entrance, and Waves defeated without killing the gate",
 		quote = "It's time for your doom !",
 		spells = { "Rage", "The Demon Lord's Power", "Seal", "Meteor", "Destruction", "Catacylsm" },
-		minions = { "npc_twrpg_hell_golem" },
+		minions = { "npc_championrpg_hell_golem" },
 		drops = {
-			"item_twrpg_claws_of_destruction",
-			"item_twrpg_bullet_of_destruction",
-			"item_twrpg_horns_of_destruction",
-			"item_twrpg_eye_of_the_abyss",
-			"item_twrpg_slayer_boots",
-			"item_twrpg_dark_matter",
-			"item_twrpg_dark_wings",
-			"item_twrpg_red_crystal_golem_token",
-			"item_twrpg_demon_lord_token",
+			"item_championrpg_claws_of_destruction",
+			"item_championrpg_bullet_of_destruction",
+			"item_championrpg_horns_of_destruction",
+			"item_championrpg_eye_of_the_abyss",
+			"item_championrpg_slayer_boots",
+			"item_championrpg_dark_matter",
+			"item_championrpg_dark_wings",
+			"item_championrpg_red_crystal_golem_token",
+			"item_championrpg_demon_lord_token",
 		},
 	},
-	npc_twrpg_hell_portal = {
+	npc_championrpg_hell_portal = {
 		displayName = "Hell Portal",
 		level = 1,
 		category = "Minor",
@@ -1515,7 +1539,7 @@ local Units = {
 		location = "East Prius Gate",
 		conditions = "Summoned with Demon Lord Beriel",
 	},
-	npc_twrpg_slime_monster = {
+	npc_championrpg_slime_monster = {
 		displayName = "Slime Monster",
 		level = 90,
 		category = "Minor",
@@ -1527,7 +1551,7 @@ local Units = {
 		attackSpeed = 1,
 		location = "Summoned during fight with Demon Lord Beriel's Portal",
 	},
-	npc_twrpg_golem_monster = {
+	npc_championrpg_golem_monster = {
 		displayName = "Golem Monster",
 		level = 90,
 		category = "Minor",
@@ -1539,7 +1563,7 @@ local Units = {
 		attackSpeed = 1,
 		location = "Summoned during fight with Demon Lord Beriel's Portal",
 	},
-	npc_twrpg_hound_monster = {
+	npc_championrpg_hound_monster = {
 		displayName = "Hound Monster",
 		level = 90,
 		category = "Minor",
@@ -1551,7 +1575,7 @@ local Units = {
 		attackSpeed = 1,
 		location = "Summoned during fight with Demon Lord Beriel's Portal",
 	},
-	npc_twrpg_hell_golem = {
+	npc_championrpg_hell_golem = {
 		displayName = "Hell Golem",
 		level = 1,
 		category = "Minor",
@@ -1565,7 +1589,7 @@ local Units = {
 		conditions = "Summoned during fight with Demon Lord Beriel",
 		spells = { "Permanent Immolation" },
 	},
-	npc_twrpg_fairy_spirit = {
+	npc_championrpg_fairy_spirit = {
 		displayName = "Fairy Spirit",
 		level = 100,
 		category = "Mid",
@@ -1579,7 +1603,7 @@ local Units = {
 		conditions = "Level 100",
 		spells = { "Rejuvination", "Spirit Breath" },
 	},
-	npc_twrpg_dryad = {
+	npc_championrpg_dryad = {
 		displayName = "Dryad",
 		level = 100,
 		category = "Mid",
@@ -1592,7 +1616,7 @@ local Units = {
 		location = "In Fairy Forest - Deep Forest",
 		conditions = "Level 100",
 	},
-	npc_twrpg_spirit_beast = {
+	npc_championrpg_spirit_beast = {
 		displayName = "Spirit Beast",
 		level = 100,
 		category = "Mid",
@@ -1609,16 +1633,16 @@ local Units = {
 		quote = "Oh Heaven, Aid Me!",
 		spells = { "Ethreal Strike", "Spirit Echo", "Drain", "Heaven's Wrath" },
 		drops = {
-			"item_twrpg_spiritus_the_sword_of_elements",
-			"item_twrpg_storm_headdress",
-			"item_twrpg_visvire_the_hammer_of_storm",
-			"item_twrpg_spirit_orb",
-			"item_twrpg_spirit_of_forest",
-			"item_twrpg_spirit_beast_icon",
-			"item_twrpg_beast_token",
+			"item_championrpg_spiritus_the_sword_of_elements",
+			"item_championrpg_storm_headdress",
+			"item_championrpg_visvire_the_hammer_of_storm",
+			"item_championrpg_spirit_orb",
+			"item_championrpg_spirit_of_forest",
+			"item_championrpg_spirit_beast_icon",
+			"item_championrpg_beast_token",
 		},
 	},
-	npc_twrpg_corruptor_rectus = {
+	npc_championrpg_corruptor_rectus = {
 		displayName = "Corruptor Rectus",
 		level = 100,
 		category = "Mid",
@@ -1642,21 +1666,21 @@ local Units = {
 			"Corruption Aura",
 			"Corrupted Summoning",
 		},
-		minions = { "npc_twrpg_stalker", "npc_twrpg_avenger", "npc_twrpg_life_orb" },
+		minions = { "npc_championrpg_stalker", "npc_championrpg_avenger", "npc_championrpg_life_orb" },
 		drops = {
-			"item_twrpg_corruptor",
-			"item_twrpg_stalker",
-			"item_twrpg_avenger",
-			"item_twrpg_chaser",
-			"item_twrpg_skull_seal",
-			"item_twrpg_potion_of_corruption",
-			"item_twrpg_staff_of_contagion",
-			"item_twrpg_essence_of_corruption",
-			"item_twrpg_ancient_fragment_of_ruins",
-			"item_twrpg_corrupt_token",
+			"item_championrpg_corruptor",
+			"item_championrpg_stalker",
+			"item_championrpg_avenger",
+			"item_championrpg_chaser",
+			"item_championrpg_skull_seal",
+			"item_championrpg_potion_of_corruption",
+			"item_championrpg_staff_of_contagion",
+			"item_championrpg_essence_of_corruption",
+			"item_championrpg_ancient_fragment_of_ruins",
+			"item_championrpg_corrupt_token",
 		},
 	},
-	npc_twrpg_avenger = {
+	npc_championrpg_avenger = {
 		displayName = "Avenger",
 		level = 100,
 		category = "Mid",
@@ -1670,7 +1694,7 @@ local Units = {
 		conditions = "Summoned by Corruptor Rectus",
 		spells = { "Corruption Wave" },
 	},
-	npc_twrpg_stalker = {
+	npc_championrpg_stalker = {
 		displayName = "Stalker",
 		level = 100,
 		category = "Mid",
@@ -1684,7 +1708,7 @@ local Units = {
 		conditions = "Summoned by Corruptor Rectus",
 		spells = { "Corrupt Explosion" },
 	},
-	npc_twrpg_life_orb = {
+	npc_championrpg_life_orb = {
 		displayName = "Life Orb",
 		level = 100,
 		category = "Mid",
@@ -1698,7 +1722,7 @@ local Units = {
 		conditions = "Summoned by Corruptor Rectus",
 		spells = { "Purification" },
 	},
-	npc_twrpg_flame_nightmare = {
+	npc_championrpg_flame_nightmare = {
 		displayName = "Flame Nightmare",
 		level = 100,
 		category = "Mid",
@@ -1714,19 +1738,19 @@ local Units = {
 		conditions = "Recommened Level 100 and Nightmare Rod with Red Magic Stone x8",
 		quote = "Fall on your knees!",
 		spells = { "Nightmare Body", "Overload", "Flame Barrage", "On Your Knees!", "Total Annihilation" },
-		minions = { "npc_twrpg_flame_spawn", "npc_twrpg_anger", "npc_twrpg_hatred" },
+		minions = { "npc_championrpg_flame_spawn", "npc_championrpg_anger", "npc_championrpg_hatred" },
 		drops = {
-			"item_twrpg_hatred",
-			"item_twrpg_flameshard_armor",
-			"item_twrpg_ring_of_nightmare",
-			"item_twrpg_inferno",
-			"item_twrpg_crown_of_fervor",
-			"item_twrpg_spirit_of_nightmare",
-			"item_twrpg_essence_of_anger",
-			"item_twrpg_nightmare_token",
+			"item_championrpg_hatred",
+			"item_championrpg_flameshard_armor",
+			"item_championrpg_ring_of_nightmare",
+			"item_championrpg_inferno",
+			"item_championrpg_crown_of_fervor",
+			"item_championrpg_spirit_of_nightmare",
+			"item_championrpg_essence_of_anger",
+			"item_championrpg_nightmare_token",
 		},
 	},
-	npc_twrpg_hatred = {
+	npc_championrpg_hatred = {
 		displayName = "Hatred",
 		level = 100,
 		category = "Mid",
@@ -1740,7 +1764,7 @@ local Units = {
 		conditions = "Summoned by Flame Nightmare",
 		spells = { "Mark of Hatred", "Intense Hatred" },
 	},
-	npc_twrpg_anger = {
+	npc_championrpg_anger = {
 		displayName = "Anger",
 		level = 100,
 		category = "Mid",
@@ -1754,7 +1778,7 @@ local Units = {
 		conditions = "Summoned by Flame Nightmare",
 		spells = { "Berserk", "Furious Attacks" },
 	},
-	npc_twrpg_flame_spawn = {
+	npc_championrpg_flame_spawn = {
 		displayName = "Flame Spawn",
 		level = 100,
 		category = "Mid",
@@ -1767,7 +1791,7 @@ local Units = {
 		location = "In Volcanic Lands",
 		conditions = "Summoned by Flame Nightmare",
 	},
-	npc_twrpg_turtle_lord = {
+	npc_championrpg_turtle_lord = {
 		displayName = "Turtle Lord",
 		level = 100,
 		category = "Mid",
@@ -1790,20 +1814,20 @@ local Units = {
 			"Chomp Armor",
 			"Mana Bombardment",
 		},
-		minions = { "npc_twrpg_turtle", "npc_twrpg_healing_turtle" },
+		minions = { "npc_championrpg_turtle", "npc_championrpg_healing_turtle" },
 		drops = {
-			"item_twrpg_water_cannon",
-			"item_twrpg_tunic_of_subtlety",
-			"item_twrpg_purified_water",
-			"item_twrpg_scale_protector",
-			"item_twrpg_oath_of_courage",
-			"item_twrpg_pure_steel",
-			"item_twrpg_mark_of_storm",
-			"item_twrpg_mana_orb",
-			"item_twrpg_turtle_token",
+			"item_championrpg_water_cannon",
+			"item_championrpg_tunic_of_subtlety",
+			"item_championrpg_purified_water",
+			"item_championrpg_scale_protector",
+			"item_championrpg_oath_of_courage",
+			"item_championrpg_pure_steel",
+			"item_championrpg_mark_of_storm",
+			"item_championrpg_mana_orb",
+			"item_championrpg_turtle_token",
 		},
 	},
-	npc_twrpg_healing_turtle = {
+	npc_championrpg_healing_turtle = {
 		displayName = "Healing Turtle",
 		level = 100,
 		category = "Mid",
@@ -1816,7 +1840,7 @@ local Units = {
 		location = "In Deep Sea",
 		conditions = "Summoned by Turtle Lord",
 	},
-	npc_twrpg_turtle = {
+	npc_championrpg_turtle = {
 		displayName = "Turtle",
 		level = 100,
 		category = "Mid",
@@ -1829,7 +1853,7 @@ local Units = {
 		location = "In Deep Sea",
 		conditions = "Summoned by Turtle Lord",
 	},
-	npc_twrpg_dragon_hatchling = {
+	npc_championrpg_dragon_hatchling = {
 		displayName = "Dragon Hatchling",
 		level = 100,
 		category = "High",
@@ -1844,7 +1868,7 @@ local Units = {
 		location = "East of Volcanic Lands, within the Dragon Lair",
 		conditions = "Level 100",
 	},
-	npc_twrpg_dragonic_warrior = {
+	npc_championrpg_dragonic_warrior = {
 		displayName = "Dragonic Warrior",
 		level = 100,
 		category = "High",
@@ -1859,9 +1883,9 @@ local Units = {
 		location = "East of Volcanic Lands, within the Dragon Lair",
 		conditions = "Level 100",
 		spells = { "Flame Bolt" },
-		minions = { "npc_twrpg_flame_spirit" },
+		minions = { "npc_championrpg_flame_spirit" },
 	},
-	npc_twrpg_flame_spirit = {
+	npc_championrpg_flame_spirit = {
 		displayName = "Flame Spirit",
 		level = 100,
 		category = "High",
@@ -1874,7 +1898,7 @@ local Units = {
 		location = "Summoned by Bone Dragon, or Dragonic Warrior",
 		conditions = "Level 100",
 	},
-	npc_twrpg_bone_dragon = {
+	npc_championrpg_bone_dragon = {
 		displayName = "Bone Dragon",
 		level = 110,
 		category = "High",
@@ -1889,18 +1913,18 @@ local Units = {
 		conditions = "Level 100",
 		quote = "I'll show you my true powers!",
 		spells = { "Swipe", "Flame Breath", "Hell Spike", "Petrification", "Dragon's Rage" },
-		minions = { "npc_twrpg_flame_spirit" },
+		minions = { "npc_championrpg_flame_spirit" },
 		drops = {
-			"item_twrpg_ancient_hourglass",
-			"item_twrpg_dragonic_orb",
-			"item_twrpg_burning_bone_fragments",
-			"item_twrpg_dragons_eye",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_bone_dragon_icon",
-			"item_twrpg_bone_dragon_token",
+			"item_championrpg_ancient_hourglass",
+			"item_championrpg_dragonic_orb",
+			"item_championrpg_burning_bone_fragments",
+			"item_championrpg_dragons_eye",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_bone_dragon_icon",
+			"item_championrpg_bone_dragon_token",
 		},
 	},
-	npc_twrpg_skeletal_king_desperia = {
+	npc_championrpg_skeletal_king_desperia = {
 		displayName = "Skeletal King Desperia",
 		level = 110,
 		category = "High",
@@ -1923,18 +1947,18 @@ local Units = {
 			"True Power of Despair",
 		},
 		drops = {
-			"item_twrpg_death_scythe",
-			"item_twrpg_staff_of_souls",
-			"item_twrpg_robe_of_the_reaper",
-			"item_twrpg_bone_necklace",
-			"item_twrpg_skeleton_bone",
-			"item_twrpg_orb_of_oblivion",
-			"item_twrpg_spirit_of_abyss",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_skeleton_token",
+			"item_championrpg_death_scythe",
+			"item_championrpg_staff_of_souls",
+			"item_championrpg_robe_of_the_reaper",
+			"item_championrpg_bone_necklace",
+			"item_championrpg_skeleton_bone",
+			"item_championrpg_orb_of_oblivion",
+			"item_championrpg_spirit_of_abyss",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_skeleton_token",
 		},
 	},
-	npc_twrpg_skeletal_solider = {
+	npc_championrpg_skeletal_solider = {
 		displayName = "Skeletal Solider",
 		level = 110,
 		category = "High",
@@ -1948,7 +1972,7 @@ local Units = {
 		conditions = "Summoned by Skeletal King Desperia",
 		spells = { "Dead Man's Reach" },
 	},
-	npc_twrpg_zombie_lord = {
+	npc_championrpg_zombie_lord = {
 		displayName = "Zombie Lord",
 		level = 110,
 		category = "High",
@@ -1963,19 +1987,19 @@ local Units = {
 		conditions = "Level 100",
 		quote = "None shall take my eternal life away!",
 		spells = { "Hunger", "Infected Claw", "Infected Swipes", "Infest", "Aura of Death", "Immortality" },
-		minions = { "npc_twrpg_zombie", "npc_twrpg_worshipper_of_immortality" },
+		minions = { "npc_championrpg_zombie", "npc_championrpg_worshipper_of_immortality" },
 		drops = {
-			"item_twrpg_parasitic_staff",
-			"item_twrpg_hood_of_the_fallen",
-			"item_twrpg_shroud_of_perseverance",
-			"item_twrpg_proof_of_purification",
-			"item_twrpg_heart_of_fire",
-			"item_twrpg_dark_crystal",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_zombie_token",
+			"item_championrpg_parasitic_staff",
+			"item_championrpg_hood_of_the_fallen",
+			"item_championrpg_shroud_of_perseverance",
+			"item_championrpg_proof_of_purification",
+			"item_championrpg_heart_of_fire",
+			"item_championrpg_dark_crystal",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_zombie_token",
 		},
 	},
-	npc_twrpg_worshipper_of_immortality = {
+	npc_championrpg_worshipper_of_immortality = {
 		displayName = "Worshipper of Immortality",
 		level = 110,
 		category = "High",
@@ -1989,7 +2013,7 @@ local Units = {
 		conditions = "Summoned by Underlord Agareth",
 		spells = { "Deathly Shroud", "Gift of Immortality" },
 	},
-	npc_twrpg_zombie = {
+	npc_championrpg_zombie = {
 		displayName = "Zombie",
 		level = 110,
 		category = "High",
@@ -2003,7 +2027,7 @@ local Units = {
 		conditions = "Summoned by Zombie Lord",
 		spells = { "Lifesteal", "Rise from the Grave" },
 	},
-	npc_twrpg_ancient_ent = {
+	npc_championrpg_ancient_ent = {
 		displayName = "Ancient Ent",
 		level = 110,
 		category = "High",
@@ -2018,18 +2042,18 @@ local Units = {
 		conditions = "Level 100, Seal Breaking Gemstone to unseal Ancient Ent",
 		quote = "Feel the might of Mother Nature!",
 		spells = { "Earth Slam", "Lightning Storm", "Ent Power", "Fortitude of Nature" },
-		minions = { "npc_twrpg_elder_ent", "npc_twrpg_giant_ent", "npc_twrpg_ent" },
+		minions = { "npc_championrpg_elder_ent", "npc_championrpg_giant_ent", "npc_championrpg_ent" },
 		drops = {
-			"item_twrpg_embrace_of_nature",
-			"item_twrpg_purified_water_of_nature",
-			"item_twrpg_fragment_of_the_wind",
-			"item_twrpg_griseus_the_sword_of_protection",
-			"item_twrpg_ring_of_the_storm",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_ent_token",
+			"item_championrpg_embrace_of_nature",
+			"item_championrpg_purified_water_of_nature",
+			"item_championrpg_fragment_of_the_wind",
+			"item_championrpg_griseus_the_sword_of_protection",
+			"item_championrpg_ring_of_the_storm",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_ent_token",
 		},
 	},
-	npc_twrpg_elder_ent = {
+	npc_championrpg_elder_ent = {
 		displayName = "Elder Ent",
 		level = 110,
 		category = "High",
@@ -2042,9 +2066,9 @@ local Units = {
 		location = "Within Ancient Ent's domain, north of Fairy Forest",
 		conditions = "Spawned by Ancient Ent",
 		spells = { "Thorns Armor", "Blessing of Nature", "Weak Slam", "Ent Power", "Might of Nature" },
-		minions = { "npc_twrpg_ent", "npc_twrpg_giant_ent" },
+		minions = { "npc_championrpg_ent", "npc_championrpg_giant_ent" },
 	},
-	npc_twrpg_giant_ent = {
+	npc_championrpg_giant_ent = {
 		displayName = "Giant Ent",
 		level = 110,
 		category = "High",
@@ -2057,7 +2081,7 @@ local Units = {
 		location = "Within Ancient Ent's domain, north of Fairy Forest",
 		conditions = "Spawned by Ancient Ent",
 	},
-	npc_twrpg_ent = {
+	npc_championrpg_ent = {
 		displayName = "Ent",
 		level = 110,
 		category = "High",
@@ -2070,7 +2094,7 @@ local Units = {
 		location = "Within Ancient Ent's domain, north of Fairy Forest",
 		conditions = "Spawned by Elder Ent",
 	},
-	npc_twrpg_archangel_samael = {
+	npc_championrpg_archangel_samael = {
 		displayName = "Archangel Samael",
 		level = 110,
 		category = "High",
@@ -2093,15 +2117,15 @@ local Units = {
 			"Judgment",
 		},
 		drops = {
-			"item_twrpg_guardian_of_the_skies",
-			"item_twrpg_steel_of_god",
-			"item_twrpg_gods_page",
-			"item_twrpg_essence_of_light",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_archangel_token",
+			"item_championrpg_guardian_of_the_skies",
+			"item_championrpg_steel_of_god",
+			"item_championrpg_gods_page",
+			"item_championrpg_essence_of_light",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_archangel_token",
 		},
 	},
-	npc_twrpg_shadow_dragon_irbert = {
+	npc_championrpg_shadow_dragon_irbert = {
 		displayName = "Shadow Dragon Irbert",
 		level = 110,
 		category = "High",
@@ -2126,19 +2150,19 @@ local Units = {
 			"Eternity Link",
 			"Dark Blast",
 		},
-		minions = { "npc_twrpg_illusion_of_irbert", "npc_twrpg_illusion_of_irbert_large" },
+		minions = { "npc_championrpg_illusion_of_irbert", "npc_championrpg_illusion_of_irbert_large" },
 		drops = {
-			"item_twrpg_levante_the_sword_of_love_and_hate",
-			"item_twrpg_draconic_skin_rusalka",
-			"item_twrpg_nephthys_the_engraved_ring",
-			"item_twrpg_essence_of_darkness",
-			"item_twrpg_antimatter",
-			"item_twrpg_frozen_debris",
-			"item_twrpg_prius_gold_coin",
-			"item_twrpg_token_of_darkness",
+			"item_championrpg_levante_the_sword_of_love_and_hate",
+			"item_championrpg_draconic_skin_rusalka",
+			"item_championrpg_nephthys_the_engraved_ring",
+			"item_championrpg_essence_of_darkness",
+			"item_championrpg_antimatter",
+			"item_championrpg_frozen_debris",
+			"item_championrpg_prius_gold_coin",
+			"item_championrpg_token_of_darkness",
 		},
 	},
-	npc_twrpg_illusion_of_irbert = {
+	npc_championrpg_illusion_of_irbert = {
 		displayName = "Illusion of Irbert",
 		level = 110,
 		category = "High",
@@ -2152,7 +2176,7 @@ local Units = {
 		conditions = "Summoned by Shadow Dragon Irbert",
 		spells = { "Shadow Breath", "Dark Detonation", "Bindings of Darkness" },
 	},
-	npc_twrpg_illusion_of_irbert_large = {
+	npc_championrpg_illusion_of_irbert_large = {
 		displayName = "Illusion of Irbert (Large)",
 		level = 110,
 		category = "High",
@@ -2174,7 +2198,7 @@ local Units = {
 			"Bindings of Darkness",
 		},
 	},
-	npc_twrpg_death_fiend = {
+	npc_championrpg_death_fiend = {
 		displayName = "Death Fiend",
 		level = 120,
 		category = "Late",
@@ -2198,20 +2222,20 @@ local Units = {
 			"Death Comes...",
 			"Doom",
 		},
-		minions = { "npc_twrpg_death_huntress", "npc_twrpg_death_devourer", "npc_twrpg_death_weaver" },
+		minions = { "npc_championrpg_death_huntress", "npc_championrpg_death_devourer", "npc_championrpg_death_weaver" },
 		drops = {
-			"item_twrpg_the_ender",
-			"item_twrpg_armor_of_grudge",
-			"item_twrpg_eyes_of_the_watcher",
-			"item_twrpg_ring_of_destruction",
-			"item_twrpg_frozen_debris",
-			"item_twrpg_spearhead_of_death",
-			"item_twrpg_fragment_of_chaos",
-			"item_twrpg_death_fiend_icon",
-			"item_twrpg_fiend_token",
+			"item_championrpg_the_ender",
+			"item_championrpg_armor_of_grudge",
+			"item_championrpg_eyes_of_the_watcher",
+			"item_championrpg_ring_of_destruction",
+			"item_championrpg_frozen_debris",
+			"item_championrpg_spearhead_of_death",
+			"item_championrpg_fragment_of_chaos",
+			"item_championrpg_death_fiend_icon",
+			"item_championrpg_fiend_token",
 		},
 	},
-	npc_twrpg_death_huntress = {
+	npc_championrpg_death_huntress = {
 		displayName = "Death Huntress",
 		level = 120,
 		category = "Late",
@@ -2224,9 +2248,9 @@ local Units = {
 		location = "In Abandoned Graveyard, at spawn of Mad Clown",
 		conditions = "Summoned by Death Fiend",
 		spells = { "Mark of Death", "Bindings of Death", "Heartpiercing Arrow", "Weaken Soul", "Arrow of Domination" },
-		minions = { "npc_twrpg_death_hound" },
+		minions = { "npc_championrpg_death_hound" },
 	},
-	npc_twrpg_death_weaver = {
+	npc_championrpg_death_weaver = {
 		displayName = "Death Weaver",
 		level = 120,
 		category = "Late",
@@ -2240,7 +2264,7 @@ local Units = {
 		conditions = "Summoned by Death Fiend",
 		spells = { "Mark of Death", "Bindings of Death", "Deadly Dance", "Sword Blows", "Unholy Teleportation" },
 	},
-	npc_twrpg_death_devourer = {
+	npc_championrpg_death_devourer = {
 		displayName = "Death Devourer",
 		level = 120,
 		category = "Late",
@@ -2261,7 +2285,7 @@ local Units = {
 			"Deathly Charge",
 		},
 	},
-	npc_twrpg_death_hound = {
+	npc_championrpg_death_hound = {
 		displayName = "Death Hound",
 		level = 120,
 		category = "Late",
@@ -2274,7 +2298,7 @@ local Units = {
 		location = "In Abandoned Graveyard, at spawn of Mad Clown",
 		conditions = "Summoned by Death Huntress",
 	},
-	npc_twrpg_elemental_of_chaos = {
+	npc_championrpg_elemental_of_chaos = {
 		displayName = "Elemental of Chaos",
 		level = 120,
 		category = "Late",
@@ -2288,9 +2312,9 @@ local Units = {
 		location = "Teleporter: second page, option [2]. Middle bottom portal.",
 		conditions = "Level 100. Spawns begin a little bit after the first person to enter the area.",
 		spells = { "Chaotic Affliction" },
-		drops = { "item_twrpg_chaos_magic_stone" },
+		drops = { "item_championrpg_chaos_magic_stone" },
 	},
-	npc_twrpg_valtora = {
+	npc_championrpg_valtora = {
 		displayName = "Valtora",
 		level = 120,
 		category = "Late",
@@ -2314,17 +2338,17 @@ local Units = {
 			"Electric Storm",
 			"Rage of the Thunder God",
 		},
-		minions = { "npc_twrpg_servant_of_lightning_god" },
+		minions = { "npc_championrpg_servant_of_lightning_god" },
 		drops = {
-			"item_twrpg_shackles_of_heaven",
-			"item_twrpg_aegis_of_storm",
-			"item_twrpg_essence_of_storm",
-			"item_twrpg_shining_fragment_of_ruins",
-			"item_twrpg_valtora_icon",
-			"item_twrpg_lightning_god_token",
+			"item_championrpg_shackles_of_heaven",
+			"item_championrpg_aegis_of_storm",
+			"item_championrpg_essence_of_storm",
+			"item_championrpg_shining_fragment_of_ruins",
+			"item_championrpg_valtora_icon",
+			"item_championrpg_lightning_god_token",
 		},
 	},
-	npc_twrpg_servant_of_lightning_god = {
+	npc_championrpg_servant_of_lightning_god = {
 		displayName = "Servant of Lightning God",
 		level = 120,
 		category = "Late",
@@ -2338,7 +2362,7 @@ local Units = {
 		conditions = "Summoned by Valtora",
 		spells = { "Lightning Strike", "Lightning Shield" },
 	},
-	npc_twrpg_ifrit = {
+	npc_championrpg_ifrit = {
 		displayName = "Ifrit",
 		level = 120,
 		category = "Late",
@@ -2361,17 +2385,17 @@ local Units = {
 			"Hot Pursuit",
 			"Volcanic Party",
 		},
-		minions = { "npc_twrpg_obsidian_golem", "npc_twrpg_lava_spirit" },
+		minions = { "npc_championrpg_obsidian_golem", "npc_championrpg_lava_spirit" },
 		drops = {
-			"item_twrpg_heart_of_volcano",
-			"item_twrpg_aegis_of_flame",
-			"item_twrpg_essence_of_flame",
-			"item_twrpg_shining_fragment_of_ruins",
-			"item_twrpg_ifrit_icon",
-			"item_twrpg_flame_god_token",
+			"item_championrpg_heart_of_volcano",
+			"item_championrpg_aegis_of_flame",
+			"item_championrpg_essence_of_flame",
+			"item_championrpg_shining_fragment_of_ruins",
+			"item_championrpg_ifrit_icon",
+			"item_championrpg_flame_god_token",
 		},
 	},
-	npc_twrpg_obsidian_golem = {
+	npc_championrpg_obsidian_golem = {
 		displayName = "Obsidian Golem",
 		level = 120,
 		category = "Late",
@@ -2385,7 +2409,7 @@ local Units = {
 		conditions = "Summoned by Ifrit",
 		spells = { "Obsidian Armor", "Smash", "Hot Pursuit" },
 	},
-	npc_twrpg_lava_spirit = {
+	npc_championrpg_lava_spirit = {
 		displayName = "Lava Spirit",
 		level = 120,
 		category = "Late",
@@ -2399,7 +2423,7 @@ local Units = {
 		conditions = "Summoned by Ifrit",
 		spells = { "Fiery Bullets" },
 	},
-	npc_twrpg_magma = {
+	npc_championrpg_magma = {
 		displayName = "Magma",
 		level = 120,
 		category = "Late",
@@ -2412,7 +2436,7 @@ local Units = {
 		location = "The top-most portal in the tower located east of the Secluded Forest",
 		conditions = "Summoned by Ifrit",
 	},
-	npc_twrpg_nereid = {
+	npc_championrpg_nereid = {
 		displayName = "Nereid",
 		level = 120,
 		category = "Endgame",
@@ -2439,17 +2463,17 @@ local Units = {
 			"Protection of Sea",
 			"Consumption of the Sea",
 		},
-		minions = { "npc_twrpg_wavecaller", "npc_twrpg_large_wavecaller" },
+		minions = { "npc_championrpg_wavecaller", "npc_championrpg_large_wavecaller" },
 		drops = {
-			"item_twrpg_grail_of_eternity",
-			"item_twrpg_aegis_of_sea",
-			"item_twrpg_essence_of_sea",
-			"item_twrpg_shining_fragment_of_ruins",
-			"item_twrpg_nereid_icon",
-			"item_twrpg_sea_god_token",
+			"item_championrpg_grail_of_eternity",
+			"item_championrpg_aegis_of_sea",
+			"item_championrpg_essence_of_sea",
+			"item_championrpg_shining_fragment_of_ruins",
+			"item_championrpg_nereid_icon",
+			"item_championrpg_sea_god_token",
 		},
 	},
-	npc_twrpg_large_wavecaller = {
+	npc_championrpg_large_wavecaller = {
 		displayName = "Large Wavecaller",
 		level = 120,
 		category = "Endgame",
@@ -2463,7 +2487,7 @@ local Units = {
 		conditions = "Summoned by Nereid",
 		spells = { "Water Hose" },
 	},
-	npc_twrpg_wavecaller = {
+	npc_championrpg_wavecaller = {
 		displayName = "Wavecaller",
 		level = 120,
 		category = "Endgame",
@@ -2477,7 +2501,7 @@ local Units = {
 		conditions = "Summoned by Nereid",
 		spells = { "Refreshing Wave" },
 	},
-	npc_twrpg_water_bubble = {
+	npc_championrpg_water_bubble = {
 		displayName = "Water Bubble",
 		level = 120,
 		category = "Endgame",
@@ -2490,7 +2514,7 @@ local Units = {
 		location = "The right-most portal in the tower located east of the Secluded Forest",
 		conditions = "Summoned by Nereid",
 	},
-	npc_twrpg_underlord_agareth = {
+	npc_championrpg_underlord_agareth = {
 		displayName = "Underlord Agareth",
 		level = 120,
 		category = "Endgame",
@@ -2524,25 +2548,25 @@ local Units = {
 			"Armageddon",
 		},
 		minions = {
-			"npc_twrpg_green_soul_crystal",
-			"npc_twrpg_purple_soul_crystal",
-			"npc_twrpg_gatekeeper_of_hell",
-			"npc_twrpg_cursed_spirit",
-			"npc_twrpg_hellspawn",
+			"npc_championrpg_green_soul_crystal",
+			"npc_championrpg_purple_soul_crystal",
+			"npc_championrpg_gatekeeper_of_hell",
+			"npc_championrpg_cursed_spirit",
+			"npc_championrpg_hellspawn",
 		},
 		drops = {
-			"item_twrpg_curse_of_greed",
-			"item_twrpg_fragment_of_soul",
-			"item_twrpg_fragment_of_hell",
-			"item_twrpg_mark_of_lord",
-			"item_twrpg_agareth_icon",
-			"item_twrpg_token_of_underlord",
+			"item_championrpg_curse_of_greed",
+			"item_championrpg_fragment_of_soul",
+			"item_championrpg_fragment_of_hell",
+			"item_championrpg_mark_of_lord",
+			"item_championrpg_agareth_icon",
+			"item_championrpg_token_of_underlord",
 		},
 		empowered = {
 			damageResist = 75,
 		},
 	},
-	npc_twrpg_gatekeeper_of_hell = {
+	npc_championrpg_gatekeeper_of_hell = {
 		displayName = "Gatekeeper of Hell",
 		level = 999,
 		category = "Endgame",
@@ -2556,7 +2580,7 @@ local Units = {
 		conditions = "Summoned by Underlord Agareth",
 		spells = { "Finger of Death", "Hellflame Meteorite", "Hellfire" },
 	},
-	npc_twrpg_purple_soul_crystal = {
+	npc_championrpg_purple_soul_crystal = {
 		displayName = "Purple Soul Crystal",
 		level = 120,
 		category = "Endgame",
@@ -2570,7 +2594,7 @@ local Units = {
 		conditions = "Summoned by Underlord Agareth",
 		spells = { "Soul Channel", "Soul Shield" },
 	},
-	npc_twrpg_green_soul_crystal = {
+	npc_championrpg_green_soul_crystal = {
 		displayName = "Green Soul Crystal",
 		level = 120,
 		category = "Endgame",
@@ -2584,7 +2608,7 @@ local Units = {
 		conditions = "Summoned by Underlord Agareth",
 		spells = { "Soul Channel", "Soul Shield" },
 	},
-	npc_twrpg_cursed_spirit = {
+	npc_championrpg_cursed_spirit = {
 		displayName = "Cursed Spirit",
 		level = 120,
 		category = "Endgame",
@@ -2597,7 +2621,7 @@ local Units = {
 		location = "In the mini-game during the fight with Underlord Agareth",
 		conditions = "Summoned by Underlord Agareth",
 	},
-	npc_twrpg_hellspawn = {
+	npc_championrpg_hellspawn = {
 		displayName = "Hellspawn",
 		level = 120,
 		category = "Endgame",
@@ -2610,7 +2634,7 @@ local Units = {
 		location = "Through the destroyed demonic portal during the Hell Invasion",
 		conditions = "Summoned by Underlord Agareth",
 	},
-	npc_twrpg_duke_lazarus = {
+	npc_championrpg_duke_lazarus = {
 		displayName = "Duke Lazarus",
 		level = 130,
 		category = "Endgame",
@@ -2645,18 +2669,18 @@ local Units = {
 			"Bleeding",
 		},
 		minions = {
-			"npc_twrpg_vampiric_monstrosity",
-			"npc_twrpg_servant_of_blood",
-			"npc_twrpg_blood_baron",
-			"npc_twrpg_spike",
+			"npc_championrpg_vampiric_monstrosity",
+			"npc_championrpg_servant_of_blood",
+			"npc_championrpg_blood_baron",
+			"npc_championrpg_spike",
 		},
 		drops = {
-			"item_twrpg_crimson_rose",
-			"item_twrpg_blood_essence",
-			"item_twrpg_emblem_of_sacrifice",
-			"item_twrpg_soul_blossom",
-			"item_twrpg_dukes_soulstone",
-			"item_twrpg_duke_token",
+			"item_championrpg_crimson_rose",
+			"item_championrpg_blood_essence",
+			"item_championrpg_emblem_of_sacrifice",
+			"item_championrpg_soul_blossom",
+			"item_championrpg_dukes_soulstone",
+			"item_championrpg_duke_token",
 		},
 		empowered = {
 			damageResist = 40,
@@ -2667,7 +2691,7 @@ local Units = {
 			magicResist = 15,
 		},
 	},
-	npc_twrpg_vampiric_monstrosity = {
+	npc_championrpg_vampiric_monstrosity = {
 		displayName = "Vampiric Monstrosity",
 		level = 130,
 		category = "Endgame",
@@ -2681,7 +2705,7 @@ local Units = {
 		conditions = "Summoned by Duke Lazarus when player sides with Debuff",
 		spells = { "Blood Swipe", "Leap of Terror", "Bleeding" },
 	},
-	npc_twrpg_blood_baron = {
+	npc_championrpg_blood_baron = {
 		displayName = "Blood Baron",
 		level = 130,
 		category = "Endgame",
@@ -2694,7 +2718,7 @@ local Units = {
 		location = "Through the portal in front of Wallachia castle (next to Death Knight)",
 		conditions = "Summoned by Duke Lazarus when during the First Phase",
 	},
-	npc_twrpg_servant_of_blood = {
+	npc_championrpg_servant_of_blood = {
 		displayName = "Servant of Blood",
 		level = 130,
 		category = "Endgame",
@@ -2707,7 +2731,7 @@ local Units = {
 		location = "Through the portal in front of Wallachia castle (next to Death Knight)",
 		conditions = "Summoned by Duke Lazarus when he reaches 75% HP",
 	},
-	npc_twrpg_spike = {
+	npc_championrpg_spike = {
 		displayName = "Spike",
 		level = 130,
 		category = "Endgame",
@@ -2720,7 +2744,7 @@ local Units = {
 		location = "Through the portal in front of Wallachia castle (next to Death Knight)",
 		conditions = "Summoned by Lord of Sacrifice Duke",
 	},
-	npc_twrpg_gaia = {
+	npc_championrpg_gaia = {
 		displayName = "Gaia",
 		level = 130,
 		category = "Endgame",
@@ -2734,15 +2758,15 @@ local Units = {
 		location = "Teleporter: second page, option [2]. Top right corner portal.",
 		conditions = "Level 100",
 		drops = {
-			"item_twrpg_gown_of_life",
-			"item_twrpg_essence_of_earth",
-			"item_twrpg_aegis_of_earth",
-			"item_twrpg_twisted_fragment_of_ruins",
-			"item_twrpg_gaias_soulstone",
-			"item_twrpg_gaia_token",
+			"item_championrpg_gown_of_life",
+			"item_championrpg_essence_of_earth",
+			"item_championrpg_aegis_of_earth",
+			"item_championrpg_twisted_fragment_of_ruins",
+			"item_championrpg_gaias_soulstone",
+			"item_championrpg_gaia_token",
 		},
 	},
-	npc_twrpg_arcane_construct = {
+	npc_championrpg_arcane_construct = {
 		displayName = "Arcane Construct",
 		level = 130,
 		category = "Endgame",
@@ -2756,14 +2780,14 @@ local Units = {
 		location = "Right side of Golem Cave",
 		conditions = "Level 100, destroy Stange Rock",
 		drops = {
-			"item_twrpg_mask_of_truth",
-			"item_twrpg_arcane_core",
-			"item_twrpg_ancient_tome",
-			"item_twrpg_constructs_soulstone",
-			"item_twrpg_construct_token",
+			"item_championrpg_mask_of_truth",
+			"item_championrpg_arcane_core",
+			"item_championrpg_ancient_tome",
+			"item_championrpg_constructs_soulstone",
+			"item_championrpg_construct_token",
 		},
 	},
-	npc_twrpg_styrix_the_harvester_of_souls = {
+	npc_championrpg_styrix_the_harvester_of_souls = {
 		displayName = "Styrix, the Harvester of Souls",
 		level = 130,
 		category = "Endgame",
@@ -2777,12 +2801,12 @@ local Units = {
 		location = "The altar can be reached by talking to 'Suspicious Man' located around shore area down from cave",
 		conditions = "Level 100",
 		drops = {
-			"item_twrpg_grim_scythe",
-			"item_twrpg_sinister_skull",
-			"item_twrpg_lantern_of_souls",
-			"item_twrpg_spirit_of_damnation",
-			"item_twrpg_harvesters_soulstone",
-			"item_twrpg_soul_token",
+			"item_championrpg_grim_scythe",
+			"item_championrpg_sinister_skull",
+			"item_championrpg_lantern_of_souls",
+			"item_championrpg_spirit_of_damnation",
+			"item_championrpg_harvesters_soulstone",
+			"item_championrpg_soul_token",
 		},
 	},
 }

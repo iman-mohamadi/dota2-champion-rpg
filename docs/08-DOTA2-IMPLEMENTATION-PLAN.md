@@ -137,7 +137,7 @@ Still the critical path. Still bounded.
 ## 4. Revised architecture
 
 ```
-game/dota_addons/twrpg/
+game/dota_addons/championrpg/
 ├── scripts/
 │   ├── npc/
 │   │   ├── npc_heroes_custom.txt        ← 37 classes (generated from research/)

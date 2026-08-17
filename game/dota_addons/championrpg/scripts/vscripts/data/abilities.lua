@@ -2,7 +2,7 @@
 -- Source: research/. Regenerate with: python3 tools/build-content/build.py
 
 local Abilities = {
-	twrpg_sniper_emergency_rations = {
+	championrpg_sniper_emergency_rations = {
 		displayName = "Emergency Rations",
 		heroClass = "Sniper",
 		order = 1,
@@ -22,7 +22,7 @@ local Abilities = {
 		handlers = { "cpn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sniper_storm_shaft = {
+	championrpg_sniper_storm_shaft = {
 		displayName = "Storm Shaft",
 		heroClass = "Sniper",
 		order = 2,
@@ -48,7 +48,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=15.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_sniper_glide = {
+	championrpg_sniper_glide = {
 		displayName = "Glide",
 		heroClass = "Sniper",
 		order = 3,
@@ -70,7 +70,7 @@ local Abilities = {
 			"return .5*Hdo((GetUnitUserData((tSo))))+2.*GetHeroAgi(tSo,true)",
 		},
 	},
-	twrpg_sniper_storm_aegis = {
+	championrpg_sniper_storm_aegis = {
 		displayName = "Storm Aegis",
 		heroClass = "Sniper",
 		order = 4,
@@ -87,7 +87,7 @@ local Abilities = {
 			"Lasts 5 seconds",
 		},
 	},
-	twrpg_sniper_explosive_shot = {
+	championrpg_sniper_explosive_shot = {
 		displayName = "Explosive Shot",
 		heroClass = "Sniper",
 		order = 5,
@@ -109,7 +109,7 @@ local Abilities = {
 		handlers = { "Gei", "Gii", "Gri" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sniper_snipe = {
+	championrpg_sniper_snipe = {
 		displayName = "Snipe",
 		heroClass = "Sniper",
 		order = 6,
@@ -136,7 +136,7 @@ local Abilities = {
 			"local real Pcx=15.*Hdo((GetUnitUserData((tSo))))+60.*GetHeroAgi(tSo,true)",
 		},
 	},
-	twrpg_sniper_demolition = {
+	championrpg_sniper_demolition = {
 		displayName = "Demolition",
 		heroClass = "Sniper",
 		order = 7,
@@ -156,7 +156,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=175.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_soul_weaver_soul_collector = {
+	championrpg_soul_weaver_soul_collector = {
 		displayName = "Soul Collector",
 		heroClass = "Soul Weaver",
 		order = 1,
@@ -173,7 +173,7 @@ local Abilities = {
 		handlers = { "wLr", "wmr" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_soul_weaver_harvest = {
+	championrpg_soul_weaver_harvest = {
 		displayName = "Harvest",
 		heroClass = "Soul Weaver",
 		order = 2,
@@ -198,7 +198,7 @@ local Abilities = {
 			"return GetHeroStr((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_soul_weaver_unholy_blast = {
+	championrpg_soul_weaver_unholy_blast = {
 		displayName = "Unholy Blast",
 		heroClass = "Soul Weaver",
 		order = 3,
@@ -217,7 +217,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*3.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_soul_weaver_soul_materia = {
+	championrpg_soul_weaver_soul_materia = {
 		displayName = "Soul Materia",
 		heroClass = "Soul Weaver",
 		order = 4,
@@ -234,7 +234,7 @@ local Abilities = {
 		handlers = { "HLn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_soul_weaver_soul_transfer = {
+	championrpg_soul_weaver_soul_transfer = {
 		displayName = "Soul Transfer",
 		heroClass = "Soul Weaver",
 		order = 5,
@@ -258,7 +258,7 @@ local Abilities = {
 			"return WU[(GetUnitUserData((tSo)))]*7.5*GetHeroInt(tSo,true)",
 		},
 	},
-	twrpg_soul_weaver_astral_walk = {
+	championrpg_soul_weaver_astral_walk = {
 		displayName = "Astral Walk",
 		heroClass = "Soul Weaver",
 		order = 6,
@@ -277,7 +277,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*9.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_soul_weaver_soul_cradle = {
+	championrpg_soul_weaver_soul_cradle = {
 		displayName = "Soul Cradle",
 		heroClass = "Soul Weaver",
 		order = 7,
@@ -298,7 +298,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*9.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_soul_weaver_infinite_void = {
+	championrpg_soul_weaver_infinite_void = {
 		displayName = "Infinite Void",
 		heroClass = "Soul Weaver",
 		order = 8,
@@ -318,7 +318,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*110.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_alchemist_infusion = {
+	championrpg_alchemist_infusion = {
 		displayName = "Infusion",
 		heroClass = "Alchemist",
 		order = 1,
@@ -340,7 +340,7 @@ local Abilities = {
 		handlers = { "Z8i", "vea", "vva" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_conjure_fire = {
+	championrpg_alchemist_conjure_fire = {
 		displayName = "Conjure Fire",
 		heroClass = "Alchemist",
 		order = 2,
@@ -362,7 +362,7 @@ local Abilities = {
 		handlers = { "KUn", "Kun" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_blaze = {
+	championrpg_alchemist_blaze = {
 		displayName = "Blaze",
 		heroClass = "Alchemist",
 		order = 3,
@@ -377,7 +377,7 @@ local Abilities = {
 		handlers = { "wbo" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 	},
-	twrpg_alchemist_magma_explosion = {
+	championrpg_alchemist_magma_explosion = {
 		displayName = "Magma Explosion",
 		heroClass = "Alchemist",
 		order = 4,
@@ -393,7 +393,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "local real Pcx=7.5*GetHeroInt(M_x,true)" },
 	},
-	twrpg_alchemist_flamer = {
+	championrpg_alchemist_flamer = {
 		displayName = "Flamer",
 		heroClass = "Alchemist",
 		order = 5,
@@ -415,7 +415,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "set box[Mtx]=tU[(bvx[Mtx])]*uU[(bvx[Mtx])]*(.5*GetHeroInt((Mo[(bvx[Mtx])]),true))" },
 	},
-	twrpg_alchemist_boulder_strike = {
+	championrpg_alchemist_boulder_strike = {
 		displayName = "Boulder Strike",
 		heroClass = "Alchemist",
 		order = 6,
@@ -437,7 +437,7 @@ local Abilities = {
 			"set bVx[Mtx]=k5i((GetUnitUserData(((Mo[(bix[Mtx])])))),0,4)*tU[(bix[Mtx])]*UU[(bix[Mtx])]*(17.*GetHeroInt((Mo[(bix[Mtx])]),true))",
 		},
 	},
-	twrpg_alchemist_conjure_water = {
+	championrpg_alchemist_conjure_water = {
 		displayName = "Conjure Water",
 		heroClass = "Alchemist",
 		order = 7,
@@ -456,7 +456,7 @@ local Abilities = {
 		handlers = { "KWn", "Kyn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_water_bomb = {
+	championrpg_alchemist_water_bomb = {
 		displayName = "Water Bomb",
 		heroClass = "Alchemist",
 		order = 8,
@@ -482,7 +482,7 @@ local Abilities = {
 			"set q0[Tkv[Mtx]]=PIx((GetUnitUserData(((Mo[(Mtx)])))),1,0)*tU[(Mtx)]*TU[(Mtx)]*(15.*GetHeroInt((Mo[(Mtx)]),true))",
 		},
 	},
-	twrpg_alchemist_water_stream = {
+	championrpg_alchemist_water_stream = {
 		displayName = "Water Stream",
 		heroClass = "Alchemist",
 		order = 9,
@@ -506,7 +506,7 @@ local Abilities = {
 			"set ufv[Mtx]=TU[(ucv[Mtx])]*(.6*GetHeroInt((Mo[(ucv[Mtx])]),true))",
 		},
 	},
-	twrpg_alchemist_icicle_transmutation = {
+	championrpg_alchemist_icicle_transmutation = {
 		displayName = "Icicle Transmutation",
 		heroClass = "Alchemist",
 		order = 10,
@@ -522,7 +522,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "local real Pcx=11.5*GetHeroInt(M_x,true)" },
 	},
-	twrpg_alchemist_healing_rain = {
+	championrpg_alchemist_healing_rain = {
 		displayName = "Healing Rain",
 		heroClass = "Alchemist",
 		order = 12,
@@ -543,7 +543,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "set dSv[Mtx]=.5*TU[(Mtx)]*UU[(Mtx)]*(.07*GetHeroInt((Mo[(Mtx)]),true))" },
 	},
-	twrpg_alchemist_conjure_air = {
+	championrpg_alchemist_conjure_air = {
 		displayName = "Conjure Air",
 		heroClass = "Alchemist",
 		order = 13,
@@ -565,7 +565,7 @@ local Abilities = {
 		handlers = { "KZn", "Kzn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_burning_hand = {
+	championrpg_alchemist_burning_hand = {
 		displayName = "Burning Hand",
 		heroClass = "Alchemist",
 		order = 14,
@@ -585,7 +585,7 @@ local Abilities = {
 		handlers = { "lmn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 	},
-	twrpg_alchemist_eye_of_the_storm = {
+	championrpg_alchemist_eye_of_the_storm = {
 		displayName = "Eye of the Storm",
 		heroClass = "Alchemist",
 		order = 15,
@@ -606,7 +606,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "set Gle[Mtx]=TU[(Mtx)]*uU[(Mtx)]*.75*GetHeroInt((Mo[(Mtx)]),true)" },
 	},
-	twrpg_alchemist_wind_blast = {
+	championrpg_alchemist_wind_blast = {
 		displayName = "Wind Blast",
 		heroClass = "Alchemist",
 		order = 16,
@@ -622,7 +622,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "set bcx[Mtx]=uU[(GetUnitUserData((tSo)))]*(7.5*GetHeroInt(zY[Mtx],true))" },
 	},
-	twrpg_alchemist_rock_storm = {
+	championrpg_alchemist_rock_storm = {
 		displayName = "Rock storm",
 		heroClass = "Alchemist",
 		order = 17,
@@ -645,7 +645,7 @@ local Abilities = {
 			"set lhv[Mtx]=PIx((GetUnitUserData((c))),3,4)*uU[(GetUnitUserData((c)))]*UU[(GetUnitUserData((c)))]*(3.3*GetHeroInt(c,true))",
 		},
 	},
-	twrpg_alchemist_conjure_earth = {
+	championrpg_alchemist_conjure_earth = {
 		displayName = "Conjure Earth",
 		heroClass = "Alchemist",
 		order = 18,
@@ -664,7 +664,7 @@ local Abilities = {
 		handlers = { "K0n", "K1n" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_conjure_cannon = {
+	championrpg_alchemist_conjure_cannon = {
 		displayName = "Conjure Cannon",
 		heroClass = "Alchemist",
 		order = 19,
@@ -688,7 +688,7 @@ local Abilities = {
 			"set blx[sXx]=k5i((GetUnitUserData(((Mo[(Mtx)])))),4,0)*tU[(Mtx)]*UU[(Mtx)]*(7.5*GetHeroInt((Mo[(Mtx)]),true))",
 		},
 	},
-	twrpg_alchemist_potion_transmutation = {
+	championrpg_alchemist_potion_transmutation = {
 		displayName = "Potion Transmutation",
 		heroClass = "Alchemist",
 		order = 20,
@@ -709,7 +709,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "local integer LIn=GetHeroInt((Mo[(Mtx)]),true)" },
 	},
-	twrpg_alchemist_ground_collapse = {
+	championrpg_alchemist_ground_collapse = {
 		displayName = "Ground Collapse",
 		heroClass = "Alchemist",
 		order = 21,
@@ -730,7 +730,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "return 6.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_alchemist_stone_golem = {
+	championrpg_alchemist_stone_golem = {
 		displayName = "Stone Golem",
 		heroClass = "Alchemist",
 		order = 22,
@@ -751,7 +751,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "return R2I(5.*GetHeroInt(tSo,true))" },
 	},
-	twrpg_alchemist_earth_protection = {
+	championrpg_alchemist_earth_protection = {
 		displayName = "Earth Protection",
 		heroClass = "Alchemist",
 		order = 23,
@@ -767,7 +767,7 @@ local Abilities = {
 			"Each earth-based transmutation performed by Alchemist grants 40 armor (max 10 stacks)",
 		},
 	},
-	twrpg_alchemist_recall = {
+	championrpg_alchemist_recall = {
 		displayName = "Recall",
 		heroClass = "Alchemist",
 		order = 24,
@@ -782,7 +782,7 @@ local Abilities = {
 		handlers = { "qOr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_taunt = {
+	championrpg_alchemist_taunt = {
 		displayName = "Taunt",
 		heroClass = "Alchemist",
 		order = 25,
@@ -794,7 +794,7 @@ local Abilities = {
 		cooldown = 8,
 		text_active = { "Focus nearby enemies' attacks onto self." },
 	},
-	twrpg_alchemist_rolling_golem = {
+	championrpg_alchemist_rolling_golem = {
 		displayName = "Rolling Golem",
 		heroClass = "Alchemist",
 		order = 26,
@@ -816,7 +816,7 @@ local Abilities = {
 			"set q0[b1x[Mtx]]=(6.*GetHeroInt((Mo[((oQ[((GetPlayerId(GetOwningPlayer((Mo[((((Mtx))))])))))]))]),true))",
 		},
 	},
-	twrpg_alchemist_power_slam = {
+	championrpg_alchemist_power_slam = {
 		displayName = "Power Slam",
 		heroClass = "Alchemist",
 		order = 27,
@@ -838,7 +838,7 @@ local Abilities = {
 			"return 1.5*Hdo((oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((tSo))))))])))))]))+9.*GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((tSo))))))])))))])]),true)",
 		},
 	},
-	twrpg_alchemist_philosophers_stone = {
+	championrpg_alchemist_philosophers_stone = {
 		displayName = "Philosopher's Stone",
 		heroClass = "Alchemist",
 		order = 28,
@@ -857,7 +857,7 @@ local Abilities = {
 		handlers = { "Kri" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_gate_of_truth = {
+	championrpg_alchemist_gate_of_truth = {
 		displayName = "Gate of Truth",
 		heroClass = "Alchemist",
 		order = 29,
@@ -877,7 +877,7 @@ local Abilities = {
 		handlers = { "dwr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_alchemist_obtain_truth = {
+	championrpg_alchemist_obtain_truth = {
 		displayName = "Obtain Truth",
 		heroClass = "Alchemist",
 		order = 30,
@@ -892,7 +892,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=100.*GetHeroInt((Mo[(Mtx)]),true)" },
 	},
-	twrpg_warlock_dark_whisper = {
+	championrpg_warlock_dark_whisper = {
 		displayName = "Dark Whisper",
 		heroClass = "Warlock",
 		order = 1,
@@ -909,7 +909,7 @@ local Abilities = {
 		handlers = { "jJn", "jkn" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_warlock_crucifixion = {
+	championrpg_warlock_crucifixion = {
 		displayName = "Crucifixion",
 		heroClass = "Warlock",
 		order = 2,
@@ -929,7 +929,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*(10.*GetHeroInt(tSo,true)+.5*hXo((GetUnitUserData((tSo)))))" },
 	},
-	twrpg_warlock_dimension_collapse = {
+	championrpg_warlock_dimension_collapse = {
 		displayName = "Dimension Collapse",
 		heroClass = "Warlock",
 		order = 3,
@@ -949,7 +949,7 @@ local Abilities = {
 		handlers = { "wBi", "wOi" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_warlock_vengeance = {
+	championrpg_warlock_vengeance = {
 		displayName = "Vengeance",
 		heroClass = "Warlock",
 		order = 4,
@@ -970,7 +970,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*7.5*GetHeroInt(tSo,true)" },
 	},
-	twrpg_warlock_soul_grimoire = {
+	championrpg_warlock_soul_grimoire = {
 		displayName = "Soul Grimoire",
 		heroClass = "Warlock",
 		order = 5,
@@ -994,7 +994,7 @@ local Abilities = {
 		handlers = { "OMa", "OWa", "Owa" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_warlock_demonic_fury = {
+	championrpg_warlock_demonic_fury = {
 		displayName = "Demonic Fury",
 		heroClass = "Warlock",
 		order = 6,
@@ -1015,7 +1015,7 @@ local Abilities = {
 		handlers = { "bLi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_warlock_hunger = {
+	championrpg_warlock_hunger = {
 		displayName = "Hunger",
 		heroClass = "Warlock",
 		order = 7,
@@ -1030,7 +1030,7 @@ local Abilities = {
 			"Next attack consumes all Hunger stacks, dealing INT X 7.5 magic damage and healing you for Max HP X 4% per consumed stack",
 		},
 	},
-	twrpg_warlock_flames_of_ruin = {
+	championrpg_warlock_flames_of_ruin = {
 		displayName = "Flames of Ruin",
 		heroClass = "Warlock",
 		order = 8,
@@ -1046,7 +1046,7 @@ local Abilities = {
 			"Becomes immune to CC effects while casting Soul Grimoire",
 		},
 	},
-	twrpg_warlock_destruction = {
+	championrpg_warlock_destruction = {
 		displayName = "Destruction",
 		heroClass = "Warlock",
 		order = 9,
@@ -1061,7 +1061,7 @@ local Abilities = {
 		handlers = { "bPi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_warlock_leap_of_execution = {
+	championrpg_warlock_leap_of_execution = {
 		displayName = "Leap of Execution",
 		heroClass = "Warlock",
 		order = 10,
@@ -1082,7 +1082,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*25.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_warlock_soul_offering = {
+	championrpg_warlock_soul_offering = {
 		displayName = "Soul Offering",
 		heroClass = "Warlock",
 		order = 11,
@@ -1100,7 +1100,7 @@ local Abilities = {
 		handlers = { "Jrn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_warlock_apocalypse = {
+	championrpg_warlock_apocalypse = {
 		displayName = "Apocalypse",
 		heroClass = "Warlock",
 		order = 12,
@@ -1122,7 +1122,7 @@ local Abilities = {
 			"return WU[(GetUnitUserData((M_x)))]*(150.*GetHeroInt(M_x,true)+22.5*hXo((GetUnitUserData((M_x)))))",
 		},
 	},
-	twrpg_blood_weaver_blood_mastery = {
+	championrpg_blood_weaver_blood_mastery = {
 		displayName = "Blood Mastery",
 		heroClass = "Blood Weaver",
 		order = 1,
@@ -1140,7 +1140,7 @@ local Abilities = {
 		handlers = { "WFo", "Wgo" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_blood_weaver_blood_claw = {
+	championrpg_blood_weaver_blood_claw = {
 		displayName = "Blood Claw",
 		heroClass = "Blood Weaver",
 		order = 2,
@@ -1163,7 +1163,7 @@ local Abilities = {
 		handlers = { "hEn", "hXn", "han", "hin" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_blood_weaver_rose_dance = {
+	championrpg_blood_weaver_rose_dance = {
 		displayName = "Rose Dance",
 		heroClass = "Blood Weaver",
 		order = 3,
@@ -1181,7 +1181,7 @@ local Abilities = {
 		handlers = { "hDn", "hFn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_blood_weaver_life_drain = {
+	championrpg_blood_weaver_life_drain = {
 		displayName = "Life Drain",
 		heroClass = "Blood Weaver",
 		order = 4,
@@ -1205,7 +1205,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .3*hao((GetUnitUserData((tSo))))+3.75*GetHeroInt(tSo,true)" },
 	},
-	twrpg_blood_weaver_blood_boil = {
+	championrpg_blood_weaver_blood_boil = {
 		displayName = "Blood Boil",
 		heroClass = "Blood Weaver",
 		order = 5,
@@ -1225,7 +1225,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real P2x=(6.+1.*(GetHeroStr((tSo),true)/ 750))", "return 2.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_blood_weaver_crimson_pillar = {
+	championrpg_blood_weaver_crimson_pillar = {
 		displayName = "Crimson Pillar",
 		heroClass = "Blood Weaver",
 		order = 6,
@@ -1243,7 +1243,7 @@ local Abilities = {
 		handlers = { "hkn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_blood_weaver_sacrifice = {
+	championrpg_blood_weaver_sacrifice = {
 		displayName = "Sacrifice",
 		heroClass = "Blood Weaver",
 		order = 7,
@@ -1262,7 +1262,7 @@ local Abilities = {
 		handlers = { "htn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_fire_mage_flame_mastery = {
+	championrpg_fire_mage_flame_mastery = {
 		displayName = "Flame Mastery",
 		heroClass = "Fire Mage",
 		order = 1,
@@ -1280,7 +1280,7 @@ local Abilities = {
 		handlers = { "Y7i", "Y8i" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_fire_mage_fireball = {
+	championrpg_fire_mage_fireball = {
 		displayName = "Fireball",
 		heroClass = "Fire Mage",
 		order = 2,
@@ -1299,7 +1299,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set ENx[Mtx]=tU[(GetUnitUserData((zY[Mtx])))]*(8.*GetHeroInt(zY[Mtx],true))" },
 	},
-	twrpg_fire_mage_flame_spirit = {
+	championrpg_fire_mage_flame_spirit = {
 		displayName = "Flame Spirit",
 		heroClass = "Fire Mage",
 		order = 3,
@@ -1327,7 +1327,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*(1.5*GetHeroInt(M_x,true))",
 		},
 	},
-	twrpg_fire_mage_flame_nova = {
+	championrpg_fire_mage_flame_nova = {
 		displayName = "Flame Nova",
 		heroClass = "Fire Mage",
 		order = 4,
@@ -1346,7 +1346,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=30.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_fire_mage_flame_combustion = {
+	championrpg_fire_mage_flame_combustion = {
 		displayName = "Flame Combustion",
 		heroClass = "Fire Mage",
 		order = 5,
@@ -1365,7 +1365,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=25.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_fire_mage_meteor_fragment = {
+	championrpg_fire_mage_meteor_fragment = {
 		displayName = "Meteor Fragment",
 		heroClass = "Fire Mage",
 		order = 6,
@@ -1384,7 +1384,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set PZ[EWx[Mtx]]=tU[(GetUnitUserData((oZ[EWx[Mtx]])))]*(15.*GetHeroInt(oZ[EWx[Mtx]],true))" },
 	},
-	twrpg_fire_mage_meteor_strike = {
+	championrpg_fire_mage_meteor_strike = {
 		displayName = "Meteor Strike",
 		heroClass = "Fire Mage",
 		order = 7,
@@ -1403,7 +1403,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return tU[(GetUnitUserData((M_x)))]*(175.*GetHeroInt(M_x,true))" },
 	},
-	twrpg_shooter_probe = {
+	championrpg_shooter_probe = {
 		displayName = "Probe",
 		heroClass = "Shooter",
 		order = 1,
@@ -1423,7 +1423,7 @@ local Abilities = {
 		handlers = { "pUr", "pwr", "pzr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shooter_twin_star = {
+	championrpg_shooter_twin_star = {
 		displayName = "Twin Star",
 		heroClass = "Shooter",
 		order = 2,
@@ -1442,7 +1442,7 @@ local Abilities = {
 		handlers = { "XKn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shooter_water_bullet = {
+	championrpg_shooter_water_bullet = {
 		displayName = "Water Bullet",
 		heroClass = "Shooter",
 		order = 3,
@@ -1468,7 +1468,7 @@ local Abilities = {
 			"return TU[(GetUnitUserData((tSo)))]*(7.5*GetHeroInt(tSo,true))",
 		},
 	},
-	twrpg_shooter_nanomachine_injection = {
+	championrpg_shooter_nanomachine_injection = {
 		displayName = "Nanomachine Injection",
 		heroClass = "Shooter",
 		order = 4,
@@ -1492,7 +1492,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .25*hao((GetUnitUserData((M6x))))+2.5*GetHeroInt(tSo,true)" },
 	},
-	twrpg_shooter_break_shot = {
+	championrpg_shooter_break_shot = {
 		displayName = "Break Shot",
 		heroClass = "Shooter",
 		order = 5,
@@ -1512,7 +1512,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real epo=1.5*Hdo((GetUnitUserData((tSo))))+7.5*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_shooter_distortion = {
+	championrpg_shooter_distortion = {
 		displayName = "Distortion",
 		heroClass = "Shooter",
 		order = 6,
@@ -1532,7 +1532,7 @@ local Abilities = {
 		handlers = { "OUn", "OZn", "O_n" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shooter_stardust_rain = {
+	championrpg_shooter_stardust_rain = {
 		displayName = "Stardust Rain",
 		heroClass = "Shooter",
 		order = 7,
@@ -1562,7 +1562,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_shooter_comet_storm = {
+	championrpg_shooter_comet_storm = {
 		displayName = "Comet Storm",
 		heroClass = "Shooter",
 		order = 8,
@@ -1588,7 +1588,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_sword_enchanter_sword_enchant = {
+	championrpg_sword_enchanter_sword_enchant = {
 		displayName = "Sword Enchant",
 		heroClass = "Sword Enchanter",
 		order = 1,
@@ -1609,7 +1609,7 @@ local Abilities = {
 		handlers = { "Qmi", "Qpi" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_sword_enchanter_weapon_enchant = {
+	championrpg_sword_enchanter_weapon_enchant = {
 		displayName = "Weapon Enchant",
 		heroClass = "Sword Enchanter",
 		order = 2,
@@ -1622,7 +1622,7 @@ local Abilities = {
 		handlers = { "Aen" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_speed_enchant = {
+	championrpg_sword_enchanter_speed_enchant = {
 		displayName = "Speed Enchant",
 		heroClass = "Sword Enchanter",
 		order = 3,
@@ -1642,7 +1642,7 @@ local Abilities = {
 		handlers = { "ARn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_power_enchant = {
+	championrpg_sword_enchanter_power_enchant = {
 		displayName = "Power Enchant",
 		heroClass = "Sword Enchanter",
 		order = 4,
@@ -1662,7 +1662,7 @@ local Abilities = {
 		handlers = { "Adn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_guard_enchant = {
+	championrpg_sword_enchanter_guard_enchant = {
 		displayName = "Guard Enchant",
 		heroClass = "Sword Enchanter",
 		order = 5,
@@ -1681,7 +1681,7 @@ local Abilities = {
 		handlers = { "AJn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_enchant_mastery = {
+	championrpg_sword_enchanter_enchant_mastery = {
 		displayName = "Enchant Mastery",
 		heroClass = "Sword Enchanter",
 		order = 6,
@@ -1696,7 +1696,7 @@ local Abilities = {
 			"Increases damage of Sword Enchant by 30%",
 		},
 	},
-	twrpg_sword_enchanter_speed_enchant_allies_only = {
+	championrpg_sword_enchanter_speed_enchant_allies_only = {
 		displayName = "Speed Enchant - allies only",
 		heroClass = "Sword Enchanter",
 		order = 7,
@@ -1714,7 +1714,7 @@ local Abilities = {
 		handlers = { "ARn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_power_enchant_allies_only = {
+	championrpg_sword_enchanter_power_enchant_allies_only = {
 		displayName = "Power Enchant - allies only",
 		heroClass = "Sword Enchanter",
 		order = 8,
@@ -1732,7 +1732,7 @@ local Abilities = {
 		handlers = { "Adn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_guard_enchant_allies_only = {
+	championrpg_sword_enchanter_guard_enchant_allies_only = {
 		displayName = "Guard Enchant - allies only",
 		heroClass = "Sword Enchanter",
 		order = 9,
@@ -1750,7 +1750,7 @@ local Abilities = {
 		handlers = { "AJn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_sword_enchanter_ultimate_enchant = {
+	championrpg_sword_enchanter_ultimate_enchant = {
 		displayName = "Ultimate Enchant",
 		heroClass = "Sword Enchanter",
 		order = 10,
@@ -1770,7 +1770,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set tQv[Mtx]=(125.*GetHeroAgi((tSo),true))" },
 	},
-	twrpg_gunner_beyond_the_horizon = {
+	championrpg_gunner_beyond_the_horizon = {
 		displayName = "Beyond the Horizon",
 		heroClass = "Gunner",
 		order = 1,
@@ -1791,7 +1791,7 @@ local Abilities = {
 		handlers = { "UPo", "Upo", "Uqo" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_gunner_tumble = {
+	championrpg_gunner_tumble = {
 		displayName = "Tumble",
 		heroClass = "Gunner",
 		order = 2,
@@ -1810,7 +1810,7 @@ local Abilities = {
 		handlers = { "iEa", "iXa", "ina" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_gunner_outlaw = {
+	championrpg_gunner_outlaw = {
 		displayName = "Outlaw",
 		heroClass = "Gunner",
 		order = 3,
@@ -1831,7 +1831,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .25*Hdo((GetUnitUserData((tSo))))+2.5*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_gunner_he_bomb = {
+	championrpg_gunner_he_bomb = {
 		displayName = "HE Bomb",
 		heroClass = "Gunner",
 		order = 4,
@@ -1851,7 +1851,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=6.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_gunner_fanning = {
+	championrpg_gunner_fanning = {
 		displayName = "Fanning",
 		heroClass = "Gunner",
 		order = 5,
@@ -1869,7 +1869,7 @@ local Abilities = {
 		handlers = { "Ien", "Ivn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_gunner_bullet_time = {
+	championrpg_gunner_bullet_time = {
 		displayName = "Bullet Time",
 		heroClass = "Gunner",
 		order = 6,
@@ -1891,7 +1891,7 @@ local Abilities = {
 		handlers = { "R5i" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_gunner_deadeye = {
+	championrpg_gunner_deadeye = {
 		displayName = "Deadeye",
 		heroClass = "Gunner",
 		order = 7,
@@ -1916,7 +1916,7 @@ local Abilities = {
 		},
 		recoveredFormulas = { "return 20.*Hdo((GetUnitUserData((tSo))))+100.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_swordsman_quick_draw = {
+	championrpg_swordsman_quick_draw = {
 		displayName = "Quick Draw",
 		heroClass = "Swordsman",
 		order = 1,
@@ -1935,7 +1935,7 @@ local Abilities = {
 		handlers = { "PMr", "PPr" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_swordsman_rising_dragon_strike = {
+	championrpg_swordsman_rising_dragon_strike = {
 		displayName = "Rising Dragon Strike",
 		heroClass = "Swordsman",
 		order = 2,
@@ -1950,7 +1950,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 3.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_swordsman_slice = {
+	championrpg_swordsman_slice = {
 		displayName = "Slice",
 		heroClass = "Swordsman",
 		order = 3,
@@ -1965,7 +1965,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set aHx[Mtx]=(5.+GetHeroLevel((Mo[(Mtx)]))/ 5.)*GetHeroAgi((Mo[(Mtx)]),true)" },
 	},
-	twrpg_swordsman_crescent_slash = {
+	championrpg_swordsman_crescent_slash = {
 		displayName = "Crescent Slash",
 		heroClass = "Swordsman",
 		order = 4,
@@ -1985,7 +1985,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 3.75*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_swordsman_wind_slash = {
+	championrpg_swordsman_wind_slash = {
 		displayName = "Wind Slash",
 		heroClass = "Swordsman",
 		order = 5,
@@ -2004,7 +2004,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 7.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_swordsman_sword_storm = {
+	championrpg_swordsman_sword_storm = {
 		displayName = "Sword Storm",
 		heroClass = "Swordsman",
 		order = 6,
@@ -2025,7 +2025,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.5*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_swordsman_flash_step = {
+	championrpg_swordsman_flash_step = {
 		displayName = "Flash Step",
 		heroClass = "Swordsman",
 		order = 7,
@@ -2041,7 +2041,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "local real d=uU[(id)]*(4.5*GetHeroAgi(c,true))" },
 	},
-	twrpg_swordsman_sword_of_illusion = {
+	championrpg_swordsman_sword_of_illusion = {
 		displayName = "Sword of Illusion",
 		heroClass = "Swordsman",
 		order = 8,
@@ -2065,7 +2065,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real eci=(2.5*GetHeroAgi(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_swordsman_illusal_dance = {
+	championrpg_swordsman_illusal_dance = {
 		displayName = "Illusal Dance",
 		heroClass = "Swordsman",
 		order = 9,
@@ -2085,7 +2085,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 5.*Hdo((GetUnitUserData((M_x))))+25.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_swordsman_genocide_storm = {
+	championrpg_swordsman_genocide_storm = {
 		displayName = "Genocide Storm",
 		heroClass = "Swordsman",
 		order = 10,
@@ -2106,7 +2106,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set a0x[Mtx]=GetHeroAgi((Mo[(aYx[Mtx])]),true)" },
 	},
-	twrpg_elementalist_wind_blessing = {
+	championrpg_elementalist_wind_blessing = {
 		displayName = "Wind Blessing",
 		heroClass = "Elementalist",
 		order = 1,
@@ -2120,7 +2120,7 @@ local Abilities = {
 			"Charges once every 10 seconds (up to 2 charges)",
 		},
 	},
-	twrpg_elementalist_seal_of_flame = {
+	championrpg_elementalist_seal_of_flame = {
 		displayName = "Seal of Flame",
 		heroClass = "Elementalist",
 		order = 2,
@@ -2139,7 +2139,7 @@ local Abilities = {
 		handlers = { "LMi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_flame_release = {
+	championrpg_elementalist_flame_release = {
 		displayName = "Flame Release",
 		heroClass = "Elementalist",
 		order = 3,
@@ -2157,7 +2157,7 @@ local Abilities = {
 		handlers = { "mQi", "mSi", "mti" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_explosion = {
+	championrpg_elementalist_explosion = {
 		displayName = "Explosion",
 		heroClass = "Elementalist",
 		order = 4,
@@ -2176,7 +2176,7 @@ local Abilities = {
 		handlers = { "bAr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_burning_reach = {
+	championrpg_elementalist_burning_reach = {
 		displayName = "Burning Reach",
 		heroClass = "Elementalist",
 		order = 5,
@@ -2187,7 +2187,7 @@ local Abilities = {
 		parentKey = "Q",
 		text_passive = { "Creates an explosion on attack.", "Each attack deals INT X 5 magic damage to nearby enemies" },
 	},
-	twrpg_elementalist_fervor = {
+	championrpg_elementalist_fervor = {
 		displayName = "Fervor",
 		heroClass = "Elementalist",
 		order = 6,
@@ -2201,7 +2201,7 @@ local Abilities = {
 			"Every attack increases attack speed by 20% for 5 seconds (up to 100%)",
 		},
 	},
-	twrpg_elementalist_seal_of_water = {
+	championrpg_elementalist_seal_of_water = {
 		displayName = "Seal of Water",
 		heroClass = "Elementalist",
 		order = 7,
@@ -2217,7 +2217,7 @@ local Abilities = {
 		handlers = { "mKi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_water_release = {
+	championrpg_elementalist_water_release = {
 		displayName = "Water Release",
 		heroClass = "Elementalist",
 		order = 8,
@@ -2232,7 +2232,7 @@ local Abilities = {
 		handlers = { "qfi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_purify = {
+	championrpg_elementalist_purify = {
 		displayName = "Purify",
 		heroClass = "Elementalist",
 		order = 9,
@@ -2250,7 +2250,7 @@ local Abilities = {
 		handlers = { "i1r", "i2r", "iTr", "itr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CAST", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_water_bolt = {
+	championrpg_elementalist_water_bolt = {
 		displayName = "Water Bolt",
 		heroClass = "Elementalist",
 		order = 10,
@@ -2265,7 +2265,7 @@ local Abilities = {
 			"Every 2 seconds, heals 2 allies with lowest HP by (Target's Max HP X 5% + INT X 0.3) HP (affected by attack speed)",
 		},
 	},
-	twrpg_elementalist_refreshing_water = {
+	championrpg_elementalist_refreshing_water = {
 		displayName = "Refreshing Water",
 		heroClass = "Elementalist",
 		order = 11,
@@ -2280,7 +2280,7 @@ local Abilities = {
 			"Increases healed ally's stats by 10% for 15 seconds",
 		},
 	},
-	twrpg_elementalist_seal_of_lightning = {
+	championrpg_elementalist_seal_of_lightning = {
 		displayName = "Seal of Lightning",
 		heroClass = "Elementalist",
 		order = 12,
@@ -2294,7 +2294,7 @@ local Abilities = {
 		handlers = { "Lyi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_lightning_release = {
+	championrpg_elementalist_lightning_release = {
 		displayName = "Lightning Release",
 		heroClass = "Elementalist",
 		order = 13,
@@ -2313,7 +2313,7 @@ local Abilities = {
 		handlers = { "rUr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_lightning_beam = {
+	championrpg_elementalist_lightning_beam = {
 		displayName = "Lightning Beam",
 		heroClass = "Elementalist",
 		order = 14,
@@ -2328,7 +2328,7 @@ local Abilities = {
 		handlers = { "rOn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_shock = {
+	championrpg_elementalist_shock = {
 		displayName = "Shock",
 		heroClass = "Elementalist",
 		order = 15,
@@ -2343,7 +2343,7 @@ local Abilities = {
 			"Every 4th attack is enhanced, dealing INT X 10 magic damage and being chained to 2 additional targets",
 		},
 	},
-	twrpg_elementalist_electric_charge = {
+	championrpg_elementalist_electric_charge = {
 		displayName = "Electric Charge",
 		heroClass = "Elementalist",
 		order = 16,
@@ -2358,7 +2358,7 @@ local Abilities = {
 			"Each point of MP increases damage dealt by Shock by 1% (max 100%)",
 		},
 	},
-	twrpg_elementalist_seal_of_earth = {
+	championrpg_elementalist_seal_of_earth = {
 		displayName = "Seal of Earth",
 		heroClass = "Elementalist",
 		order = 17,
@@ -2375,7 +2375,7 @@ local Abilities = {
 		handlers = { "SNr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_earth_release = {
+	championrpg_elementalist_earth_release = {
 		displayName = "Earth Release",
 		heroClass = "Elementalist",
 		order = 18,
@@ -2394,7 +2394,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "call MZo((M_x),(M6x),(Nfx),((5.+GetHeroInt(M_x,true)/ 1000.)*1.),1)" },
 	},
-	twrpg_elementalist_earthen_link = {
+	championrpg_elementalist_earthen_link = {
 		displayName = "Earthen Link",
 		heroClass = "Elementalist",
 		order = 19,
@@ -2409,7 +2409,7 @@ local Abilities = {
 			"Reduces damage taken by nearby allies by 30% and grants CC immunity up to 3 seconds",
 		},
 	},
-	twrpg_elementalist_earthen_pulse = {
+	championrpg_elementalist_earthen_pulse = {
 		displayName = "Earthen Pulse",
 		heroClass = "Elementalist",
 		order = 20,
@@ -2423,7 +2423,7 @@ local Abilities = {
 			"Every attack sends a shockwave dealing INT X 15 magic damage",
 		},
 	},
-	twrpg_elementalist_earthen_protection = {
+	championrpg_elementalist_earthen_protection = {
 		displayName = "Earthen Protection",
 		heroClass = "Elementalist",
 		order = 21,
@@ -2438,7 +2438,7 @@ local Abilities = {
 			"Upon reaching 1 HP, becomes invincible",
 		},
 	},
-	twrpg_elementalist_elemental_link = {
+	championrpg_elementalist_elemental_link = {
 		displayName = "Elemental Link",
 		heroClass = "Elementalist",
 		order = 22,
@@ -2462,7 +2462,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return uU[(GetUnitUserData((tSo)))]*(5.+GetHeroLevel(tSo)/ 4)*GetHeroInt(tSo,true)" },
 	},
-	twrpg_elementalist_elemental_link_disable = {
+	championrpg_elementalist_elemental_link_disable = {
 		displayName = "Elemental Link - Disable",
 		heroClass = "Elementalist",
 		order = 23,
@@ -2473,7 +2473,7 @@ local Abilities = {
 		parentKey = "T",
 		text_active = { "Cancels your links with elementals." },
 	},
-	twrpg_elementalist_seal_of_chaos = {
+	championrpg_elementalist_seal_of_chaos = {
 		displayName = "Seal of Chaos",
 		heroClass = "Elementalist",
 		order = 24,
@@ -2490,7 +2490,7 @@ local Abilities = {
 		handlers = { "KJn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_abyss_walk = {
+	championrpg_elementalist_abyss_walk = {
 		displayName = "Abyss Walk",
 		heroClass = "Elementalist",
 		order = 25,
@@ -2505,7 +2505,7 @@ local Abilities = {
 		handlers = { "KLn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_elementalist_collapse_dimension = {
+	championrpg_elementalist_collapse_dimension = {
 		displayName = "Collapse Dimension",
 		heroClass = "Elementalist",
 		order = 26,
@@ -2529,7 +2529,7 @@ local Abilities = {
 			"return WU[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]*7.5*GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true)",
 		},
 	},
-	twrpg_elementalist_eye_of_chaos = {
+	championrpg_elementalist_eye_of_chaos = {
 		displayName = "Eye of Chaos",
 		heroClass = "Elementalist",
 		order = 27,
@@ -2551,7 +2551,7 @@ local Abilities = {
 			"set Nwx[Mtx]=123.75*GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((NSx[Mtx]))))])))))])]),true)",
 		},
 	},
-	twrpg_elementalist_dark_reach = {
+	championrpg_elementalist_dark_reach = {
 		displayName = "Dark Reach",
 		heroClass = "Elementalist",
 		order = 28,
@@ -2566,7 +2566,7 @@ local Abilities = {
 			"Every 5th attack deals INT X 25 magic damage to nearby enemies",
 		},
 	},
-	twrpg_elementalist_power_of_chaos = {
+	championrpg_elementalist_power_of_chaos = {
 		displayName = "Power of Chaos",
 		heroClass = "Elementalist",
 		order = 29,
@@ -2577,7 +2577,7 @@ local Abilities = {
 		parentKey = "F",
 		text_passive = { "The power of chaos bends to none.", "Immune to all harmful abilities" },
 	},
-	twrpg_lightning_mage_short_circuit = {
+	championrpg_lightning_mage_short_circuit = {
 		displayName = "Short Circuit",
 		heroClass = "Lightning Mage",
 		order = 1,
@@ -2596,7 +2596,7 @@ local Abilities = {
 		handlers = { "uPr", "uqr" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_lightning_mage_lightning_bolt = {
+	championrpg_lightning_mage_lightning_bolt = {
 		displayName = "Lightning Bolt",
 		heroClass = "Lightning Mage",
 		order = 2,
@@ -2614,7 +2614,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=6.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_lightning_mage_static_sweep = {
+	championrpg_lightning_mage_static_sweep = {
 		displayName = "Static Sweep",
 		heroClass = "Lightning Mage",
 		order = 3,
@@ -2633,7 +2633,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return uU[(GetUnitUserData((tSo)))]*(1.5*Hdo((GetUnitUserData((tSo))))+5.*(GetHeroAgi(tSo,true)))" },
 	},
-	twrpg_lightning_mage_breaker = {
+	championrpg_lightning_mage_breaker = {
 		displayName = "Breaker",
 		heroClass = "Lightning Mage",
 		order = 4,
@@ -2652,7 +2652,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return uU[(GetUnitUserData((tSo)))]*(2.5*Hdo((GetUnitUserData((tSo))))+10.*GetHeroAgi(tSo,true))" },
 	},
-	twrpg_lightning_mage_static_burst = {
+	championrpg_lightning_mage_static_burst = {
 		displayName = "Static Burst",
 		heroClass = "Lightning Mage",
 		order = 5,
@@ -2672,7 +2672,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return uU[(GetUnitUserData((tSo)))]*12.5*GetHeroInt(tSo,true)" },
 	},
-	twrpg_lightning_mage_discharge = {
+	championrpg_lightning_mage_discharge = {
 		displayName = "Discharge",
 		heroClass = "Lightning Mage",
 		order = 6,
@@ -2693,7 +2693,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set bqe[Mtx]=uU[(GetUnitUserData(((Mo[(Mtx)]))))]*(10.*GetHeroInt(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_lightning_mage_lightning_strike = {
+	championrpg_lightning_mage_lightning_strike = {
 		displayName = "Lightning Strike",
 		heroClass = "Lightning Mage",
 		order = 7,
@@ -2713,7 +2713,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return uU[(GetUnitUserData((tSo)))]*40.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_lightning_mage_hypercharge = {
+	championrpg_lightning_mage_hypercharge = {
 		displayName = "Hypercharge",
 		heroClass = "Lightning Mage",
 		order = 8,
@@ -2734,7 +2734,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=45.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_lightning_mage_lightning_blade = {
+	championrpg_lightning_mage_lightning_blade = {
 		displayName = "Lightning Blade",
 		heroClass = "Lightning Mage",
 		order = 9,
@@ -2760,7 +2760,7 @@ local Abilities = {
 		},
 		recoveredFormulas = { "local real Pcx=90.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_crusader_execution_sword = {
+	championrpg_crusader_execution_sword = {
 		displayName = "Execution Sword",
 		heroClass = "Crusader",
 		order = 1,
@@ -2783,7 +2783,7 @@ local Abilities = {
 		handlers = { "gUi", "gui", "gwi" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_crusader_remains_of_rage = {
+	championrpg_crusader_remains_of_rage = {
 		displayName = "Remains of Rage",
 		heroClass = "Crusader",
 		order = 2,
@@ -2807,7 +2807,7 @@ local Abilities = {
 			"set sIv[Mtx]=(3.5*(7.5*GetHeroStr(((Mo[(Mtx)])),true)))",
 		},
 	},
-	twrpg_crusader_flash_of_immortality = {
+	championrpg_crusader_flash_of_immortality = {
 		displayName = "Flash of Immortality",
 		heroClass = "Crusader",
 		order = 3,
@@ -2835,7 +2835,7 @@ local Abilities = {
 			"EVENT_PLAYER_UNIT_SPELL_ENDCAST",
 		},
 	},
-	twrpg_crusader_strike_of_honor = {
+	championrpg_crusader_strike_of_honor = {
 		displayName = "Strike of Honor",
 		heroClass = "Crusader",
 		order = 4,
@@ -2855,7 +2855,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=2.5*Hdo((GetUnitUserData((tSo))))+10.*GetHeroStr(tSo,true)" },
 	},
-	twrpg_crusader_1st_sword_dance_strike = {
+	championrpg_crusader_1st_sword_dance_strike = {
 		displayName = "1st Sword Dance: Strike",
 		heroClass = "Crusader",
 		order = 5,
@@ -2875,7 +2875,7 @@ local Abilities = {
 		handlers = { "Qxi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_crusader_2nd_sword_dance_sword = {
+	championrpg_crusader_2nd_sword_dance_sword = {
 		displayName = "2nd Sword Dance: Sword",
 		heroClass = "Crusader",
 		order = 6,
@@ -2895,7 +2895,7 @@ local Abilities = {
 		handlers = { "QOi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_crusader_max_amplification_execution_sword = {
+	championrpg_crusader_max_amplification_execution_sword = {
 		displayName = "Max Amplification: Execution Sword",
 		heroClass = "Crusader",
 		order = 7,
@@ -2918,7 +2918,7 @@ local Abilities = {
 		handlers = { "KCr", "Kcr", "Kdr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_crusader_original_sin = {
+	championrpg_crusader_original_sin = {
 		displayName = "Original Sin",
 		heroClass = "Crusader",
 		order = 8,
@@ -2936,7 +2936,7 @@ local Abilities = {
 		handlers = { "awn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_martial_artist_martial_movement = {
+	championrpg_martial_artist_martial_movement = {
 		displayName = "Martial Movement",
 		heroClass = "Martial Artist",
 		order = 1,
@@ -2958,7 +2958,7 @@ local Abilities = {
 		handlers = { "AWn", "Awn", "Ayn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_martial_artist_emperors_strikes = {
+	championrpg_martial_artist_emperors_strikes = {
 		displayName = "Emperor's Strikes",
 		heroClass = "Martial Artist",
 		order = 2,
@@ -2974,7 +2974,7 @@ local Abilities = {
 		handlers = { "bWa", "bwa" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_martial_artist_eight_palm_strike = {
+	championrpg_martial_artist_eight_palm_strike = {
 		displayName = "Eight Palm Strike",
 		heroClass = "Martial Artist",
 		order = 3,
@@ -2988,7 +2988,7 @@ local Abilities = {
 			"8% chance to deal AGI x 8 magic damage to nearby enemies on attack",
 		},
 	},
-	twrpg_martial_artist_vacuum_palm = {
+	championrpg_martial_artist_vacuum_palm = {
 		displayName = "Vacuum Palm",
 		heroClass = "Martial Artist",
 		order = 4,
@@ -3002,7 +3002,7 @@ local Abilities = {
 			"Decreases target's armor by 40% and increases proc damage taken by 5% for 6 seconds if debuff is stacked",
 		},
 	},
-	twrpg_martial_artist_inner_meditation = {
+	championrpg_martial_artist_inner_meditation = {
 		displayName = "Inner Meditation",
 		heroClass = "Martial Artist",
 		order = 5,
@@ -3020,7 +3020,7 @@ local Abilities = {
 		handlers = { "Kvr", "k9r" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_martial_artist_heavenly_emperors_strikes = {
+	championrpg_martial_artist_heavenly_emperors_strikes = {
 		displayName = "Heavenly Emperor's Strikes",
 		heroClass = "Martial Artist",
 		order = 6,
@@ -3034,7 +3034,7 @@ local Abilities = {
 			"Activates at least once when attacking 10 consecutive times",
 		},
 	},
-	twrpg_martial_artist_nameless_arts = {
+	championrpg_martial_artist_nameless_arts = {
 		displayName = "Nameless Arts",
 		heroClass = "Martial Artist",
 		order = 7,
@@ -3054,7 +3054,7 @@ local Abilities = {
 		handlers = { "ALa", "Aka", "Ama" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lancer_oriental_spear_mastery = {
+	championrpg_lancer_oriental_spear_mastery = {
 		displayName = "Oriental Spear Mastery",
 		heroClass = "Lancer",
 		order = 1,
@@ -3078,7 +3078,7 @@ local Abilities = {
 		handlers = { "mPr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lancer_pierce = {
+	championrpg_lancer_pierce = {
 		displayName = "Pierce",
 		heroClass = "Lancer",
 		order = 2,
@@ -3098,7 +3098,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.*Hdo((GetUnitUserData((tSo))))+7.5*GetHeroStr(tSo,true)" },
 	},
-	twrpg_lancer_flash_strike = {
+	championrpg_lancer_flash_strike = {
 		displayName = "Flash Strike",
 		heroClass = "Lancer",
 		order = 3,
@@ -3119,7 +3119,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .9*Hdo((GetUnitUserData((tSo))))+4.5*GetHeroStr(tSo,true)" },
 	},
-	twrpg_lancer_nerve_strike = {
+	championrpg_lancer_nerve_strike = {
 		displayName = "Nerve Strike",
 		heroClass = "Lancer",
 		order = 4,
@@ -3139,7 +3139,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.2*Hdo((GetUnitUserData((tSo))))+6.*GetHeroStr(tSo,true)" },
 	},
-	twrpg_lancer_battle_recovery = {
+	championrpg_lancer_battle_recovery = {
 		displayName = "Battle Recovery",
 		heroClass = "Lancer",
 		order = 5,
@@ -3163,7 +3163,7 @@ local Abilities = {
 		handlers = { "UFo", "Uco", "Udo", "Ufo" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lancer_meteor_spear = {
+	championrpg_lancer_meteor_spear = {
 		displayName = "Meteor Spear",
 		heroClass = "Lancer",
 		order = 6,
@@ -3183,7 +3183,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=70.*GetHeroStr(tSo,true)" },
 	},
-	twrpg_lancer_dragon_slam = {
+	championrpg_lancer_dragon_slam = {
 		displayName = "Dragon Slam",
 		heroClass = "Lancer",
 		order = 7,
@@ -3203,7 +3203,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set PZ[Zme[Mtx]]=tU[(Mtx)]*(140.*GetHeroStr((Mo[(Mtx)]),true))" },
 	},
-	twrpg_reaper_scythe_mastery = {
+	championrpg_reaper_scythe_mastery = {
 		displayName = "Scythe Mastery",
 		heroClass = "Reaper",
 		order = 1,
@@ -3226,7 +3226,7 @@ local Abilities = {
 		handlers = { "sPr", "sQr", "ssr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_reaper_whirl_of_death = {
+	championrpg_reaper_whirl_of_death = {
 		displayName = "Whirl of Death",
 		heroClass = "Reaper",
 		order = 2,
@@ -3245,7 +3245,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT", "EVENT_PLAYER_UNIT_SPELL_ENDCAST" },
 		recoveredFormulas = { "local real Pcx=.5*Hdo((GetUnitUserData((M_x))))+5.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_reaper_consecutive_strikes = {
+	championrpg_reaper_consecutive_strikes = {
 		displayName = "Consecutive Strikes",
 		heroClass = "Reaper",
 		order = 3,
@@ -3268,7 +3268,7 @@ local Abilities = {
 		handlers = { "I7i", "I8i", "I9i" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_reaper_deaths_dash = {
+	championrpg_reaper_deaths_dash = {
 		displayName = "Death's Dash",
 		heroClass = "Reaper",
 		order = 4,
@@ -3288,7 +3288,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=12.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_reaper_deaths_slash = {
+	championrpg_reaper_deaths_slash = {
 		displayName = "Death's Slash",
 		heroClass = "Reaper",
 		order = 5,
@@ -3307,7 +3307,7 @@ local Abilities = {
 		handlers = { "ROa", "RRa" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_reaper_extreme_focus = {
+	championrpg_reaper_extreme_focus = {
 		displayName = "Extreme Focus",
 		heroClass = "Reaper",
 		order = 6,
@@ -3327,7 +3327,7 @@ local Abilities = {
 		handlers = { "Vva", "n6a", "n9a" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_reaper_death_mark = {
+	championrpg_reaper_death_mark = {
 		displayName = "Death Mark",
 		heroClass = "Reaper",
 		order = 7,
@@ -3346,7 +3346,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set nWv[Mtx]=(125.*GetHeroAgi(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_assassin_dark_shroud = {
+	championrpg_assassin_dark_shroud = {
 		displayName = "Dark Shroud",
 		heroClass = "Assassin",
 		order = 1,
@@ -3365,7 +3365,7 @@ local Abilities = {
 		handlers = { "NSi", "Nsi", "Nti" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_assassin_shadow_slash = {
+	championrpg_assassin_shadow_slash = {
 		displayName = "Shadow Slash",
 		heroClass = "Assassin",
 		order = 2,
@@ -3385,7 +3385,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .5*Hdo((GetUnitUserData((tSo))))+5.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_assassin_ambush = {
+	championrpg_assassin_ambush = {
 		displayName = "Ambush",
 		heroClass = "Assassin",
 		order = 3,
@@ -3405,7 +3405,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.25*Hdo((GetUnitUserData((tSo))))+7.5*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_assassin_shadow_walk = {
+	championrpg_assassin_shadow_walk = {
 		displayName = "Shadow Walk",
 		heroClass = "Assassin",
 		order = 4,
@@ -3424,7 +3424,7 @@ local Abilities = {
 		handlers = { "oda" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_assassin_smoke_bomb = {
+	championrpg_assassin_smoke_bomb = {
 		displayName = "Smoke Bomb",
 		heroClass = "Assassin",
 		order = 5,
@@ -3444,7 +3444,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set pav[Mtx]=.25*(1.*GetHeroAgi(tSo,true))" },
 	},
-	twrpg_assassin_shadow_rush = {
+	championrpg_assassin_shadow_rush = {
 		displayName = "Shadow Rush",
 		heroClass = "Assassin",
 		order = 6,
@@ -3464,7 +3464,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set fLe[Mtx]=6.*GetHeroAgi((Mo[(id)]),true)" },
 	},
-	twrpg_assassin_night_fury = {
+	championrpg_assassin_night_fury = {
 		displayName = "Night Fury",
 		heroClass = "Assassin",
 		order = 7,
@@ -3485,7 +3485,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set DPe[Mtx]=4.*GetHeroAgi((Mo[(Mtx)]),true)", "set Dqe[Mtx]=45.*GetHeroAgi((Mo[(Mtx)]),true)" },
 	},
-	twrpg_wind_mage_feather_of_aeolus = {
+	championrpg_wind_mage_feather_of_aeolus = {
 		displayName = "Feather of Aeolus",
 		heroClass = "Wind Mage",
 		order = 1,
@@ -3504,7 +3504,7 @@ local Abilities = {
 		handlers = { "Bvr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_wind_mage_blessing_of_zephyrus = {
+	championrpg_wind_mage_blessing_of_zephyrus = {
 		displayName = "Blessing of Zephyrus",
 		heroClass = "Wind Mage",
 		order = 2,
@@ -3523,7 +3523,7 @@ local Abilities = {
 		handlers = { "wYo", "wwo", "wyo" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_wind_mage_arrow_of_zephyrus = {
+	championrpg_wind_mage_arrow_of_zephyrus = {
 		displayName = "Arrow of Zephyrus",
 		heroClass = "Wind Mage",
 		order = 3,
@@ -3539,7 +3539,7 @@ local Abilities = {
 		},
 		text_toggle = { "Change to healing mode." },
 	},
-	twrpg_wind_mage_gentle_winds = {
+	championrpg_wind_mage_gentle_winds = {
 		displayName = "Gentle Winds",
 		heroClass = "Wind Mage",
 		order = 4,
@@ -3560,7 +3560,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real M9x=2.5*GetHeroInt(M_x,true)", "set Pcx=10.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_wind_mage_mirror_of_aeolus = {
+	championrpg_wind_mage_mirror_of_aeolus = {
 		displayName = "Mirror of Aeolus",
 		heroClass = "Wind Mage",
 		order = 5,
@@ -3587,7 +3587,7 @@ local Abilities = {
 			"return uU[(GetUnitUserData((tSo)))]*200.*GetHeroInt(tSo,true)",
 		},
 	},
-	twrpg_wind_mage_light_breeze = {
+	championrpg_wind_mage_light_breeze = {
 		displayName = "Light Breeze",
 		heroClass = "Wind Mage",
 		order = 6,
@@ -3606,7 +3606,7 @@ local Abilities = {
 		handlers = { "jmr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_wind_mage_horn_of_notus = {
+	championrpg_wind_mage_horn_of_notus = {
 		displayName = "Horn of Notus",
 		heroClass = "Wind Mage",
 		order = 7,
@@ -3629,7 +3629,7 @@ local Abilities = {
 			"return uU[(GetUnitUserData((M_x)))]*2.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_wind_mage_guardian_of_wind = {
+	championrpg_wind_mage_guardian_of_wind = {
 		displayName = "Guardian of Wind",
 		heroClass = "Wind Mage",
 		order = 8,
@@ -3648,7 +3648,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local integer nko=GetHeroInt((Mo[(fbr)]),true)" },
 	},
-	twrpg_wind_mage_wind_guardian = {
+	championrpg_wind_mage_wind_guardian = {
 		displayName = "Wind Guardian",
 		heroClass = "Wind Mage",
 		order = 9,
@@ -3665,7 +3665,7 @@ local Abilities = {
 			"Applies barrier absorbing INT X 5 damage for 4 seconds to nearby allies before disappearing",
 		},
 	},
-	twrpg_wind_mage_gift = {
+	championrpg_wind_mage_gift = {
 		displayName = "Gift",
 		heroClass = "Wind Mage",
 		order = 10,
@@ -3681,7 +3681,7 @@ local Abilities = {
 			"Increases affected allies' magic defense by 25%",
 		},
 	},
-	twrpg_wind_mage_anger = {
+	championrpg_wind_mage_anger = {
 		displayName = "Anger",
 		heroClass = "Wind Mage",
 		order = 11,
@@ -3704,7 +3704,7 @@ local Abilities = {
 			"return 7.5*(GetHeroAgi((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true)+GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true))",
 		},
 	},
-	twrpg_wind_mage_blessing_of_vayu = {
+	championrpg_wind_mage_blessing_of_vayu = {
 		displayName = "Blessing of Vayu",
 		heroClass = "Wind Mage",
 		order = 12,
@@ -3719,7 +3719,7 @@ local Abilities = {
 		handlers = { "Fln" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_wind_mage_judgment_of_vayu = {
+	championrpg_wind_mage_judgment_of_vayu = {
 		displayName = "Judgment of Vayu",
 		heroClass = "Wind Mage",
 		order = 13,
@@ -3742,7 +3742,7 @@ local Abilities = {
 			"local real Pcx=20.*(GetHeroAgi((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true)+GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true))",
 		},
 	},
-	twrpg_merchant_this_bag_isnt_a_decoration = {
+	championrpg_merchant_this_bag_isnt_a_decoration = {
 		displayName = "This Bag isn't a Decoration!",
 		heroClass = "Merchant",
 		order = 1,
@@ -3764,7 +3764,7 @@ local Abilities = {
 		handlers = { "a0n", "a4n", "a5n" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_this_bag_is_kinda_dangerous = {
+	championrpg_merchant_this_bag_is_kinda_dangerous = {
 		displayName = "This Bag is Kinda Dangerous!",
 		heroClass = "Merchant",
 		order = 2,
@@ -3783,7 +3783,7 @@ local Abilities = {
 		handlers = { "a8n", "nen", "nvn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_bag_slam = {
+	championrpg_merchant_bag_slam = {
 		displayName = "Bag Slam",
 		heroClass = "Merchant",
 		order = 3,
@@ -3802,7 +3802,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=1.5*Hdo((GetUnitUserData((tSo))))+7.5*GetHeroStr(tSo,true)" },
 	},
-	twrpg_merchant_throwing_healing_potion = {
+	championrpg_merchant_throwing_healing_potion = {
 		displayName = "Throwing Healing Potion",
 		heroClass = "Merchant",
 		order = 4,
@@ -3823,7 +3823,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real M9x=2.5*GetHeroStr(tSo,true)" },
 	},
-	twrpg_merchant_throw_bomb = {
+	championrpg_merchant_throw_bomb = {
 		displayName = "Throw Bomb",
 		heroClass = "Merchant",
 		order = 5,
@@ -3844,7 +3844,7 @@ local Abilities = {
 		handlers = { "xAi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_life_shield_scroll = {
+	championrpg_merchant_life_shield_scroll = {
 		displayName = "Life Shield Scroll",
 		heroClass = "Merchant",
 		order = 6,
@@ -3864,7 +3864,7 @@ local Abilities = {
 		handlers = { "VXn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_throw_money = {
+	championrpg_merchant_throw_money = {
 		displayName = "Throw Money",
 		heroClass = "Merchant",
 		order = 7,
@@ -3888,7 +3888,7 @@ local Abilities = {
 		},
 		recoveredFormulas = { "local real Pcx=1.5*GetHeroStr(tSo,true)" },
 	},
-	twrpg_merchant_devour = {
+	championrpg_merchant_devour = {
 		displayName = "Devour",
 		heroClass = "Merchant",
 		order = 8,
@@ -3910,7 +3910,7 @@ local Abilities = {
 			"set qZ[oNx[Mtx]]=.25*(20.*GetHeroStr((Mo[(Mtx)]),true))",
 		},
 	},
-	twrpg_merchant_holy_water_of_resurrection = {
+	championrpg_merchant_holy_water_of_resurrection = {
 		displayName = "Holy Water of Resurrection",
 		heroClass = "Merchant",
 		order = 9,
@@ -3930,7 +3930,7 @@ local Abilities = {
 		handlers = { "gOr", "gRr", "gnr", "grr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_dangerous_explosive = {
+	championrpg_merchant_dangerous_explosive = {
 		displayName = "Dangerous Explosive",
 		heroClass = "Merchant",
 		order = 10,
@@ -3949,7 +3949,7 @@ local Abilities = {
 		handlers = { "vAr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_cursed_doll = {
+	championrpg_merchant_cursed_doll = {
 		displayName = "Cursed Doll",
 		heroClass = "Merchant",
 		order = 11,
@@ -3968,7 +3968,7 @@ local Abilities = {
 		handlers = { "vrr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_merchant_scroll_of_gods_blessing = {
+	championrpg_merchant_scroll_of_gods_blessing = {
 		displayName = "Scroll of God's Blessing",
 		heroClass = "Merchant",
 		order = 12,
@@ -3989,7 +3989,7 @@ local Abilities = {
 		handlers = { "VUn", "Vun" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_thunderer_fierce_strikes = {
+	championrpg_thunderer_fierce_strikes = {
 		displayName = "Fierce Strikes",
 		heroClass = "Thunderer",
 		order = 1,
@@ -4006,7 +4006,7 @@ local Abilities = {
 		handlers = { "IGn", "Ign" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_thunderer_three_talon_strike = {
+	championrpg_thunderer_three_talon_strike = {
 		displayName = "Three Talon Strike",
 		heroClass = "Thunderer",
 		order = 2,
@@ -4025,7 +4025,7 @@ local Abilities = {
 		handlers = { "IKn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_thunderer_magnetic_field = {
+	championrpg_thunderer_magnetic_field = {
 		displayName = "Magnetic Field",
 		heroClass = "Thunderer",
 		order = 3,
@@ -4048,7 +4048,7 @@ local Abilities = {
 			"set hBv[Mtx]=GetHeroStr((Mo[(Mtx)]),true)+.8*GetHeroAgi((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_thunderer_lightning_rush = {
+	championrpg_thunderer_lightning_rush = {
 		displayName = "Lightning Rush",
 		heroClass = "Thunderer",
 		order = 4,
@@ -4064,7 +4064,7 @@ local Abilities = {
 			"Recharges Magnetic Field up to 25% based on distance travelled",
 		},
 	},
-	twrpg_thunderer_thunder_shield = {
+	championrpg_thunderer_thunder_shield = {
 		displayName = "Thunder Shield",
 		heroClass = "Thunderer",
 		order = 5,
@@ -4084,7 +4084,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=6.*(GetHeroStr(tSo,true)+GetHeroAgi(tSo,true))" },
 	},
-	twrpg_thunderer_heart_break = {
+	championrpg_thunderer_heart_break = {
 		displayName = "Heart Break",
 		heroClass = "Thunderer",
 		order = 6,
@@ -4104,7 +4104,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=5.*Hdo((GetUnitUserData((tSo))))+40.*(GetHeroStr(tSo,true)+GetHeroAgi(tSo,true))" },
 	},
-	twrpg_thunderer_thunderfury = {
+	championrpg_thunderer_thunderfury = {
 		displayName = "Thunderfury",
 		heroClass = "Thunderer",
 		order = 7,
@@ -4129,7 +4129,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_berserker_bloodbath = {
+	championrpg_berserker_bloodbath = {
 		displayName = "Bloodbath",
 		heroClass = "Berserker",
 		order = 1,
@@ -4147,7 +4147,7 @@ local Abilities = {
 		handlers = { "o1n", "o2n" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_berserker_brandish = {
+	championrpg_berserker_brandish = {
 		displayName = "Brandish",
 		heroClass = "Berserker",
 		order = 2,
@@ -4163,7 +4163,7 @@ local Abilities = {
 			"Can be cast 3 times in a row, with last slash landing as critical strike",
 		},
 	},
-	twrpg_berserker_howling = {
+	championrpg_berserker_howling = {
 		displayName = "Howling",
 		heroClass = "Berserker",
 		order = 3,
@@ -4182,7 +4182,7 @@ local Abilities = {
 		handlers = { "rCn", "rfn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_berserker_blood_fury = {
+	championrpg_berserker_blood_fury = {
 		displayName = "Blood Fury",
 		heroClass = "Berserker",
 		order = 4,
@@ -4204,7 +4204,7 @@ local Abilities = {
 		handlers = { "OAi" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_berserker_blade_rush = {
+	championrpg_berserker_blade_rush = {
 		displayName = "Blade Rush",
 		heroClass = "Berserker",
 		order = 5,
@@ -4225,7 +4225,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.5*Hdo((GetUnitUserData((M_x))))+15.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_berserker_berserk = {
+	championrpg_berserker_berserk = {
 		displayName = "Berserk",
 		heroClass = "Berserker",
 		order = 6,
@@ -4251,7 +4251,7 @@ local Abilities = {
 		handlers = { "XWi", "Xui", "Xyi" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_berserker_rabid_storm = {
+	championrpg_berserker_rabid_storm = {
 		displayName = "Rabid Storm",
 		heroClass = "Berserker",
 		order = 7,
@@ -4275,7 +4275,7 @@ local Abilities = {
 			"set vwx[Mtx]=(100.*GetHeroStr(((Mo[(Mtx)])),true))",
 		},
 	},
-	twrpg_bow_master_elven_arrow = {
+	championrpg_bow_master_elven_arrow = {
 		displayName = "Elven Arrow",
 		heroClass = "Bow Master",
 		order = 1,
@@ -4294,7 +4294,7 @@ local Abilities = {
 		handlers = { "aVr" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_bow_master_flame_shot = {
+	championrpg_bow_master_flame_shot = {
 		displayName = "Flame Shot",
 		heroClass = "Bow Master",
 		order = 2,
@@ -4318,7 +4318,7 @@ local Abilities = {
 		},
 		recoveredFormulas = { "set nhx[Mtx]=tU[(GetUnitUserData((c)))]*(.6*Hdo((GetUnitUserData((c))))+5.*GetHeroAgi(c,true))" },
 	},
-	twrpg_bow_master_freezing_shot = {
+	championrpg_bow_master_freezing_shot = {
 		displayName = "Freezing Shot",
 		heroClass = "Bow Master",
 		order = 3,
@@ -4347,7 +4347,7 @@ local Abilities = {
 			"set rLe[Mtx]=TU[(GetUnitUserData((M_x)))]*(.6*Hdo((GetUnitUserData((M_x))))+24.*GetHeroAgi(M_x,true))",
 		},
 	},
-	twrpg_bow_master_guardian_scout = {
+	championrpg_bow_master_guardian_scout = {
 		displayName = "Guardian Scout",
 		heroClass = "Bow Master",
 		order = 4,
@@ -4370,7 +4370,7 @@ local Abilities = {
 		handlers = { "B1n", "B2n", "B3n" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_bow_master_purestorm_shot = {
+	championrpg_bow_master_purestorm_shot = {
 		displayName = "Purestorm Shot",
 		heroClass = "Bow Master",
 		order = 5,
@@ -4386,7 +4386,7 @@ local Abilities = {
 			"Can activate Lightning Strike 3 times while active",
 		},
 	},
-	twrpg_bow_master_arrow_rain = {
+	championrpg_bow_master_arrow_rain = {
 		displayName = "Arrow Rain",
 		heroClass = "Bow Master",
 		order = 6,
@@ -4405,7 +4405,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=.6*Hdo((GetUnitUserData((tSo))))+4.*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_bow_master_heartseeker = {
+	championrpg_bow_master_heartseeker = {
 		displayName = "Heartseeker",
 		heroClass = "Bow Master",
 		order = 7,
@@ -4423,7 +4423,7 @@ local Abilities = {
 		handlers = { "WZi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_bow_master_magic_ballista = {
+	championrpg_bow_master_magic_ballista = {
 		displayName = "Magic Ballista",
 		heroClass = "Bow Master",
 		order = 8,
@@ -4444,7 +4444,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 125.*GetHeroAgi(M_x,true)", "return 15.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_knight_release_mana = {
+	championrpg_knight_release_mana = {
 		displayName = "Release Mana",
 		heroClass = "Knight",
 		order = 1,
@@ -4466,7 +4466,7 @@ local Abilities = {
 		handlers = { "qTr", "qWr", "qyr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_grand_sword = {
+	championrpg_knight_grand_sword = {
 		displayName = "Grand Sword",
 		heroClass = "Knight",
 		order = 2,
@@ -4486,7 +4486,7 @@ local Abilities = {
 		handlers = { "xJn", "xjn", "xmn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_blitz = {
+	championrpg_knight_blitz = {
 		displayName = "Blitz",
 		heroClass = "Knight",
 		order = 3,
@@ -4509,7 +4509,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set q0[Ape[Mtx]]=(10.*GetHeroStr(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_knight_instincts = {
+	championrpg_knight_instincts = {
 		displayName = "Instincts",
 		heroClass = "Knight",
 		order = 4,
@@ -4533,7 +4533,7 @@ local Abilities = {
 		handlers = { "x1n", "x4n", "x5n" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_assault = {
+	championrpg_knight_assault = {
 		displayName = "Assault",
 		heroClass = "Knight",
 		order = 5,
@@ -4551,7 +4551,7 @@ local Abilities = {
 		handlers = { "x0n" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_mana_blaster = {
+	championrpg_knight_mana_blaster = {
 		displayName = "Mana Blaster",
 		heroClass = "Knight",
 		order = 6,
@@ -4578,7 +4578,7 @@ local Abilities = {
 		handlers = { "oPn", "oTn", "oqn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_mana_blast = {
+	championrpg_knight_mana_blast = {
 		displayName = "Mana Blast",
 		heroClass = "Knight",
 		order = 7,
@@ -4596,7 +4596,7 @@ local Abilities = {
 			"Release Mana ON: Stuns for 1 second",
 		},
 	},
-	twrpg_knight_seal_of_mana = {
+	championrpg_knight_seal_of_mana = {
 		displayName = "Seal of Mana",
 		heroClass = "Knight",
 		order = 8,
@@ -4622,7 +4622,7 @@ local Abilities = {
 		handlers = { "mBi", "mbi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_knight_excalibur = {
+	championrpg_knight_excalibur = {
 		displayName = "Excalibur",
 		heroClass = "Knight",
 		order = 9,
@@ -4642,7 +4642,7 @@ local Abilities = {
 		handlers = { "Yei", "Yoi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT", "EVENT_PLAYER_UNIT_SPELL_ENDCAST" },
 	},
-	twrpg_dark_knight_dark_arts = {
+	championrpg_dark_knight_dark_arts = {
 		displayName = "Dark Arts",
 		heroClass = "Dark Knight",
 		order = 1,
@@ -4675,7 +4675,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_dark_knight_dark_advent = {
+	championrpg_dark_knight_dark_advent = {
 		displayName = "Dark Advent",
 		heroClass = "Dark Knight",
 		order = 2,
@@ -4702,7 +4702,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_dark_knight_abyssal_slam = {
+	championrpg_dark_knight_abyssal_slam = {
 		displayName = "Abyssal Slam",
 		heroClass = "Dark Knight",
 		order = 3,
@@ -4723,7 +4723,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=12.*(GetHeroStr(M_x,true)+GetHeroInt(M_x,true))" },
 	},
-	twrpg_dark_knight_phantom_rush = {
+	championrpg_dark_knight_phantom_rush = {
 		displayName = "Phantom Rush",
 		heroClass = "Dark Knight",
 		order = 4,
@@ -4744,7 +4744,7 @@ local Abilities = {
 		handlers = { "M7r" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_dark_knight_soul_break = {
+	championrpg_dark_knight_soul_break = {
 		displayName = "Soul Break",
 		heroClass = "Dark Knight",
 		order = 5,
@@ -4766,7 +4766,7 @@ local Abilities = {
 			"local real Pcx=(.75*Hdo((GetUnitUserData((M_x))))+10.*(GetHeroStr(M_x,true)+GetHeroInt(M_x,true)/ 3.))",
 		},
 	},
-	twrpg_dark_knight_unholy_light = {
+	championrpg_dark_knight_unholy_light = {
 		displayName = "Unholy Light",
 		heroClass = "Dark Knight",
 		order = 6,
@@ -4788,7 +4788,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*(5.*GetHeroInt(M_x,true))" },
 	},
-	twrpg_dark_knight_hollow_impact = {
+	championrpg_dark_knight_hollow_impact = {
 		displayName = "Hollow Impact",
 		heroClass = "Dark Knight",
 		order = 7,
@@ -4815,7 +4815,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_dark_knight_requiem = {
+	championrpg_dark_knight_requiem = {
 		displayName = "Requiem",
 		heroClass = "Dark Knight",
 		order = 8,
@@ -4842,7 +4842,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_dark_knight_hymn_of_death = {
+	championrpg_dark_knight_hymn_of_death = {
 		displayName = "Hymn of Death",
 		heroClass = "Dark Knight",
 		order = 9,
@@ -4870,7 +4870,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_arcane_mage_moonlight_link = {
+	championrpg_arcane_mage_moonlight_link = {
 		displayName = "Moonlight Link",
 		heroClass = "Arcane Mage",
 		order = 1,
@@ -4884,7 +4884,7 @@ local Abilities = {
 		handlers = { "gen" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_arcane_mage_magic_star = {
+	championrpg_arcane_mage_magic_star = {
 		displayName = "Magic Star",
 		heroClass = "Arcane Mage",
 		order = 2,
@@ -4904,7 +4904,7 @@ local Abilities = {
 		handlers = { "Jti" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_arcane_mage_flash_storm = {
+	championrpg_arcane_mage_flash_storm = {
 		displayName = "Flash Storm",
 		heroClass = "Arcane Mage",
 		order = 3,
@@ -4924,7 +4924,7 @@ local Abilities = {
 		handlers = { "gIn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_arcane_mage_gravity_field = {
+	championrpg_arcane_mage_gravity_field = {
 		displayName = "Gravity Field",
 		heroClass = "Arcane Mage",
 		order = 4,
@@ -4944,7 +4944,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*2.5*GetHeroInt(M_x,true)" },
 	},
-	twrpg_arcane_mage_illusion = {
+	championrpg_arcane_mage_illusion = {
 		displayName = "Illusion",
 		heroClass = "Arcane Mage",
 		order = 5,
@@ -4965,7 +4965,7 @@ local Abilities = {
 		handlers = { "GKr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_arcane_mage_barrage = {
+	championrpg_arcane_mage_barrage = {
 		displayName = "Barrage",
 		heroClass = "Arcane Mage",
 		order = 6,
@@ -4985,7 +4985,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*10.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_arcane_mage_starlight = {
+	championrpg_arcane_mage_starlight = {
 		displayName = "Starlight",
 		heroClass = "Arcane Mage",
 		order = 7,
@@ -5009,7 +5009,7 @@ local Abilities = {
 			"set Qkv[Mtx]=WU[(GetUnitUserData(((Mo[(Qfv[Mtx])]))))]*4.*GetHeroInt((Mo[(Qfv[Mtx])]),true)",
 		},
 	},
-	twrpg_arcane_mage_protection_of_stars = {
+	championrpg_arcane_mage_protection_of_stars = {
 		displayName = "Protection of Stars",
 		heroClass = "Arcane Mage",
 		order = 8,
@@ -5030,7 +5030,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set QJv[Mtx]=2.5*GetHeroInt((Mo[(Qfv[Mtx])]),true)" },
 	},
-	twrpg_water_mage_frozen_emotion = {
+	championrpg_water_mage_frozen_emotion = {
 		displayName = "Frozen Emotion",
 		heroClass = "Water Mage",
 		order = 1,
@@ -5054,7 +5054,7 @@ local Abilities = {
 		handlers = { "dHr", "dJr", "djr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_water_mage_ice_shard = {
+	championrpg_water_mage_ice_shard = {
 		displayName = "Ice Shard",
 		heroClass = "Water Mage",
 		order = 2,
@@ -5074,7 +5074,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return TU[(GetUnitUserData((tSo)))]*(6.*GetHeroInt(tSo,true)+.5*hXo((GetUnitUserData((tSo)))))" },
 	},
-	twrpg_water_mage_frozen_burst = {
+	championrpg_water_mage_frozen_burst = {
 		displayName = "Frozen Burst",
 		heroClass = "Water Mage",
 		order = 3,
@@ -5088,7 +5088,7 @@ local Abilities = {
 		handlers = { "fVn", "fon" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_water_mage_tidal_riding = {
+	championrpg_water_mage_tidal_riding = {
 		displayName = "Tidal Riding",
 		heroClass = "Water Mage",
 		order = 4,
@@ -5108,7 +5108,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return TU[(GetUnitUserData((M_x)))]*(8.*GetHeroInt(M_x,true))" },
 	},
-	twrpg_water_mage_frost_nova = {
+	championrpg_water_mage_frost_nova = {
 		displayName = "Frost Nova",
 		heroClass = "Water Mage",
 		order = 5,
@@ -5127,7 +5127,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return TU[(GetUnitUserData((M_x)))]*(40.*GetHeroInt(M_x,true))" },
 	},
-	twrpg_water_mage_glacier_orb = {
+	championrpg_water_mage_glacier_orb = {
 		displayName = "Glacier Orb",
 		heroClass = "Water Mage",
 		order = 6,
@@ -5147,7 +5147,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=5.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_water_mage_ice_age = {
+	championrpg_water_mage_ice_age = {
 		displayName = "Ice Age",
 		heroClass = "Water Mage",
 		order = 7,
@@ -5165,7 +5165,7 @@ local Abilities = {
 		handlers = { "fZn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_water_mage_shatter = {
+	championrpg_water_mage_shatter = {
 		displayName = "Shatter",
 		heroClass = "Water Mage",
 		order = 8,
@@ -5179,7 +5179,7 @@ local Abilities = {
 		handlers = { "fYn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_heal = {
+	championrpg_priest_heal = {
 		displayName = "Heal",
 		heroClass = "Priest",
 		order = 1,
@@ -5199,7 +5199,7 @@ local Abilities = {
 		handlers = { "qCr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_holy_wave = {
+	championrpg_priest_holy_wave = {
 		displayName = "Holy Wave",
 		heroClass = "Priest",
 		order = 2,
@@ -5223,7 +5223,7 @@ local Abilities = {
 			"return wU[(GetUnitUserData((M_x)))]*5.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_priest_divine_orb = {
+	championrpg_priest_divine_orb = {
 		displayName = "Divine Orb",
 		heroClass = "Priest",
 		order = 3,
@@ -5245,7 +5245,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return wU[(GetUnitUserData((M_x)))]*5.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_priest_holy_aurora = {
+	championrpg_priest_holy_aurora = {
 		displayName = "Holy Aurora",
 		heroClass = "Priest",
 		order = 4,
@@ -5273,7 +5273,7 @@ local Abilities = {
 			"return wU[(GetUnitUserData((M_x)))]*5.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_priest_release_light = {
+	championrpg_priest_release_light = {
 		displayName = "Release Light",
 		heroClass = "Priest",
 		order = 5,
@@ -5292,7 +5292,7 @@ local Abilities = {
 		handlers = { "Grn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_dark_aurora_lv_1 = {
+	championrpg_priest_dark_aurora_lv_1 = {
 		displayName = "Dark Aurora [Lv 1]",
 		heroClass = "Priest",
 		order = 6,
@@ -5316,7 +5316,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((tSo)))]*(10.+5.*Uoo*GetHeroInt(tSo,true))" },
 	},
-	twrpg_priest_dark_aurora_lv_2 = {
+	championrpg_priest_dark_aurora_lv_2 = {
 		displayName = "Dark Aurora [Lv 2]",
 		heroClass = "Priest",
 		order = 7,
@@ -5336,7 +5336,7 @@ local Abilities = {
 			"Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)",
 		},
 	},
-	twrpg_priest_dark_aurora_lv_3 = {
+	championrpg_priest_dark_aurora_lv_3 = {
 		displayName = "Dark Aurora [Lv 3]",
 		heroClass = "Priest",
 		order = 8,
@@ -5356,7 +5356,7 @@ local Abilities = {
 			"Increases nearby allies' attack damage by 5% and all stats by (Priest's INT X 0.05)",
 		},
 	},
-	twrpg_priest_divine_light = {
+	championrpg_priest_divine_light = {
 		displayName = "Divine Light",
 		heroClass = "Priest",
 		order = 9,
@@ -5379,7 +5379,7 @@ local Abilities = {
 			"return wU[(GetUnitUserData((tSo)))]*6.*GetHeroInt(tSo,true)",
 		},
 	},
-	twrpg_priest_heavens_gate = {
+	championrpg_priest_heavens_gate = {
 		displayName = "Heaven's Gate",
 		heroClass = "Priest",
 		order = 10,
@@ -5396,7 +5396,7 @@ local Abilities = {
 		handlers = { "Gkn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_holy_power = {
+	championrpg_priest_holy_power = {
 		displayName = "Holy Power",
 		heroClass = "Priest",
 		order = 11,
@@ -5412,7 +5412,7 @@ local Abilities = {
 			"Immune to CC effects",
 		},
 	},
-	twrpg_priest_recall = {
+	championrpg_priest_recall = {
 		displayName = "Recall",
 		heroClass = "Priest",
 		order = 12,
@@ -5424,7 +5424,7 @@ local Abilities = {
 		cooldown = 1,
 		text_active = { "Teleport to summoner's position." },
 	},
-	twrpg_priest_holy_light = {
+	championrpg_priest_holy_light = {
 		displayName = "Holy Light",
 		heroClass = "Priest",
 		order = 13,
@@ -5439,7 +5439,7 @@ local Abilities = {
 		handlers = { "Gun" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_leap_of_faith = {
+	championrpg_priest_leap_of_faith = {
 		displayName = "Leap of Faith",
 		heroClass = "Priest",
 		order = 14,
@@ -5457,7 +5457,7 @@ local Abilities = {
 		handlers = { "Gyn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_divine_blessing = {
+	championrpg_priest_divine_blessing = {
 		displayName = "Divine Blessing",
 		heroClass = "Priest",
 		order = 15,
@@ -5477,7 +5477,7 @@ local Abilities = {
 		handlers = { "x7r" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_priest_heaven_field = {
+	championrpg_priest_heaven_field = {
 		displayName = "Heaven Field",
 		heroClass = "Priest",
 		order = 16,
@@ -5496,7 +5496,7 @@ local Abilities = {
 		handlers = { "Gsn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_paladin_holy_aura = {
+	championrpg_paladin_holy_aura = {
 		displayName = "Holy Aura",
 		heroClass = "Paladin",
 		order = 1,
@@ -5512,7 +5512,7 @@ local Abilities = {
 			"If INT is main stat, total damage is decreased by 40% but aura radius is increased by 50% and Devotion Effect is activated",
 		},
 	},
-	twrpg_paladin_aura_of_retribution = {
+	championrpg_paladin_aura_of_retribution = {
 		displayName = "Aura of Retribution",
 		heroClass = "Paladin",
 		order = 2,
@@ -5529,7 +5529,7 @@ local Abilities = {
 			"Devotion: Increases skill damage by additional (INT / 750)%",
 		},
 	},
-	twrpg_paladin_aura_of_protection = {
+	championrpg_paladin_aura_of_protection = {
 		displayName = "Aura of Protection",
 		heroClass = "Paladin",
 		order = 3,
@@ -5546,7 +5546,7 @@ local Abilities = {
 			"Devotion: When chained with Holy Grace, shield amount and duration is increased by 100%",
 		},
 	},
-	twrpg_paladin_aura_of_restoration = {
+	championrpg_paladin_aura_of_restoration = {
 		displayName = "Aura of Restoration",
 		heroClass = "Paladin",
 		order = 4,
@@ -5563,7 +5563,7 @@ local Abilities = {
 			"Devotion: Additionally heals for INT X 1 HP every 4 seconds for 20 seconds",
 		},
 	},
-	twrpg_paladin_aura_of_awakening = {
+	championrpg_paladin_aura_of_awakening = {
 		displayName = "Aura of Awakening",
 		heroClass = "Paladin",
 		order = 5,
@@ -5580,7 +5580,7 @@ local Abilities = {
 			"Devotion: When chained with Holy Grace, grants immunity to debuffs for 3 seconds",
 		},
 	},
-	twrpg_paladin_holy_divide = {
+	championrpg_paladin_holy_divide = {
 		displayName = "Holy Divide",
 		heroClass = "Paladin",
 		order = 6,
@@ -5607,7 +5607,7 @@ local Abilities = {
 		},
 		recoveredFormulas = { "local real WUo=2.*GetHeroInt(tSo,true)" },
 	},
-	twrpg_paladin_divine_spirit = {
+	championrpg_paladin_divine_spirit = {
 		displayName = "Divine Spirit",
 		heroClass = "Paladin",
 		order = 7,
@@ -5634,7 +5634,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 		recoveredFormulas = { "return wU[(GetUnitUserData((tSo)))]*5.*GetHeroStr(tSo,true)" },
 	},
-	twrpg_paladin_holy_grace = {
+	championrpg_paladin_holy_grace = {
 		displayName = "Holy Grace",
 		heroClass = "Paladin",
 		order = 8,
@@ -5654,7 +5654,7 @@ local Abilities = {
 		handlers = { "iEn", "iVn", "iXn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_paladin_divine_cross = {
+	championrpg_paladin_divine_cross = {
 		displayName = "Divine Cross",
 		heroClass = "Paladin",
 		order = 9,
@@ -5674,7 +5674,7 @@ local Abilities = {
 		handlers = { "iHn", "ijn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_paladin_divine_shield = {
+	championrpg_paladin_divine_shield = {
 		displayName = "Divine Shield",
 		heroClass = "Paladin",
 		order = 10,
@@ -5693,7 +5693,7 @@ local Abilities = {
 		handlers = { "osr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_paladin_genesis = {
+	championrpg_paladin_genesis = {
 		displayName = "Genesis",
 		heroClass = "Paladin",
 		order = 11,
@@ -5716,7 +5716,7 @@ local Abilities = {
 			"return wU[(GetUnitUserData((tSo)))]*5.*GetHeroInt(tSo,true)",
 		},
 	},
-	twrpg_phantom_blade_slash = {
+	championrpg_phantom_blade_slash = {
 		displayName = "Slash",
 		heroClass = "Phantom Blade",
 		order = 1,
@@ -5740,7 +5740,7 @@ local Abilities = {
 			"return GetHeroStr((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_phantom_blade_soul = {
+	championrpg_phantom_blade_soul = {
 		displayName = "Soul",
 		heroClass = "Phantom Blade",
 		order = 2,
@@ -5758,7 +5758,7 @@ local Abilities = {
 		handlers = { "V2i", "V3i" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 	},
-	twrpg_phantom_blade_alacrity = {
+	championrpg_phantom_blade_alacrity = {
 		displayName = "Alacrity",
 		heroClass = "Phantom Blade",
 		order = 3,
@@ -5772,7 +5772,7 @@ local Abilities = {
 		},
 		text_toggle = { "Disables the skill." },
 	},
-	twrpg_phantom_blade_crescent = {
+	championrpg_phantom_blade_crescent = {
 		displayName = "Crescent",
 		heroClass = "Phantom Blade",
 		order = 4,
@@ -5791,7 +5791,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.*Hdo((GetUnitUserData((tSo))))+7.5*GetHeroAgi(tSo,true)" },
 	},
-	twrpg_phantom_blade_daze = {
+	championrpg_phantom_blade_daze = {
 		displayName = "Daze",
 		heroClass = "Phantom Blade",
 		order = 5,
@@ -5805,7 +5805,7 @@ local Abilities = {
 		handlers = { "b0n", "b_n" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_phantom_blade_harmony = {
+	championrpg_phantom_blade_harmony = {
 		displayName = "Harmony",
 		heroClass = "Phantom Blade",
 		order = 6,
@@ -5822,7 +5822,7 @@ local Abilities = {
 		handlers = { "b9n" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_phantom_blade_release = {
+	championrpg_phantom_blade_release = {
 		displayName = "Release",
 		heroClass = "Phantom Blade",
 		order = 7,
@@ -5840,7 +5840,7 @@ local Abilities = {
 		handlers = { "TVi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_phantom_blade_obliterate = {
+	championrpg_phantom_blade_obliterate = {
 		displayName = "Obliterate",
 		heroClass = "Phantom Blade",
 		order = 8,
@@ -5864,7 +5864,7 @@ local Abilities = {
 			"return GetHeroStr((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_hermit_perfect_harmony = {
+	championrpg_hermit_perfect_harmony = {
 		displayName = "Perfect Harmony",
 		heroClass = "Hermit",
 		order = 1,
@@ -5882,7 +5882,7 @@ local Abilities = {
 		handlers = { "D6r", "D7r" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_hermit_flowing_fist = {
+	championrpg_hermit_flowing_fist = {
 		displayName = "Flowing Fist",
 		heroClass = "Hermit",
 		order = 2,
@@ -5902,7 +5902,7 @@ local Abilities = {
 		handlers = { "Non" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_hermit_restoration = {
+	championrpg_hermit_restoration = {
 		displayName = "Restoration",
 		heroClass = "Hermit",
 		order = 3,
@@ -5927,7 +5927,7 @@ local Abilities = {
 			"return GetHeroStr((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_hermit_wind_walk = {
+	championrpg_hermit_wind_walk = {
 		displayName = "Wind Walk",
 		heroClass = "Hermit",
 		order = 4,
@@ -5946,7 +5946,7 @@ local Abilities = {
 		handlers = { "aQi", "aTi", "aui" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_hermit_orb_of_harmony = {
+	championrpg_hermit_orb_of_harmony = {
 		displayName = "Orb of Harmony",
 		heroClass = "Hermit",
 		order = 5,
@@ -5966,7 +5966,7 @@ local Abilities = {
 		handlers = { "kdi" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_hermit_purge = {
+	championrpg_hermit_purge = {
 		displayName = "Purge",
 		heroClass = "Hermit",
 		order = 6,
@@ -5997,7 +5997,7 @@ local Abilities = {
 			"set r3o=GetHeroInt(u,true)",
 		},
 	},
-	twrpg_hermit_inner_release = {
+	championrpg_hermit_inner_release = {
 		displayName = "Inner Release",
 		heroClass = "Hermit",
 		order = 7,
@@ -6015,7 +6015,7 @@ local Abilities = {
 		handlers = { "Ngn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_hermit_purify = {
+	championrpg_hermit_purify = {
 		displayName = "Purify",
 		heroClass = "Hermit",
 		order = 9,
@@ -6039,7 +6039,7 @@ local Abilities = {
 			"return GetHeroStr((Mo[(Mtx)]),true)",
 		},
 	},
-	twrpg_witch_magical_broom = {
+	championrpg_witch_magical_broom = {
 		displayName = "Magical Broom",
 		heroClass = "Witch",
 		order = 1,
@@ -6058,7 +6058,7 @@ local Abilities = {
 		handlers = { "JFn", "JHn", "Jjn" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_death_bomb = {
+	championrpg_witch_death_bomb = {
 		displayName = "Death Bomb",
 		heroClass = "Witch",
 		order = 2,
@@ -6078,7 +6078,7 @@ local Abilities = {
 		handlers = { "ejr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_star_shower = {
+	championrpg_witch_star_shower = {
 		displayName = "Star Shower",
 		heroClass = "Witch",
 		order = 3,
@@ -6101,7 +6101,7 @@ local Abilities = {
 			"return WU[(GetUnitUserData((M_x)))]*1.5*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_witch_mystical_cauldron = {
+	championrpg_witch_mystical_cauldron = {
 		displayName = "Mystical Cauldron",
 		heroClass = "Witch",
 		order = 4,
@@ -6121,7 +6121,7 @@ local Abilities = {
 		handlers = { "kFn", "kfn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_hex = {
+	championrpg_witch_hex = {
 		displayName = "Hex",
 		heroClass = "Witch",
 		order = 5,
@@ -6139,7 +6139,7 @@ local Abilities = {
 		handlers = { "kLn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_hell_gate = {
+	championrpg_witch_hell_gate = {
 		displayName = "Hell Gate",
 		heroClass = "Witch",
 		order = 6,
@@ -6153,7 +6153,7 @@ local Abilities = {
 		handlers = { "Hui" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_recall = {
+	championrpg_witch_recall = {
 		displayName = "Recall",
 		heroClass = "Witch",
 		order = 7,
@@ -6165,7 +6165,7 @@ local Abilities = {
 		cooldown = 1,
 		text_passive = { "Teleport to summoner's position." },
 	},
-	twrpg_witch_fallen_power = {
+	championrpg_witch_fallen_power = {
 		displayName = "Fallen Power",
 		heroClass = "Witch",
 		order = 8,
@@ -6180,7 +6180,7 @@ local Abilities = {
 			"Magic defense increased by 40%",
 		},
 	},
-	twrpg_witch_arrow_of_destruction = {
+	championrpg_witch_arrow_of_destruction = {
 		displayName = "Arrow of Destruction",
 		heroClass = "Witch",
 		order = 9,
@@ -6198,7 +6198,7 @@ local Abilities = {
 			"return WU[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]*40.*GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true)",
 		},
 	},
-	twrpg_witch_mark_of_power = {
+	championrpg_witch_mark_of_power = {
 		displayName = "Mark of Power",
 		heroClass = "Witch",
 		order = 10,
@@ -6217,7 +6217,7 @@ local Abilities = {
 		handlers = { "Kxn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_unleash = {
+	championrpg_witch_unleash = {
 		displayName = "Unleash",
 		heroClass = "Witch",
 		order = 11,
@@ -6237,7 +6237,7 @@ local Abilities = {
 		handlers = { "KOn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_witch_death_field = {
+	championrpg_witch_death_field = {
 		displayName = "Death Field",
 		heroClass = "Witch",
 		order = 12,
@@ -6258,7 +6258,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return WU[(GetUnitUserData((M_x)))]*20.*GetHeroInt(M_x,true)" },
 	},
-	twrpg_fighter_combo_mastery = {
+	championrpg_fighter_combo_mastery = {
 		displayName = "Combo Mastery",
 		heroClass = "Fighter",
 		order = 1,
@@ -6277,7 +6277,7 @@ local Abilities = {
 		handlers = { "IMi", "Ipi", "qwi" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 	},
-	twrpg_fighter_swing = {
+	championrpg_fighter_swing = {
 		displayName = "Swing",
 		heroClass = "Fighter",
 		order = 2,
@@ -6297,7 +6297,7 @@ local Abilities = {
 		handlers = { "qTi", "qui" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT", "EVENT_PLAYER_UNIT_SPELL_ENDCAST" },
 	},
-	twrpg_fighter_skull_pounder = {
+	championrpg_fighter_skull_pounder = {
 		displayName = "Skull Pounder",
 		heroClass = "Fighter",
 		order = 3,
@@ -6317,7 +6317,7 @@ local Abilities = {
 		handlers = { "ZYa" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_fighter_footwork = {
+	championrpg_fighter_footwork = {
 		displayName = "Footwork",
 		heroClass = "Fighter",
 		order = 4,
@@ -6335,7 +6335,7 @@ local Abilities = {
 		handlers = { "c4r" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_fighter_chain_blow = {
+	championrpg_fighter_chain_blow = {
 		displayName = "Chain Blow",
 		heroClass = "Fighter",
 		order = 5,
@@ -6358,7 +6358,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=.6*Hdo((GetUnitUserData((M_x))))+6.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_fighter_iron_body = {
+	championrpg_fighter_iron_body = {
 		displayName = "Iron Body",
 		heroClass = "Fighter",
 		order = 6,
@@ -6377,7 +6377,7 @@ local Abilities = {
 		handlers = { "Z5a", "Z7a", "Z8a" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_fighter_dragon_fist = {
+	championrpg_fighter_dragon_fist = {
 		displayName = "Dragon Fist",
 		heroClass = "Fighter",
 		order = 7,
@@ -6395,7 +6395,7 @@ local Abilities = {
 		handlers = { "vEn", "vnn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_fighter_takedown = {
+	championrpg_fighter_takedown = {
 		displayName = "Takedown",
 		heroClass = "Fighter",
 		order = 8,
@@ -6415,7 +6415,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=6.*GetHeroStr(M_x,true)", "local real Pcx=85.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_trickster_fantasm = {
+	championrpg_trickster_fantasm = {
 		displayName = "Fantasm",
 		heroClass = "Trickster",
 		order = 1,
@@ -6442,7 +6442,7 @@ local Abilities = {
 			"local integer bqr=GetHeroStr((Mo[(Mtx)]),false)",
 		},
 	},
-	twrpg_trickster_recall = {
+	championrpg_trickster_recall = {
 		displayName = "Recall",
 		heroClass = "Trickster",
 		order = 2,
@@ -6456,7 +6456,7 @@ local Abilities = {
 		handlers = { "byr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_trickster_hidden_fang = {
+	championrpg_trickster_hidden_fang = {
 		displayName = "Hidden Fang",
 		heroClass = "Trickster",
 		order = 3,
@@ -6476,7 +6476,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return .7*Hdo((GetUnitUserData((M_x))))+5.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_trickster_wonder_hand = {
+	championrpg_trickster_wonder_hand = {
 		displayName = "Wonder Hand",
 		heroClass = "Trickster",
 		order = 4,
@@ -6496,7 +6496,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=(7.5*GetHeroAgi((M_x),true))" },
 	},
-	twrpg_trickster_devils_mirror = {
+	championrpg_trickster_devils_mirror = {
 		displayName = "Devil's Mirror",
 		heroClass = "Trickster",
 		order = 5,
@@ -6515,7 +6515,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=(10.*GetHeroAgi(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_trickster_card_trick = {
+	championrpg_trickster_card_trick = {
 		displayName = "Card Trick",
 		heroClass = "Trickster",
 		order = 6,
@@ -6540,7 +6540,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set q0[Eex[Mtx]]=4.*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_trickster_retrieve_cards = {
+	championrpg_trickster_retrieve_cards = {
 		displayName = "Retrieve Cards",
 		heroClass = "Trickster",
 		order = 7,
@@ -6554,7 +6554,7 @@ local Abilities = {
 		handlers = { "ddn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_trickster_stage_finisher = {
+	championrpg_trickster_stage_finisher = {
 		displayName = "Stage Finisher",
 		heroClass = "Trickster",
 		order = 8,
@@ -6577,7 +6577,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return 1.*Hdo((GetUnitUserData((M_x))))+12.5*GetHeroAgi(M_x,true)" },
 	},
-	twrpg_trickster_sinister_trick = {
+	championrpg_trickster_sinister_trick = {
 		displayName = "Sinister Trick",
 		heroClass = "Trickster",
 		order = 9,
@@ -6597,7 +6597,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set EIx[Mtx]=(5.*GetHeroAgi(((Mo[(Mtx)])),true))" },
 	},
-	twrpg_shrine_priestess_go_forth_meeko = {
+	championrpg_shrine_priestess_go_forth_meeko = {
 		displayName = "Go Forth Meeko!",
 		heroClass = "Shrine Priestess",
 		order = 1,
@@ -6619,7 +6619,7 @@ local Abilities = {
 		handlers = { "bia", "boa", "bra", "bxa" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_bullet_of_fire = {
+	championrpg_shrine_priestess_bullet_of_fire = {
 		displayName = "Bullet of Fire",
 		heroClass = "Shrine Priestess",
 		order = 2,
@@ -6634,7 +6634,7 @@ local Abilities = {
 		handlers = { "yeo" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_spirit_of_flame = {
+	championrpg_shrine_priestess_spirit_of_flame = {
 		displayName = "Spirit of Flame",
 		heroClass = "Shrine Priestess",
 		order = 3,
@@ -6655,7 +6655,7 @@ local Abilities = {
 		handlers = { "YAr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_touch_of_grace = {
+	championrpg_shrine_priestess_touch_of_grace = {
 		displayName = "Touch of Grace",
 		heroClass = "Shrine Priestess",
 		order = 4,
@@ -6674,7 +6674,7 @@ local Abilities = {
 		handlers = { "MOn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_shield_of_grace = {
+	championrpg_shrine_priestess_shield_of_grace = {
 		displayName = "Shield of Grace",
 		heroClass = "Shrine Priestess",
 		order = 5,
@@ -6695,7 +6695,7 @@ local Abilities = {
 			"return TU[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]*2.*GetHeroInt((Mo[(oQ[((GetPlayerId(GetOwningPlayer((Mo[((((GetUnitUserData((M_x))))))])))))])]),true)",
 		},
 	},
-	twrpg_shrine_priestess_water_explosion = {
+	championrpg_shrine_priestess_water_explosion = {
 		displayName = "Water Explosion",
 		heroClass = "Shrine Priestess",
 		order = 6,
@@ -6719,7 +6719,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*40.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_water_sphere = {
+	championrpg_shrine_priestess_water_sphere = {
 		displayName = "Water Sphere",
 		heroClass = "Shrine Priestess",
 		order = 7,
@@ -6743,7 +6743,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*15.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_water_pillar = {
+	championrpg_shrine_priestess_water_pillar = {
 		displayName = "Water Pillar",
 		heroClass = "Shrine Priestess",
 		order = 8,
@@ -6767,7 +6767,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*15.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_form_talismans = {
+	championrpg_shrine_priestess_form_talismans = {
 		displayName = "Form Talismans",
 		heroClass = "Shrine Priestess",
 		order = 9,
@@ -6787,7 +6787,7 @@ local Abilities = {
 		handlers = { "VYa", "VZa", "V_a" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_water_dome = {
+	championrpg_shrine_priestess_water_dome = {
 		displayName = "Water Dome",
 		heroClass = "Shrine Priestess",
 		order = 10,
@@ -6811,7 +6811,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*2.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_spirit_fusion = {
+	championrpg_shrine_priestess_spirit_fusion = {
 		displayName = "Spirit Fusion",
 		heroClass = "Shrine Priestess",
 		order = 11,
@@ -6829,7 +6829,7 @@ local Abilities = {
 		handlers = { "rRa" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_spirit_shift = {
+	championrpg_shrine_priestess_spirit_shift = {
 		displayName = "Spirit Shift",
 		heroClass = "Shrine Priestess",
 		order = 12,
@@ -6849,7 +6849,7 @@ local Abilities = {
 		handlers = { "Lyn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_shrine_priestess_fire_explosion = {
+	championrpg_shrine_priestess_fire_explosion = {
 		displayName = "Fire Explosion",
 		heroClass = "Shrine Priestess",
 		order = 13,
@@ -6869,7 +6869,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*40.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_fire_sphere = {
+	championrpg_shrine_priestess_fire_sphere = {
 		displayName = "Fire Sphere",
 		heroClass = "Shrine Priestess",
 		order = 14,
@@ -6893,7 +6893,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*15.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_fire_pillar = {
+	championrpg_shrine_priestess_fire_pillar = {
 		displayName = "Fire Pillar",
 		heroClass = "Shrine Priestess",
 		order = 15,
@@ -6917,7 +6917,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*15.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_fire_dome = {
+	championrpg_shrine_priestess_fire_dome = {
 		displayName = "Fire Dome",
 		heroClass = "Shrine Priestess",
 		order = 16,
@@ -6941,7 +6941,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*2.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_shrine_priestess_dance_of_fire = {
+	championrpg_shrine_priestess_dance_of_fire = {
 		displayName = "Dance of Fire",
 		heroClass = "Shrine Priestess",
 		order = 17,
@@ -6965,7 +6965,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*50.*GetHeroInt(M_x,true)",
 		},
 	},
-	twrpg_lightseeker_gather_light = {
+	championrpg_lightseeker_gather_light = {
 		displayName = "Gather Light",
 		heroClass = "Lightseeker",
 		order = 1,
@@ -6979,7 +6979,7 @@ local Abilities = {
 		handlers = { "V4n", "V5n" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lightseeker_light_dash = {
+	championrpg_lightseeker_light_dash = {
 		displayName = "Light Dash",
 		heroClass = "Lightseeker",
 		order = 2,
@@ -6999,7 +6999,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=8.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_lightseeker_converging_light = {
+	championrpg_lightseeker_converging_light = {
 		displayName = "Converging Light",
 		heroClass = "Lightseeker",
 		order = 2,
@@ -7014,7 +7014,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_CHANNEL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=5.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_lightseeker_scatter_light = {
+	championrpg_lightseeker_scatter_light = {
 		displayName = "Scatter Light",
 		heroClass = "Lightseeker",
 		order = 3,
@@ -7032,7 +7032,7 @@ local Abilities = {
 		handlers = { "sGr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lightseeker_resonance_of_light = {
+	championrpg_lightseeker_resonance_of_light = {
 		displayName = "Resonance of Light",
 		heroClass = "Lightseeker",
 		order = 4,
@@ -7051,7 +7051,7 @@ local Abilities = {
 		handlers = { "sbr" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lightseeker_light_seeker = {
+	championrpg_lightseeker_light_seeker = {
 		displayName = "Light Seeker",
 		heroClass = "Lightseeker",
 		order = 5,
@@ -7070,7 +7070,7 @@ local Abilities = {
 		handlers = { "EJn" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lightseeker_enlightenment = {
+	championrpg_lightseeker_enlightenment = {
 		displayName = "Enlightenment",
 		heroClass = "Lightseeker",
 		order = 6,
@@ -7093,7 +7093,7 @@ local Abilities = {
 		handlers = { "aZr", "a_r", "asr" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_lightseeker_light_of_judgment = {
+	championrpg_lightseeker_light_of_judgment = {
 		displayName = "Light of Judgment",
 		heroClass = "Lightseeker",
 		order = 7,
@@ -7114,7 +7114,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "local real Pcx=25.*GetHeroStr(M_x,true)", "local real Pcx=80.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_blaster_heavy_tech = {
+	championrpg_blaster_heavy_tech = {
 		displayName = "Heavy Tech",
 		heroClass = "Blaster",
 		order = 1,
@@ -7133,7 +7133,7 @@ local Abilities = {
 		handlers = { "Fer", "Fvr" },
 		events = { "EVENT_PLAYER_HERO_SKILL" },
 	},
-	twrpg_blaster_rapid_fire = {
+	championrpg_blaster_rapid_fire = {
 		displayName = "Rapid Fire",
 		heroClass = "Blaster",
 		order = 2,
@@ -7147,7 +7147,7 @@ local Abilities = {
 		handlers = { "E6n" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_blaster_steam_blast = {
+	championrpg_blaster_steam_blast = {
 		displayName = "Steam Blast",
 		heroClass = "Blaster",
 		order = 3,
@@ -7166,7 +7166,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return tU[(GetUnitUserData((M_x)))]*3.*GetHeroStr(M_x,true)" },
 	},
-	twrpg_blaster_buster_shot = {
+	championrpg_blaster_buster_shot = {
 		displayName = "Buster Shot",
 		heroClass = "Blaster",
 		order = 4,
@@ -7190,7 +7190,7 @@ local Abilities = {
 		handlers = { "y2o", "y3o", "yyo" },
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_CHANNEL" },
 	},
-	twrpg_blaster_mecha_call = {
+	championrpg_blaster_mecha_call = {
 		displayName = "Mecha Call",
 		heroClass = "Blaster",
 		order = 5,
@@ -7209,7 +7209,7 @@ local Abilities = {
 		handlers = { "e1a" },
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 	},
-	twrpg_blaster_mecha_blast = {
+	championrpg_blaster_mecha_blast = {
 		displayName = "Mecha Blast",
 		heroClass = "Blaster",
 		order = 6,
@@ -7231,7 +7231,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "set q0[DAe[Mtx]]=(7.5*GetHeroStr((A0[DAe[Mtx]]),true))" },
 	},
-	twrpg_blaster_homing_missile = {
+	championrpg_blaster_homing_missile = {
 		displayName = "Homing Missile",
 		heroClass = "Blaster",
 		order = 7,
@@ -7259,7 +7259,7 @@ local Abilities = {
 		events = { "EVENT_PLAYER_HERO_SKILL", "EVENT_PLAYER_UNIT_SPELL_EFFECT" },
 		recoveredFormulas = { "return tU[(GetUnitUserData((M_x)))]*(6.*GetHeroStr(M_x,true))" },
 	},
-	twrpg_blaster_orbital_bombardment = {
+	championrpg_blaster_orbital_bombardment = {
 		displayName = "Orbital Bombardment",
 		heroClass = "Blaster",
 		order = 8,
@@ -7283,7 +7283,7 @@ local Abilities = {
 			"return tU[(GetUnitUserData((M_x)))]*(7.*GetHeroStr(M_x,true))",
 		},
 	},
-	twrpg_sword_saint_comet_trail = {
+	championrpg_sword_saint_comet_trail = {
 		displayName = "Comet Trail",
 		heroClass = "Sword Saint",
 		order = 1,
@@ -7298,7 +7298,7 @@ local Abilities = {
 			"Can be cast twice in a row",
 		},
 	},
-	twrpg_sword_saint_aura_blade = {
+	championrpg_sword_saint_aura_blade = {
 		displayName = "Aura Blade",
 		heroClass = "Sword Saint",
 		order = 2,
@@ -7313,7 +7313,7 @@ local Abilities = {
 			"If Lunar Mark is consumed, lands as critical strike and cooldown is reset",
 		},
 	},
-	twrpg_sword_saint_flash_slash = {
+	championrpg_sword_saint_flash_slash = {
 		displayName = "Flash Slash",
 		heroClass = "Sword Saint",
 		order = 3,
@@ -7329,7 +7329,7 @@ local Abilities = {
 			"Resets cooldown of Aura Blade on cast",
 		},
 	},
-	twrpg_sword_saint_reflection = {
+	championrpg_sword_saint_reflection = {
 		displayName = "Reflection",
 		heroClass = "Sword Saint",
 		order = 4,
@@ -7345,7 +7345,7 @@ local Abilities = {
 			"If a skill is successfully blocked, duration is refreshed and deals 200% bonus damage",
 		},
 	},
-	twrpg_sword_saint_starfall = {
+	championrpg_sword_saint_starfall = {
 		displayName = "Starfall",
 		heroClass = "Sword Saint",
 		order = 5,
@@ -7361,7 +7361,7 @@ local Abilities = {
 			"Charges once every 5 seconds (up to 3 charges; affected by base attack speed)",
 		},
 	},
-	twrpg_sword_saint_lunar_divide = {
+	championrpg_sword_saint_lunar_divide = {
 		displayName = "Lunar Divide",
 		heroClass = "Sword Saint",
 		order = 6,
@@ -7376,7 +7376,7 @@ local Abilities = {
 			"If Lunar Mark is consumed, deals 100% bonus damage and breaks shield effects",
 		},
 	},
-	twrpg_sword_saint_twilight_reverie = {
+	championrpg_sword_saint_twilight_reverie = {
 		displayName = "Twilight Reverie",
 		heroClass = "Sword Saint",
 		order = 7,

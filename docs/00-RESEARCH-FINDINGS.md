@@ -1,4 +1,6 @@
-# TWRPG — Research Findings
+# ChampionRPG — Research Findings
+
+*Research into TWRPG (The World RPG), the Warcraft III map this project rebuilds.*
 
 What the map actually is, what data exists, and what does not. Everything here is sourced;
 nothing is invented. Read this before the design spec — several findings change what the

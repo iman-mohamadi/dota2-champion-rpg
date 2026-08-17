@@ -343,7 +343,7 @@ def test_persistence():
         return validate(s, items, heroes)[0]
 
     check("wrong schema rejected", bad(schema=2), False)
-    check("unknown hero rejected", bad(hero="npc_dota_hero_twrpg_nonexistent"), False)
+    check("unknown hero rejected", bad(hero="npc_dota_hero_championrpg_nonexistent"), False)
     check("level 0 rejected", bad(level=0), False)
     check("level 101 rejected", bad(level=101), False)
     check("negative xp rejected", bad(xp=-1), False)
@@ -353,7 +353,7 @@ def test_persistence():
     check("more points than the level earns rejected",
           bad(level=2, allocation={"str": 600, "agi": 0, "int": 0}), False)
     check("unknown item rejected",
-          bad(inventory={"bag": [{"slot": 1, "item": "item_twrpg_forged", "count": 1}],
+          bad(inventory={"bag": [{"slot": 1, "item": "item_championrpg_forged", "count": 1}],
                          "storage": [], "equipped": {}}), False)
     check("stack above the cap of 5 rejected",
           bad(inventory={"bag": [{"slot": 1, "item": C.item_key("Anger"), "count": 99}],

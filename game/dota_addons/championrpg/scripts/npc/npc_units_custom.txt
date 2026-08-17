@@ -3,7 +3,7 @@
 
 "DOTAUnits"
 {
-	"npc_twrpg_spider"
+	"npc_championrpg_spider"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -39,7 +39,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_giant_spider"
+	"npc_championrpg_giant_spider"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -75,7 +75,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_wolf"
+	"npc_championrpg_wolf"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -111,7 +111,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_dark_wolf"
+	"npc_championrpg_dark_wolf"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -147,7 +147,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_silverback_wolf"
+	"npc_championrpg_silverback_wolf"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -183,7 +183,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_shadow_wolf"
+	"npc_championrpg_shadow_wolf"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -219,7 +219,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_troll"
+	"npc_championrpg_troll"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -255,7 +255,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_troll_shaman"
+	"npc_championrpg_troll_shaman"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -291,7 +291,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_troll_berserker"
+	"npc_championrpg_troll_berserker"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -327,7 +327,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_troll_lord"
+	"npc_championrpg_troll_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -363,7 +363,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_furbolg"
+	"npc_championrpg_furbolg"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -399,7 +399,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_furbolg_tracker"
+	"npc_championrpg_furbolg_tracker"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -435,7 +435,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_furbolg_shaman"
+	"npc_championrpg_furbolg_shaman"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -471,7 +471,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_furbolg_giant"
+	"npc_championrpg_furbolg_giant"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -507,7 +507,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_protector_of_nature"
+	"npc_championrpg_protector_of_nature"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -543,7 +543,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_white_murloc"
+	"npc_championrpg_white_murloc"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -579,7 +579,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_green_murloc"
+	"npc_championrpg_green_murloc"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -615,7 +615,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_orange_murloc"
+	"npc_championrpg_orange_murloc"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -651,7 +651,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_blue_murloc"
+	"npc_championrpg_blue_murloc"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -687,7 +687,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_purple_murloc"
+	"npc_championrpg_purple_murloc"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -723,7 +723,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_dragon_turtle"
+	"npc_championrpg_dragon_turtle"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -759,7 +759,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_king_crab"
+	"npc_championrpg_king_crab"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -795,7 +795,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_walrus"
+	"npc_championrpg_walrus"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -831,7 +831,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_ice_troll"
+	"npc_championrpg_ice_troll"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -867,7 +867,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_ice_troll_priest"
+	"npc_championrpg_ice_troll_priest"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -903,7 +903,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_polar_bear"
+	"npc_championrpg_polar_bear"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -939,7 +939,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_polar_bear_giant"
+	"npc_championrpg_polar_bear_giant"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -975,7 +975,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_mammoth"
+	"npc_championrpg_mammoth"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1011,7 +1011,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_snowman"
+	"npc_championrpg_snowman"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1047,7 +1047,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_king_kong"
+	"npc_championrpg_king_kong"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1083,7 +1083,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_soldier"
+	"npc_championrpg_duchy_of_wallachia_soldier"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1119,7 +1119,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_archer"
+	"npc_championrpg_duchy_of_wallachia_archer"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1155,7 +1155,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_cavalry"
+	"npc_championrpg_duchy_of_wallachia_cavalry"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1191,7 +1191,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_guardian"
+	"npc_championrpg_duchy_of_wallachia_guardian"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1227,7 +1227,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_wallachia_death_knight_lord"
+	"npc_championrpg_wallachia_death_knight_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1263,7 +1263,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_wraith"
+	"npc_championrpg_wraith"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1299,7 +1299,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_blood_wraith"
+	"npc_championrpg_blood_wraith"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1335,7 +1335,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_soldier_of_blood"
+	"npc_championrpg_soldier_of_blood"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1371,7 +1371,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_wallachia_monstrosity"
+	"npc_championrpg_wallachia_monstrosity"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1407,7 +1407,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_bat_statue"
+	"npc_championrpg_bat_statue"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1443,7 +1443,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_lava_hatchling"
+	"npc_championrpg_lava_hatchling"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1479,7 +1479,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_lava_spawn"
+	"npc_championrpg_lava_spawn"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1515,7 +1515,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_lava_worm"
+	"npc_championrpg_lava_worm"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1551,7 +1551,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_lava_ancient"
+	"npc_championrpg_lava_ancient"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1587,7 +1587,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_ruler_of_flames_ragnaar"
+	"npc_championrpg_ruler_of_flames_ragnaar"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1623,7 +1623,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_slave_of_trueflame"
+	"npc_championrpg_slave_of_trueflame"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1659,7 +1659,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_evil_lava_spawn"
+	"npc_championrpg_evil_lava_spawn"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1695,7 +1695,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_murloc_giant"
+	"npc_championrpg_murloc_giant"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1731,7 +1731,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_tide_caller"
+	"npc_championrpg_tide_caller"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1767,7 +1767,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_sea_guardian"
+	"npc_championrpg_sea_guardian"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1803,7 +1803,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_tentacle_lord"
+	"npc_championrpg_tentacle_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1839,7 +1839,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_guardian_of_sea"
+	"npc_championrpg_guardian_of_sea"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1875,7 +1875,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_stone_golem"
+	"npc_championrpg_stone_golem"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1911,7 +1911,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_solid_golem"
+	"npc_championrpg_solid_golem"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1947,7 +1947,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_giant_golem"
+	"npc_championrpg_giant_golem"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -1983,7 +1983,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_assassin"
+	"npc_championrpg_duchy_of_wallachia_assassin"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2019,7 +2019,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_apostle"
+	"npc_championrpg_duchy_of_wallachia_apostle"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2055,7 +2055,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_scarab"
+	"npc_championrpg_scarab"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2091,7 +2091,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_wallachia_wraith"
+	"npc_championrpg_wallachia_wraith"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2127,7 +2127,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_forest_spirit"
+	"npc_championrpg_forest_spirit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2163,7 +2163,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_fairy"
+	"npc_championrpg_fairy"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2199,7 +2199,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_mana_ancient"
+	"npc_championrpg_mana_ancient"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2235,7 +2235,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_ruler_of_the_lav_sea_hydra"
+	"npc_championrpg_ruler_of_the_lav_sea_hydra"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2271,7 +2271,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_duchy_of_wallachia_count"
+	"npc_championrpg_duchy_of_wallachia_count"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2307,7 +2307,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_jack_o_lantern"
+	"npc_championrpg_jack_o_lantern"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2343,7 +2343,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_mage_lord"
+	"npc_championrpg_mage_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2379,7 +2379,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_wings_of_death"
+	"npc_championrpg_wings_of_death"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2415,7 +2415,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_avalon_defender"
+	"npc_championrpg_avalon_defender"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2451,7 +2451,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_avalon_protector"
+	"npc_championrpg_avalon_protector"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2487,7 +2487,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_castle_avalon_gatekeeper"
+	"npc_championrpg_castle_avalon_gatekeeper"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2523,7 +2523,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_the_3rd_armys_guardian_angel"
+	"npc_championrpg_the_3rd_armys_guardian_angel"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2559,7 +2559,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_the_devils_right_arm_corrupt_angel"
+	"npc_championrpg_the_devils_right_arm_corrupt_angel"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2595,7 +2595,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_wallachia_mad_clown"
+	"npc_championrpg_wallachia_mad_clown"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2631,7 +2631,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_frost_spider"
+	"npc_championrpg_frost_spider"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2667,7 +2667,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_frost_skirmisher"
+	"npc_championrpg_frost_skirmisher"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2703,7 +2703,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_frostvemon_spider"
+	"npc_championrpg_frostvemon_spider"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2739,7 +2739,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_soul_of_everfrost"
+	"npc_championrpg_soul_of_everfrost"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2775,7 +2775,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_frozen_soul"
+	"npc_championrpg_frozen_soul"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2811,7 +2811,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_frostspider_queen"
+	"npc_championrpg_frostspider_queen"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2847,7 +2847,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_frostspider_lord"
+	"npc_championrpg_frostspider_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2883,7 +2883,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_demon_lord_beriel"
+	"npc_championrpg_demon_lord_beriel"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2919,7 +2919,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_hell_portal"
+	"npc_championrpg_hell_portal"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2955,7 +2955,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_slime_monster"
+	"npc_championrpg_slime_monster"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -2991,7 +2991,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_golem_monster"
+	"npc_championrpg_golem_monster"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3027,7 +3027,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_hound_monster"
+	"npc_championrpg_hound_monster"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3063,7 +3063,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_hell_golem"
+	"npc_championrpg_hell_golem"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3099,7 +3099,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_fairy_spirit"
+	"npc_championrpg_fairy_spirit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3135,7 +3135,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_dryad"
+	"npc_championrpg_dryad"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3171,7 +3171,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_spirit_beast"
+	"npc_championrpg_spirit_beast"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3207,7 +3207,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_corruptor_rectus"
+	"npc_championrpg_corruptor_rectus"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3243,7 +3243,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_avenger"
+	"npc_championrpg_avenger"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3279,7 +3279,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_stalker"
+	"npc_championrpg_stalker"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3315,7 +3315,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_life_orb"
+	"npc_championrpg_life_orb"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3351,7 +3351,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_flame_nightmare"
+	"npc_championrpg_flame_nightmare"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3387,7 +3387,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_hatred"
+	"npc_championrpg_hatred"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3423,7 +3423,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_anger"
+	"npc_championrpg_anger"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3459,7 +3459,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_flame_spawn"
+	"npc_championrpg_flame_spawn"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3495,7 +3495,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_turtle_lord"
+	"npc_championrpg_turtle_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3531,7 +3531,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_healing_turtle"
+	"npc_championrpg_healing_turtle"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3567,7 +3567,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_turtle"
+	"npc_championrpg_turtle"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3603,7 +3603,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_dragon_hatchling"
+	"npc_championrpg_dragon_hatchling"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3639,7 +3639,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_dragonic_warrior"
+	"npc_championrpg_dragonic_warrior"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3675,7 +3675,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_flame_spirit"
+	"npc_championrpg_flame_spirit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3711,7 +3711,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_bone_dragon"
+	"npc_championrpg_bone_dragon"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3747,7 +3747,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_skeletal_king_desperia"
+	"npc_championrpg_skeletal_king_desperia"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3783,7 +3783,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_skeletal_solider"
+	"npc_championrpg_skeletal_solider"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3819,7 +3819,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_zombie_lord"
+	"npc_championrpg_zombie_lord"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3855,7 +3855,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_worshipper_of_immortality"
+	"npc_championrpg_worshipper_of_immortality"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3891,7 +3891,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_zombie"
+	"npc_championrpg_zombie"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3927,7 +3927,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_ancient_ent"
+	"npc_championrpg_ancient_ent"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3963,7 +3963,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_elder_ent"
+	"npc_championrpg_elder_ent"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -3999,7 +3999,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_giant_ent"
+	"npc_championrpg_giant_ent"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4035,7 +4035,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_ent"
+	"npc_championrpg_ent"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4071,7 +4071,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_archangel_samael"
+	"npc_championrpg_archangel_samael"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4107,7 +4107,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_shadow_dragon_irbert"
+	"npc_championrpg_shadow_dragon_irbert"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4143,7 +4143,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_illusion_of_irbert"
+	"npc_championrpg_illusion_of_irbert"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4179,7 +4179,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_illusion_of_irbert_large"
+	"npc_championrpg_illusion_of_irbert_large"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4215,7 +4215,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_death_fiend"
+	"npc_championrpg_death_fiend"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4251,7 +4251,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_death_huntress"
+	"npc_championrpg_death_huntress"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4287,7 +4287,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_death_weaver"
+	"npc_championrpg_death_weaver"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4323,7 +4323,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_death_devourer"
+	"npc_championrpg_death_devourer"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4359,7 +4359,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_death_hound"
+	"npc_championrpg_death_hound"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4395,7 +4395,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_elemental_of_chaos"
+	"npc_championrpg_elemental_of_chaos"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4431,7 +4431,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_valtora"
+	"npc_championrpg_valtora"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4467,7 +4467,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_servant_of_lightning_god"
+	"npc_championrpg_servant_of_lightning_god"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4503,7 +4503,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_ifrit"
+	"npc_championrpg_ifrit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4539,7 +4539,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_obsidian_golem"
+	"npc_championrpg_obsidian_golem"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4575,7 +4575,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_lava_spirit"
+	"npc_championrpg_lava_spirit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4611,7 +4611,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_magma"
+	"npc_championrpg_magma"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4647,7 +4647,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_nereid"
+	"npc_championrpg_nereid"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4683,7 +4683,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_large_wavecaller"
+	"npc_championrpg_large_wavecaller"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4719,7 +4719,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_wavecaller"
+	"npc_championrpg_wavecaller"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4755,7 +4755,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_water_bubble"
+	"npc_championrpg_water_bubble"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4791,7 +4791,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_underlord_agareth"
+	"npc_championrpg_underlord_agareth"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4827,7 +4827,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_gatekeeper_of_hell"
+	"npc_championrpg_gatekeeper_of_hell"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4863,7 +4863,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_purple_soul_crystal"
+	"npc_championrpg_purple_soul_crystal"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4899,7 +4899,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_green_soul_crystal"
+	"npc_championrpg_green_soul_crystal"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4935,7 +4935,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_cursed_spirit"
+	"npc_championrpg_cursed_spirit"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -4971,7 +4971,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_hellspawn"
+	"npc_championrpg_hellspawn"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5007,7 +5007,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_duke_lazarus"
+	"npc_championrpg_duke_lazarus"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5043,7 +5043,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_vampiric_monstrosity"
+	"npc_championrpg_vampiric_monstrosity"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5079,7 +5079,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_blood_baron"
+	"npc_championrpg_blood_baron"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5115,7 +5115,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_servant_of_blood"
+	"npc_championrpg_servant_of_blood"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5151,7 +5151,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_spike"
+	"npc_championrpg_spike"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5187,7 +5187,7 @@
 		"IsAncient"			"0"
 	}
 
-	"npc_twrpg_gaia"
+	"npc_championrpg_gaia"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5223,7 +5223,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_arcane_construct"
+	"npc_championrpg_arcane_construct"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"
@@ -5259,7 +5259,7 @@
 		"IsAncient"			"1"
 	}
 
-	"npc_twrpg_styrix_the_harvester_of_souls"
+	"npc_championrpg_styrix_the_harvester_of_souls"
 	{
 		"BaseClass"			"npc_dota_creature"
 		"Model"				"models/development/invisiblebox.vmdl"

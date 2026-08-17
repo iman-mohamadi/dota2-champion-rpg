@@ -6,7 +6,7 @@
 > phase-by-phase content breakdown (Phases 5–6), which is still accurate, and as the fallback
 > plan if the project ever leaves Dota 2.
 
-# TWRPG Standalone — Roadmap
+# ChampionRPG — Roadmap
 
 Sequenced plan to the Vertical Slice (Scope A), then the path onward.
 Estimates assume 1–2 developers working steadily. No code has been written yet.

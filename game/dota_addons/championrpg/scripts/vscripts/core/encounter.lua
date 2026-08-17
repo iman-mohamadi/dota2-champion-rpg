@@ -96,7 +96,7 @@ local function runSteps(self, steps)
         else
             -- Unhandled actions are loud: a silently skipped wipe mechanic is a
             -- boss that is simply wrong, and easy to miss in playtesting.
-            print(string.format("[TWRPG] encounter %s: no handler for action '%s'",
+            print(string.format("[ChampionRPG] encounter %s: no handler for action '%s'",
                                 self.unitKey, tostring(step.action)))
         end
     end

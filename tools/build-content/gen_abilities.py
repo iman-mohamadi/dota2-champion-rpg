@@ -34,7 +34,7 @@ def parse_hotkey(hotkey):
 
 
 def ability_id(hero_class, name):
-    return "twrpg_%s_%s" % (C.slug(hero_class), C.slug(name))
+    return "championrpg_%s_%s" % (C.slug(hero_class), C.slug(name))
 
 
 def build():

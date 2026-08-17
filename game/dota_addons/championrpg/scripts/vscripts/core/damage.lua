@@ -1,4 +1,4 @@
---- TWRPG damage pipeline.
+--- ChampionRPG damage pipeline.
 --
 -- Reimplements the pipeline recovered in docs/05-COMBAT-FORMULAS.md §4-5.
 --

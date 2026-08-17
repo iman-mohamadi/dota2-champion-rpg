@@ -2,14 +2,14 @@
 -- Source: research/. Regenerate with: python3 tools/build-content/build.py
 
 local Items = {
-	item_twrpg_mystical_materials = {
+	item_championrpg_mystical_materials = {
 		displayName = "Mystical Materials",
 		type = "Material",
 		rank = "none",
 		grade = 0,
 		equipSlot = nil,
 	},
-	item_twrpg_tomato = {
+	item_championrpg_tomato = {
 		displayName = "Tomato",
 		type = "Food",
 		rank = "none",
@@ -17,7 +17,7 @@ local Items = {
 		equipSlot = nil,
 		active = { "Increases EXP gain by 15% for 10 minutes" },
 	},
-	item_twrpg_pumpkin = {
+	item_championrpg_pumpkin = {
 		displayName = "Pumpkin",
 		type = "Food",
 		rank = "none",
@@ -25,7 +25,7 @@ local Items = {
 		equipSlot = nil,
 		active = { "Restores HP & MP by 30%" },
 	},
-	item_twrpg_blue_magic_stone = {
+	item_championrpg_blue_magic_stone = {
 		displayName = "Blue Magic Stone",
 		type = "Misc",
 		rank = "none",
@@ -33,7 +33,7 @@ local Items = {
 		equipSlot = nil,
 		notes = { "Where to obtain: Frosty Snowfield" },
 	},
-	item_twrpg_white_magic_stone = {
+	item_championrpg_white_magic_stone = {
 		displayName = "White Magic Stone",
 		type = "Misc",
 		rank = "none",
@@ -41,7 +41,7 @@ local Items = {
 		equipSlot = nil,
 		notes = { "Where to obtain: Lands of Wallachia" },
 	},
-	item_twrpg_red_magic_stone = {
+	item_championrpg_red_magic_stone = {
 		displayName = "Red Magic Stone",
 		type = "Misc",
 		rank = "none",
@@ -49,7 +49,7 @@ local Items = {
 		equipSlot = nil,
 		notes = { "Where to obtain: Volcanic Lands" },
 	},
-	item_twrpg_green_magic_stone = {
+	item_championrpg_green_magic_stone = {
 		displayName = "Green Magic Stone",
 		type = "Misc",
 		rank = "none",
@@ -57,7 +57,7 @@ local Items = {
 		equipSlot = nil,
 		notes = { "Where to obtain: Fairy Forest" },
 	},
-	item_twrpg_chaos_magic_stone = {
+	item_championrpg_chaos_magic_stone = {
 		displayName = "Chaos Magic Stone",
 		type = "Misc",
 		rank = "none",
@@ -67,7 +67,7 @@ local Items = {
 		droppedBy = { "Elemental of Chaos" },
 		notes = { "Where to obtain: Spirit of Chaos" },
 	},
-	item_twrpg_storage_expansion_coupon = {
+	item_championrpg_storage_expansion_coupon = {
 		displayName = "Storage Expansion Coupon",
 		type = "Misc",
 		rank = "none",
@@ -75,7 +75,7 @@ local Items = {
 		equipSlot = nil,
 		active = { "Expands your storage by 1 slot", "Can only be used up to 12 times" },
 	},
-	item_twrpg_lucky_acorn = {
+	item_championrpg_lucky_acorn = {
 		displayName = "Lucky Acorn",
 		type = "Accessory",
 		rank = "[Normal]",
@@ -87,7 +87,7 @@ local Items = {
 			hpregen = 5,
 		},
 	},
-	item_twrpg_flame_fairy_stone = {
+	item_championrpg_flame_fairy_stone = {
 		displayName = "Flame Fairy Stone",
 		type = "Material",
 		rank = "[Magic]",
@@ -95,7 +95,7 @@ local Items = {
 		equipSlot = nil,
 		droppedBy = { "Tutorial" },
 	},
-	item_twrpg_pickaxe = {
+	item_championrpg_pickaxe = {
 		displayName = "Pickaxe",
 		type = "Pickaxe",
 		rank = "[Normal]",
@@ -104,7 +104,7 @@ local Items = {
 		droppedBy = { "Shop" },
 		active = { "Mining Speed: Once every 10 seconds" },
 	},
-	item_twrpg_silver_fang = {
+	item_championrpg_silver_fang = {
 		displayName = "Silver Fang",
 		type = "Weapon (Shared)",
 		rank = "[Magic]",
@@ -121,7 +121,7 @@ local Items = {
 		},
 		passive = { "On attack, restores 10 HP" },
 	},
-	item_twrpg_silverfang_vest = {
+	item_championrpg_silverfang_vest = {
 		displayName = "Silverfang Vest",
 		type = "Armor",
 		rank = "[Magic]",
@@ -136,7 +136,7 @@ local Items = {
 			hpregen = 3,
 		},
 	},
-	item_twrpg_troll_axe = {
+	item_championrpg_troll_axe = {
 		displayName = "Troll Axe",
 		type = "Weapon (Shared)",
 		rank = "[Magic]",
@@ -152,7 +152,7 @@ local Items = {
 			attackspeedpercent = -0.15,
 		},
 	},
-	item_twrpg_troll_battlewear = {
+	item_championrpg_troll_battlewear = {
 		displayName = "Troll Battlewear",
 		type = "Armor",
 		rank = "[Normal]",
@@ -167,7 +167,7 @@ local Items = {
 			hp = 100,
 		},
 	},
-	item_twrpg_berserker_mask = {
+	item_championrpg_berserker_mask = {
 		displayName = "Berserker Mask",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -182,7 +182,7 @@ local Items = {
 			attackspeedpercent = 0.1,
 		},
 	},
-	item_twrpg_bag = {
+	item_championrpg_bag = {
 		displayName = "Bag",
 		type = "Weapon (Bag)",
 		rank = "[Normal]",
@@ -196,7 +196,7 @@ local Items = {
 			str = 20,
 		},
 	},
-	item_twrpg_fang_necklace = {
+	item_championrpg_fang_necklace = {
 		displayName = "Fang Necklace",
 		type = "Accessory",
 		rank = "[Magic]",
@@ -210,7 +210,7 @@ local Items = {
 			movespeed = 50,
 		},
 	},
-	item_twrpg_troll_blood = {
+	item_championrpg_troll_blood = {
 		displayName = "Troll Blood",
 		type = "Material",
 		rank = "[Magic]",
@@ -219,7 +219,7 @@ local Items = {
 		dropRate = 0.5,
 		droppedBy = { "Troll Lord" },
 	},
-	item_twrpg_forest_armor = {
+	item_championrpg_forest_armor = {
 		displayName = "Forest Armor",
 		type = "Armor",
 		rank = "[Normal]",
@@ -234,7 +234,7 @@ local Items = {
 			agi = 12,
 		},
 	},
-	item_twrpg_ancient_branch = {
+	item_championrpg_ancient_branch = {
 		displayName = "Ancient Branch",
 		type = "Misc",
 		rank = "none",
@@ -243,7 +243,7 @@ local Items = {
 		dropRate = { 0.05, 0.05, 0.25, 1 },
 		droppedBy = { "Furbolg", "Furbolg Tracker", "Furbolg Shaman", "Furbolg Giant" },
 	},
-	item_twrpg_forest_helm = {
+	item_championrpg_forest_helm = {
 		displayName = "Forest Helm",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -257,7 +257,7 @@ local Items = {
 			allstat = 8,
 		},
 	},
-	item_twrpg_forest_robe = {
+	item_championrpg_forest_robe = {
 		displayName = "Forest Robe",
 		type = "Armor",
 		rank = "[Normal]",
@@ -272,7 +272,7 @@ local Items = {
 			mp = 100,
 		},
 	},
-	item_twrpg_wings_of_nature = {
+	item_championrpg_wings_of_nature = {
 		displayName = "Wings of Nature",
 		type = "Wings",
 		rank = "[Magic]",
@@ -287,7 +287,7 @@ local Items = {
 		},
 		active = { "On use, creates a portal that connects to Alfon Village" },
 	},
-	item_twrpg_ancient_leaf = {
+	item_championrpg_ancient_leaf = {
 		displayName = "Ancient Leaf",
 		type = "Material",
 		rank = "[Magic]",
@@ -296,7 +296,7 @@ local Items = {
 		dropRate = 0.33,
 		droppedBy = { "Protector of Nature" },
 	},
-	item_twrpg_ancient_tree_sword = {
+	item_championrpg_ancient_tree_sword = {
 		displayName = "Ancient Tree Sword",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -312,7 +312,7 @@ local Items = {
 		},
 		active = { "On attack, 8% chance to activate Force Blast", "Deals 500 magic damage in an AoE" },
 	},
-	item_twrpg_ancient_tree_staff = {
+	item_championrpg_ancient_tree_staff = {
 		displayName = "Ancient Tree Staff",
 		type = "Weapon (Staff)",
 		rank = "[Magic]",
@@ -332,7 +332,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_ancient_tree_bow = {
+	item_championrpg_ancient_tree_bow = {
 		displayName = "Ancient Tree Bow",
 		type = "Weapon (Bow)",
 		rank = "[Magic]",
@@ -348,7 +348,7 @@ local Items = {
 		},
 		active = { "On attack, chance to activate Force Blast", "Deals 500 magic damage in an AoE" },
 	},
-	item_twrpg_ancient_tree_rifle = {
+	item_championrpg_ancient_tree_rifle = {
 		displayName = "Ancient Tree Rifle",
 		type = "Weapon (Gun)",
 		rank = "[Magic]",
@@ -364,7 +364,7 @@ local Items = {
 		},
 		active = { "On attack, chance to activate Force Blast", "Deals 500 magic damage in an AoE" },
 	},
-	item_twrpg_green_crystal_golem_token = {
+	item_championrpg_green_crystal_golem_token = {
 		displayName = "Green Crystal Golem Token",
 		type = "Token",
 		rank = "none",
@@ -373,7 +373,7 @@ local Items = {
 		dropRate = 0.02,
 		droppedBy = { "Protector of Nature" },
 	},
-	item_twrpg_deep_sword = {
+	item_championrpg_deep_sword = {
 		displayName = "Deep Sword",
 		type = "Weapon (Melee)",
 		rank = "[Normal]",
@@ -388,7 +388,7 @@ local Items = {
 			mainstat = 20,
 		},
 	},
-	item_twrpg_deep_staff = {
+	item_championrpg_deep_staff = {
 		displayName = "Deep Staff",
 		type = "Weapon (Staff)",
 		rank = "[Normal]",
@@ -403,7 +403,7 @@ local Items = {
 			int = 30,
 		},
 	},
-	item_twrpg_deep_bow = {
+	item_championrpg_deep_bow = {
 		displayName = "Deep Bow",
 		type = "Weapon (Bow)",
 		rank = "[Normal]",
@@ -418,7 +418,7 @@ local Items = {
 			agi = 25,
 		},
 	},
-	item_twrpg_deep_rifle = {
+	item_championrpg_deep_rifle = {
 		displayName = "Deep Rifle",
 		type = "Weapon (Gun)",
 		rank = "[Normal]",
@@ -433,7 +433,7 @@ local Items = {
 			agi = 25,
 		},
 	},
-	item_twrpg_deep_armor = {
+	item_championrpg_deep_armor = {
 		displayName = "Deep Armor",
 		type = "Armor",
 		rank = "[Normal]",
@@ -448,7 +448,7 @@ local Items = {
 			agi = 17,
 		},
 	},
-	item_twrpg_deep_robe = {
+	item_championrpg_deep_robe = {
 		displayName = "Deep Robe",
 		type = "Armor",
 		rank = "[Normal]",
@@ -463,7 +463,7 @@ local Items = {
 			mp = 150,
 		},
 	},
-	item_twrpg_deep_helm = {
+	item_championrpg_deep_helm = {
 		displayName = "Deep Helm",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -477,7 +477,7 @@ local Items = {
 			mainstat = 10,
 		},
 	},
-	item_twrpg_hard_turtle_shell = {
+	item_championrpg_hard_turtle_shell = {
 		displayName = "Hard Turtle Shell",
 		type = "Wings",
 		rank = "[Magic]",
@@ -492,7 +492,7 @@ local Items = {
 			hpregen = 10,
 		},
 	},
-	item_twrpg_black_pearl = {
+	item_championrpg_black_pearl = {
 		displayName = "Black Pearl",
 		type = "Material",
 		rank = "[Magic]",
@@ -501,7 +501,7 @@ local Items = {
 		dropRate = 0.4,
 		droppedBy = { "Dragon Turtle" },
 	},
-	item_twrpg_magical_horn = {
+	item_championrpg_magical_horn = {
 		displayName = "Magical Horn",
 		type = "Misc",
 		rank = "none",
@@ -511,7 +511,7 @@ local Items = {
 		active = { "Summons a field boss" },
 		notes = { "Droprate increases every 5 minutes that it does not drop" },
 	},
-	item_twrpg_shell_sword = {
+	item_championrpg_shell_sword = {
 		displayName = "Shell Sword",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -529,7 +529,7 @@ local Items = {
 		},
 		passive = { "25% chance to deal splash damage on attack" },
 	},
-	item_twrpg_crab_armor = {
+	item_championrpg_crab_armor = {
 		displayName = "Crab Armor",
 		type = "Armor",
 		rank = "[Magic]",
@@ -545,7 +545,7 @@ local Items = {
 		},
 		passive = { "Reflects 300 magic damage when attacked" },
 	},
-	item_twrpg_sea_jewel = {
+	item_championrpg_sea_jewel = {
 		displayName = "Sea Jewel",
 		type = "Accessory",
 		rank = "[Magic]",
@@ -565,7 +565,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_ivory_cane = {
+	item_championrpg_ivory_cane = {
 		displayName = "Ivory Cane",
 		type = "Weapon (Staff)",
 		rank = "[Magic]",
@@ -582,7 +582,7 @@ local Items = {
 		},
 		passive = { "On attack, deals 300 bonus magic damage" },
 	},
-	item_twrpg_tusk_hunter = {
+	item_championrpg_tusk_hunter = {
 		displayName = "Tusk Hunter",
 		type = "Weapon (Gun)",
 		rank = "[Magic]",
@@ -599,7 +599,7 @@ local Items = {
 			attackspeedpercent = 0.15,
 		},
 	},
-	item_twrpg_walrus_skin_cloak = {
+	item_championrpg_walrus_skin_cloak = {
 		displayName = "Walrus Skin Cloak",
 		type = "Wings",
 		rank = "[Magic]",
@@ -613,7 +613,7 @@ local Items = {
 			hpregen = 5,
 		},
 	},
-	item_twrpg_frosty_sword = {
+	item_championrpg_frosty_sword = {
 		displayName = "Frosty Sword",
 		type = "Weapon (Melee)",
 		rank = "[Normal]",
@@ -628,7 +628,7 @@ local Items = {
 			mainstat = 30,
 		},
 	},
-	item_twrpg_frosty_staff = {
+	item_championrpg_frosty_staff = {
 		displayName = "Frosty Staff",
 		type = "Weapon (Melee)",
 		rank = "[Normal]",
@@ -643,7 +643,7 @@ local Items = {
 			int = 45,
 		},
 	},
-	item_twrpg_frosty_bow = {
+	item_championrpg_frosty_bow = {
 		displayName = "Frosty Bow",
 		type = "Weapon (Bow)",
 		rank = "[Normal]",
@@ -658,7 +658,7 @@ local Items = {
 			agi = 38,
 		},
 	},
-	item_twrpg_frosty_rifle = {
+	item_championrpg_frosty_rifle = {
 		displayName = "Frosty Rifle",
 		type = "Weapon (Gun)",
 		rank = "[Normal]",
@@ -673,7 +673,7 @@ local Items = {
 			agi = 38,
 		},
 	},
-	item_twrpg_frosty_armor = {
+	item_championrpg_frosty_armor = {
 		displayName = "Frosty Armor",
 		type = "Armor",
 		rank = "[Normal]",
@@ -688,7 +688,7 @@ local Items = {
 			agi = 24,
 		},
 	},
-	item_twrpg_frosty_robe = {
+	item_championrpg_frosty_robe = {
 		displayName = "Frosty Robe",
 		type = "Armor",
 		rank = "[Normal]",
@@ -703,7 +703,7 @@ local Items = {
 			mp = 200,
 		},
 	},
-	item_twrpg_frosty_helm = {
+	item_championrpg_frosty_helm = {
 		displayName = "Frosty Helm",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -717,7 +717,7 @@ local Items = {
 			mainstat = 15,
 		},
 	},
-	item_twrpg_bear_fur_cloak = {
+	item_championrpg_bear_fur_cloak = {
 		displayName = "Bear Fur Cloak",
 		type = "Wings",
 		rank = "[Magic]",
@@ -731,7 +731,7 @@ local Items = {
 			skilldamagepercent = 0.05,
 		},
 	},
-	item_twrpg_warm_fur = {
+	item_championrpg_warm_fur = {
 		displayName = "Warm Fur",
 		type = "Material",
 		rank = "[Magic]",
@@ -740,7 +740,7 @@ local Items = {
 		dropRate = 0.4,
 		droppedBy = { "Polar Bear Giant" },
 	},
-	item_twrpg_frozen_crystal = {
+	item_championrpg_frozen_crystal = {
 		displayName = "Frozen Crystal",
 		type = "Misc",
 		rank = "none",
@@ -750,7 +750,7 @@ local Items = {
 		active = { "Summons a field boss" },
 		notes = { "Droprate increases every 5 minutes that it does not drop" },
 	},
-	item_twrpg_icicle_bow = {
+	item_championrpg_icicle_bow = {
 		displayName = "Icicle Bow",
 		type = "Weapon (Bow)",
 		rank = "[Magic]",
@@ -770,7 +770,7 @@ local Items = {
 			"Slow lasts for 0.75 seconds",
 		},
 	},
-	item_twrpg_glacier_guard = {
+	item_championrpg_glacier_guard = {
 		displayName = "Glacier Guard",
 		type = "Headwear",
 		rank = "[Magic]",
@@ -786,7 +786,7 @@ local Items = {
 		},
 		passive = { "10% chance to freeze nearby enemies on being hit for 1.5 seconds and deal 3000 magic damage" },
 	},
-	item_twrpg_snowman_pendant = {
+	item_championrpg_snowman_pendant = {
 		displayName = "Snowman Pendant",
 		type = "Accessory",
 		rank = "[Magic]",
@@ -808,7 +808,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_king_kongs_claws = {
+	item_championrpg_king_kongs_claws = {
 		displayName = "King Kong's Claws",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -826,7 +826,7 @@ local Items = {
 		},
 		passive = { "On consecutively attacking the same target, deals 400 bonus magic damage" },
 	},
-	item_twrpg_wind_protection_clothing = {
+	item_championrpg_wind_protection_clothing = {
 		displayName = "Wind-Protection Clothing",
 		type = "Armor",
 		rank = "[Magic]",
@@ -842,7 +842,7 @@ local Items = {
 		},
 		passive = { "Allows you to dodge fatal damage once every 90 seconds", "Cannot be dropped during cooldown" },
 	},
-	item_twrpg_meat_bag = {
+	item_championrpg_meat_bag = {
 		displayName = "Meat Bag",
 		type = "Accessory",
 		rank = "[Magic]",
@@ -858,7 +858,7 @@ local Items = {
 		},
 		passive = { "On use, consumes some meat from the bag", "Restores 200 HP and MP and increase ATK SPD by 15%" },
 	},
-	item_twrpg_sword_of_darkness = {
+	item_championrpg_sword_of_darkness = {
 		displayName = "Sword of Darkness",
 		type = "Weapon (Melee)",
 		rank = "[Normal]",
@@ -873,7 +873,7 @@ local Items = {
 			mainstat = 45,
 		},
 	},
-	item_twrpg_rifle_of_darkness = {
+	item_championrpg_rifle_of_darkness = {
 		displayName = "Rifle of Darkness",
 		type = "Weapon (Gun)",
 		rank = "[Normal]",
@@ -888,7 +888,7 @@ local Items = {
 			agi = 60,
 		},
 	},
-	item_twrpg_staff_of_darkness = {
+	item_championrpg_staff_of_darkness = {
 		displayName = "Staff of Darkness",
 		type = "Weapon (Staff)",
 		rank = "[Normal]",
@@ -903,7 +903,7 @@ local Items = {
 			int = 70,
 		},
 	},
-	item_twrpg_bow_of_darkness = {
+	item_championrpg_bow_of_darkness = {
 		displayName = "Bow of Darkness",
 		type = "Weapon (Bow)",
 		rank = "[Normal]",
@@ -918,7 +918,7 @@ local Items = {
 			agi = 60,
 		},
 	},
-	item_twrpg_armor_of_darkness = {
+	item_championrpg_armor_of_darkness = {
 		displayName = "Armor of Darkness",
 		type = "Armor",
 		rank = "[Normal]",
@@ -933,7 +933,7 @@ local Items = {
 			agi = 32,
 		},
 	},
-	item_twrpg_robe_of_darkness = {
+	item_championrpg_robe_of_darkness = {
 		displayName = "Robe of Darkness",
 		type = "Armor",
 		rank = "[Normal]",
@@ -947,7 +947,7 @@ local Items = {
 			int = 40,
 		},
 	},
-	item_twrpg_helm_of_darkness = {
+	item_championrpg_helm_of_darkness = {
 		displayName = "Helm of Darkness",
 		type = "Armor",
 		rank = "[Normal]",
@@ -961,7 +961,7 @@ local Items = {
 			mainstat = 20,
 		},
 	},
-	item_twrpg_helm_of_the_dead = {
+	item_championrpg_helm_of_the_dead = {
 		displayName = "Helm of the Dead",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -976,7 +976,7 @@ local Items = {
 			mpregen = 15,
 		},
 	},
-	item_twrpg_raven_sword = {
+	item_championrpg_raven_sword = {
 		displayName = "Raven Sword",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -992,7 +992,7 @@ local Items = {
 		},
 		active = { "On attack, 10% chance to activate Dark Lightning" },
 	},
-	item_twrpg_raven_staff = {
+	item_championrpg_raven_staff = {
 		displayName = "Raven Staff",
 		type = "Weapon (Staff)",
 		rank = "[Magic]",
@@ -1008,7 +1008,7 @@ local Items = {
 		},
 		active = { "On attack, 10% chance to activate Dark Lightning" },
 	},
-	item_twrpg_raven_bow = {
+	item_championrpg_raven_bow = {
 		displayName = "Raven Bow",
 		type = "Weapon (Bow)",
 		rank = "[Magic]",
@@ -1024,7 +1024,7 @@ local Items = {
 		},
 		passive = { "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack" },
 	},
-	item_twrpg_raven_rifle = {
+	item_championrpg_raven_rifle = {
 		displayName = "Raven Rifle",
 		type = "Weapon (Gun)",
 		rank = "[Magic]",
@@ -1040,7 +1040,7 @@ local Items = {
 		},
 		passive = { "10% Chance to amplify ATK DMG by 2x for 5 seconds on attack" },
 	},
-	item_twrpg_token_of_death = {
+	item_championrpg_token_of_death = {
 		displayName = "Token of Death",
 		type = "Token",
 		rank = "none",
@@ -1049,7 +1049,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Wallachia Death Knight Lord" },
 	},
-	item_twrpg_cursed_mask = {
+	item_championrpg_cursed_mask = {
 		displayName = "Cursed Mask",
 		type = "Misc",
 		rank = "none",
@@ -1065,7 +1065,7 @@ local Items = {
 		active = { "Summons a field boss" },
 		notes = { "Droprate increases every 5 minutes that it does not drop", "Drop cooldown: 4 minutes" },
 	},
-	item_twrpg_blade_of_requiem = {
+	item_championrpg_blade_of_requiem = {
 		displayName = "Blade of Requiem",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -1088,7 +1088,7 @@ local Items = {
 			"Blue Wrath: heals user for (MAIN STAT + 300) HP and (current MP + (max MP X 15%)) MP",
 		},
 	},
-	item_twrpg_crossbow_of_requiem = {
+	item_championrpg_crossbow_of_requiem = {
 		displayName = "Crossbow of Requiem",
 		type = "Weapon (Bow)",
 		rank = "[Rare]",
@@ -1111,7 +1111,7 @@ local Items = {
 			"Blue Wrath: heals user for (MAIN STAT + 300) HP and (current MP + (max MP X 15%)) MP",
 		},
 	},
-	item_twrpg_blood_orb = {
+	item_championrpg_blood_orb = {
 		displayName = "Blood Orb",
 		type = "Weapon (Shared)",
 		rank = "[Rare]",
@@ -1129,7 +1129,7 @@ local Items = {
 		passive = { "On attack, drains target's HP" },
 		active = { "On use, heals 2000 HP and increases SKD by 8% for 8 seconds" },
 	},
-	item_twrpg_cape_of_the_dead = {
+	item_championrpg_cape_of_the_dead = {
 		displayName = "Cape of the Dead",
 		type = "Armor",
 		rank = "[Rare]",
@@ -1146,7 +1146,7 @@ local Items = {
 		},
 		passive = { "If HP drops below 15%, gain 90% damage reduction for 3 seconds", "Cooldown: 90 seconds" },
 	},
-	item_twrpg_ring_of_the_dead = {
+	item_championrpg_ring_of_the_dead = {
 		displayName = "Ring of the Dead",
 		type = "Accessory",
 		rank = "[Rare]",
@@ -1163,7 +1163,7 @@ local Items = {
 		},
 		passive = { "Periodically drains HP from nearby enemies (5 HP from mobs and 30 HP bosses)" },
 	},
-	item_twrpg_mask_of_blood = {
+	item_championrpg_mask_of_blood = {
 		displayName = "Mask of Blood",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -1184,7 +1184,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_demon_hunter = {
+	item_championrpg_demon_hunter = {
 		displayName = "Demon Hunter",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -1199,7 +1199,7 @@ local Items = {
 			attackspeedpercent = 0.3,
 		},
 	},
-	item_twrpg_stone_plates = {
+	item_championrpg_stone_plates = {
 		displayName = "Stone Plates",
 		type = "Armor",
 		rank = "[Rare]",
@@ -1220,7 +1220,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_bat_wings = {
+	item_championrpg_bat_wings = {
 		displayName = "Bat Wings",
 		type = "Wings",
 		rank = "[Rare]",
@@ -1241,7 +1241,7 @@ local Items = {
 			"Cooldown: 0.125 seconds",
 		},
 	},
-	item_twrpg_sword_of_flame = {
+	item_championrpg_sword_of_flame = {
 		displayName = "Sword of Flame",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -1256,7 +1256,7 @@ local Items = {
 			mainstat = 60,
 		},
 	},
-	item_twrpg_staff_of_flame = {
+	item_championrpg_staff_of_flame = {
 		displayName = "Staff of Flame",
 		type = "Weapon (Staff)",
 		rank = "[Rare]",
@@ -1271,7 +1271,7 @@ local Items = {
 			int = 95,
 		},
 	},
-	item_twrpg_bow_of_flame = {
+	item_championrpg_bow_of_flame = {
 		displayName = "Bow of Flame",
 		type = "Weapon (Bow)",
 		rank = "[Rare]",
@@ -1286,7 +1286,7 @@ local Items = {
 			agi = 80,
 		},
 	},
-	item_twrpg_rifle_of_flame = {
+	item_championrpg_rifle_of_flame = {
 		displayName = "Rifle of Flame",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -1301,7 +1301,7 @@ local Items = {
 			agi = 80,
 		},
 	},
-	item_twrpg_armor_of_flame = {
+	item_championrpg_armor_of_flame = {
 		displayName = "Armor of Flame",
 		type = "Armor",
 		rank = "[Rare]",
@@ -1316,7 +1316,7 @@ local Items = {
 			agi = 40,
 		},
 	},
-	item_twrpg_robe_of_flame = {
+	item_championrpg_robe_of_flame = {
 		displayName = "Robe of Flame",
 		type = "Armor",
 		rank = "[Rare]",
@@ -1330,7 +1330,7 @@ local Items = {
 			int = 50,
 		},
 	},
-	item_twrpg_helm_of_flame = {
+	item_championrpg_helm_of_flame = {
 		displayName = "Helm of Flame",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -1344,7 +1344,7 @@ local Items = {
 			mainstat = 25,
 		},
 	},
-	item_twrpg_flame_cloak = {
+	item_championrpg_flame_cloak = {
 		displayName = "Flame Cloak",
 		type = "Wings",
 		rank = "[Rare]",
@@ -1360,7 +1360,7 @@ local Items = {
 		},
 		passive = { "Deals 750 magic damage per second to nearby enemies" },
 	},
-	item_twrpg_sword_of_crimson_flame = {
+	item_championrpg_sword_of_crimson_flame = {
 		displayName = "Sword of Crimson Flame",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -1379,7 +1379,7 @@ local Items = {
 			"Increases damage by 500 and MAIN STAT by 50 for 5 seconds",
 		},
 	},
-	item_twrpg_staff_of_crimson_flame = {
+	item_championrpg_staff_of_crimson_flame = {
 		displayName = "Staff of Crimson Flame",
 		type = "Weapon (Staff)",
 		rank = "[Rare]",
@@ -1398,7 +1398,7 @@ local Items = {
 			"Increases damage by 500 and MAIN STAT by 50 for 5 seconds",
 		},
 	},
-	item_twrpg_bow_of_crimson_flame = {
+	item_championrpg_bow_of_crimson_flame = {
 		displayName = "Bow of Crimson Flame",
 		type = "Weapon (Bow)",
 		rank = "[Rare]",
@@ -1417,7 +1417,7 @@ local Items = {
 			"Increases damage by 500 and MAIN STAT by 50 for 5 seconds",
 		},
 	},
-	item_twrpg_rifle_of_crimson_flame = {
+	item_championrpg_rifle_of_crimson_flame = {
 		displayName = "Rifle of Crimson Flame",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -1436,7 +1436,7 @@ local Items = {
 			"Increases damage by 500 and MAIN STAT by 50 for 5 seconds",
 		},
 	},
-	item_twrpg_ragnaar_icon = {
+	item_championrpg_ragnaar_icon = {
 		displayName = "Ragnaar Icon",
 		type = "Icon",
 		rank = "none",
@@ -1448,7 +1448,7 @@ local Items = {
 			hpregen = 12,
 		},
 	},
-	item_twrpg_flame_token = {
+	item_championrpg_flame_token = {
 		displayName = "Flame Token",
 		type = "Token",
 		rank = "none",
@@ -1457,7 +1457,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Ruler of Flames Ragnaar" },
 	},
-	item_twrpg_nightmare_rod = {
+	item_championrpg_nightmare_rod = {
 		displayName = "Nightmare Rod",
 		type = "Misc",
 		rank = "none",
@@ -1471,7 +1471,7 @@ local Items = {
 		},
 		notes = { "Droprate increases every 5 minutes that it does not drop", "Drop cooldown: 4 minutes" },
 	},
-	item_twrpg_flamereaver = {
+	item_championrpg_flamereaver = {
 		displayName = "Flamereaver",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -1488,7 +1488,7 @@ local Items = {
 		},
 		passive = { "On attack, 2% chance to deal STR X 10 magic damage" },
 	},
-	item_twrpg_blaster = {
+	item_championrpg_blaster = {
 		displayName = "Blaster",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -1504,7 +1504,7 @@ local Items = {
 		},
 		passive = { "15% Chance to activate Explosion on attack", "Deals (AGI X 1.5) magic damage in an AoE" },
 	},
-	item_twrpg_helm_of_passion = {
+	item_championrpg_helm_of_passion = {
 		displayName = "Helm of Passion",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -1520,7 +1520,7 @@ local Items = {
 		},
 		passive = { "Increases nearby allies' movement speed by 20% and ATK SPD by 10%" },
 	},
-	item_twrpg_crimson_stone = {
+	item_championrpg_crimson_stone = {
 		displayName = "Crimson Stone",
 		type = "Accessory",
 		rank = "[Rare]",
@@ -1535,7 +1535,7 @@ local Items = {
 		},
 		passive = { "On skill cast, increases HP regen by 90, skill damage by 6% for 3 seconds" },
 	},
-	item_twrpg_a_small_piece_of_wrath = {
+	item_championrpg_a_small_piece_of_wrath = {
 		displayName = "A Small Piece of Wrath",
 		type = "Accessory",
 		rank = "[Rare]",
@@ -1554,7 +1554,7 @@ local Items = {
 			"Deals (MAIN STAT X 6) magic damage in an AoE and stuns for 1 second",
 		},
 	},
-	item_twrpg_armor_of_deep_sea = {
+	item_championrpg_armor_of_deep_sea = {
 		displayName = "Armor of Deep Sea",
 		type = "Armor",
 		rank = "[Normal]",
@@ -1569,7 +1569,7 @@ local Items = {
 			agi = 50,
 		},
 	},
-	item_twrpg_robe_of_deep_sea = {
+	item_championrpg_robe_of_deep_sea = {
 		displayName = "Robe of Deep Sea",
 		type = "Armor",
 		rank = "[Normal]",
@@ -1583,7 +1583,7 @@ local Items = {
 			int = 75,
 		},
 	},
-	item_twrpg_helm_of_deep_sea = {
+	item_championrpg_helm_of_deep_sea = {
 		displayName = "Helm of Deep Sea",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -1597,7 +1597,7 @@ local Items = {
 			mainstat = 40,
 		},
 	},
-	item_twrpg_horn_of_deep_sea = {
+	item_championrpg_horn_of_deep_sea = {
 		displayName = "Horn of Deep Sea",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -1614,7 +1614,7 @@ local Items = {
 			skilldamagepercent = 0.05,
 		},
 	},
-	item_twrpg_sword_of_deep_sea = {
+	item_championrpg_sword_of_deep_sea = {
 		displayName = "Sword of Deep Sea",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -1630,7 +1630,7 @@ local Items = {
 		},
 		passive = { "On attack, 20% chance to activate Abyss Tentacle", "Deals (0.01 X ATK DMG X 2) splash damage" },
 	},
-	item_twrpg_staff_of_deep_sea = {
+	item_championrpg_staff_of_deep_sea = {
 		displayName = "Staff of Deep Sea",
 		type = "Weapon (Staff)",
 		rank = "[Magic]",
@@ -1646,7 +1646,7 @@ local Items = {
 		},
 		passive = { "On attack, 20% chance to activate Abyss Tentacle", "Deals (0.01 X ATK DMG X 2) splash damage" },
 	},
-	item_twrpg_bow_of_deep_sea = {
+	item_championrpg_bow_of_deep_sea = {
 		displayName = "Bow of Deep Sea",
 		type = "Weapon (Bow)",
 		rank = "[Magic]",
@@ -1662,7 +1662,7 @@ local Items = {
 		},
 		passive = { "On attack, 20% chance to activate Abyss Tentacle", "Deals (0.01 X ATK DMG X 2) splash damage" },
 	},
-	item_twrpg_rifle_of_deep_sea = {
+	item_championrpg_rifle_of_deep_sea = {
 		displayName = "Rifle of Deep Sea",
 		type = "Weapon (Gun)",
 		rank = "[Magic]",
@@ -1678,7 +1678,7 @@ local Items = {
 		},
 		passive = { "On attack, 20% chance to activate Abyss Tentacle", "Deals (0.01 X ATK DMG X 2) splash damage" },
 	},
-	item_twrpg_infected_tentacle = {
+	item_championrpg_infected_tentacle = {
 		displayName = "Infected Tentacle",
 		type = "Material",
 		rank = "[Rare]",
@@ -1687,7 +1687,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Tentacle Lord" },
 	},
-	item_twrpg_tentacle_lord_icon = {
+	item_championrpg_tentacle_lord_icon = {
 		displayName = "Tentacle Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -1699,7 +1699,7 @@ local Items = {
 			mpregen = 6,
 		},
 	},
-	item_twrpg_tentacle_token = {
+	item_championrpg_tentacle_token = {
 		displayName = "Tentacle Token",
 		type = "Token",
 		rank = "none",
@@ -1708,7 +1708,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Tentacle Lord" },
 	},
-	item_twrpg_orb_of_the_deep_sea = {
+	item_championrpg_orb_of_the_deep_sea = {
 		displayName = "Orb of the Deep Sea",
 		type = "Misc",
 		rank = "none",
@@ -1725,7 +1725,7 @@ local Items = {
 			"Drop cooldown: 4 minutes",
 		},
 	},
-	item_twrpg_trident = {
+	item_championrpg_trident = {
 		displayName = "Trident",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -1743,7 +1743,7 @@ local Items = {
 		},
 		passive = { "On skill cast, empowers next 3 attacks" },
 	},
-	item_twrpg_tidal_robe = {
+	item_championrpg_tidal_robe = {
 		displayName = "Tidal Robe",
 		type = "Armor",
 		rank = "[Epic]",
@@ -1760,7 +1760,7 @@ local Items = {
 		},
 		passive = { "On being damaged, restores 1200 HP over 5 seconds" },
 	},
-	item_twrpg_droplet_orb = {
+	item_championrpg_droplet_orb = {
 		displayName = "Droplet Orb",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -1782,7 +1782,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_wings_of_purification = {
+	item_championrpg_wings_of_purification = {
 		displayName = "Wings of Purification",
 		type = "Wings",
 		rank = "[Epic]",
@@ -1798,7 +1798,7 @@ local Items = {
 		},
 		passive = { "Restores nearby allies' HP by 1000 every 5 seconds" },
 	},
-	item_twrpg_armor_of_corruption = {
+	item_championrpg_armor_of_corruption = {
 		displayName = "Armor of Corruption",
 		type = "Armor",
 		rank = "[Normal]",
@@ -1813,7 +1813,7 @@ local Items = {
 			agi = 65,
 		},
 	},
-	item_twrpg_robe_of_corruption = {
+	item_championrpg_robe_of_corruption = {
 		displayName = "Robe of Corruption",
 		type = "Armor",
 		rank = "[Normal]",
@@ -1827,7 +1827,7 @@ local Items = {
 			int = 90,
 		},
 	},
-	item_twrpg_helm_of_corruption = {
+	item_championrpg_helm_of_corruption = {
 		displayName = "Helm of Corruption",
 		type = "Headwear",
 		rank = "[Normal]",
@@ -1841,7 +1841,7 @@ local Items = {
 			mainstat = 45,
 		},
 	},
-	item_twrpg_corrupt_crystal_fragment = {
+	item_championrpg_corrupt_crystal_fragment = {
 		displayName = "Corrupt Crystal Fragment",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -1858,7 +1858,7 @@ local Items = {
 			skilldamagepercent = 0.06,
 		},
 	},
-	item_twrpg_sword_of_corruption = {
+	item_championrpg_sword_of_corruption = {
 		displayName = "Sword of Corruption",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -1874,7 +1874,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Corrupt Spike", "Deals 260 magic damage" },
 	},
-	item_twrpg_staff_of_corruption = {
+	item_championrpg_staff_of_corruption = {
 		displayName = "Staff of Corruption",
 		type = "Weapon (Staff)",
 		rank = "[Magic]",
@@ -1890,7 +1890,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Corrupt Spike", "Deals 260 magic damage" },
 	},
-	item_twrpg_bow_of_corruption = {
+	item_championrpg_bow_of_corruption = {
 		displayName = "Bow of Corruption",
 		type = "Weapon (Bow)",
 		rank = "[Magic]",
@@ -1906,7 +1906,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Corrupt Spike", "Deals 260 magic damage" },
 	},
-	item_twrpg_rifle_of_corruption = {
+	item_championrpg_rifle_of_corruption = {
 		displayName = "Rifle of Corruption",
 		type = "Weapon (Gun)",
 		rank = "[Magic]",
@@ -1922,7 +1922,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Corrupt Spike", "Deals 260 magic damage" },
 	},
-	item_twrpg_corrupt_creations = {
+	item_championrpg_corrupt_creations = {
 		displayName = "Corrupt Creations",
 		type = "Material",
 		rank = "[Rare]",
@@ -1931,7 +1931,7 @@ local Items = {
 		dropRate = { 0.125, 0.0005, 0.125 },
 		droppedBy = { "Giant Golem", "Wallachia Wraith", "The Devil's Right Arm Corrupt Angel" },
 	},
-	item_twrpg_giant_golem_icon = {
+	item_championrpg_giant_golem_icon = {
 		displayName = "Giant Golem Icon",
 		type = "Icon",
 		rank = "none",
@@ -1943,7 +1943,7 @@ local Items = {
 			critchancepercent = 0.01,
 		},
 	},
-	item_twrpg_big_golem_token = {
+	item_championrpg_big_golem_token = {
 		displayName = "Big Golem Token",
 		type = "Token",
 		rank = "none",
@@ -1952,7 +1952,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Giant Golem" },
 	},
-	item_twrpg_scarab_bone = {
+	item_championrpg_scarab_bone = {
 		displayName = "Scarab Bone",
 		type = "Material",
 		rank = "[Epic]",
@@ -1962,7 +1962,7 @@ local Items = {
 		dropRate = { 0.001, 0.05 },
 		droppedBy = { "Scarab", "Wallachia Mad Clown" },
 	},
-	item_twrpg_ghostly_thread = {
+	item_championrpg_ghostly_thread = {
 		displayName = "Ghostly Thread",
 		type = "Material",
 		rank = "[Epic]",
@@ -1972,7 +1972,7 @@ local Items = {
 		dropRate = { 0.001, 0.05 },
 		droppedBy = { "Wallachia Wraith", "Wallachia Mad Clown" },
 	},
-	item_twrpg_soul_stone = {
+	item_championrpg_soul_stone = {
 		displayName = "Soul Stone",
 		type = "Material",
 		rank = "[Epic]",
@@ -1982,7 +1982,7 @@ local Items = {
 		dropRate = 0.05,
 		droppedBy = { "Wallachia Mad Clown" },
 	},
-	item_twrpg_mad_symbol = {
+	item_championrpg_mad_symbol = {
 		displayName = "Mad Symbol",
 		type = "Material",
 		rank = "[Epic]",
@@ -1992,7 +1992,7 @@ local Items = {
 		dropRate = 0.05,
 		droppedBy = { "Wallachia Mad Clown" },
 	},
-	item_twrpg_mad_clown_icon = {
+	item_championrpg_mad_clown_icon = {
 		displayName = "Mad Clown Icon",
 		type = "Icon",
 		rank = "none",
@@ -2004,7 +2004,7 @@ local Items = {
 			hp = 240,
 		},
 	},
-	item_twrpg_clown_token = {
+	item_championrpg_clown_token = {
 		displayName = "Clown Token",
 		type = "Token",
 		rank = "none",
@@ -2013,7 +2013,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Wallachia Mad Clown" },
 	},
-	item_twrpg_plates_of_regeneration = {
+	item_championrpg_plates_of_regeneration = {
 		displayName = "Plates of Regeneration",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2033,7 +2033,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_vest_of_protection = {
+	item_championrpg_vest_of_protection = {
 		displayName = "Vest of Protection",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2050,7 +2050,7 @@ local Items = {
 		},
 		passive = { "Creates a barrier that absorbs 800 damage every 8 seconds" },
 	},
-	item_twrpg_fairy_robe = {
+	item_championrpg_fairy_robe = {
 		displayName = "Fairy Robe",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2072,7 +2072,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_lifestone = {
+	item_championrpg_lifestone = {
 		displayName = "Lifestone",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -2088,7 +2088,7 @@ local Items = {
 		},
 		passive = { "On death, revives you after a short delay (cooldown: 3 minutes)", "Cooldown: 180 seconds" },
 	},
-	item_twrpg_mana_ancient_icon = {
+	item_championrpg_mana_ancient_icon = {
 		displayName = "Mana Ancient Icon",
 		type = "Icon",
 		rank = "none",
@@ -2100,7 +2100,7 @@ local Items = {
 			mp = 240,
 		},
 	},
-	item_twrpg_ancient_token = {
+	item_championrpg_ancient_token = {
 		displayName = "Ancient Token",
 		type = "Token",
 		rank = "none",
@@ -2109,7 +2109,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Mana Ancient" },
 	},
-	item_twrpg_seal_breaking_gemstone = {
+	item_championrpg_seal_breaking_gemstone = {
 		displayName = "Seal Breaking Gemstone",
 		type = "Misc",
 		rank = "none",
@@ -2123,7 +2123,7 @@ local Items = {
 			"Bring this to Ancient Ent to break its seal",
 		},
 	},
-	item_twrpg_sword_of_poison = {
+	item_championrpg_sword_of_poison = {
 		displayName = "Sword of Poison",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -2139,7 +2139,7 @@ local Items = {
 		},
 		passive = { "On attack, inflicts target with poison that deals 1500 magic damage per second for 10 seconds" },
 	},
-	item_twrpg_staff_of_poison = {
+	item_championrpg_staff_of_poison = {
 		displayName = "Staff of Poison",
 		type = "Weapon (Staff)",
 		rank = "[Rare]",
@@ -2155,7 +2155,7 @@ local Items = {
 		},
 		passive = { "On attack, inflicts target with poison that deals 1500 magic damage per second for 10 seconds" },
 	},
-	item_twrpg_bow_of_poison = {
+	item_championrpg_bow_of_poison = {
 		displayName = "Bow of Poison",
 		type = "Weapon (Bow)",
 		rank = "[Rare]",
@@ -2171,7 +2171,7 @@ local Items = {
 		},
 		passive = { "On attack, inflicts target with poison that deals 1500 magic damage per second for 10 seconds" },
 	},
-	item_twrpg_rifle_of_poison = {
+	item_championrpg_rifle_of_poison = {
 		displayName = "Rifle of Poison",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -2187,7 +2187,7 @@ local Items = {
 		},
 		passive = { "On attack, inflicts target with poison that deals 1500 magic damage per second for 10 seconds" },
 	},
-	item_twrpg_armor_of_poison = {
+	item_championrpg_armor_of_poison = {
 		displayName = "Armor of Poison",
 		type = "Armor",
 		rank = "[Rare]",
@@ -2202,7 +2202,7 @@ local Items = {
 			agi = 70,
 		},
 	},
-	item_twrpg_robe_of_poison = {
+	item_championrpg_robe_of_poison = {
 		displayName = "Robe of Poison",
 		type = "Armor",
 		rank = "[Rare]",
@@ -2216,7 +2216,7 @@ local Items = {
 			int = 110,
 		},
 	},
-	item_twrpg_helm_of_poison = {
+	item_championrpg_helm_of_poison = {
 		displayName = "Helm of Poison",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -2230,7 +2230,7 @@ local Items = {
 			mainstat = 45,
 		},
 	},
-	item_twrpg_ring_of_poison = {
+	item_championrpg_ring_of_poison = {
 		displayName = "Ring of Poison",
 		type = "Accessory",
 		rank = "[Rare]",
@@ -2245,7 +2245,7 @@ local Items = {
 			mp = 1000,
 		},
 	},
-	item_twrpg_hydra_poison_tooth = {
+	item_championrpg_hydra_poison_tooth = {
 		displayName = "Hydra Poison Tooth",
 		type = "Material",
 		rank = "[Rare]",
@@ -2254,7 +2254,7 @@ local Items = {
 		dropRate = 0.2,
 		droppedBy = { "Ruler of the Lav Sea Hydra" },
 	},
-	item_twrpg_hydra_scale = {
+	item_championrpg_hydra_scale = {
 		displayName = "Hydra Scale",
 		type = "Material",
 		rank = "[Rare]",
@@ -2263,7 +2263,7 @@ local Items = {
 		dropRate = 0.2,
 		droppedBy = { "Ruler of the Lav Sea Hydra" },
 	},
-	item_twrpg_hydra_token = {
+	item_championrpg_hydra_token = {
 		displayName = "Hydra Token",
 		type = "Token",
 		rank = "none",
@@ -2272,7 +2272,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Ruler of the Lav Sea Hydra" },
 	},
-	item_twrpg_sanguiel_the_bloodspear = {
+	item_championrpg_sanguiel_the_bloodspear = {
 		displayName = "Sanguiel, the Bloodspear",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2289,7 +2289,7 @@ local Items = {
 		},
 		passive = { "On attack, drains 8% of damage dealt as life (up to 250)" },
 	},
-	item_twrpg_bloodsword_tepethia = {
+	item_championrpg_bloodsword_tepethia = {
 		displayName = "Bloodsword Tepethia",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2306,7 +2306,7 @@ local Items = {
 		},
 		passive = { "On attack, heals 10% of damage dealt (max 250)" },
 	},
-	item_twrpg_blood_cannon_tepes = {
+	item_championrpg_blood_cannon_tepes = {
 		displayName = "Blood Cannon Tepes",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -2325,7 +2325,7 @@ local Items = {
 		},
 		passive = { "On attack, drains 10% of damage dealt as life (up to 400)" },
 	},
-	item_twrpg_bloody_armor = {
+	item_championrpg_bloody_armor = {
 		displayName = "Bloody Armor",
 		type = "Armor",
 		rank = "[Rare]",
@@ -2340,7 +2340,7 @@ local Items = {
 			agi = 90,
 		},
 	},
-	item_twrpg_bloody_robe = {
+	item_championrpg_bloody_robe = {
 		displayName = "Bloody Robe",
 		type = "Armor",
 		rank = "[Rare]",
@@ -2354,7 +2354,7 @@ local Items = {
 			int = 130,
 		},
 	},
-	item_twrpg_bloody_helm = {
+	item_championrpg_bloody_helm = {
 		displayName = "Bloody Helm",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -2368,7 +2368,7 @@ local Items = {
 			mainstat = 55,
 		},
 	},
-	item_twrpg_ring_of_count = {
+	item_championrpg_ring_of_count = {
 		displayName = "Ring of Count",
 		type = "Headwear",
 		rank = "[Rare]",
@@ -2383,7 +2383,7 @@ local Items = {
 			mp = 1200,
 		},
 	},
-	item_twrpg_bloodstone = {
+	item_championrpg_bloodstone = {
 		displayName = "Bloodstone",
 		type = "Material",
 		rank = "[Epic]",
@@ -2393,7 +2393,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Duchy of Wallachia Count" },
 	},
-	item_twrpg_counts_memento = {
+	item_championrpg_counts_memento = {
 		displayName = "Count's Memento",
 		type = "Material",
 		rank = "[Epic]",
@@ -2403,7 +2403,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Duchy of Wallachia Count" },
 	},
-	item_twrpg_count_token = {
+	item_championrpg_count_token = {
 		displayName = "Count Token",
 		type = "Token",
 		rank = "none",
@@ -2412,7 +2412,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Duchy of Wallachia Count" },
 	},
-	item_twrpg_jack_pumpkin_helm = {
+	item_championrpg_jack_pumpkin_helm = {
 		displayName = "Jack Pumpkin Helm",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -2430,7 +2430,7 @@ local Items = {
 			mpregen = 15,
 		},
 	},
-	item_twrpg_jack_pumpkin_hood = {
+	item_championrpg_jack_pumpkin_hood = {
 		displayName = "Jack Pumpkin Hood",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -2447,7 +2447,7 @@ local Items = {
 			mpregen = 15,
 		},
 	},
-	item_twrpg_pumpkin_rod = {
+	item_championrpg_pumpkin_rod = {
 		displayName = "Pumpkin Rod",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -2465,7 +2465,7 @@ local Items = {
 		},
 		active = { "On use, activates Throw Pumpkin" },
 	},
-	item_twrpg_candy_bag = {
+	item_championrpg_candy_bag = {
 		displayName = "Candy Bag",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -2488,7 +2488,7 @@ local Items = {
 			"Duration: 30 minutes for all candies",
 		},
 	},
-	item_twrpg_orichalcum = {
+	item_championrpg_orichalcum = {
 		displayName = "Orichalcum",
 		type = "Material",
 		rank = "[Epic]",
@@ -2498,7 +2498,7 @@ local Items = {
 		dropRate = 0.15,
 		droppedBy = { "Jack o Lantern" },
 	},
-	item_twrpg_yellow_crystal_golem_token = {
+	item_championrpg_yellow_crystal_golem_token = {
 		displayName = "Yellow Crystal Golem Token",
 		type = "Token",
 		rank = "none",
@@ -2507,7 +2507,7 @@ local Items = {
 		dropRate = 0.0025,
 		droppedBy = { "Jack o Lantern" },
 	},
-	item_twrpg_jack_pumpkin_token = {
+	item_championrpg_jack_pumpkin_token = {
 		displayName = "Jack Pumpkin Token",
 		type = "Token",
 		rank = "none",
@@ -2516,7 +2516,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Jack o Lantern" },
 	},
-	item_twrpg_sealed_weapon = {
+	item_championrpg_sealed_weapon = {
 		displayName = "Sealed Weapon",
 		type = "Special",
 		rank = "none",
@@ -2527,7 +2527,7 @@ local Items = {
 		droppedBy = { "Mage Lord" },
 		notes = { "The order below is the order of the menu to select when in game" },
 	},
-	item_twrpg_leoreus_the_greatsword_of_flame = {
+	item_championrpg_leoreus_the_greatsword_of_flame = {
 		displayName = "Leoreus, the Greatsword of Flame",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2546,7 +2546,7 @@ local Items = {
 			"Deals (flame affinity X (STR X 2)) magic damage",
 		},
 	},
-	item_twrpg_irbeth_the_sword_of_lightning = {
+	item_championrpg_irbeth_the_sword_of_lightning = {
 		displayName = "Irbeth, the Sword of Lightning",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2562,7 +2562,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to strike down lightning", "Deals (wind affinity X (AGI X 5)) magic damage" },
 	},
-	item_twrpg_pheles_the_bow_of_wind = {
+	item_championrpg_pheles_the_bow_of_wind = {
 		displayName = "Pheles, the Bow of Wind",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -2583,7 +2583,7 @@ local Items = {
 			"Cooldown: 50 seconds",
 		},
 	},
-	item_twrpg_benziena_the_rod_of_earth = {
+	item_championrpg_benziena_the_rod_of_earth = {
 		displayName = "Benziena, the Rod of Earth",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -2603,7 +2603,7 @@ local Items = {
 			"Alchemist - Enhanced Conjure Golem: Golem's HP increased by 30% and armor is increased by 30.",
 		},
 	},
-	item_twrpg_retus_the_iron_bullet = {
+	item_championrpg_retus_the_iron_bullet = {
 		displayName = "Retus, the Iron Bullet",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -2622,7 +2622,7 @@ local Items = {
 			"Empowered attacks deal (7.5 X MAIN STAT) magic damage and stuns for 0.25 seconds",
 		},
 	},
-	item_twrpg_robe_of_the_mage = {
+	item_championrpg_robe_of_the_mage = {
 		displayName = "Robe of the Mage",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2638,7 +2638,7 @@ local Items = {
 		},
 		active = { "Block magic every 5 minutes" },
 	},
-	item_twrpg_hood_of_mage = {
+	item_championrpg_hood_of_mage = {
 		displayName = "Hood of Mage",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -2654,7 +2654,7 @@ local Items = {
 		},
 		active = { "On use, activates Invisibility", "Lasts 20 seconds", "Cooldown: 60 seconds" },
 	},
-	item_twrpg_ring_of_resonance = {
+	item_championrpg_ring_of_resonance = {
 		displayName = "Ring of Resonance",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -2675,7 +2675,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_mithril = {
+	item_championrpg_mithril = {
 		displayName = "Mithril",
 		type = "Material",
 		rank = "[Epic]",
@@ -2685,7 +2685,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Mage Lord" },
 	},
-	item_twrpg_ancient_writings = {
+	item_championrpg_ancient_writings = {
 		displayName = "Ancient Writings",
 		type = "Material",
 		rank = "[Epic]",
@@ -2695,7 +2695,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Mage Lord" },
 	},
-	item_twrpg_blue_crystal_golem_token = {
+	item_championrpg_blue_crystal_golem_token = {
 		displayName = "Blue Crystal Golem Token",
 		type = "Token",
 		rank = "none",
@@ -2704,7 +2704,7 @@ local Items = {
 		dropRate = 0.0025,
 		droppedBy = { "Mage Lord" },
 	},
-	item_twrpg_magical_token = {
+	item_championrpg_magical_token = {
 		displayName = "Magical Token",
 		type = "Token",
 		rank = "none",
@@ -2713,7 +2713,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Mage Lord" },
 	},
-	item_twrpg_dragonsword_lainhart = {
+	item_championrpg_dragonsword_lainhart = {
 		displayName = "Dragonsword Lainhart",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2730,7 +2730,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2) magic damage" },
 	},
-	item_twrpg_dragonbow_aience = {
+	item_championrpg_dragonbow_aience = {
 		displayName = "Dragonbow Aience",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -2747,7 +2747,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2) magic damage" },
 	},
-	item_twrpg_dragonstaff_irave = {
+	item_championrpg_dragonstaff_irave = {
 		displayName = "Dragonstaff Irave",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -2768,7 +2768,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_dragon_cannon_belenus = {
+	item_championrpg_dragon_cannon_belenus = {
 		displayName = "Dragon Cannon Belenus",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -2785,7 +2785,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2) magic damage" },
 	},
-	item_twrpg_dragon_armor_magron = {
+	item_championrpg_dragon_armor_magron = {
 		displayName = "Dragon Armor Magron",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2802,7 +2802,7 @@ local Items = {
 			hpregen = 20,
 		},
 	},
-	item_twrpg_dragons_helm_agron = {
+	item_championrpg_dragons_helm_agron = {
 		displayName = "Dragon's Helm Agron",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -2819,7 +2819,7 @@ local Items = {
 		},
 		active = { "Block magic every 8 minutes" },
 	},
-	item_twrpg_dragon_bone = {
+	item_championrpg_dragon_bone = {
 		displayName = "Dragon Bone",
 		type = "Material",
 		rank = "[Epic]",
@@ -2829,7 +2829,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Wings of Death" },
 	},
-	item_twrpg_dragon_scale = {
+	item_championrpg_dragon_scale = {
 		displayName = "Dragon Scale",
 		type = "Material",
 		rank = "[Epic]",
@@ -2839,7 +2839,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Wings of Death" },
 	},
-	item_twrpg_dragon_heart = {
+	item_championrpg_dragon_heart = {
 		displayName = "Dragon Heart",
 		type = "Material",
 		rank = "[Epic]",
@@ -2849,7 +2849,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "Wings of Death" },
 	},
-	item_twrpg_wings_of_death_token = {
+	item_championrpg_wings_of_death_token = {
 		displayName = "Wings of Death Token",
 		type = "Token",
 		rank = "none",
@@ -2858,7 +2858,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Wings of Death" },
 	},
-	item_twrpg_guardian_ring = {
+	item_championrpg_guardian_ring = {
 		displayName = "Guardian Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -2877,7 +2877,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Knight - Improved Seal of Mana: Radius is increased by 15%." },
 	},
-	item_twrpg_gatekeeper_icon = {
+	item_championrpg_gatekeeper_icon = {
 		displayName = "Gatekeeper Icon",
 		type = "Icon",
 		rank = "none",
@@ -2889,7 +2889,7 @@ local Items = {
 			drpercent = 0.015,
 		},
 	},
-	item_twrpg_guardian_token = {
+	item_championrpg_guardian_token = {
 		displayName = "Guardian Token",
 		type = "Token",
 		rank = "none",
@@ -2898,7 +2898,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Castle Avalon Gatekeeper" },
 	},
-	item_twrpg_karonphniamm_the_holy_sword = {
+	item_championrpg_karonphniamm_the_holy_sword = {
 		displayName = "Karonphniamm, the Holy Sword",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -2919,7 +2919,7 @@ local Items = {
 			"If MAIN STAT is AGI or INT: deals (AGI X 3) magic damage",
 		},
 	},
-	item_twrpg_klenetia_the_holy_staff = {
+	item_championrpg_klenetia_the_holy_staff = {
 		displayName = "Klenetia, the Holy Staff",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -2939,7 +2939,7 @@ local Items = {
 			"Deals (INT X 12.5) magic damage in an AoE and stuns for 1 second",
 		},
 	},
-	item_twrpg_eana_the_holy_cannon = {
+	item_championrpg_eana_the_holy_cannon = {
 		displayName = "Eana, the Holy Cannon",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -2960,7 +2960,7 @@ local Items = {
 			"If MAIN STAT is AGI or INT: deals (AGI X 3) magic damage",
 		},
 	},
-	item_twrpg_sacred_armor = {
+	item_championrpg_sacred_armor = {
 		displayName = "Sacred Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -2981,7 +2981,7 @@ local Items = {
 			"Cooldown: 12 seconds",
 		},
 	},
-	item_twrpg_sacred_helm = {
+	item_championrpg_sacred_helm = {
 		displayName = "Sacred Helm",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -2998,7 +2998,7 @@ local Items = {
 		},
 		active = { "Block magic every 4 minutes" },
 	},
-	item_twrpg_angels_feather = {
+	item_championrpg_angels_feather = {
 		displayName = "Angel's Feather",
 		type = "Material",
 		rank = "[Epic]",
@@ -3008,7 +3008,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "The 3rd Army's Guardian Angel" },
 	},
-	item_twrpg_a_page_of_the_bible = {
+	item_championrpg_a_page_of_the_bible = {
 		displayName = "A Page of the Bible",
 		type = "Material",
 		rank = "[Epic]",
@@ -3018,7 +3018,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "The 3rd Army's Guardian Angel" },
 	},
-	item_twrpg_guardian_angel_token = {
+	item_championrpg_guardian_angel_token = {
 		displayName = "Guardian Angel Token",
 		type = "Token",
 		rank = "none",
@@ -3027,7 +3027,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "The 3rd Army's Guardian Angel" },
 	},
-	item_twrpg_skeris_the_unholy_helm = {
+	item_championrpg_skeris_the_unholy_helm = {
 		displayName = "Skeris, the Unholy Helm",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3044,7 +3044,7 @@ local Items = {
 			skilldamagepercent = 0.03,
 		},
 	},
-	item_twrpg_eximelia_the_unholy_sword = {
+	item_championrpg_eximelia_the_unholy_sword = {
 		displayName = "Eximelia, the Unholy Sword",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3061,7 +3061,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Unholy Strike", "Deals (AGI X 3) magic damage" },
 	},
-	item_twrpg_dekaros_the_unholy_armor = {
+	item_championrpg_dekaros_the_unholy_armor = {
 		displayName = "Dekaros, the Unholy Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -3079,7 +3079,7 @@ local Items = {
 		},
 		passive = { "12% chance to reduce attacker's armor on being hit", "Reduces armor by 125 for 5 seconds" },
 	},
-	item_twrpg_alkate_the_unholy_bow = {
+	item_championrpg_alkate_the_unholy_bow = {
 		displayName = "Alkate, the Unholy Bow",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -3096,7 +3096,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Unholy Spike", "Deals (AGI X 3) magic damage" },
 	},
-	item_twrpg_corrupt_angels_feather = {
+	item_championrpg_corrupt_angels_feather = {
 		displayName = "Corrupt Angel's Feather",
 		type = "Material",
 		rank = "[Epic]",
@@ -3106,7 +3106,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "The Devil's Right Arm Corrupt Angel" },
 	},
-	item_twrpg_a_page_of_the_unholy_book = {
+	item_championrpg_a_page_of_the_unholy_book = {
 		displayName = "A Page of the Unholy Book",
 		type = "Material",
 		rank = "[Epic]",
@@ -3116,7 +3116,7 @@ local Items = {
 		dropRate = 0.125,
 		droppedBy = { "The Devil's Right Arm Corrupt Angel" },
 	},
-	item_twrpg_corrupt_angel_token = {
+	item_championrpg_corrupt_angel_token = {
 		displayName = "Corrupt Angel Token",
 		type = "Token",
 		rank = "none",
@@ -3125,7 +3125,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "The Devil's Right Arm Corrupt Angel" },
 	},
-	item_twrpg_okelanq_the_spear_of_frost = {
+	item_championrpg_okelanq_the_spear_of_frost = {
 		displayName = "Okelanq, the Spear of Frost",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3146,7 +3146,7 @@ local Items = {
 			"Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds",
 		},
 	},
-	item_twrpg_okelanq_the_bow_of_frost = {
+	item_championrpg_okelanq_the_bow_of_frost = {
 		displayName = "Okelanq, the Bow of Frost",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -3167,7 +3167,7 @@ local Items = {
 			"Deals (MAIN STAT X 3) magic damage and reduces enemy's movement speed by 20% for 3 seconds",
 		},
 	},
-	item_twrpg_lord_of_revolver = {
+	item_championrpg_lord_of_revolver = {
 		displayName = "Lord of Revolver",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -3185,7 +3185,7 @@ local Items = {
 			critmultiplier = 0.2,
 		},
 	},
-	item_twrpg_robe_of_everfrost = {
+	item_championrpg_robe_of_everfrost = {
 		displayName = "Robe of Everfrost",
 		type = "Armor",
 		rank = "[Epic]",
@@ -3201,7 +3201,7 @@ local Items = {
 		},
 		passive = { "On being hit, 10% chance to activate Frost Armor", "Increases armor by 50 for 15 seconds" },
 	},
-	item_twrpg_helm_of_everfrost = {
+	item_championrpg_helm_of_everfrost = {
 		displayName = "Helm of Everfrost",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3217,7 +3217,7 @@ local Items = {
 		},
 		passive = { "On being hit, 10% chance to freeze the attacker" },
 	},
-	item_twrpg_hood_of_everfrost = {
+	item_championrpg_hood_of_everfrost = {
 		displayName = "Hood of Everfrost",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3233,7 +3233,7 @@ local Items = {
 		},
 		passive = { "On being hit, 10% chance to freeze the attacker" },
 	},
-	item_twrpg_winter_rose = {
+	item_championrpg_winter_rose = {
 		displayName = "Winter Rose",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -3251,7 +3251,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to temporarily boost your INT by 25 for 6 seconds" },
 	},
-	item_twrpg_frost_web_brooch = {
+	item_championrpg_frost_web_brooch = {
 		displayName = "Frost Web Brooch",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -3268,7 +3268,7 @@ local Items = {
 		},
 		passive = { "On attack, 9% chance to reduce target's armor by 12% [Type-A] for 5 seconds" },
 	},
-	item_twrpg_frorist = {
+	item_championrpg_frorist = {
 		displayName = "Frorist",
 		type = "Material",
 		rank = "[Epic]",
@@ -3278,7 +3278,7 @@ local Items = {
 		dropRate = { 0.1, 0.1, 0.05 },
 		droppedBy = { "Soul of Everfrost", "Frostspider Queen", "Frostspider Lord" },
 	},
-	item_twrpg_frozen_cobweb = {
+	item_championrpg_frozen_cobweb = {
 		displayName = "Frozen Cobweb",
 		type = "Material",
 		rank = "[Epic]",
@@ -3288,7 +3288,7 @@ local Items = {
 		dropRate = { 0.1, 0.1, 0.05 },
 		droppedBy = { "Soul of Everfrost", "Frostspider Queen", "Frostspider Lord" },
 	},
-	item_twrpg_spider_token = {
+	item_championrpg_spider_token = {
 		displayName = "Spider Token",
 		type = "Token",
 		rank = "none",
@@ -3297,7 +3297,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Frostspider Queen" },
 	},
-	item_twrpg_everfrost_token = {
+	item_championrpg_everfrost_token = {
 		displayName = "Everfrost Token",
 		type = "Token",
 		rank = "none",
@@ -3306,7 +3306,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Soul of Everfrost" },
 	},
-	item_twrpg_winters_tear = {
+	item_championrpg_winters_tear = {
 		displayName = "Winter's Tear",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3328,7 +3328,7 @@ local Items = {
 			"Deals (water affinity X (STR X 1.8 + AGI X 1.5)) pure damage",
 		},
 	},
-	item_twrpg_frostbane = {
+	item_championrpg_frostbane = {
 		displayName = "Frostbane",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -3351,7 +3351,7 @@ local Items = {
 			"Bow Master - Casting Freezing Shot consecutively adds (water affinity X (ATK DMG X 6 + AGI X 12)) bonus damage.",
 		},
 	},
-	item_twrpg_niflheim = {
+	item_championrpg_niflheim = {
 		displayName = "Niflheim",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3370,7 +3370,7 @@ local Items = {
 		},
 		active = { "On use, increases ATK DMG by 4500 and STR by 300 for 8 seconds", "Cooldown: 25 seconds" },
 	},
-	item_twrpg_ripple_snow = {
+	item_championrpg_ripple_snow = {
 		displayName = "Ripple Snow",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -3393,7 +3393,7 @@ local Items = {
 		},
 		spec = { "Specialty - Water Mastery", "Elementalist - Seal of Water: duration increased by 5 seconds." },
 	},
-	item_twrpg_adamantium = {
+	item_championrpg_adamantium = {
 		displayName = "Adamantium",
 		type = "Material",
 		rank = "[Epic]",
@@ -3403,7 +3403,7 @@ local Items = {
 		dropRate = 0.1,
 		droppedBy = { "Frostspider Lord" },
 	},
-	item_twrpg_white_crystal_golem_token = {
+	item_championrpg_white_crystal_golem_token = {
 		displayName = "White Crystal Golem Token",
 		type = "Token",
 		rank = "none",
@@ -3412,7 +3412,7 @@ local Items = {
 		dropRate = 0.0025,
 		droppedBy = { "Frostspider Lord" },
 	},
-	item_twrpg_frostspider_lord_token = {
+	item_championrpg_frostspider_lord_token = {
 		displayName = "Frostspider Lord Token",
 		type = "Token",
 		rank = "none",
@@ -3421,7 +3421,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Frostspider Lord" },
 	},
-	item_twrpg_claws_of_destruction = {
+	item_championrpg_claws_of_destruction = {
 		displayName = "Claws of Destruction",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3443,7 +3443,7 @@ local Items = {
 			"Deals (8 X (STR + AGI)) + (1.3 X ATK DMG) magic splash damage and stuns for 0.1 seconds",
 		},
 	},
-	item_twrpg_bullet_of_destruction = {
+	item_championrpg_bullet_of_destruction = {
 		displayName = "Bullet of Destruction",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -3465,7 +3465,7 @@ local Items = {
 			"Deals (8 X (STR + AGI)) + (1.3 X ATK DMG) magic splash damage and stuns for 0.1 seconds",
 		},
 	},
-	item_twrpg_eye_of_the_abyss = {
+	item_championrpg_eye_of_the_abyss = {
 		displayName = "Eye of the Abyss",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3482,7 +3482,7 @@ local Items = {
 		passive = { "Nearby allies' SKILL DMG +4%" },
 		active = { "On use, summons 4 monsters", "INT reduced by 33 while on cooldown", "Cooldown: 100 seconds" },
 	},
-	item_twrpg_slayer_boots = {
+	item_championrpg_slayer_boots = {
 		displayName = "Slayer Boots",
 		type = "Wings",
 		rank = "[Epic]",
@@ -3500,7 +3500,7 @@ local Items = {
 			skilldamagepercent = 0.04,
 		},
 	},
-	item_twrpg_dark_matter = {
+	item_championrpg_dark_matter = {
 		displayName = "Dark Matter",
 		type = "Material",
 		rank = "[Epic]",
@@ -3510,7 +3510,7 @@ local Items = {
 		dropRate = 0.1,
 		droppedBy = { "Demon Lord Beriel" },
 	},
-	item_twrpg_dark_wings = {
+	item_championrpg_dark_wings = {
 		displayName = "Dark Wings",
 		type = "Material",
 		rank = "[Epic]",
@@ -3520,7 +3520,7 @@ local Items = {
 		dropRate = 0.1,
 		droppedBy = { "Demon Lord Beriel" },
 	},
-	item_twrpg_red_crystal_golem_token = {
+	item_championrpg_red_crystal_golem_token = {
 		displayName = "Red Crystal Golem Token",
 		type = "Token",
 		rank = "none",
@@ -3529,7 +3529,7 @@ local Items = {
 		dropRate = 0.001,
 		droppedBy = { "Demon Lord Beriel" },
 	},
-	item_twrpg_demon_lord_token = {
+	item_championrpg_demon_lord_token = {
 		displayName = "Demon Lord Token",
 		type = "Token",
 		rank = "none",
@@ -3538,7 +3538,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Demon Lord Beriel" },
 	},
-	item_twrpg_spiritus_the_sword_of_elements = {
+	item_championrpg_spiritus_the_sword_of_elements = {
 		displayName = "Spiritus, the Sword of Elements",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -3562,7 +3562,7 @@ local Items = {
 		},
 		spec = { "Specialties - Spiritus", "Lightning Mage - After a full cast of Hypercharge, heals 75% of max HP" },
 	},
-	item_twrpg_storm_headdress = {
+	item_championrpg_storm_headdress = {
 		displayName = "Storm Headdress",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3585,7 +3585,7 @@ local Items = {
 			"Cooldown: 2.5 seconds",
 		},
 	},
-	item_twrpg_visvire_the_hammer_of_storm = {
+	item_championrpg_visvire_the_hammer_of_storm = {
 		displayName = "Visvire, the Hammer of Storm",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3610,7 +3610,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Paladin - Improved Genesis: Each pulse deals 40% bonus damage." },
 	},
-	item_twrpg_spirit_orb = {
+	item_championrpg_spirit_orb = {
 		displayName = "Spirit Orb",
 		type = "Material",
 		rank = "[Epic]",
@@ -3621,7 +3621,7 @@ local Items = {
 		droppedBy = { "Mana Ancient", "Spirit Beast" },
 		worth = 2,
 	},
-	item_twrpg_spirit_of_forest = {
+	item_championrpg_spirit_of_forest = {
 		displayName = "Spirit of Forest",
 		type = "Material",
 		rank = "[Epic]",
@@ -3632,7 +3632,7 @@ local Items = {
 		droppedBy = { "Spirit Beast" },
 		worth = 2,
 	},
-	item_twrpg_spirit_beast_icon = {
+	item_championrpg_spirit_beast_icon = {
 		displayName = "Spirit Beast Icon",
 		type = "Icon",
 		rank = "none",
@@ -3644,7 +3644,7 @@ local Items = {
 			attackspeedpercent = 0.04,
 		},
 	},
-	item_twrpg_beast_token = {
+	item_championrpg_beast_token = {
 		displayName = "Beast Token",
 		type = "Token",
 		rank = "none",
@@ -3653,7 +3653,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Spirit Beast" },
 	},
-	item_twrpg_corruptor = {
+	item_championrpg_corruptor = {
 		displayName = "Corruptor",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3676,7 +3676,7 @@ local Items = {
 			"Deals (STR X 9) magic damage and reduces enemy armor by 175 for 6 seconds",
 		},
 	},
-	item_twrpg_stalker = {
+	item_championrpg_stalker = {
 		displayName = "Stalker",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -3700,7 +3700,7 @@ local Items = {
 			"Bow Master - Improved Arrow Rain: Casting Arrow Rain spawns 4 additional Arrows of Corruption for firing.",
 		},
 	},
-	item_twrpg_avenger = {
+	item_championrpg_avenger = {
 		displayName = "Avenger",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -3725,7 +3725,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_chaser = {
+	item_championrpg_chaser = {
 		displayName = "Chaser",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -3750,7 +3750,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_skull_seal = {
+	item_championrpg_skull_seal = {
 		displayName = "Skull Seal",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -3768,7 +3768,7 @@ local Items = {
 		},
 		passive = { "On being healed, converts 15% of excess amount into max HP for 6 seconds (max bonus HP of 750)" },
 	},
-	item_twrpg_potion_of_corruption = {
+	item_championrpg_potion_of_corruption = {
 		displayName = "Potion of Corruption",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -3791,7 +3791,7 @@ local Items = {
 		},
 		spec = { "Specialty - Mad Alchemist", "Alchemist - You can conjure up to 2 elixirs at once." },
 	},
-	item_twrpg_staff_of_contagion = {
+	item_championrpg_staff_of_contagion = {
 		displayName = "Staff of Contagion",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -3815,7 +3815,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_essence_of_corruption = {
+	item_championrpg_essence_of_corruption = {
 		displayName = "Essence of Corruption",
 		type = "Material",
 		rank = "[Epic]",
@@ -3826,7 +3826,7 @@ local Items = {
 		droppedBy = { "Corruptor Rectus" },
 		worth = 1,
 	},
-	item_twrpg_ancient_fragment_of_ruins = {
+	item_championrpg_ancient_fragment_of_ruins = {
 		displayName = "Ancient Fragment of Ruins",
 		type = "Material",
 		rank = "[Epic]",
@@ -3837,7 +3837,7 @@ local Items = {
 		droppedBy = { "Corruptor Rectus" },
 		worth = 1,
 	},
-	item_twrpg_corrupt_token = {
+	item_championrpg_corrupt_token = {
 		displayName = "Corrupt Token",
 		type = "Token",
 		rank = "none",
@@ -3846,7 +3846,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Corruptor Rectus" },
 	},
-	item_twrpg_hatred = {
+	item_championrpg_hatred = {
 		displayName = "Hatred",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -3871,7 +3871,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_flameshard_armor = {
+	item_championrpg_flameshard_armor = {
 		displayName = "Flameshard Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -3896,7 +3896,7 @@ local Items = {
 			"Cooldown: 8 seconds",
 		},
 	},
-	item_twrpg_ring_of_nightmare = {
+	item_championrpg_ring_of_nightmare = {
 		displayName = "Ring of Nightmare",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -3918,7 +3918,7 @@ local Items = {
 			"Increases ATK DMG by 4500, MAIN STAT by 270, and HP regen by 300 for 6 seconds",
 		},
 	},
-	item_twrpg_inferno = {
+	item_championrpg_inferno = {
 		displayName = "Inferno",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -3943,7 +3943,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_crown_of_fervor = {
+	item_championrpg_crown_of_fervor = {
 		displayName = "Crown of Fervor",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -3962,7 +3962,7 @@ local Items = {
 		},
 		passive = { "Converts 2% of max HP into INT (max 240)" },
 	},
-	item_twrpg_spirit_of_nightmare = {
+	item_championrpg_spirit_of_nightmare = {
 		displayName = "Spirit of Nightmare",
 		type = "Material",
 		rank = "[Epic]",
@@ -3973,7 +3973,7 @@ local Items = {
 		droppedBy = { "Flame Nightmare" },
 		worth = 2,
 	},
-	item_twrpg_essence_of_anger = {
+	item_championrpg_essence_of_anger = {
 		displayName = "Essence of Anger",
 		type = "Material",
 		rank = "[Epic]",
@@ -3984,7 +3984,7 @@ local Items = {
 		droppedBy = { "Flame Nightmare" },
 		worth = 2,
 	},
-	item_twrpg_nightmare_token = {
+	item_championrpg_nightmare_token = {
 		displayName = "Nightmare Token",
 		type = "Token",
 		rank = "none",
@@ -3993,7 +3993,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Flame Nightmare" },
 	},
-	item_twrpg_water_cannon = {
+	item_championrpg_water_cannon = {
 		displayName = "Water Cannon",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -4020,7 +4020,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed decreased by 50% but heal amount increased by 50% and heals all allies within 400 range",
 		},
 	},
-	item_twrpg_tunic_of_subtlety = {
+	item_championrpg_tunic_of_subtlety = {
 		displayName = "Tunic of Subtlety",
 		type = "Armor",
 		rank = "[Epic]",
@@ -4038,7 +4038,7 @@ local Items = {
 		},
 		passive = { "Dodges upto 3 attacks every 20 seconds" },
 	},
-	item_twrpg_purified_water = {
+	item_championrpg_purified_water = {
 		displayName = "Purified Water",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4056,7 +4056,7 @@ local Items = {
 		},
 		active = { "On use, restores 20% MP", "Cooldown: 45 seconds" },
 	},
-	item_twrpg_scale_protector = {
+	item_championrpg_scale_protector = {
 		displayName = "Scale Protector",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -4075,7 +4075,7 @@ local Items = {
 		passive = { "12.5% chance to restore 2.5% HP on being hit", "Cooldown: 5 seconds" },
 		active = { "On use, increases max HP by 6000 and MP by 2250 for 15 seconds", "Cooldown: 180 seconds" },
 	},
-	item_twrpg_oath_of_courage = {
+	item_championrpg_oath_of_courage = {
 		displayName = "Oath of Courage",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4098,7 +4098,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_pure_steel = {
+	item_championrpg_pure_steel = {
 		displayName = "Pure Steel",
 		type = "Material",
 		rank = "[Epic]",
@@ -4109,7 +4109,7 @@ local Items = {
 		droppedBy = { "Turtle Lord" },
 		worth = 2,
 	},
-	item_twrpg_mark_of_storm = {
+	item_championrpg_mark_of_storm = {
 		displayName = "Mark of Storm",
 		type = "Material",
 		rank = "[Epic]",
@@ -4120,7 +4120,7 @@ local Items = {
 		droppedBy = { "Turtle Lord" },
 		worth = 2,
 	},
-	item_twrpg_mana_orb = {
+	item_championrpg_mana_orb = {
 		displayName = "Mana Orb",
 		type = "Material",
 		rank = "[Epic]",
@@ -4131,7 +4131,7 @@ local Items = {
 		droppedBy = { "Turtle Lord" },
 		worth = 2,
 	},
-	item_twrpg_turtle_token = {
+	item_championrpg_turtle_token = {
 		displayName = "Turtle Token",
 		type = "Token",
 		rank = "none",
@@ -4140,7 +4140,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Turtle Lord" },
 	},
-	item_twrpg_prius_silver_coin = {
+	item_championrpg_prius_silver_coin = {
 		displayName = "Prius Silver Coin",
 		type = "Coin",
 		rank = "[Epic]",
@@ -4152,7 +4152,7 @@ local Items = {
 			"Can be used to purchase items from the Collector NPC",
 		},
 	},
-	item_twrpg_prius_gold_coin = {
+	item_championrpg_prius_gold_coin = {
 		displayName = "Prius Gold Coin",
 		type = "Coin",
 		rank = "[Epic]",
@@ -4170,7 +4170,7 @@ local Items = {
 		},
 		notes = { "Can be used to purchase items from the Collector NPC" },
 	},
-	item_twrpg_ancient_hourglass = {
+	item_championrpg_ancient_hourglass = {
 		displayName = "Ancient Hourglass",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4187,7 +4187,7 @@ local Items = {
 		passive = { "Every 3 seconds, your next attack strikes for 2 additional times" },
 		active = { "Every 30 seconds, refreshs a random skill" },
 	},
-	item_twrpg_dragonic_orb = {
+	item_championrpg_dragonic_orb = {
 		displayName = "Dragonic Orb",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -4215,7 +4215,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_burning_bone_fragments = {
+	item_championrpg_burning_bone_fragments = {
 		displayName = "Burning Bone Fragments",
 		type = "Material",
 		rank = "[Epic]",
@@ -4225,7 +4225,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Bone Dragon" },
 	},
-	item_twrpg_dragons_eye = {
+	item_championrpg_dragons_eye = {
 		displayName = "Dragon's Eye",
 		type = "Material",
 		rank = "[Epic]",
@@ -4235,7 +4235,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Bone Dragon" },
 	},
-	item_twrpg_coin_of_effort = {
+	item_championrpg_coin_of_effort = {
 		displayName = "Coin of Effort",
 		type = "Coin",
 		rank = "none",
@@ -4252,7 +4252,7 @@ local Items = {
 			"See Collector NPC to exchange (all item recipes that include Coin of Effort will be here too)",
 		},
 	},
-	item_twrpg_bone_dragon_icon = {
+	item_championrpg_bone_dragon_icon = {
 		displayName = "Bone Dragon Icon",
 		type = "Icon",
 		rank = "none",
@@ -4264,7 +4264,7 @@ local Items = {
 			damagedealtpercent = 0.005,
 		},
 	},
-	item_twrpg_bone_dragon_token = {
+	item_championrpg_bone_dragon_token = {
 		displayName = "Bone Dragon Token",
 		type = "Token",
 		rank = "none",
@@ -4273,7 +4273,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Bone Dragon" },
 	},
-	item_twrpg_death_scythe = {
+	item_championrpg_death_scythe = {
 		displayName = "Death Scythe",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -4298,7 +4298,7 @@ local Items = {
 			"Cooldown: 150 seconds",
 		},
 	},
-	item_twrpg_staff_of_souls = {
+	item_championrpg_staff_of_souls = {
 		displayName = "Staff of Souls",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -4322,7 +4322,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_robe_of_the_reaper = {
+	item_championrpg_robe_of_the_reaper = {
 		displayName = "Robe of the Reaper",
 		type = "Armor",
 		rank = "[Epic]",
@@ -4343,7 +4343,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_brooch_of_darkness = {
+	item_championrpg_brooch_of_darkness = {
 		displayName = "Brooch of Darkness",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4356,7 +4356,7 @@ local Items = {
 			skilldamagepercent = 0.12,
 		},
 	},
-	item_twrpg_bone_necklace = {
+	item_championrpg_bone_necklace = {
 		displayName = "Bone Necklace",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4378,7 +4378,7 @@ local Items = {
 		},
 		active = { "On use, temporarily activates all effects", "Cooldown: 90 seconds" },
 	},
-	item_twrpg_skeleton_bone = {
+	item_championrpg_skeleton_bone = {
 		displayName = "Skeleton Bone",
 		type = "Material",
 		rank = "[Epic]",
@@ -4388,7 +4388,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Skeletal King Desperia" },
 	},
-	item_twrpg_orb_of_oblivion = {
+	item_championrpg_orb_of_oblivion = {
 		displayName = "Orb of Oblivion",
 		type = "Material",
 		rank = "[Epic]",
@@ -4398,7 +4398,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Skeletal King Desperia" },
 	},
-	item_twrpg_spirit_of_abyss = {
+	item_championrpg_spirit_of_abyss = {
 		displayName = "Spirit of Abyss",
 		type = "Material",
 		rank = "[Epic]",
@@ -4408,7 +4408,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Skeletal King Desperia" },
 	},
-	item_twrpg_skeleton_token = {
+	item_championrpg_skeleton_token = {
 		displayName = "Skeleton Token",
 		type = "Token",
 		rank = "none",
@@ -4417,7 +4417,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Skeletal King Desperia" },
 	},
-	item_twrpg_parasitic_staff = {
+	item_championrpg_parasitic_staff = {
 		displayName = "Parasitic Staff",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -4442,7 +4442,7 @@ local Items = {
 			"Cooldown: 25 seconds",
 		},
 	},
-	item_twrpg_hood_of_the_fallen = {
+	item_championrpg_hood_of_the_fallen = {
 		displayName = "Hood of the Fallen",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -4465,7 +4465,7 @@ local Items = {
 			"Stuns for 1 second",
 		},
 	},
-	item_twrpg_shroud_of_perseverance = {
+	item_championrpg_shroud_of_perseverance = {
 		displayName = "Shroud of Perseverance",
 		type = "Wings",
 		rank = "[Epic]",
@@ -4486,7 +4486,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_proof_of_purification = {
+	item_championrpg_proof_of_purification = {
 		displayName = "Proof of Purification",
 		type = "Material",
 		rank = "[Epic]",
@@ -4496,7 +4496,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Zombie Lord" },
 	},
-	item_twrpg_heart_of_fire = {
+	item_championrpg_heart_of_fire = {
 		displayName = "Heart of Fire",
 		type = "Material",
 		rank = "[Epic]",
@@ -4506,7 +4506,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Zombie Lord" },
 	},
-	item_twrpg_dark_crystal = {
+	item_championrpg_dark_crystal = {
 		displayName = "Dark Crystal",
 		type = "Material",
 		rank = "[Epic]",
@@ -4516,7 +4516,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Zombie Lord" },
 	},
-	item_twrpg_zombie_token = {
+	item_championrpg_zombie_token = {
 		displayName = "Zombie Token",
 		type = "Token",
 		rank = "none",
@@ -4525,7 +4525,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Zombie Lord" },
 	},
-	item_twrpg_embrace_of_nature = {
+	item_championrpg_embrace_of_nature = {
 		displayName = "Embrace of Nature",
 		type = "Wings",
 		rank = "[Epic]",
@@ -4549,7 +4549,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_griseus_the_sword_of_protection = {
+	item_championrpg_griseus_the_sword_of_protection = {
 		displayName = "Griseus, the Sword of Protection",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -4573,7 +4573,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_ring_of_the_storm = {
+	item_championrpg_ring_of_the_storm = {
 		displayName = "Ring of the Storm",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4595,7 +4595,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_purified_water_of_nature = {
+	item_championrpg_purified_water_of_nature = {
 		displayName = "Purified Water of Nature",
 		type = "Material",
 		rank = "[Epic]",
@@ -4605,7 +4605,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Ancient Ent" },
 	},
-	item_twrpg_fragment_of_the_wind = {
+	item_championrpg_fragment_of_the_wind = {
 		displayName = "Fragment of the Wind",
 		type = "Material",
 		rank = "[Epic]",
@@ -4615,7 +4615,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Ancient Ent" },
 	},
-	item_twrpg_ent_token = {
+	item_championrpg_ent_token = {
 		displayName = "Ent Token",
 		type = "Token",
 		rank = "none",
@@ -4624,7 +4624,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Ancient Ent" },
 	},
-	item_twrpg_guardian_of_the_skies = {
+	item_championrpg_guardian_of_the_skies = {
 		displayName = "Guardian of the Skies",
 		type = "Wings",
 		rank = "[Epic]",
@@ -4657,7 +4657,7 @@ local Items = {
 			"Thunderer - Improved Magnetic Field: When passive is triggered, restores 33% of Magnetic Shield.",
 		},
 	},
-	item_twrpg_steel_of_god = {
+	item_championrpg_steel_of_god = {
 		displayName = "Steel of God",
 		type = "Material",
 		rank = "[Epic]",
@@ -4667,7 +4667,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Archangel Samael" },
 	},
-	item_twrpg_gods_page = {
+	item_championrpg_gods_page = {
 		displayName = "God's Page",
 		type = "Material",
 		rank = "[Epic]",
@@ -4677,7 +4677,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Archangel Samael" },
 	},
-	item_twrpg_essence_of_light = {
+	item_championrpg_essence_of_light = {
 		displayName = "Essence of Light",
 		type = "Material",
 		rank = "[Epic]",
@@ -4687,7 +4687,7 @@ local Items = {
 		dropRate = 0.025,
 		droppedBy = { "Archangel Samael" },
 	},
-	item_twrpg_archangel_token = {
+	item_championrpg_archangel_token = {
 		displayName = "Archangel Token",
 		type = "Token",
 		rank = "none",
@@ -4696,7 +4696,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Archangel Samael" },
 	},
-	item_twrpg_levante_the_sword_of_love_and_hate = {
+	item_championrpg_levante_the_sword_of_love_and_hate = {
 		displayName = "Levante, the Sword of Love and Hate",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -4719,7 +4719,7 @@ local Items = {
 			"12% chance to deal (MAIN STAT X 5) magic damage",
 		},
 	},
-	item_twrpg_draconic_skin_rusalka = {
+	item_championrpg_draconic_skin_rusalka = {
 		displayName = "Draconic Skin Rusalka",
 		type = "Armor",
 		rank = "[Epic]",
@@ -4742,7 +4742,7 @@ local Items = {
 		},
 		active = { "On use, blocks harmful magic every 3 minutes", "Lasts 5 seconds", "Cooldown: 180 seconds" },
 	},
-	item_twrpg_nephthys_the_engraved_ring = {
+	item_championrpg_nephthys_the_engraved_ring = {
 		displayName = "Nephthys, the Engraved Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4764,7 +4764,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_essence_of_darkness = {
+	item_championrpg_essence_of_darkness = {
 		displayName = "Essence of Darkness",
 		type = "Material",
 		rank = "[Epic]",
@@ -4774,7 +4774,7 @@ local Items = {
 		dropRate = 0.02,
 		droppedBy = { "Shadow Dragon Irbert" },
 	},
-	item_twrpg_antimatter = {
+	item_championrpg_antimatter = {
 		displayName = "Antimatter",
 		type = "Material",
 		rank = "[Epic]",
@@ -4784,7 +4784,7 @@ local Items = {
 		dropRate = 0.02,
 		droppedBy = { "Shadow Dragon Irbert" },
 	},
-	item_twrpg_frozen_debris = {
+	item_championrpg_frozen_debris = {
 		displayName = "Frozen Debris",
 		type = "Material",
 		rank = "[Epic]",
@@ -4794,7 +4794,7 @@ local Items = {
 		dropRate = 0.016,
 		droppedBy = { "Shadow Dragon Irbert" },
 	},
-	item_twrpg_token_of_darkness = {
+	item_championrpg_token_of_darkness = {
 		displayName = "Token of Darkness",
 		type = "Token",
 		rank = "none",
@@ -4803,7 +4803,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Shadow Dragon Irbert" },
 	},
-	item_twrpg_the_ender = {
+	item_championrpg_the_ender = {
 		displayName = "The Ender",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -4825,7 +4825,7 @@ local Items = {
 			"Empowered attacks deal (MAIN STAT X 18.75) magic damage",
 		},
 	},
-	item_twrpg_armor_of_grudge = {
+	item_championrpg_armor_of_grudge = {
 		displayName = "Armor of Grudge",
 		type = "Armor",
 		rank = "[Epic]",
@@ -4847,7 +4847,7 @@ local Items = {
 			"Increases ATK DMG by 6000 for 1.5 seconds",
 		},
 	},
-	item_twrpg_eyes_of_the_watcher = {
+	item_championrpg_eyes_of_the_watcher = {
 		displayName = "Eyes of the Watcher",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -4870,7 +4870,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_ring_of_destruction = {
+	item_championrpg_ring_of_destruction = {
 		displayName = "Ring of Destruction",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4886,7 +4886,7 @@ local Items = {
 		},
 		passive = { "15% chance to do 40% bonus damage upon dealing damage" },
 	},
-	item_twrpg_spearhead_of_death = {
+	item_championrpg_spearhead_of_death = {
 		displayName = "Spearhead of Death",
 		type = "Material",
 		rank = "[Epic]",
@@ -4896,7 +4896,7 @@ local Items = {
 		dropRate = 0.0075,
 		droppedBy = { "Death Fiend" },
 	},
-	item_twrpg_fragment_of_chaos = {
+	item_championrpg_fragment_of_chaos = {
 		displayName = "Fragment of Chaos",
 		type = "Material",
 		rank = "[Epic]",
@@ -4906,7 +4906,7 @@ local Items = {
 		dropRate = 0.0075,
 		droppedBy = { "Death Fiend" },
 	},
-	item_twrpg_prius_platinum_coin = {
+	item_championrpg_prius_platinum_coin = {
 		displayName = "Prius Platinum Coin",
 		type = "Coin",
 		rank = "[Epic]",
@@ -4917,7 +4917,7 @@ local Items = {
 		droppedBy = { "Death Fiend", "Valtora", "Ifrit", "Nereid", "Underlord Agareth" },
 		notes = { "Can be used to purchase items from the Collector NPC" },
 	},
-	item_twrpg_death_fiend_icon = {
+	item_championrpg_death_fiend_icon = {
 		displayName = "Death Fiend Icon",
 		type = "Icon",
 		rank = "none",
@@ -4929,7 +4929,7 @@ local Items = {
 			skilldamagepercent = 0.02,
 		},
 	},
-	item_twrpg_fiend_token = {
+	item_championrpg_fiend_token = {
 		displayName = "Fiend Token",
 		type = "Token",
 		rank = "none",
@@ -4938,7 +4938,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Death Fiend" },
 	},
-	item_twrpg_shackles_of_heaven = {
+	item_championrpg_shackles_of_heaven = {
 		displayName = "Shackles of Heaven",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -4961,7 +4961,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_aegis_of_storm = {
+	item_championrpg_aegis_of_storm = {
 		displayName = "Aegis of Storm",
 		type = "Material",
 		rank = "[Epic]",
@@ -4971,7 +4971,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Valtora" },
 	},
-	item_twrpg_essence_of_storm = {
+	item_championrpg_essence_of_storm = {
 		displayName = "Essence of Storm",
 		type = "Material",
 		rank = "[Epic]",
@@ -4981,7 +4981,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Valtora" },
 	},
-	item_twrpg_shining_fragment_of_ruins = {
+	item_championrpg_shining_fragment_of_ruins = {
 		displayName = "Shining Fragment of Ruins",
 		type = "Material",
 		rank = "[Epic]",
@@ -4991,7 +4991,7 @@ local Items = {
 		dropRate = { 0.004, 0.005, 0.006 },
 		droppedBy = { "Valtora", "Ifrit", "Nereid" },
 	},
-	item_twrpg_valtora_icon = {
+	item_championrpg_valtora_icon = {
 		displayName = "Valtora Icon",
 		type = "Icon",
 		rank = "none",
@@ -5008,7 +5008,7 @@ local Items = {
 			"Increases MAIN STAT by 2% for 30 seconds",
 		},
 	},
-	item_twrpg_lightning_god_token = {
+	item_championrpg_lightning_god_token = {
 		displayName = "Lightning God Token",
 		type = "Token",
 		rank = "none",
@@ -5017,7 +5017,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Valtora" },
 	},
-	item_twrpg_heart_of_volcano = {
+	item_championrpg_heart_of_volcano = {
 		displayName = "Heart of Volcano",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -5042,7 +5042,7 @@ local Items = {
 			"Cooldown: 180 seconds",
 		},
 	},
-	item_twrpg_aegis_of_flame = {
+	item_championrpg_aegis_of_flame = {
 		displayName = "Aegis of Flame",
 		type = "Material",
 		rank = "[Epic]",
@@ -5052,7 +5052,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Ifrit" },
 	},
-	item_twrpg_essence_of_flame = {
+	item_championrpg_essence_of_flame = {
 		displayName = "Essence of Flame",
 		type = "Material",
 		rank = "[Epic]",
@@ -5062,7 +5062,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Ifrit" },
 	},
-	item_twrpg_ifrit_icon = {
+	item_championrpg_ifrit_icon = {
 		displayName = "Ifrit Icon",
 		type = "Icon",
 		rank = "none",
@@ -5079,7 +5079,7 @@ local Items = {
 			"Increases MAIN STAT by 2% for 30 seconds",
 		},
 	},
-	item_twrpg_flame_god_token = {
+	item_championrpg_flame_god_token = {
 		displayName = "Flame God Token",
 		type = "Token",
 		rank = "none",
@@ -5088,7 +5088,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Ifrit" },
 	},
-	item_twrpg_grail_of_eternity = {
+	item_championrpg_grail_of_eternity = {
 		displayName = "Grail of Eternity",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -5108,7 +5108,7 @@ local Items = {
 			"Absorbs up to 3000 damage and increases HP and MP regen by 1%",
 		},
 	},
-	item_twrpg_aegis_of_sea = {
+	item_championrpg_aegis_of_sea = {
 		displayName = "Aegis of Sea",
 		type = "Material",
 		rank = "[Epic]",
@@ -5118,7 +5118,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Nereid" },
 	},
-	item_twrpg_essence_of_sea = {
+	item_championrpg_essence_of_sea = {
 		displayName = "Essence of Sea",
 		type = "Material",
 		rank = "[Epic]",
@@ -5128,7 +5128,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Nereid" },
 	},
-	item_twrpg_nereid_icon = {
+	item_championrpg_nereid_icon = {
 		displayName = "Nereid Icon",
 		type = "Icon",
 		rank = "none",
@@ -5145,7 +5145,7 @@ local Items = {
 			"Increases MAIN STAT by 2% for 30 seconds",
 		},
 	},
-	item_twrpg_sea_god_token = {
+	item_championrpg_sea_god_token = {
 		displayName = "Sea God Token",
 		type = "Token",
 		rank = "none",
@@ -5154,7 +5154,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Nereid" },
 	},
-	item_twrpg_curse_of_greed = {
+	item_championrpg_curse_of_greed = {
 		displayName = "Curse of Greed",
 		type = "Wings",
 		rank = "[Epic]",
@@ -5178,7 +5178,7 @@ local Items = {
 			"Cooldown: 1 second",
 		},
 	},
-	item_twrpg_fragment_of_soul = {
+	item_championrpg_fragment_of_soul = {
 		displayName = "Fragment of Soul",
 		type = "Material",
 		rank = "[Epic]",
@@ -5188,7 +5188,7 @@ local Items = {
 		dropRate = 0.0066,
 		droppedBy = { "Underlord Agareth" },
 	},
-	item_twrpg_fragment_of_hell = {
+	item_championrpg_fragment_of_hell = {
 		displayName = "Fragment of Hell",
 		type = "Material",
 		rank = "[Epic]",
@@ -5198,7 +5198,7 @@ local Items = {
 		dropRate = 0.0066,
 		droppedBy = { "Underlord Agareth" },
 	},
-	item_twrpg_mark_of_lord = {
+	item_championrpg_mark_of_lord = {
 		displayName = "Mark of Lord",
 		type = "Material",
 		rank = "[Epic]",
@@ -5208,7 +5208,7 @@ local Items = {
 		dropRate = 0.0066,
 		droppedBy = { "Underlord Agareth" },
 	},
-	item_twrpg_agareth_icon = {
+	item_championrpg_agareth_icon = {
 		displayName = "Agareth Icon",
 		type = "Icon",
 		rank = "none",
@@ -5220,7 +5220,7 @@ local Items = {
 			damagedealtpercent = 0.02,
 		},
 	},
-	item_twrpg_token_of_underlord = {
+	item_championrpg_token_of_underlord = {
 		displayName = "Token of Underlord",
 		type = "Token",
 		rank = "none",
@@ -5229,7 +5229,7 @@ local Items = {
 		dropRate = 5e-05,
 		droppedBy = { "Underlord Agareth" },
 	},
-	item_twrpg_crimson_rose = {
+	item_championrpg_crimson_rose = {
 		displayName = "Crimson Rose",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -5251,7 +5251,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_blood_essence = {
+	item_championrpg_blood_essence = {
 		displayName = "Blood Essence",
 		type = "Material",
 		rank = "[Epic]",
@@ -5261,7 +5261,7 @@ local Items = {
 		dropRate = 0.01,
 		droppedBy = { "Duke Lazarus" },
 	},
-	item_twrpg_emblem_of_sacrifice = {
+	item_championrpg_emblem_of_sacrifice = {
 		displayName = "Emblem of Sacrifice",
 		type = "Material",
 		rank = "[Epic]",
@@ -5271,7 +5271,7 @@ local Items = {
 		dropRate = 0.01,
 		droppedBy = { "Duke Lazarus" },
 	},
-	item_twrpg_soul_blossom = {
+	item_championrpg_soul_blossom = {
 		displayName = "Soul Blossom",
 		type = "Material",
 		rank = "[Epic]",
@@ -5281,7 +5281,7 @@ local Items = {
 		dropRate = 0.01,
 		droppedBy = { "Duke Lazarus" },
 	},
-	item_twrpg_dukes_soulstone = {
+	item_championrpg_dukes_soulstone = {
 		displayName = "Duke's Soulstone",
 		type = "Material",
 		rank = "[Epic]",
@@ -5291,7 +5291,7 @@ local Items = {
 		dropRate = 0.0015,
 		droppedBy = { "Duke Lazarus" },
 	},
-	item_twrpg_duke_token = {
+	item_championrpg_duke_token = {
 		displayName = "Duke Token",
 		type = "Token",
 		rank = "none",
@@ -5300,7 +5300,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Duke Lazarus" },
 	},
-	item_twrpg_gown_of_life = {
+	item_championrpg_gown_of_life = {
 		displayName = "Gown of Life",
 		type = "Armor",
 		rank = "[Epic]",
@@ -5321,7 +5321,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_essence_of_earth = {
+	item_championrpg_essence_of_earth = {
 		displayName = "Essence of Earth",
 		type = "Material",
 		rank = "[Epic]",
@@ -5331,7 +5331,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Gaia" },
 	},
-	item_twrpg_aegis_of_earth = {
+	item_championrpg_aegis_of_earth = {
 		displayName = "Aegis of Earth",
 		type = "Material",
 		rank = "[Epic]",
@@ -5341,7 +5341,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Gaia" },
 	},
-	item_twrpg_twisted_fragment_of_ruins = {
+	item_championrpg_twisted_fragment_of_ruins = {
 		displayName = "Twisted Fragment of Ruins",
 		type = "Material",
 		rank = "[Epic]",
@@ -5351,7 +5351,7 @@ local Items = {
 		dropRate = 0.008,
 		droppedBy = { "Gaia" },
 	},
-	item_twrpg_gaias_soulstone = {
+	item_championrpg_gaias_soulstone = {
 		displayName = "Gaia's Soulstone",
 		type = "Material",
 		rank = "[Epic]",
@@ -5361,7 +5361,7 @@ local Items = {
 		dropRate = 0.0015,
 		droppedBy = { "Gaia" },
 	},
-	item_twrpg_gaia_token = {
+	item_championrpg_gaia_token = {
 		displayName = "Gaia Token",
 		type = "Token",
 		rank = "none",
@@ -5370,7 +5370,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Gaia" },
 	},
-	item_twrpg_mask_of_truth = {
+	item_championrpg_mask_of_truth = {
 		displayName = "Mask of Truth",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -5390,7 +5390,7 @@ local Items = {
 			"For 3 seconds, any skill damage dealt can critically strike but crit multiplier is fixed to 1.2x",
 		},
 	},
-	item_twrpg_arcane_core = {
+	item_championrpg_arcane_core = {
 		displayName = "Arcane Core",
 		type = "Material",
 		rank = "[Epic]",
@@ -5400,7 +5400,7 @@ local Items = {
 		dropRate = 0.006,
 		droppedBy = { "Arcane Construct" },
 	},
-	item_twrpg_ancient_tome = {
+	item_championrpg_ancient_tome = {
 		displayName = "Ancient Tome",
 		type = "Material",
 		rank = "[Epic]",
@@ -5410,7 +5410,7 @@ local Items = {
 		dropRate = 0.006,
 		droppedBy = { "Arcane Construct" },
 	},
-	item_twrpg_constructs_soulstone = {
+	item_championrpg_constructs_soulstone = {
 		displayName = "Construct's Soulstone",
 		type = "Material",
 		rank = "[Epic]",
@@ -5420,7 +5420,7 @@ local Items = {
 		dropRate = 0.0015,
 		droppedBy = { "Arcane Construct" },
 	},
-	item_twrpg_construct_token = {
+	item_championrpg_construct_token = {
 		displayName = "Construct Token",
 		type = "Token",
 		rank = "none",
@@ -5429,7 +5429,7 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Arcane Construct" },
 	},
-	item_twrpg_grim_scythe = {
+	item_championrpg_grim_scythe = {
 		displayName = "Grim Scythe",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5458,7 +5458,7 @@ local Items = {
 			"Cooldown: 60s",
 		},
 	},
-	item_twrpg_sinister_skull = {
+	item_championrpg_sinister_skull = {
 		displayName = "Sinister Skull",
 		type = "Material",
 		rank = "[Epic]",
@@ -5468,7 +5468,7 @@ local Items = {
 		dropRate = 0.006,
 		droppedBy = { "Styrix, the Harvester of Souls" },
 	},
-	item_twrpg_lantern_of_souls = {
+	item_championrpg_lantern_of_souls = {
 		displayName = "Lantern of Souls",
 		type = "Material",
 		rank = "[Epic]",
@@ -5478,7 +5478,7 @@ local Items = {
 		dropRate = 0.006,
 		droppedBy = { "Styrix, the Harvester of Souls" },
 	},
-	item_twrpg_spirit_of_damnation = {
+	item_championrpg_spirit_of_damnation = {
 		displayName = "Spirit of Damnation",
 		type = "Material",
 		rank = "[Epic]",
@@ -5488,7 +5488,7 @@ local Items = {
 		dropRate = 0.006,
 		droppedBy = { "Styrix, the Harvester of Souls" },
 	},
-	item_twrpg_harvesters_soulstone = {
+	item_championrpg_harvesters_soulstone = {
 		displayName = "Harvester's Soulstone",
 		type = "Material",
 		rank = "[Epic]",
@@ -5498,7 +5498,7 @@ local Items = {
 		dropRate = 0.0015,
 		droppedBy = { "Styrix, the Harvester of Souls" },
 	},
-	item_twrpg_soul_token = {
+	item_championrpg_soul_token = {
 		displayName = "Soul Token",
 		type = "Token",
 		rank = "none",
@@ -5507,35 +5507,35 @@ local Items = {
 		dropRate = 0.0001,
 		droppedBy = { "Styrix, the Harvester of Souls" },
 	},
-	item_twrpg_key_of_storm = {
+	item_championrpg_key_of_storm = {
 		displayName = "Key of Storm",
 		type = "Misc",
 		rank = "none",
 		grade = 0,
 		equipSlot = nil,
 	},
-	item_twrpg_key_of_flame = {
+	item_championrpg_key_of_flame = {
 		displayName = "Key of Flame",
 		type = "Misc",
 		rank = "none",
 		grade = 0,
 		equipSlot = nil,
 	},
-	item_twrpg_key_of_sea = {
+	item_championrpg_key_of_sea = {
 		displayName = "Key of Sea",
 		type = "Misc",
 		rank = "none",
 		grade = 0,
 		equipSlot = nil,
 	},
-	item_twrpg_rainbow_crystal_golem_token = {
+	item_championrpg_rainbow_crystal_golem_token = {
 		displayName = "Rainbow Crystal Golem Token",
 		type = "Token",
 		rank = "none",
 		grade = 0,
 		equipSlot = nil,
 	},
-	item_twrpg_acorn_bomb = {
+	item_championrpg_acorn_bomb = {
 		displayName = "Acorn Bomb",
 		type = "Accessory",
 		rank = "[Magic]",
@@ -5553,7 +5553,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_bloody_fang = {
+	item_championrpg_bloody_fang = {
 		displayName = "Bloody Fang",
 		type = "Weapon (Shared)",
 		rank = "[Magic]",
@@ -5568,7 +5568,7 @@ local Items = {
 		},
 		active = { "On attack, restores 10 HP" },
 	},
-	item_twrpg_berserker_axe = {
+	item_championrpg_berserker_axe = {
 		displayName = "Berserker Axe",
 		type = "Weapon (Melee)",
 		rank = "[Magic]",
@@ -5582,7 +5582,7 @@ local Items = {
 			attackspeedpercent = 0.15,
 		},
 	},
-	item_twrpg_ancient_leaf_circlet = {
+	item_championrpg_ancient_leaf_circlet = {
 		displayName = "Ancient Leaf Circlet",
 		type = "Headwear",
 		rank = "[Magic]",
@@ -5596,7 +5596,7 @@ local Items = {
 			mpregen = 5,
 		},
 	},
-	item_twrpg_sturdy_bag = {
+	item_championrpg_sturdy_bag = {
 		displayName = "Sturdy Bag",
 		type = "Weapon (Bag)",
 		rank = "[Magic]",
@@ -5610,7 +5610,7 @@ local Items = {
 			dtpercent = -0.1,
 		},
 	},
-	item_twrpg_silky_bag = {
+	item_championrpg_silky_bag = {
 		displayName = "Silky Bag",
 		type = "Weapon (Bag)",
 		rank = "[Magic]",
@@ -5625,7 +5625,7 @@ local Items = {
 			mdpercent = 0.08,
 		},
 	},
-	item_twrpg_wing_of_sea = {
+	item_championrpg_wing_of_sea = {
 		displayName = "Wing of Sea",
 		type = "Wings",
 		rank = "[Rare]",
@@ -5641,7 +5641,7 @@ local Items = {
 		passive = { "On kill, 8% chance to activate Blessing of Sea", "Increases EXP gain by 10% for 10 seconds" },
 		active = { "On use, summons a portal that connects to Alfon Village" },
 	},
-	item_twrpg_beast_hunter = {
+	item_championrpg_beast_hunter = {
 		displayName = "Beast Hunter",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -5656,7 +5656,7 @@ local Items = {
 			attackspeedpercent = 0.18,
 		},
 	},
-	item_twrpg_very_sturdy_bag = {
+	item_championrpg_very_sturdy_bag = {
 		displayName = "Very Sturdy Bag",
 		type = "Weapon (Bag)",
 		rank = "[Rare]",
@@ -5670,7 +5670,7 @@ local Items = {
 			dtpercent = -0.1,
 		},
 	},
-	item_twrpg_very_silky_bag = {
+	item_championrpg_very_silky_bag = {
 		displayName = "Very Silky Bag",
 		type = "Weapon (Bag)",
 		rank = "[Rare]",
@@ -5685,7 +5685,7 @@ local Items = {
 			mdpercent = 0.08,
 		},
 	},
-	item_twrpg_precious_wind_protection_clothing = {
+	item_championrpg_precious_wind_protection_clothing = {
 		displayName = "Precious Wind-Protection Clothing",
 		type = "Armor",
 		rank = "[Rare]",
@@ -5700,7 +5700,7 @@ local Items = {
 		},
 		passive = { "Allows you to dodge a fatal attack every 45 seconds" },
 	},
-	item_twrpg_laksha_the_reigning_sword_of_poison = {
+	item_championrpg_laksha_the_reigning_sword_of_poison = {
 		displayName = "Laksha, the Reigning Sword of Poison",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -5715,7 +5715,7 @@ local Items = {
 		},
 		passive = { "On attack, inflicts target with poison that deals 2500 magic damage per second for 10 seconds" },
 	},
-	item_twrpg_monster_hunter = {
+	item_championrpg_monster_hunter = {
 		displayName = "Monster Hunter",
 		type = "Weapon (Gun)",
 		rank = "[Rare]",
@@ -5731,7 +5731,7 @@ local Items = {
 			expgainpercent = 0.08,
 		},
 	},
-	item_twrpg_bag_of_strength = {
+	item_championrpg_bag_of_strength = {
 		displayName = "Bag of Strength",
 		type = "Weapon (Bag)",
 		rank = "[Rare]",
@@ -5747,7 +5747,7 @@ local Items = {
 		},
 		spec = { "Merchant Specialty - Heavy Bag", "Merchant - Bag Slam: damage increased by 100%" },
 	},
-	item_twrpg_fruit_filled_bag = {
+	item_championrpg_fruit_filled_bag = {
 		displayName = "Fruit-filled Bag",
 		type = "Weapon (Bag)",
 		rank = "[Rare]",
@@ -5766,7 +5766,7 @@ local Items = {
 			"Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds.",
 		},
 	},
-	item_twrpg_parasitic_sword = {
+	item_championrpg_parasitic_sword = {
 		displayName = "Parasitic Sword",
 		type = "Weapon (Melee)",
 		rank = "[Rare]",
@@ -5782,7 +5782,7 @@ local Items = {
 		},
 		passive = { "On attack, causes splashing effect and restores HP on low chance" },
 	},
-	item_twrpg_staff_of_tentacles = {
+	item_championrpg_staff_of_tentacles = {
 		displayName = "Staff of Tentacles",
 		type = "Weapon (Staff)",
 		rank = "[Rare]",
@@ -5797,7 +5797,7 @@ local Items = {
 		},
 		passive = { "Restore HP and MP on kill" },
 	},
-	item_twrpg_infected_crab_armor = {
+	item_championrpg_infected_crab_armor = {
 		displayName = "Infected Crab Armor",
 		type = "Armor",
 		rank = "[Rare]",
@@ -5815,7 +5815,7 @@ local Items = {
 			"Increases HP by 300 and spell damage by 7.5%",
 		},
 	},
-	item_twrpg_sanguiel_the_bloodspear_of_domination = {
+	item_championrpg_sanguiel_the_bloodspear_of_domination = {
 		displayName = "Sanguiel, the Bloodspear of Domination",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5830,7 +5830,7 @@ local Items = {
 		},
 		passive = { "On attack, drains 10% of damage dealt as life (up to 400)" },
 	},
-	item_twrpg_tepethia_the_bloodsword_of_domination = {
+	item_championrpg_tepethia_the_bloodsword_of_domination = {
 		displayName = "Tepethia, the Bloodsword of Domination",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5845,7 +5845,7 @@ local Items = {
 		},
 		passive = { "On attack, heals 10% of damage dealt (max 400)" },
 	},
-	item_twrpg_true_dragonsword_lainhart = {
+	item_championrpg_true_dragonsword_lainhart = {
 		displayName = "True Dragonsword Lainhart",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5861,7 +5861,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2.5) magic damage" },
 	},
-	item_twrpg_leoreus_the_greatsword_of_explosion = {
+	item_championrpg_leoreus_the_greatsword_of_explosion = {
 		displayName = "Leoreus, the Greatsword of Explosion",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5881,7 +5881,7 @@ local Items = {
 			"Deals (flame affinity X (STR X 2.5)) magic damage",
 		},
 	},
-	item_twrpg_karonphniamm_the_true_holy_sword = {
+	item_championrpg_karonphniamm_the_true_holy_sword = {
 		displayName = "Karonphniamm, the True Holy Sword",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5901,7 +5901,7 @@ local Items = {
 			"If primary stat on hero is AGI or INT: deals (AGI X 3) magic damage",
 		},
 	},
-	item_twrpg_eximelia_the_true_unholy_sword = {
+	item_championrpg_eximelia_the_true_unholy_sword = {
 		displayName = "Eximelia, the True Unholy Sword",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5917,7 +5917,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Unholy Strike", "Deals (AGI X 3) magic damage" },
 	},
-	item_twrpg_flame_soul = {
+	item_championrpg_flame_soul = {
 		displayName = "Flame Soul",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5937,7 +5937,7 @@ local Items = {
 			"Deals (ATK DMG + STR X 0.9) magic damage and increases STR by 5 per stack (up to 8 stacks)",
 		},
 	},
-	item_twrpg_bahanar_the_sword_of_illusion = {
+	item_championrpg_bahanar_the_sword_of_illusion = {
 		displayName = "Bahanar, the Sword of Illusion",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5961,7 +5961,7 @@ local Items = {
 			"Crusader - Flash of Immortality grants additional 10% damage reduction at low HP.",
 		},
 	},
-	item_twrpg_maw_of_monster = {
+	item_championrpg_maw_of_monster = {
 		displayName = "Maw of Monster",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -5978,7 +5978,7 @@ local Items = {
 		},
 		passive = { "On attack, 20% chance to activate Devour" },
 	},
-	item_twrpg_tepethia_the_crimson_sword_of_requiem = {
+	item_championrpg_tepethia_the_crimson_sword_of_requiem = {
 		displayName = "Tepethia, the Crimson Sword of Requiem",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6000,7 +6000,7 @@ local Items = {
 			"Green Wrath: reduces enemy movement and ATK SPD by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds",
 		},
 	},
-	item_twrpg_true_dragonstaff_irave = {
+	item_championrpg_true_dragonstaff_irave = {
 		displayName = "True Dragonstaff Irave",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6020,7 +6020,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_klenetia_the_true_holy_staff = {
+	item_championrpg_klenetia_the_true_holy_staff = {
 		displayName = "Klenetia, the True Holy Staff",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6041,7 +6041,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_staff_of_void = {
+	item_championrpg_staff_of_void = {
 		displayName = "Staff of Void",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6060,7 +6060,7 @@ local Items = {
 			"Increases ATK SPD by 12%, skill damage by 6% [Type-B], and HP regen by 45",
 		},
 	},
-	item_twrpg_benziena_the_earthen_pillar = {
+	item_championrpg_benziena_the_earthen_pillar = {
 		displayName = "Benziena, the Earthen Pillar",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6086,7 +6086,7 @@ local Items = {
 			"Elementalist - Seal of Earth: Duration increased by 5 seconds",
 		},
 	},
-	item_twrpg_true_dragonbow_aience = {
+	item_championrpg_true_dragonbow_aience = {
 		displayName = "True Dragonbow Aience",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -6101,7 +6101,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2.5) magic damage" },
 	},
-	item_twrpg_alkate_the_true_unholy_bow = {
+	item_championrpg_alkate_the_true_unholy_bow = {
 		displayName = "Alkate, the True Unholy Bow",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -6117,7 +6117,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Unholy Spike", "Deals (AGI X 3) magic damage" },
 	},
-	item_twrpg_monster_blaster = {
+	item_championrpg_monster_blaster = {
 		displayName = "Monster Blaster",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6134,7 +6134,7 @@ local Items = {
 			expgainpercent = 0.1,
 		},
 	},
-	item_twrpg_true_blood_cannon_tepes = {
+	item_championrpg_true_blood_cannon_tepes = {
 		displayName = "True Blood Cannon Tepes",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6151,7 +6151,7 @@ local Items = {
 		},
 		passive = { "On attack, drains 10% of damage dealt as life (up to 400)" },
 	},
-	item_twrpg_true_dragon_cannon_belenus = {
+	item_championrpg_true_dragon_cannon_belenus = {
 		displayName = "True Dragon Cannon Belenus",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6166,7 +6166,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Dragon's Claw", "Deals (MAIN STAT X 2.5) magic damage" },
 	},
-	item_twrpg_dragon_blaster = {
+	item_championrpg_dragon_blaster = {
 		displayName = "Dragon Blaster",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6188,7 +6188,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_eana_the_true_holy_cannon = {
+	item_championrpg_eana_the_true_holy_cannon = {
 		displayName = "Eana, the True Holy Cannon",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6208,7 +6208,7 @@ local Items = {
 			"If primary stat on hero is AGI or INT: deals (AGI X 3) magic damage",
 		},
 	},
-	item_twrpg_red_cross = {
+	item_championrpg_red_cross = {
 		displayName = "Red Cross",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -6231,7 +6231,7 @@ local Items = {
 		},
 		spec = { "Specialty - Bloody Protection", "Shooter - Nanomachine Injection: Healing speed increased by 50%." },
 	},
-	item_twrpg_bag_of_mighty_strength = {
+	item_championrpg_bag_of_mighty_strength = {
 		displayName = "Bag of Mighty Strength",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -6251,7 +6251,7 @@ local Items = {
 			"Merchant - Bag Slam's damage is increased by 150%, and it increases target's damage taken by 4% for 6 seconds.",
 		},
 	},
-	item_twrpg_candy_filled_bag = {
+	item_championrpg_candy_filled_bag = {
 		displayName = "Candy-filled Bag",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -6271,7 +6271,7 @@ local Items = {
 			"Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 10%.",
 		},
 	},
-	item_twrpg_bag_of_mighty_strength_1 = {
+	item_championrpg_bag_of_mighty_strength_1 = {
 		displayName = "Bag of Mighty Strength +1",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -6291,7 +6291,7 @@ local Items = {
 			"Merchant - Bag Slam's damage is increased by 150%, and it increases target's damage taken by 4% for 6 seconds.",
 		},
 	},
-	item_twrpg_candy_filled_bag_1 = {
+	item_championrpg_candy_filled_bag_1 = {
 		displayName = "Candy-filled Bag +1",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -6311,7 +6311,7 @@ local Items = {
 			"Merchant - Throwing Healing Potion: Refill period is reduced to 2 seconds, and increases target's magic defense by 10%.",
 		},
 	},
-	item_twrpg_bloodstone_plates = {
+	item_championrpg_bloodstone_plates = {
 		displayName = "Bloodstone Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -6333,7 +6333,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_true_dragon_armor_magron = {
+	item_championrpg_true_dragon_armor_magron = {
 		displayName = "True Dragon Armor Magron",
 		type = "Armor",
 		rank = "[Epic]",
@@ -6349,7 +6349,7 @@ local Items = {
 		},
 		passive = { "Blocks 20 damage on being hit" },
 	},
-	item_twrpg_jack_pumpkin_helm_1 = {
+	item_championrpg_jack_pumpkin_helm_1 = {
 		displayName = "Jack Pumpkin Helm +1",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -6365,7 +6365,7 @@ local Items = {
 			mpregen = 20,
 		},
 	},
-	item_twrpg_jack_pumpkin_hood_1 = {
+	item_championrpg_jack_pumpkin_hood_1 = {
 		displayName = "Jack Pumpkin Hood +1",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -6380,7 +6380,7 @@ local Items = {
 			mpregen = 20,
 		},
 	},
-	item_twrpg_true_dragon_helm_agron = {
+	item_championrpg_true_dragon_helm_agron = {
 		displayName = "True Dragon Helm Agron",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -6395,7 +6395,7 @@ local Items = {
 		},
 		active = { "Block magic every 5 minutes" },
 	},
-	item_twrpg_death_visage = {
+	item_championrpg_death_visage = {
 		displayName = "Death Visage",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -6418,7 +6418,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_hood_of_reaper = {
+	item_championrpg_hood_of_reaper = {
 		displayName = "Hood of Reaper",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -6439,7 +6439,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_teperua_the_ring_of_blood = {
+	item_championrpg_teperua_the_ring_of_blood = {
 		displayName = "Teperua, the Ring of Blood",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6458,7 +6458,7 @@ local Items = {
 			"Blood Weaver - Blood Boil applies Life Drain's shield onto yourself and nearby allies.",
 		},
 	},
-	item_twrpg_fruit_candy_pouch = {
+	item_championrpg_fruit_candy_pouch = {
 		displayName = "Fruit Candy Pouch",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6479,7 +6479,7 @@ local Items = {
 			"Cooldown of pouch: 180 seconds",
 		},
 	},
-	item_twrpg_ring_of_the_sage = {
+	item_championrpg_ring_of_the_sage = {
 		displayName = "Ring of the Sage",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6498,7 +6498,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_mana_heart = {
+	item_championrpg_mana_heart = {
 		displayName = "Mana Heart",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6513,7 +6513,7 @@ local Items = {
 			mpregen = 25,
 		},
 	},
-	item_twrpg_tentacle_horn = {
+	item_championrpg_tentacle_horn = {
 		displayName = "Tentacle Horn",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6534,7 +6534,7 @@ local Items = {
 			"Heals 12.5% of max HP",
 		},
 	},
-	item_twrpg_ring_of_light = {
+	item_championrpg_ring_of_light = {
 		displayName = "Ring of Light",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6547,7 +6547,7 @@ local Items = {
 		},
 		passive = { "Increases nearby allies' armor by 30" },
 	},
-	item_twrpg_ring_of_darkness = {
+	item_championrpg_ring_of_darkness = {
 		displayName = "Ring of Darkness",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6560,7 +6560,7 @@ local Items = {
 			skilldamagepercent = 0.04,
 		},
 	},
-	item_twrpg_ring_of_holy_light = {
+	item_championrpg_ring_of_holy_light = {
 		displayName = "Ring of Holy Light",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -6588,7 +6588,7 @@ local Items = {
 			"Wind Mage - Mirror of Aeolus gains 20% bonus radius.",
 		},
 	},
-	item_twrpg_cape_of_the_count = {
+	item_championrpg_cape_of_the_count = {
 		displayName = "Cape of the Count",
 		type = "Wings",
 		rank = "[Epic]",
@@ -6603,7 +6603,7 @@ local Items = {
 		},
 		passive = { "Empowers next attack with Darkness on skill cast", "Deals (MAIN STAT X 2.5) magic damage" },
 	},
-	item_twrpg_dragon_wings = {
+	item_championrpg_dragon_wings = {
 		displayName = "Dragon Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -6618,7 +6618,7 @@ local Items = {
 		},
 		active = { "On use, creates a magical passage that connects current position and Capital Prius" },
 	},
-	item_twrpg_corrupt_crystal_wings = {
+	item_championrpg_corrupt_crystal_wings = {
 		displayName = "Corrupt Crystal Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -6632,7 +6632,7 @@ local Items = {
 			skilldamagepercent = 0.09,
 		},
 	},
-	item_twrpg_sanguiel_the_bloodspear_of_requiem = {
+	item_championrpg_sanguiel_the_bloodspear_of_requiem = {
 		displayName = "Sanguiel, the Bloodspear of Requiem",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6654,7 +6654,7 @@ local Items = {
 			"Green Wrath: reduces target movement and ATK SPD by 66% for 3 seconds, deals (MAIN STAT X 2.25) magic damage in an AoE, and stuns non-boss units for 0.25 seconds",
 		},
 	},
-	item_twrpg_anger = {
+	item_championrpg_anger = {
 		displayName = "Anger",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6682,7 +6682,7 @@ local Items = {
 		},
 		notes = { "In order to stop the active effect, press ESC" },
 	},
-	item_twrpg_aglaia_the_spear_of_heavenly_flows = {
+	item_championrpg_aglaia_the_spear_of_heavenly_flows = {
 		displayName = "Aglaia, the Spear of Heavenly Flows",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6701,7 +6701,7 @@ local Items = {
 			"Increases STR by 25 and skill damage by 2.5% per stack for 5 seconds up to a max of 3 stacks",
 		},
 	},
-	item_twrpg_deathbringer = {
+	item_championrpg_deathbringer = {
 		displayName = "Deathbringer",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6724,7 +6724,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_bahanar_the_true_sword_of_illusion = {
+	item_championrpg_bahanar_the_true_sword_of_illusion = {
 		displayName = "Bahanar, the True Sword of Illusion",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6748,7 +6748,7 @@ local Items = {
 			"Crusader - Flash of Immortality grants additional 10% damage reduction at low HP.",
 		},
 	},
-	item_twrpg_asmodeus_the_archdevils_greatsword = {
+	item_championrpg_asmodeus_the_archdevils_greatsword = {
 		displayName = "Asmodeus, the Archdevil's Greatsword",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6766,7 +6766,7 @@ local Items = {
 		},
 		passive = { "On attack, 15% chance to activate Chaos Strike", "Deals ((STR + AGI) X 5) magic damage" },
 	},
-	item_twrpg_blazing_soul = {
+	item_championrpg_blazing_soul = {
 		displayName = "Blazing Soul",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6788,7 +6788,7 @@ local Items = {
 		},
 		spec = { "Specialty - Improved Genesis", "Paladin - Genesis: Each pulse deals 60% bonus damage." },
 	},
-	item_twrpg_laksha_the_ancient_sword_of_poison = {
+	item_championrpg_laksha_the_ancient_sword_of_poison = {
 		displayName = "Laksha, the Ancient Sword of Poison",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6814,7 +6814,7 @@ local Items = {
 			"Cooldown: 100 seconds",
 		},
 	},
-	item_twrpg_storm_reaver = {
+	item_championrpg_storm_reaver = {
 		displayName = "Storm Reaver",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -6836,7 +6836,7 @@ local Items = {
 			"~11% chance to increase movement and ATK SPD by 50% for 6 seconds",
 		},
 	},
-	item_twrpg_belius_the_archdevils_staff = {
+	item_championrpg_belius_the_archdevils_staff = {
 		displayName = "Belius, the Archdevil's Staff",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6857,7 +6857,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_twin_snow = {
+	item_championrpg_twin_snow = {
 		displayName = "Twin Snow",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6884,7 +6884,7 @@ local Items = {
 		},
 		spec = { "Specialty - Water Mastery", "Elementalist - Water Release: Cooldown reduced by 4 seconds" },
 	},
-	item_twrpg_staff_of_madness = {
+	item_championrpg_staff_of_madness = {
 		displayName = "Staff of Madness",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6900,7 +6900,7 @@ local Items = {
 		},
 		passive = { "On skill cast, empowers nearby allies with skill damage by 7.5% and HP regen by 200 for 6 seconds" },
 	},
-	item_twrpg_crimson_pumpkin_rod = {
+	item_championrpg_crimson_pumpkin_rod = {
 		displayName = "Crimson Pumpkin Rod",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6923,7 +6923,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_benziena_the_earthen_soul = {
+	item_championrpg_benziena_the_earthen_soul = {
 		displayName = "Benziena, the Earthen Soul",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -6950,7 +6950,7 @@ local Items = {
 			"Elementalist - Pulse of Protection: Cooldown reduced by 3 seconds",
 		},
 	},
-	item_twrpg_yggrect_the_archdevils_bow = {
+	item_championrpg_yggrect_the_archdevils_bow = {
 		displayName = "Yggrect, the Archdevil's Bow",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -6967,7 +6967,7 @@ local Items = {
 		},
 		passive = { "On attack, 15% chance to activate Chaos Spike", "Deals ((STR + AGI) X 5) magic damage" },
 	},
-	item_twrpg_flame_explosion = {
+	item_championrpg_flame_explosion = {
 		displayName = "Flame Explosion",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -6988,7 +6988,7 @@ local Items = {
 			"Reduced armor of target by 20 for 10 seconds",
 		},
 	},
-	item_twrpg_devil_blaster = {
+	item_championrpg_devil_blaster = {
 		displayName = "Devil Blaster",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -7010,7 +7010,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_crimson_cross = {
+	item_championrpg_crimson_cross = {
 		displayName = "Crimson Cross",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -7040,7 +7040,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%.",
 		},
 	},
-	item_twrpg_retus_the_bullet_of_judgment = {
+	item_championrpg_retus_the_bullet_of_judgment = {
 		displayName = "Retus, the Bullet of Judgment",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -7060,7 +7060,7 @@ local Items = {
 			"Stuns for 0.25 seconds",
 		},
 	},
-	item_twrpg_alchatratz_the_archdevils_cannon = {
+	item_championrpg_alchatratz_the_archdevils_cannon = {
 		displayName = "Alchatratz, the Archdevil's Cannon",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -7077,7 +7077,7 @@ local Items = {
 		},
 		passive = { "On attack, 15% chance to activate Chaos Bullet", "Deals ((STR + AGI) X 5) magic damage" },
 	},
-	item_twrpg_bullet_of_ruin = {
+	item_championrpg_bullet_of_ruin = {
 		displayName = "Bullet of Ruin",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -7097,7 +7097,7 @@ local Items = {
 			"Stuns for 0.25 seconds",
 		},
 	},
-	item_twrpg_bag_of_hell = {
+	item_championrpg_bag_of_hell = {
 		displayName = "Bag of Hell",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -7118,7 +7118,7 @@ local Items = {
 			"Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 5%",
 		},
 	},
-	item_twrpg_bag_of_heaven = {
+	item_championrpg_bag_of_heaven = {
 		displayName = "Bag of Heaven",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -7139,7 +7139,7 @@ local Items = {
 			"Merchant - Life Shield Scroll: Duration increased by 5 seconds",
 		},
 	},
-	item_twrpg_bag_of_corruption = {
+	item_championrpg_bag_of_corruption = {
 		displayName = "Bag of Corruption",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -7160,7 +7160,7 @@ local Items = {
 			"Merchant - Throwing Healing Potion: Duration increased by 5s, increases target's skill damage by 5%",
 		},
 	},
-	item_twrpg_bag_of_life = {
+	item_championrpg_bag_of_life = {
 		displayName = "Bag of Life",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -7181,7 +7181,7 @@ local Items = {
 			"Merchant - Life Shield Scroll: Duration increased by 5 seconds",
 		},
 	},
-	item_twrpg_purelight_armor = {
+	item_championrpg_purelight_armor = {
 		displayName = "Purelight Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7197,7 +7197,7 @@ local Items = {
 		},
 		passive = { "Increases nearby allies' stats by 5% [Type-A, excluding self]" },
 	},
-	item_twrpg_earthen_plates = {
+	item_championrpg_earthen_plates = {
 		displayName = "Earthen Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7213,7 +7213,7 @@ local Items = {
 		},
 		passive = { "Temporarily boosts HP regen by 1250 when HP drops below 30% for 10 seconds", "Cooldown 60 seconds" },
 	},
-	item_twrpg_reactive_armor = {
+	item_championrpg_reactive_armor = {
 		displayName = "Reactive Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7236,7 +7236,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_cruoris_the_armor_of_blood = {
+	item_championrpg_cruoris_the_armor_of_blood = {
 		displayName = "Cruoris, the Armor of Blood",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7258,7 +7258,7 @@ local Items = {
 			"Cooldown: 150 seconds",
 		},
 	},
-	item_twrpg_guardian_vest = {
+	item_championrpg_guardian_vest = {
 		displayName = "Guardian Vest",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7278,7 +7278,7 @@ local Items = {
 			"Martial Artist - Nature's Protection: Nameless Arts reduces damage taken by 20% while active and grants immunity to instant death spells.",
 		},
 	},
-	item_twrpg_vest_of_cyclone = {
+	item_championrpg_vest_of_cyclone = {
 		displayName = "Vest of Cyclone",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7298,7 +7298,7 @@ local Items = {
 			"Increases movement speed by 300 (past limit)",
 		},
 	},
-	item_twrpg_frozen_robe = {
+	item_championrpg_frozen_robe = {
 		displayName = "Frozen Robe",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7315,7 +7315,7 @@ local Items = {
 		active = { "On use, summons a Frozen Spirit", "Absorbs up to (INT X 6) damage", "Cooldown: 75 seconds" },
 		spec = { "Specialty", "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 10%." },
 	},
-	item_twrpg_fairy_garment = {
+	item_championrpg_fairy_garment = {
 		displayName = "Fairy Garment",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7336,7 +7336,7 @@ local Items = {
 		},
 		spec = { "Specialties - Fairy Blessing", "Wind Mage - Feather of Aeolus: Heals for max HP X 15%." },
 	},
-	item_twrpg_robe_of_the_sage = {
+	item_championrpg_robe_of_the_sage = {
 		displayName = "Robe of the Sage",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7352,7 +7352,7 @@ local Items = {
 		},
 		active = { "Block magic every 4 minutes" },
 	},
-	item_twrpg_true_bloodstone_plates = {
+	item_championrpg_true_bloodstone_plates = {
 		displayName = "True Bloodstone Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -7375,7 +7375,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_horns_of_destruction = {
+	item_championrpg_horns_of_destruction = {
 		displayName = "Horns of Destruction",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7400,7 +7400,7 @@ local Items = {
 			"Cooldown: 150 seconds",
 		},
 	},
-	item_twrpg_archangel_halo = {
+	item_championrpg_archangel_halo = {
 		displayName = "Archangel Halo",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7416,7 +7416,7 @@ local Items = {
 		},
 		active = { "Block magic every 3 minutes" },
 	},
-	item_twrpg_helm_of_battle = {
+	item_championrpg_helm_of_battle = {
 		displayName = "Helm of Battle",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7433,7 +7433,7 @@ local Items = {
 		passive = { "Increases nearby allies' HP regen by 50" },
 		active = { "Block magic every 4 minutes" },
 	},
-	item_twrpg_grim_visage = {
+	item_championrpg_grim_visage = {
 		displayName = "Grim Visage",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7456,7 +7456,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_void_eye = {
+	item_championrpg_void_eye = {
 		displayName = "Void Eye",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7472,7 +7472,7 @@ local Items = {
 		passive = { "Increases nearby allies' skill damage by +4%" },
 		active = { "Summons 6 demons on use", "Cooldown: 100 seconds" },
 	},
-	item_twrpg_prophetia_the_source_of_mana = {
+	item_championrpg_prophetia_the_source_of_mana = {
 		displayName = "Prophetia, the Source of Mana",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7487,7 +7487,7 @@ local Items = {
 		},
 		active = { "On use, temporarily increases INT by 225 and max MP by 1500", "Cooldown: 60 seconds" },
 	},
-	item_twrpg_hood_of_grim_reaper = {
+	item_championrpg_hood_of_grim_reaper = {
 		displayName = "Hood of Grim Reaper",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7508,7 +7508,7 @@ local Items = {
 		},
 		active = { "Grants invisibility on use for 20 seconds", "Cooldown: 60 seconds" },
 	},
-	item_twrpg_horn_of_devil = {
+	item_championrpg_horn_of_devil = {
 		displayName = "Horn of Devil",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -7529,7 +7529,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_true_guardian_ring = {
+	item_championrpg_true_guardian_ring = {
 		displayName = "True Guardian Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7546,7 +7546,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Knight - Improved Seal of Mana: Radius is increased by 15%." },
 	},
-	item_twrpg_demonis_the_devil_lords_ring = {
+	item_championrpg_demonis_the_devil_lords_ring = {
 		displayName = "Demonis, the Devil Lord's Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7560,7 +7560,7 @@ local Items = {
 		},
 		passive = { "Increases nearby allies' armor by 40" },
 	},
-	item_twrpg_everfrost_gauntlet = {
+	item_championrpg_everfrost_gauntlet = {
 		displayName = "Everfrost Gauntlet",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7574,7 +7574,7 @@ local Items = {
 			dtpercent = -0.1,
 		},
 	},
-	item_twrpg_mana_heart_frost = {
+	item_championrpg_mana_heart_frost = {
 		displayName = "Mana Heart Frost",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7589,7 +7589,7 @@ local Items = {
 			mpregen = 30,
 		},
 	},
-	item_twrpg_ring_of_intrusion = {
+	item_championrpg_ring_of_intrusion = {
 		displayName = "Ring of Intrusion",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7607,7 +7607,7 @@ local Items = {
 			"Cooldown: 105 seconds",
 		},
 	},
-	item_twrpg_ring_of_deep_darkness = {
+	item_championrpg_ring_of_deep_darkness = {
 		displayName = "Ring of Deep Darkness",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7630,7 +7630,7 @@ local Items = {
 			"Priest - Holy Aurora is replaced by Dark Aurora [Lv 1]",
 		},
 	},
-	item_twrpg_ring_of_the_reaper = {
+	item_championrpg_ring_of_the_reaper = {
 		displayName = "Ring of the Reaper",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7646,7 +7646,7 @@ local Items = {
 		},
 		active = { "On use, converts damage taken into HP for 2 seconds" },
 	},
-	item_twrpg_latea_the_ring_of_chaos = {
+	item_championrpg_latea_the_ring_of_chaos = {
 		displayName = "Latea, the Ring of Chaos",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7660,7 +7660,7 @@ local Items = {
 		},
 		passive = { "Decreases nearby enemies' armor by 75", "10% chance to activate Absolute Defense on being damaged" },
 	},
-	item_twrpg_trueblood_ring = {
+	item_championrpg_trueblood_ring = {
 		displayName = "Trueblood Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7679,7 +7679,7 @@ local Items = {
 			"Blood Weaver - Blood Boil applies Life Drain's shield onto yourself and nearby allies.",
 		},
 	},
-	item_twrpg_purefrost_gauntlet = {
+	item_championrpg_purefrost_gauntlet = {
 		displayName = "Purefrost Gauntlet",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7695,7 +7695,7 @@ local Items = {
 		},
 		passive = { "On attack, applies slow on the target" },
 	},
-	item_twrpg_heart_of_ifrit = {
+	item_championrpg_heart_of_ifrit = {
 		displayName = "Heart of Ifrit",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7710,7 +7710,7 @@ local Items = {
 		},
 		passive = { "13% chance to reduce target's armor by 12% [Type-A] on attack for 5 seconds" },
 	},
-	item_twrpg_soul_drinker = {
+	item_championrpg_soul_drinker = {
 		displayName = "Soul Drinker",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7727,7 +7727,7 @@ local Items = {
 		},
 		active = { "On use, heals 3000 HP", "Cooldown: 15 seconds" },
 	},
-	item_twrpg_living_dragon_heart = {
+	item_championrpg_living_dragon_heart = {
 		displayName = "Living Dragon Heart",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7746,7 +7746,7 @@ local Items = {
 			"Cooldown: 150 seconds",
 		},
 	},
-	item_twrpg_azathos_the_pipe_of_chaos = {
+	item_championrpg_azathos_the_pipe_of_chaos = {
 		displayName = "Azathos, the Pipe of Chaos",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -7761,7 +7761,7 @@ local Items = {
 		},
 		passive = { "Increases nearby allies' stats", "ATK SPD by 15%", "ATK DMG by 1200", "HP regen by 60" },
 	},
-	item_twrpg_cape_of_corrupt_flame = {
+	item_championrpg_cape_of_corrupt_flame = {
 		displayName = "Cape of Corrupt Flame",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7779,7 +7779,7 @@ local Items = {
 			"Deals 10% additional damage over 3 seconds (effect stacks)",
 		},
 	},
-	item_twrpg_wings_of_fury = {
+	item_championrpg_wings_of_fury = {
 		displayName = "Wings of Fury",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7799,7 +7799,7 @@ local Items = {
 			"Increases AGI by 18 for 7 seconds (up to 10 stacks)",
 		},
 	},
-	item_twrpg_hungry_bat_wings = {
+	item_championrpg_hungry_bat_wings = {
 		displayName = "Hungry Bat Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7820,7 +7820,7 @@ local Items = {
 			"Cooldown: 0.125 seconds",
 		},
 	},
-	item_twrpg_wanderers_cape = {
+	item_championrpg_wanderers_cape = {
 		displayName = "Wanderer's Cape",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7837,7 +7837,7 @@ local Items = {
 		active = { "On use, creates a magical passage that connects to Capital Prius" },
 		spec = { "Specialty - Wanderer", "Martial Artist - Nameless Art's cast time is reduced by 1 second." },
 	},
-	item_twrpg_fairy_wings = {
+	item_championrpg_fairy_wings = {
 		displayName = "Fairy Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7853,7 +7853,7 @@ local Items = {
 		},
 		active = { "On use, creates a magical passage that connects to Capital Prius" },
 	},
-	item_twrpg_frozen_heart = {
+	item_championrpg_frozen_heart = {
 		displayName = "Frozen Heart",
 		type = "Wings",
 		rank = "[Epic]",
@@ -7867,7 +7867,7 @@ local Items = {
 		},
 		passive = { "Reduces nearby enemy movement and ATK SPD by 15%" },
 	},
-	item_twrpg_spirit_dagger = {
+	item_championrpg_spirit_dagger = {
 		displayName = "Spirit Dagger",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -7890,7 +7890,7 @@ local Items = {
 		},
 		spec = { "Specialties", "Lightning Mage - Hypercharge: If fully casted, heals for 75% HP" },
 	},
-	item_twrpg_maw_of_greed = {
+	item_championrpg_maw_of_greed = {
 		displayName = "Maw of Greed",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -7914,7 +7914,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_oblivion = {
+	item_championrpg_oblivion = {
 		displayName = "Oblivion",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -7942,7 +7942,7 @@ local Items = {
 		},
 		notes = { "In order to stop the active effect, press ESC" },
 	},
-	item_twrpg_winters_heart = {
+	item_championrpg_winters_heart = {
 		displayName = "Winter's Heart",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -7970,7 +7970,7 @@ local Items = {
 		},
 		spec = { "Specialty - Absolute Zero", "Knight - Shield Break effect is added to Excalibur." },
 	},
-	item_twrpg_blazing_heart = {
+	item_championrpg_blazing_heart = {
 		displayName = "Blazing Heart",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -7993,7 +7993,7 @@ local Items = {
 		},
 		spec = { "Specialty - Improved Genesis", "Paladin - Each pulse deals 60% bonus damage." },
 	},
-	item_twrpg_espishu_the_sword_of_eternity = {
+	item_championrpg_espishu_the_sword_of_eternity = {
 		displayName = "Espishu, the Sword of Eternity",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8011,7 +8011,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Chaos Strike", "Deals ((STR + AGI) X 6) magic damage" },
 	},
-	item_twrpg_ruinbringer = {
+	item_championrpg_ruinbringer = {
 		displayName = "Ruinbringer",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8040,7 +8040,7 @@ local Items = {
 		},
 		spec = { "Specialty - Darkened Light", "Paladin - Holy Divide deals 25% bonus damage" },
 	},
-	item_twrpg_meacronacer_the_sword_of_thousand_illusions = {
+	item_championrpg_meacronacer_the_sword_of_thousand_illusions = {
 		displayName = "Meacronacer, the Sword of Thousand Illusions",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8072,7 +8072,7 @@ local Items = {
 			"Crusader - Flash of Immortality grants additional 10% damage reduction at low HP.",
 		},
 	},
-	item_twrpg_tiberius_the_spear_of_lightning = {
+	item_championrpg_tiberius_the_spear_of_lightning = {
 		displayName = "Tiberius, the Spear of Lightning",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8101,7 +8101,7 @@ local Items = {
 			"Cooldown: 80 seconds",
 		},
 	},
-	item_twrpg_oceanus_the_sword_of_light = {
+	item_championrpg_oceanus_the_sword_of_light = {
 		displayName = "Oceanus, the Sword of Light",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8130,7 +8130,7 @@ local Items = {
 			"Cooldown: 80 seconds",
 		},
 	},
-	item_twrpg_claws_of_beriel = {
+	item_championrpg_claws_of_beriel = {
 		displayName = "Claws of Beriel",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8151,7 +8151,7 @@ local Items = {
 			"Stuns for 0.1 seconds",
 		},
 	},
-	item_twrpg_laktrisha_the_illusional_sword_of_poison = {
+	item_championrpg_laktrisha_the_illusional_sword_of_poison = {
 		displayName = "Laktrisha, the Illusional Sword of Poison",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8182,7 +8182,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_crimson_reaper = {
+	item_championrpg_crimson_reaper = {
 		displayName = "Crimson Reaper",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -8210,7 +8210,7 @@ local Items = {
 			"Blood Awakening cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_staff_of_domination = {
+	item_championrpg_staff_of_domination = {
 		displayName = "Staff of Domination",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8228,7 +8228,7 @@ local Items = {
 		passive = { "INT increased by 30 per 1 nearby self-owned summon" },
 		active = { "On use, summons Watcher" },
 	},
-	item_twrpg_triple_snow = {
+	item_championrpg_triple_snow = {
 		displayName = "Triple Snow",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8257,7 +8257,7 @@ local Items = {
 			"Elementalist - Water Bolt: Max target count increased by 1",
 		},
 	},
-	item_twrpg_benziena_the_earthen_heart = {
+	item_championrpg_benziena_the_earthen_heart = {
 		displayName = "Benziena, the Earthen Heart",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8288,7 +8288,7 @@ local Items = {
 			"Alchemist - Enhanced Conjure Golem: Golem's HP increased by 40% and armor is increased by 40. Also periodically heals nearby allies.",
 		},
 	},
-	item_twrpg_staff_of_abyss = {
+	item_championrpg_staff_of_abyss = {
 		displayName = "Staff of Abyss",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8309,7 +8309,7 @@ local Items = {
 			"Lasts for 8 seconds",
 		},
 	},
-	item_twrpg_bloody_hatred = {
+	item_championrpg_bloody_hatred = {
 		displayName = "Bloody Hatred",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8331,7 +8331,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_hell_riser = {
+	item_championrpg_hell_riser = {
 		displayName = "Hell Riser",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8358,7 +8358,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_ethenos_the_staff_of_space = {
+	item_championrpg_ethenos_the_staff_of_space = {
 		displayName = "Ethenos, the Staff of Space",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -8380,7 +8380,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_pheles_the_bow_of_skies = {
+	item_championrpg_pheles_the_bow_of_skies = {
 		displayName = "Pheles, the Bow of Skies",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8400,7 +8400,7 @@ local Items = {
 			"Deals (wind affinity X (10% ATK DMG)) pure damage",
 		},
 	},
-	item_twrpg_hellflame = {
+	item_championrpg_hellflame = {
 		displayName = "Hellflame",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8421,7 +8421,7 @@ local Items = {
 			"Increase magic damage taken of enemy by 2% for 5 seconds",
 		},
 	},
-	item_twrpg_heartseeker = {
+	item_championrpg_heartseeker = {
 		displayName = "Heartseeker",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8443,7 +8443,7 @@ local Items = {
 		},
 		spec = { "Specialty - Heartseeker", "Bow Master - Arrow Rain becomes empowered." },
 	},
-	item_twrpg_everfrostbane = {
+	item_championrpg_everfrostbane = {
 		displayName = "Everfrostbane",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8470,7 +8470,7 @@ local Items = {
 			"Bow Master - Casting Freezing Shot consecutively deals (water affinity X (60% ATK DMG + (AGI X 18))) bonus magic damage.",
 		},
 	},
-	item_twrpg_soulstalker = {
+	item_championrpg_soulstalker = {
 		displayName = "Soulstalker",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8490,7 +8490,7 @@ local Items = {
 			"Sniper - Increases Snipe's damage by 25%, and silences sniped target for 1.5 seconds.",
 		},
 	},
-	item_twrpg_griveddon_the_bow_of_certain_destruction = {
+	item_championrpg_griveddon_the_bow_of_certain_destruction = {
 		displayName = "Griveddon, the Bow of Certain Destruction",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -8507,7 +8507,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Chaos Spike", "Deals ((STR + AGI) X 6) magic damage" },
 	},
-	item_twrpg_devil_chaser = {
+	item_championrpg_devil_chaser = {
 		displayName = "Devil Chaser",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8533,7 +8533,7 @@ local Items = {
 			"Shooter - Break Shot now pierces non-boss units and deals 25% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)",
 		},
 	},
-	item_twrpg_fiend_chaser = {
+	item_championrpg_fiend_chaser = {
 		displayName = "Fiend Chaser",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8560,7 +8560,7 @@ local Items = {
 			"Shooter - Break Shot now pierces non-boss units and deals 35% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)",
 		},
 	},
-	item_twrpg_crimson_star = {
+	item_championrpg_crimson_star = {
 		displayName = "Crimson Star",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8592,7 +8592,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed increased by 50% and duration increased by 50%",
 		},
 	},
-	item_twrpg_hydro_buster = {
+	item_championrpg_hydro_buster = {
 		displayName = "Hydro Buster",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8622,7 +8622,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed decreased by 50% but heal amount increased by 50% and heals all allies within 400 range",
 		},
 	},
-	item_twrpg_dantes_inferno = {
+	item_championrpg_dantes_inferno = {
 		displayName = "Dante's Inferno",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8647,7 +8647,7 @@ local Items = {
 			"Gunner - Casting Tumble loads one Bullet of Destruction",
 		},
 	},
-	item_twrpg_punisher = {
+	item_championrpg_punisher = {
 		displayName = "Punisher",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8673,7 +8673,7 @@ local Items = {
 			"Gunner - Casting Tumble loads one Bullet of Punishment",
 		},
 	},
-	item_twrpg_chronos_the_cannon_of_time = {
+	item_championrpg_chronos_the_cannon_of_time = {
 		displayName = "Chronos, the Cannon of Time",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -8690,7 +8690,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Chaos Bullet", "Deals ((STR + AGI) X 6) magic damage" },
 	},
-	item_twrpg_bag_of_destruction = {
+	item_championrpg_bag_of_destruction = {
 		displayName = "Bag of Destruction",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -8712,7 +8712,7 @@ local Items = {
 			"Merchant - Throw Money: Each coin stuns for 0.5 seconds",
 		},
 	},
-	item_twrpg_bag_of_mother_nature = {
+	item_championrpg_bag_of_mother_nature = {
 		displayName = "Bag of Mother Nature",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -8734,7 +8734,7 @@ local Items = {
 			"Merchant - Life Shield Scroll: Duration increased by 5 seconds and reduces damage taken by target by 15%.",
 		},
 	},
-	item_twrpg_bag_of_explosion = {
+	item_championrpg_bag_of_explosion = {
 		displayName = "Bag of Explosion",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -8755,7 +8755,7 @@ local Items = {
 			"Merchant - Holy Water of Resurrection: Changed to Dangerous Explosive",
 		},
 	},
-	item_twrpg_frostshard_armor = {
+	item_championrpg_frostshard_armor = {
 		displayName = "Frostshard Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8778,7 +8778,7 @@ local Items = {
 			"Cooldown: 8 seconds",
 		},
 	},
-	item_twrpg_hellspike_armor = {
+	item_championrpg_hellspike_armor = {
 		displayName = "Hellspike Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8806,7 +8806,7 @@ local Items = {
 			"Cooldown: 3 seconds",
 		},
 	},
-	item_twrpg_creation_of_the_sky_and_earth = {
+	item_championrpg_creation_of_the_sky_and_earth = {
 		displayName = "Creation of the Sky and Earth",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8827,7 +8827,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_requiem_the_armor_of_lamentation = {
+	item_championrpg_requiem_the_armor_of_lamentation = {
 		displayName = "Requiem, the Armor of Lamentation",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8850,7 +8850,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_plates_of_lightning = {
+	item_championrpg_plates_of_lightning = {
 		displayName = "Plates of Lightning",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8873,7 +8873,7 @@ local Items = {
 			"Cooldown: 6 seconds",
 		},
 	},
-	item_twrpg_tunic_of_the_wraith = {
+	item_championrpg_tunic_of_the_wraith = {
 		displayName = "Tunic of the Wraith",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8893,7 +8893,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_vest_of_storm = {
+	item_championrpg_vest_of_storm = {
 		displayName = "Vest of Storm",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8913,7 +8913,7 @@ local Items = {
 			"Increases movement speed by 300 (past limit)",
 		},
 	},
-	item_twrpg_benedict_the_crimson_armor_of_blood = {
+	item_championrpg_benedict_the_crimson_armor_of_blood = {
 		displayName = "Benedict, the Crimson Armor of Blood",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8935,7 +8935,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_grandine_the_plates_of_wraith = {
+	item_championrpg_grandine_the_plates_of_wraith = {
 		displayName = "Grandine, the Plates of Wraith",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8962,7 +8962,7 @@ local Items = {
 			"Martial Artist - Nameless Arts reduces damage taken by 20% while active and grants immunity to instant death spells.",
 		},
 	},
-	item_twrpg_winter_robe = {
+	item_championrpg_winter_robe = {
 		displayName = "Winter Robe",
 		type = "Armor",
 		rank = "[Epic]",
@@ -8987,7 +8987,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%." },
 	},
-	item_twrpg_diana_the_robe_of_holy_maiden = {
+	item_championrpg_diana_the_robe_of_holy_maiden = {
 		displayName = "Diana, the Robe of Holy Maiden",
 		type = "Armor",
 		rank = "[Epic]",
@@ -9014,7 +9014,7 @@ local Items = {
 		},
 		spec = { "Specialties - Maiden's Blessing", "Wind Mage - Feather of Aeolus: Heals for max HP X 40%." },
 	},
-	item_twrpg_medea_the_robe_of_the_witch = {
+	item_championrpg_medea_the_robe_of_the_witch = {
 		displayName = "Medea, the Robe of the Witch",
 		type = "Armor",
 		rank = "[Epic]",
@@ -9042,7 +9042,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_robe_of_the_necromancer = {
+	item_championrpg_robe_of_the_necromancer = {
 		displayName = "Robe of the Necromancer",
 		type = "Armor",
 		rank = "[Epic]",
@@ -9063,7 +9063,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_druids_mantle = {
+	item_championrpg_druids_mantle = {
 		displayName = "Druid's Mantle",
 		type = "Armor",
 		rank = "[Epic]",
@@ -9087,7 +9087,7 @@ local Items = {
 			"Cannot target self",
 		},
 	},
-	item_twrpg_bloodsoul_plates = {
+	item_championrpg_bloodsoul_plates = {
 		displayName = "Bloodsoul Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -9112,7 +9112,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_protectors_will = {
+	item_championrpg_protectors_will = {
 		displayName = "Protector's Will",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9128,7 +9128,7 @@ local Items = {
 		passive = { "25% chance to restore HP on being hit", "Restores 5% HP and 10% MP", "Cooldown: 3 seconds" },
 		active = { "On use, increases magic defense by nearby allies by 40% for 12 seconds", "Cooldown: 90 seconds" },
 	},
-	item_twrpg_halo_of_judgment = {
+	item_championrpg_halo_of_judgment = {
 		displayName = "Halo of Judgment",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9148,7 +9148,7 @@ local Items = {
 		},
 		active = { "On use, activates Magic Barrier", "Lasts 5 seconds", "Cooldown: 90 seconds" },
 	},
-	item_twrpg_eye_of_wallachia = {
+	item_championrpg_eye_of_wallachia = {
 		displayName = "Eye of Wallachia",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9169,7 +9169,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_dragon_mask = {
+	item_championrpg_dragon_mask = {
 		displayName = "Dragon Mask",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9190,7 +9190,7 @@ local Items = {
 			"Cooldown: 50 seconds",
 		},
 	},
-	item_twrpg_prophetia_the_greater_source_of_mana = {
+	item_championrpg_prophetia_the_greater_source_of_mana = {
 		displayName = "Prophetia, the Greater Source of Mana",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9209,7 +9209,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_hood_of_apocrypha = {
+	item_championrpg_hood_of_apocrypha = {
 		displayName = "Hood of Apocrypha",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9233,7 +9233,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_crown_of_rage = {
+	item_championrpg_crown_of_rage = {
 		displayName = "Crown of Rage",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9254,7 +9254,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_crown_of_composure = {
+	item_championrpg_crown_of_composure = {
 		displayName = "Crown of Composure",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9275,7 +9275,7 @@ local Items = {
 			"Cooldown: 100 seconds",
 		},
 	},
-	item_twrpg_crown_of_serenity = {
+	item_championrpg_crown_of_serenity = {
 		displayName = "Crown of Serenity",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -9297,7 +9297,7 @@ local Items = {
 		},
 		spec = { "Specialty - Protector of Wind", "Wind Mage - Judgment: Damage increased by 7.5%." },
 	},
-	item_twrpg_eternal_rose = {
+	item_championrpg_eternal_rose = {
 		displayName = "Eternal Rose",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9317,7 +9317,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_ispion_the_runed_ring = {
+	item_championrpg_ispion_the_runed_ring = {
 		displayName = "Ispion, the Runed Ring",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9339,7 +9339,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Knight - Improved Seal of Mana: Radius is increased by 30%." },
 	},
-	item_twrpg_ring_of_strike = {
+	item_championrpg_ring_of_strike = {
 		displayName = "Ring of Strike",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9360,7 +9360,7 @@ local Items = {
 			"Absolute Strike cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_seal_of_deceiver = {
+	item_championrpg_seal_of_deceiver = {
 		displayName = "Seal of Deceiver",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9390,7 +9390,7 @@ local Items = {
 			"Dark Knight - Unholy Tempest's damage is increased by 15%, and it always deals its maximum damage regardless of target's HP.",
 		},
 	},
-	item_twrpg_cold_ring_of_death = {
+	item_championrpg_cold_ring_of_death = {
 		displayName = "Cold Ring of Death",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9411,7 +9411,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_bell_of_light = {
+	item_championrpg_bell_of_light = {
 		displayName = "Bell of Light",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9433,7 +9433,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_ring_of_time = {
+	item_championrpg_ring_of_time = {
 		displayName = "Ring of Time",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9454,7 +9454,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_ring_of_fervor = {
+	item_championrpg_ring_of_fervor = {
 		displayName = "Ring of Fervor",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9476,7 +9476,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_ring_of_composure = {
+	item_championrpg_ring_of_composure = {
 		displayName = "Ring of Composure",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9499,7 +9499,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_grimoire_of_darkness = {
+	item_championrpg_grimoire_of_darkness = {
 		displayName = "Grimoire of Darkness",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -9523,7 +9523,7 @@ local Items = {
 			"Priest - Holy Aurora is replaced by Dark Aurora [Lv 2]",
 		},
 	},
-	item_twrpg_wings_of_blood_lord = {
+	item_championrpg_wings_of_blood_lord = {
 		displayName = "Wings of Blood Lord",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9543,7 +9543,7 @@ local Items = {
 			"cooldown: 0.125 seconds",
 		},
 	},
-	item_twrpg_pure_crystal_wings = {
+	item_championrpg_pure_crystal_wings = {
 		displayName = "Pure Crystal Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9559,7 +9559,7 @@ local Items = {
 		},
 		passive = { "5% chance to reset non-ultimate skill cooldowns on skill cast", "Cooldown: 150 seconds" },
 	},
-	item_twrpg_frost_fairy_wings = {
+	item_championrpg_frost_fairy_wings = {
 		displayName = "Frost Fairy Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9576,7 +9576,7 @@ local Items = {
 		},
 		active = { "On use, creates a Magical Passage" },
 	},
-	item_twrpg_cloak_of_the_fallen_shadows = {
+	item_championrpg_cloak_of_the_fallen_shadows = {
 		displayName = "Cloak of the Fallen Shadows",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9595,7 +9595,7 @@ local Items = {
 			"Increases enemy magic damage taken by 4% [Type-B]",
 		},
 	},
-	item_twrpg_wings_of_phoenix = {
+	item_championrpg_wings_of_phoenix = {
 		displayName = "Wings of Phoenix",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9621,7 +9621,7 @@ local Items = {
 			"Martial Artist - If you die while Nameless Art is active, you will revive with 75% HP after 2 seconds.",
 		},
 	},
-	item_twrpg_wings_of_slayer = {
+	item_championrpg_wings_of_slayer = {
 		displayName = "Wings of Slayer",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9642,7 +9642,7 @@ local Items = {
 			"At max stacks, duration cannot be extended but increases skill damage by 10%",
 		},
 	},
-	item_twrpg_soul_of_the_dead = {
+	item_championrpg_soul_of_the_dead = {
 		displayName = "Soul of the Dead",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9663,7 +9663,7 @@ local Items = {
 			"Cooldown: 180 seconds",
 		},
 	},
-	item_twrpg_grim_heart = {
+	item_championrpg_grim_heart = {
 		displayName = "Grim Heart",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9684,7 +9684,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_soul_eater = {
+	item_championrpg_soul_eater = {
 		displayName = "Soul Eater",
 		type = "Wings",
 		rank = "[Epic]",
@@ -9702,7 +9702,7 @@ local Items = {
 		active = { "On use, activates Soul Absorb", "Heals (30% max HP)", "Cooldown: 40 seconds" },
 		spec = { "Specialty - Soul Devour", "Warlock - Soul Whisper's restored HP amount is increased by 30%." },
 	},
-	item_twrpg_heavens_door = {
+	item_championrpg_heavens_door = {
 		displayName = "Heaven's Door",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -9730,7 +9730,7 @@ local Items = {
 			"Cooldown: 3 seconds",
 		},
 	},
-	item_twrpg_ethereal_dagger = {
+	item_championrpg_ethereal_dagger = {
 		displayName = "Ethereal Dagger",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -9751,7 +9751,7 @@ local Items = {
 			"Increases enemy damage taken by 5% for 4 seconds",
 		},
 	},
-	item_twrpg_chaos_dagger = {
+	item_championrpg_chaos_dagger = {
 		displayName = "Chaos Dagger",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -9773,7 +9773,7 @@ local Items = {
 		},
 		active = { "On use, summons Servant of Chaos", "Cooldown: 60 seconds" },
 	},
-	item_twrpg_eternal_winter = {
+	item_championrpg_eternal_winter = {
 		displayName = "Eternal Winter",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9805,7 +9805,7 @@ local Items = {
 		},
 		spec = { "Specialty - Absolute Zero", "Knight - Shield Break effect is added to Excalibur." },
 	},
-	item_twrpg_splitting_of_the_sky_and_earth = {
+	item_championrpg_splitting_of_the_sky_and_earth = {
 		displayName = "Splitting of the Sky and Earth",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9831,7 +9831,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_desolation = {
+	item_championrpg_desolation = {
 		displayName = "Desolation",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9860,7 +9860,7 @@ local Items = {
 		},
 		notes = { "In order to stop the active effect, press ESC" },
 	},
-	item_twrpg_chaos = {
+	item_championrpg_chaos = {
 		displayName = "Chaos",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9889,7 +9889,7 @@ local Items = {
 		},
 		notes = { "In order to stop the active effect, press ESC" },
 	},
-	item_twrpg_cosmic_reaper = {
+	item_championrpg_cosmic_reaper = {
 		displayName = "Cosmic Reaper",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9913,7 +9913,7 @@ local Items = {
 			"Skill cast Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_espishu_the_true_sword_of_eternity = {
+	item_championrpg_espishu_the_true_sword_of_eternity = {
 		displayName = "Espishu, the True Sword of Eternity",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9931,7 +9931,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Chaos Strike", "Deals ((STR + AGI) X 6) magic damage" },
 	},
-	item_twrpg_espishu_the_sword_of_chaos = {
+	item_championrpg_espishu_the_sword_of_chaos = {
 		displayName = "Espishu, the Sword of Chaos",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9949,7 +9949,7 @@ local Items = {
 		},
 		passive = { "On attack, 10% chance to activate Chaos Strike", "Deals ((STR + AGI) X 7.5) magic damage" },
 	},
-	item_twrpg_astra_the_sword_of_moonlight = {
+	item_championrpg_astra_the_sword_of_moonlight = {
 		displayName = "Astra, the Sword of Moonlight",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -9982,7 +9982,7 @@ local Items = {
 			"Crusader - Flash of Immortality grants additional 10% damage reduction and 2% HP regen per second when below 50% HP",
 		},
 	},
-	item_twrpg_calamity = {
+	item_championrpg_calamity = {
 		displayName = "Calamity",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -10011,7 +10011,7 @@ local Items = {
 		},
 		spec = { "Specialty - Darkened Light", "Paladin - Holy Divide deals 50% bonus damage." },
 	},
-	item_twrpg_atricia_the_sword_of_dreams = {
+	item_championrpg_atricia_the_sword_of_dreams = {
 		displayName = "Atricia, the Sword of Dreams",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -10041,7 +10041,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_atricia_the_true_sword_of_dreams = {
+	item_championrpg_atricia_the_true_sword_of_dreams = {
 		displayName = "Atricia, the True Sword of Dreams",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -10071,7 +10071,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_maw_of_beriel = {
+	item_championrpg_maw_of_beriel = {
 		displayName = "Maw of Beriel",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -10092,7 +10092,7 @@ local Items = {
 			"Stuns for 0.1 seconds",
 		},
 	},
-	item_twrpg_power_of_beriel = {
+	item_championrpg_power_of_beriel = {
 		displayName = "Power of Beriel",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -10120,7 +10120,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_pheles_the_bow_of_god = {
+	item_championrpg_pheles_the_bow_of_god = {
 		displayName = "Pheles, the Bow of God",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -10141,7 +10141,7 @@ local Items = {
 		},
 		spec = { "Specialty - Arrow of Judgment", "Sniper - Storm Shaft's max stack is increased by 2" },
 	},
-	item_twrpg_soulbane = {
+	item_championrpg_soulbane = {
 		displayName = "Soulbane",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -10170,7 +10170,7 @@ local Items = {
 			"Sniper - Increases Snipe's damage by 30%, and silences sniped target for 1.5 seconds.",
 		},
 	},
-	item_twrpg_eternal_flame = {
+	item_championrpg_eternal_flame = {
 		displayName = "Eternal Flame",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -10193,7 +10193,7 @@ local Items = {
 			"Each stack increases skill damage and flame affinity by 1%",
 		},
 	},
-	item_twrpg_chrono_chaser = {
+	item_championrpg_chrono_chaser = {
 		displayName = "Chrono Chaser",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -10222,7 +10222,7 @@ local Items = {
 			"Shooter - Break Shot now pierces non-boss units and deals 45% increased damage. Deals up to 60% bonus damage based on target's missing HP (max damage to non-boss units)",
 		},
 	},
-	item_twrpg_last_word = {
+	item_championrpg_last_word = {
 		displayName = "Last Word",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -10248,7 +10248,7 @@ local Items = {
 			"Gunner - Casting Tumble loads one Bullet of Penance",
 		},
 	},
-	item_twrpg_cosmic_star = {
+	item_championrpg_cosmic_star = {
 		displayName = "Cosmic Star",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -10280,7 +10280,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 50%; while buff is active, target is immune to debuffs",
 		},
 	},
-	item_twrpg_rainmaker = {
+	item_championrpg_rainmaker = {
 		displayName = "Rainmaker",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -10309,7 +10309,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed decreased by 50% but heal amount increased by 75% and heals all allies within 400 range",
 		},
 	},
-	item_twrpg_crimson_hatred = {
+	item_championrpg_crimson_hatred = {
 		displayName = "Crimson Hatred",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10332,7 +10332,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_staff_of_plague = {
+	item_championrpg_staff_of_plague = {
 		displayName = "Staff of Plague",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10357,7 +10357,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_soul_of_abyss = {
+	item_championrpg_soul_of_abyss = {
 		displayName = "Soul of Abyss",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10383,7 +10383,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_armageddon = {
+	item_championrpg_armageddon = {
 		displayName = "Armageddon",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10410,7 +10410,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_ethenos_the_true_staff_of_space = {
+	item_championrpg_ethenos_the_true_staff_of_space = {
 		displayName = "Ethenos, the True Staff of Space",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10432,7 +10432,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_ethenos_the_staff_of_chaos = {
+	item_championrpg_ethenos_the_staff_of_chaos = {
 		displayName = "Ethenos, the Staff of Chaos",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10454,7 +10454,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_harmonia_the_sparkle_of_life = {
+	item_championrpg_harmonia_the_sparkle_of_life = {
 		displayName = "Harmonia, the Sparkle of Life",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -10489,7 +10489,7 @@ local Items = {
 			"Alchemist - Golem's HP increased by 50%, armor is increased by 50, and is permanently affected by Sparkle of Life. Also periodically heals nearby allies.",
 		},
 	},
-	item_twrpg_bag_of_demise = {
+	item_championrpg_bag_of_demise = {
 		displayName = "Bag of Demise",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -10517,7 +10517,7 @@ local Items = {
 			"Merchant - Throw Money: Each coin stuns for 0.5 seconds",
 		},
 	},
-	item_twrpg_bag_of_all_evils = {
+	item_championrpg_bag_of_all_evils = {
 		displayName = "Bag of All Evils",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -10545,7 +10545,7 @@ local Items = {
 			"Merchant - Throw Money: Changed into Devour",
 		},
 	},
-	item_twrpg_bag_of_universe = {
+	item_championrpg_bag_of_universe = {
 		displayName = "Bag of Universe",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -10574,7 +10574,7 @@ local Items = {
 			"Merchant - Life Shield Scroll: Duration increased by 5 seconds and reduces damage taken by target by 15%.",
 		},
 	},
-	item_twrpg_bag_of_despair = {
+	item_championrpg_bag_of_despair = {
 		displayName = "Bag of Despair",
 		type = "Weapon (Bag)",
 		rank = "[Epic]",
@@ -10595,7 +10595,7 @@ local Items = {
 			"Merchant - Holy Water of Resurrection: Changed to Cursed Doll",
 		},
 	},
-	item_twrpg_harmony_of_sky_and_earth = {
+	item_championrpg_harmony_of_sky_and_earth = {
 		displayName = "Harmony of Sky and Earth",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10617,7 +10617,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_felspike_armor = {
+	item_championrpg_felspike_armor = {
 		displayName = "Felspike Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10643,7 +10643,7 @@ local Items = {
 			"Cooldown: 7.5 seconds",
 		},
 	},
-	item_twrpg_voidshard_armor = {
+	item_championrpg_voidshard_armor = {
 		displayName = "Voidshard Armor",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10673,7 +10673,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_nevedium_the_armor_of_demonblood = {
+	item_championrpg_nevedium_the_armor_of_demonblood = {
 		displayName = "Nevedium, the Armor of Demonblood",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10700,7 +10700,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_athanasia_the_armor_of_the_reaper = {
+	item_championrpg_athanasia_the_armor_of_the_reaper = {
 		displayName = "Athanasia, the Armor of the Reaper",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10728,7 +10728,7 @@ local Items = {
 			"Martial Artist - Nameless Arts reduces damage taken by 20% while active and grants immunity to instant death spells.",
 		},
 	},
-	item_twrpg_vest_of_divine_winds = {
+	item_championrpg_vest_of_divine_winds = {
 		displayName = "Vest of Divine Winds",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10748,7 +10748,7 @@ local Items = {
 			"Increases AGI by 75 and movement speed by 400 (past limit)",
 		},
 	},
-	item_twrpg_hades_the_armor_of_despair = {
+	item_championrpg_hades_the_armor_of_despair = {
 		displayName = "Hades, the Armor of Despair",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10771,7 +10771,7 @@ local Items = {
 			"On next attack, heals (6% max HP)",
 		},
 	},
-	item_twrpg_robe_of_archlich = {
+	item_championrpg_robe_of_archlich = {
 		displayName = "Robe of Archlich",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10795,7 +10795,7 @@ local Items = {
 			"Cooldown: 100 seconds",
 		},
 	},
-	item_twrpg_jupiter_the_robe_of_heavens = {
+	item_championrpg_jupiter_the_robe_of_heavens = {
 		displayName = "Jupiter, the Robe of Heavens",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10820,7 +10820,7 @@ local Items = {
 		},
 		spec = { "Specialties - Heaven's Blessing", "Wind Mage - Feather of Aeolus: Heals for max HP X 50%." },
 	},
-	item_twrpg_thanatos_the_robe_of_hell = {
+	item_championrpg_thanatos_the_robe_of_hell = {
 		displayName = "Thanatos, the Robe of Hell",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10843,7 +10843,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_bloodseeker_plates = {
+	item_championrpg_bloodseeker_plates = {
 		displayName = "Bloodseeker Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10870,7 +10870,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_robe_of_storm = {
+	item_championrpg_robe_of_storm = {
 		displayName = "Robe of Storm",
 		type = "Armor",
 		rank = "[Epic]",
@@ -10892,7 +10892,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_horn_of_lightning_god = {
+	item_championrpg_horn_of_lightning_god = {
 		displayName = "Horn of Lightning God",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -10914,7 +10914,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_spirit_of_protector = {
+	item_championrpg_spirit_of_protector = {
 		displayName = "Spirit of Protector",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -10937,7 +10937,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_eye_of_the_reaper = {
+	item_championrpg_eye_of_the_reaper = {
 		displayName = "Eye of the Reaper",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -10958,7 +10958,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_mask_of_demigod = {
+	item_championrpg_mask_of_demigod = {
 		displayName = "Mask of Demigod",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -10981,7 +10981,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_radiance_of_the_one = {
+	item_championrpg_radiance_of_the_one = {
 		displayName = "Radiance of the One",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11001,7 +11001,7 @@ local Items = {
 		},
 		active = { "Blocks magic every 1 minute", "Lasts 5 seconds" },
 	},
-	item_twrpg_crown_of_great_rage = {
+	item_championrpg_crown_of_great_rage = {
 		displayName = "Crown of Great Rage",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11023,7 +11023,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_crown_of_extreme_anger = {
+	item_championrpg_crown_of_extreme_anger = {
 		displayName = "Crown of Extreme Anger",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11045,7 +11045,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_crown_of_absolute_zero = {
+	item_championrpg_crown_of_absolute_zero = {
 		displayName = "Crown of Absolute Zero",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11066,7 +11066,7 @@ local Items = {
 			"Cooldown: 100 seconds",
 		},
 	},
-	item_twrpg_hood_of_apocalypse = {
+	item_championrpg_hood_of_apocalypse = {
 		displayName = "Hood of Apocalypse",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11091,7 +11091,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_horn_of_demon_god = {
+	item_championrpg_horn_of_demon_god = {
 		displayName = "Horn of Demon God",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11114,7 +11114,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_eye_of_the_flame_lord = {
+	item_championrpg_eye_of_the_flame_lord = {
 		displayName = "Eye of the Flame Lord",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11130,7 +11130,7 @@ local Items = {
 		passive = { "Increases nearby allies ATK DMG and skill damage by 5%" },
 		active = { "On use, summons 2 Flame Giants" },
 	},
-	item_twrpg_prophetia_the_origin_of_knowledge = {
+	item_championrpg_prophetia_the_origin_of_knowledge = {
 		displayName = "Prophetia, the Origin of Knowledge",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -11155,7 +11155,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_heavens_fist = {
+	item_championrpg_heavens_fist = {
 		displayName = "Heaven's Fist",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11177,7 +11177,7 @@ local Items = {
 		},
 		spec = { "Specialties - Summary Judgement, Holy Arts", "Paladin - Divine Cross' damage is increased by 15%" },
 	},
-	item_twrpg_ring_of_divine_winds = {
+	item_championrpg_ring_of_divine_winds = {
 		displayName = "Ring of Divine Winds",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11197,7 +11197,7 @@ local Items = {
 		},
 		active = { "On use, teleports to target location (up to 1200 distance)", "Cooldown: 25 seconds" },
 	},
-	item_twrpg_ring_of_hope = {
+	item_championrpg_ring_of_hope = {
 		displayName = "Ring of Hope",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11220,7 +11220,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_ring_of_despair = {
+	item_championrpg_ring_of_despair = {
 		displayName = "Ring of Despair",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11245,7 +11245,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_ring_of_fate = {
+	item_championrpg_ring_of_fate = {
 		displayName = "Ring of Fate",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11266,7 +11266,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_ring_of_insanity = {
+	item_championrpg_ring_of_insanity = {
 		displayName = "Ring of Insanity",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11287,7 +11287,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_horn_of_god = {
+	item_championrpg_horn_of_god = {
 		displayName = "Horn of God",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11311,7 +11311,7 @@ local Items = {
 			"Cooldown: 20 seconds",
 		},
 	},
-	item_twrpg_ring_of_frozen_soul = {
+	item_championrpg_ring_of_frozen_soul = {
 		displayName = "Ring of Frozen Soul",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11332,7 +11332,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_latea_the_ring_of_overlord = {
+	item_championrpg_latea_the_ring_of_overlord = {
 		displayName = "Latea, the Ring of Overlord",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11349,7 +11349,7 @@ local Items = {
 			"On being damaged, 10% chance to activate Absolute Protection (blocks all damage)",
 		},
 	},
-	item_twrpg_ring_of_the_one = {
+	item_championrpg_ring_of_the_one = {
 		displayName = "Ring of the One",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11367,7 +11367,7 @@ local Items = {
 			"On being damaged, 10% chance to activate Absolute Protection (blocks all damage)",
 		},
 	},
-	item_twrpg_nebula_rose = {
+	item_championrpg_nebula_rose = {
 		displayName = "Nebula Rose",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11389,7 +11389,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_demonic_fist = {
+	item_championrpg_demonic_fist = {
 		displayName = "Demonic Fist",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11412,7 +11412,7 @@ local Items = {
 		active = { "On use empowers next attack with Demon's Grasp", "Cooldown: 10 seconds" },
 		spec = { "Specialties - Demon's Grasp", "Paladin - Divine Cross' damage is increased by 20%" },
 	},
-	item_twrpg_mark_of_sin = {
+	item_championrpg_mark_of_sin = {
 		displayName = "Mark of Sin",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11437,7 +11437,7 @@ local Items = {
 			"Priest - Dark Aurora: Holy Aurora changes to Dark Aurora [Lv. 2], removing healing effect but increasing damage dealt",
 		},
 	},
-	item_twrpg_seed_of_malice = {
+	item_championrpg_seed_of_malice = {
 		displayName = "Seed of Malice",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11469,7 +11469,7 @@ local Items = {
 			"Priest - Transmission of Darkness: Holy Aurora is replaced by Dark Aurora [Lv 3]",
 		},
 	},
-	item_twrpg_ring_of_revival = {
+	item_championrpg_ring_of_revival = {
 		displayName = "Ring of Revival",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -11486,7 +11486,7 @@ local Items = {
 		passive = { "On death, revives after 2 seconds with full HP and MP", "Cooldown: 240 seconds" },
 		active = { "On use, activates Revival", "Restores 50% of HP and MP", "Cooldown: 45 seconds" },
 	},
-	item_twrpg_wings_of_flame_lord = {
+	item_championrpg_wings_of_flame_lord = {
 		displayName = "Wings of Flame Lord",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11511,7 +11511,7 @@ local Items = {
 			"Martial Artist - If you die while Nameless Art is active, you will revive with 75% HP after 2 seconds.",
 		},
 	},
-	item_twrpg_wings_of_frost_lord = {
+	item_championrpg_wings_of_frost_lord = {
 		displayName = "Wings of Frost Lord",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11531,7 +11531,7 @@ local Items = {
 			"Deals (water affinity X (INT X 3.75)) magic damage per spike (up to 5 spikes)",
 		},
 	},
-	item_twrpg_wings_of_night_lord = {
+	item_championrpg_wings_of_night_lord = {
 		displayName = "Wings of Night Lord",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11554,7 +11554,7 @@ local Items = {
 			"At max stacks, duration cannot be extended but increases damage output by 10%",
 		},
 	},
-	item_twrpg_storm = {
+	item_championrpg_storm = {
 		displayName = "Storm",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11570,7 +11570,7 @@ local Items = {
 		},
 		passive = { "On skill cast, increases critical chance by 6% for 6 seconds (stacks up to 3 times)" },
 	},
-	item_twrpg_ruler_of_the_skies = {
+	item_championrpg_ruler_of_the_skies = {
 		displayName = "Ruler of the Skies",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11599,7 +11599,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Thunderer - When Power of Skies activates, magnetic field is recharged by 33%." },
 	},
-	item_twrpg_cape_of_deep_abyss = {
+	item_championrpg_cape_of_deep_abyss = {
 		displayName = "Cape of Deep Abyss",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11619,7 +11619,7 @@ local Items = {
 			"Increases enemy magic damage taken by 5%",
 		},
 	},
-	item_twrpg_archangel_wings = {
+	item_championrpg_archangel_wings = {
 		displayName = "Archangel Wings",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11640,7 +11640,7 @@ local Items = {
 			"Cooldown: 120 seconds",
 		},
 	},
-	item_twrpg_protection_of_the_fairies = {
+	item_championrpg_protection_of_the_fairies = {
 		displayName = "Protection of the Fairies",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11657,7 +11657,7 @@ local Items = {
 		passive = { "Increases nearby allies' healing received by 15%" },
 		active = { "On use, revives a fallen ally with full HP and MP", "Cooldown: 300 seconds" },
 	},
-	item_twrpg_brave_heart = {
+	item_championrpg_brave_heart = {
 		displayName = "Brave Heart",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11677,7 +11677,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_wings_of_immortal = {
+	item_championrpg_wings_of_immortal = {
 		displayName = "Wings of Immortal",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11697,7 +11697,7 @@ local Items = {
 			"Cooldown: 180 seconds",
 		},
 	},
-	item_twrpg_soul_devourer = {
+	item_championrpg_soul_devourer = {
 		displayName = "Soul Devourer",
 		type = "Wings",
 		rank = "[Epic]",
@@ -11720,7 +11720,7 @@ local Items = {
 		},
 		spec = { "Specialty - Soul Devour", "Warlock - Soul Whisper's restored HP amount is increased by 30%." },
 	},
-	item_twrpg_heartrender = {
+	item_championrpg_heartrender = {
 		displayName = "Heartrender",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -11744,7 +11744,7 @@ local Items = {
 			"Cooldown: 20 seconds (minimum 10 seconds per cast)",
 		},
 	},
-	item_twrpg_aeon_sphere = {
+	item_championrpg_aeon_sphere = {
 		displayName = "Aeon Sphere",
 		type = "Weapon (Shared)",
 		rank = "[Epic]",
@@ -11772,7 +11772,7 @@ local Items = {
 			"Cooldown: 3 seconds",
 		},
 	},
-	item_twrpg_spear_of_judgment = {
+	item_championrpg_spear_of_judgment = {
 		displayName = "Spear of Judgment",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11798,7 +11798,7 @@ local Items = {
 			"Cooldown: 75 sec",
 		},
 	},
-	item_twrpg_caedis_the_sword_of_slaughter = {
+	item_championrpg_caedis_the_sword_of_slaughter = {
 		displayName = "Caedis, the Sword of Slaughter",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11827,7 +11827,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_divine_slayer = {
+	item_championrpg_divine_slayer = {
 		displayName = "Divine Slayer",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11852,7 +11852,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_atricia_the_sword_of_nightmares = {
+	item_championrpg_atricia_the_sword_of_nightmares = {
 		displayName = "Atricia, the Sword of Nightmares",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11882,7 +11882,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_shadow_waltz = {
+	item_championrpg_shadow_waltz = {
 		displayName = "Shadow Waltz",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11911,7 +11911,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_lightbringer = {
+	item_championrpg_lightbringer = {
 		displayName = "Lightbringer",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11939,7 +11939,7 @@ local Items = {
 			"1 sword is charged every 15s, 3 swords on ultimate",
 		},
 	},
-	item_twrpg_blazing_sun = {
+	item_championrpg_blazing_sun = {
 		displayName = "Blazing Sun",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11967,7 +11967,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_duskblade = {
+	item_championrpg_duskblade = {
 		displayName = "Duskblade",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -11988,7 +11988,7 @@ local Items = {
 			"Cooldown: 12 seconds, reduced by 1 second on each skill crit",
 		},
 	},
-	item_twrpg_world_sunderer = {
+	item_championrpg_world_sunderer = {
 		displayName = "World Sunderer",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -12016,7 +12016,7 @@ local Items = {
 		},
 		spec = { "Specialty - Darkened Light", "Paladin - Holy Divide deals 50% more damage." },
 	},
-	item_twrpg_espishu_the_true_sword_of_chaos = {
+	item_championrpg_espishu_the_true_sword_of_chaos = {
 		displayName = "Espishu, the True Sword of Chaos",
 		type = "Weapon (Melee)",
 		rank = "[Epic]",
@@ -12038,7 +12038,7 @@ local Items = {
 			"every 4th proc lands as critical strike",
 		},
 	},
-	item_twrpg_agnitus_the_bow_of_divine_fury = {
+	item_championrpg_agnitus_the_bow_of_divine_fury = {
 		displayName = "Agnitus, the Bow of Divine Fury",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -12061,7 +12061,7 @@ local Items = {
 		},
 		spec = { "Specialty - Arrow of Judgment", "Sniper - Storm Shaft's max stack is increased by 3" },
 	},
-	item_twrpg_spirit_flame = {
+	item_championrpg_spirit_flame = {
 		displayName = "Spirit Flame",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -12085,7 +12085,7 @@ local Items = {
 			"Every 4 seconds, increases skill damage and flame affinity by 1% (up to 15 stacks)",
 		},
 	},
-	item_twrpg_divine_vein = {
+	item_championrpg_divine_vein = {
 		displayName = "Divine Vein",
 		type = "Weapon (Bow)",
 		rank = "[Epic]",
@@ -12116,7 +12116,7 @@ local Items = {
 			"Sniper - Divine Arrow: Snipe's damage is increased by 30% and cooldown is reduced by 50%.",
 		},
 	},
-	item_twrpg_abyss_fall = {
+	item_championrpg_abyss_fall = {
 		displayName = "Abyss Fall",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -12149,7 +12149,7 @@ local Items = {
 			"Shooter - Nanomachine Injection: Healing speed increased by 60% and duration increased by 100%; while buff is active, target is immune to debuffs",
 		},
 	},
-	item_twrpg_final_omen = {
+	item_championrpg_final_omen = {
 		displayName = "Final Omen",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -12177,7 +12177,7 @@ local Items = {
 			"Gunner - Casting Tumble loads one Bullet of Omen",
 		},
 	},
-	item_twrpg_soul_chaser = {
+	item_championrpg_soul_chaser = {
 		displayName = "Soul Chaser",
 		type = "Weapon (Gun)",
 		rank = "[Epic]",
@@ -12206,7 +12206,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_fulminata_the_bringer_of_storms = {
+	item_championrpg_fulminata_the_bringer_of_storms = {
 		displayName = "Fulminata, the Bringer of Storms",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12233,7 +12233,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_endless_snow = {
+	item_championrpg_endless_snow = {
 		displayName = "Endless Snow",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12269,7 +12269,7 @@ local Items = {
 			"Elementalist - Purify: Cast cost reduced by 10",
 		},
 	},
-	item_twrpg_gate_of_abyss = {
+	item_championrpg_gate_of_abyss = {
 		displayName = "Gate of Abyss",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12295,7 +12295,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_akhelius_the_staff_of_duality = {
+	item_championrpg_akhelius_the_staff_of_duality = {
 		displayName = "Akhelius, the Staff of Duality",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12323,7 +12323,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_prelude_to_demise = {
+	item_championrpg_prelude_to_demise = {
 		displayName = "Prelude to Demise",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12351,7 +12351,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_soul_torch = {
+	item_championrpg_soul_torch = {
 		displayName = "Soul Torch",
 		type = "Weapon (Staff)",
 		rank = "[Epic]",
@@ -12375,7 +12375,7 @@ local Items = {
 			"Can maintain up to 3 spirits",
 		},
 	},
-	item_twrpg_cage_of_twisted_souls = {
+	item_championrpg_cage_of_twisted_souls = {
 		displayName = "Cage of Twisted Souls",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12402,7 +12402,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_plates_of_sanguine_fury = {
+	item_championrpg_plates_of_sanguine_fury = {
 		displayName = "Plates of Sanguine Fury",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12432,7 +12432,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_sanguis_the_robe_of_sacrifice = {
+	item_championrpg_sanguis_the_robe_of_sacrifice = {
 		displayName = "Sanguis, the Robe of Sacrifice",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12459,7 +12459,7 @@ local Items = {
 			"3 range settings are provided: close, medium, and far (250, 600, 800)",
 		},
 	},
-	item_twrpg_titans_plates = {
+	item_championrpg_titans_plates = {
 		displayName = "Titan's Plates",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12487,7 +12487,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_exitium_the_armor_of_ruin = {
+	item_championrpg_exitium_the_armor_of_ruin = {
 		displayName = "Exitium, the Armor of Ruin",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12515,7 +12515,7 @@ local Items = {
 			"Martial Artist - Nameless Arts reduces damage taken by 20% while active. Also grants immunity to instant death spell",
 		},
 	},
-	item_twrpg_frost_heralds_garment = {
+	item_championrpg_frost_heralds_garment = {
 		displayName = "Frost Herald's Garment",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12543,7 +12543,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Water Mage - Improved Frozen Emotion: Reduces target's damage taken by 12%." },
 	},
-	item_twrpg_call_of_gehenna = {
+	item_championrpg_call_of_gehenna = {
 		displayName = "Call of Gehenna",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12569,7 +12569,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_dread_incarnate = {
+	item_championrpg_dread_incarnate = {
 		displayName = "Dread Incarnate",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12596,7 +12596,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_astral_fury = {
+	item_championrpg_astral_fury = {
 		displayName = "Astral Fury",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12618,7 +12618,7 @@ local Items = {
 			"Proc cooldown: 0.5 seconds",
 		},
 	},
-	item_twrpg_divine_aegis = {
+	item_championrpg_divine_aegis = {
 		displayName = "Divine Aegis",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12641,7 +12641,7 @@ local Items = {
 			"Cooldown: 75 seconds",
 		},
 	},
-	item_twrpg_arch_druid_robe = {
+	item_championrpg_arch_druid_robe = {
 		displayName = "Arch Druid Robe",
 		type = "Armor",
 		rank = "[Epic]",
@@ -12668,7 +12668,7 @@ local Items = {
 			"1 Spirit is spawned every 5 seconds (up to 4)",
 		},
 	},
-	item_twrpg_crescendo_of_madness = {
+	item_championrpg_crescendo_of_madness = {
 		displayName = "Crescendo of Madness",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12690,7 +12690,7 @@ local Items = {
 			"Cooldown: 3 seconds",
 		},
 	},
-	item_twrpg_crown_of_cleansing = {
+	item_championrpg_crown_of_cleansing = {
 		displayName = "Crown of Cleansing",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12719,7 +12719,7 @@ local Items = {
 		},
 		spec = { "Specialty - Protector of Wind", "Wind Mage - Judgment: Damage increased by 7.5%." },
 	},
-	item_twrpg_visage_of_vengeance = {
+	item_championrpg_visage_of_vengeance = {
 		displayName = "Visage of Vengeance",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12748,7 +12748,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_horn_of_dragon = {
+	item_championrpg_horn_of_dragon = {
 		displayName = "Horn of Dragon",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12773,7 +12773,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_crown_of_cataclysm = {
+	item_championrpg_crown_of_cataclysm = {
 		displayName = "Crown of Cataclysm",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12797,7 +12797,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_crown_of_transcendance = {
+	item_championrpg_crown_of_transcendance = {
 		displayName = "Crown of Transcendance",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12826,7 +12826,7 @@ local Items = {
 			"Cooldown: 100 seconds",
 		},
 	},
-	item_twrpg_keeper_of_the_grove = {
+	item_championrpg_keeper_of_the_grove = {
 		displayName = "Keeper of the Grove",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12857,7 +12857,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_harvesters_mask = {
+	item_championrpg_harvesters_mask = {
 		displayName = "Harvester's Mask",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12879,7 +12879,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_diabolic_mask = {
+	item_championrpg_diabolic_mask = {
 		displayName = "Diabolic Mask",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12906,7 +12906,7 @@ local Items = {
 			"Cooldown: 60s",
 		},
 	},
-	item_twrpg_echoes_of_the_void = {
+	item_championrpg_echoes_of_the_void = {
 		displayName = "Echoes of the Void",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12936,7 +12936,7 @@ local Items = {
 			"Cooldown: 45s",
 		},
 	},
-	item_twrpg_prophetia_the_forbidden_truth = {
+	item_championrpg_prophetia_the_forbidden_truth = {
 		displayName = "Prophetia, the Forbidden Truth",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12962,7 +12962,7 @@ local Items = {
 			"Consumes all stacks of Forbidden Truth, increasing stat gain by 10% per stack",
 		},
 	},
-	item_twrpg_eye_of_annihilation = {
+	item_championrpg_eye_of_annihilation = {
 		displayName = "Eye of Annihilation",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -12986,7 +12986,7 @@ local Items = {
 			"Cooldown: 5 seconds",
 		},
 	},
-	item_twrpg_eye_of_the_blood_god = {
+	item_championrpg_eye_of_the_blood_god = {
 		displayName = "Eye of the Blood God",
 		type = "Headwear",
 		rank = "[Epic]",
@@ -13013,7 +13013,7 @@ local Items = {
 			"Upon max accumulation, deals (Accumulated Amount X 6) magic damage to nearby enemies (reactivation cooldown: 3 seconds)",
 		},
 	},
-	item_twrpg_star_of_apotheosis = {
+	item_championrpg_star_of_apotheosis = {
 		displayName = "Star of Apotheosis",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13033,7 +13033,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_heirloom_of_lazarus = {
+	item_championrpg_heirloom_of_lazarus = {
 		displayName = "Heirloom of Lazarus",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13060,7 +13060,7 @@ local Items = {
 		},
 		spec = { "Specialty", "Knight - Improved Seal of Mana: Radius is increased by 30%." },
 	},
-	item_twrpg_ring_of_desolate_soul = {
+	item_championrpg_ring_of_desolate_soul = {
 		displayName = "Ring of Desolate Soul",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13081,7 +13081,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_crimson_curse = {
+	item_championrpg_crimson_curse = {
 		displayName = "Crimson Curse",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13107,7 +13107,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_seal_of_corruption = {
+	item_championrpg_seal_of_corruption = {
 		displayName = "Seal of Corruption",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13137,7 +13137,7 @@ local Items = {
 		},
 		spec = { "Specialty - Harvest", "Dark Knight - Gains 1 stack of Corruption per soul absorbed." },
 	},
-	item_twrpg_ring_of_eternity = {
+	item_championrpg_ring_of_eternity = {
 		displayName = "Ring of Eternity",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13163,7 +13163,7 @@ local Items = {
 			"Grants 7% skill damage, 1000 HP and 200 MP regen, and CC immunity for 10 seconds",
 		},
 	},
-	item_twrpg_heart_of_life = {
+	item_championrpg_heart_of_life = {
 		displayName = "Heart of Life",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13190,7 +13190,7 @@ local Items = {
 			"Cooldown: 20 seconds (to gain a charge)",
 		},
 	},
-	item_twrpg_bell_of_divinity = {
+	item_championrpg_bell_of_divinity = {
 		displayName = "Bell of Divinity",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13211,7 +13211,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_ring_of_malevolence = {
+	item_championrpg_ring_of_malevolence = {
 		displayName = "Ring of Malevolence",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13235,7 +13235,7 @@ local Items = {
 			"Increases total damage by 10% [Type-B] for 5 seconds",
 		},
 	},
-	item_twrpg_ring_of_genesis = {
+	item_championrpg_ring_of_genesis = {
 		displayName = "Ring of Genesis",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13254,7 +13254,7 @@ local Items = {
 			"On being damaged, 10% chance to activate Absolute Protection",
 		},
 	},
-	item_twrpg_chains_of_torment = {
+	item_championrpg_chains_of_torment = {
 		displayName = "Chains of Torment",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13283,7 +13283,7 @@ local Items = {
 			"Cooldown: 15 seconds",
 		},
 	},
-	item_twrpg_soul_fist = {
+	item_championrpg_soul_fist = {
 		displayName = "Soul Fist",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13310,7 +13310,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_ring_of_noble_soul = {
+	item_championrpg_ring_of_noble_soul = {
 		displayName = "Ring of Noble Soul",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13335,7 +13335,7 @@ local Items = {
 			"Cooldown: 60 seconds",
 		},
 	},
-	item_twrpg_divine_rose = {
+	item_championrpg_divine_rose = {
 		displayName = "Divine Rose",
 		type = "Accessory",
 		rank = "[Epic]",
@@ -13361,7 +13361,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_cape_of_insatiable_hunger = {
+	item_championrpg_cape_of_insatiable_hunger = {
 		displayName = "Cape of Insatiable Hunger",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13388,7 +13388,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_bloodstorm = {
+	item_championrpg_bloodstorm = {
 		displayName = "Bloodstorm",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13410,7 +13410,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_guardian_angel = {
+	item_championrpg_guardian_angel = {
 		displayName = "Guardian Angel",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13436,7 +13436,7 @@ local Items = {
 			"Cooldown: 40 seconds",
 		},
 	},
-	item_twrpg_wings_of_cosmos = {
+	item_championrpg_wings_of_cosmos = {
 		displayName = "Wings of Cosmos",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13464,7 +13464,7 @@ local Items = {
 			"Cooldown: 45 seconds",
 		},
 	},
-	item_twrpg_wings_of_sacred_provenance = {
+	item_championrpg_wings_of_sacred_provenance = {
 		displayName = "Wings of Sacred Provenance",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13494,7 +13494,7 @@ local Items = {
 			"Cooldown: 90 seconds",
 		},
 	},
-	item_twrpg_thread_of_life = {
+	item_championrpg_thread_of_life = {
 		displayName = "Thread of Life",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13519,7 +13519,7 @@ local Items = {
 			"Cooldown: 240 seconds",
 		},
 	},
-	item_twrpg_blood_devourer = {
+	item_championrpg_blood_devourer = {
 		displayName = "Blood Devourer",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13543,7 +13543,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_living_flame = {
+	item_championrpg_living_flame = {
 		displayName = "Living Flame",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13568,7 +13568,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_soul_breath = {
+	item_championrpg_soul_breath = {
 		displayName = "Soul Breath",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13593,7 +13593,7 @@ local Items = {
 			"Soul Fragment will spawn every second",
 		},
 	},
-	item_twrpg_wings_of_the_void = {
+	item_championrpg_wings_of_the_void = {
 		displayName = "Wings of the Void",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13617,7 +13617,7 @@ local Items = {
 			"Cooldown: 30 seconds",
 		},
 	},
-	item_twrpg_soulstorm = {
+	item_championrpg_soulstorm = {
 		displayName = "Soulstorm",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13639,7 +13639,7 @@ local Items = {
 			"Cooldown: 10 seconds",
 		},
 	},
-	item_twrpg_embrace_of_death = {
+	item_championrpg_embrace_of_death = {
 		displayName = "Embrace of Death",
 		type = "Wings",
 		rank = "[Epic]",
@@ -13660,7 +13660,7 @@ local Items = {
 			"Upon reaching max stacks, the duration is no longer refreshed, but increases total damage by 10% for the duration of the buff",
 		},
 	},
-	item_twrpg_hydra_icon = {
+	item_championrpg_hydra_icon = {
 		displayName = "Hydra Icon",
 		type = "Icon",
 		rank = "none",
@@ -13670,7 +13670,7 @@ local Items = {
 			allstat = 2,
 		},
 	},
-	item_twrpg_count_icon = {
+	item_championrpg_count_icon = {
 		displayName = "Count Icon",
 		type = "Icon",
 		rank = "none",
@@ -13680,7 +13680,7 @@ local Items = {
 			allstat = 3,
 		},
 	},
-	item_twrpg_jack_icon = {
+	item_championrpg_jack_icon = {
 		displayName = "Jack Icon",
 		type = "Icon",
 		rank = "none",
@@ -13690,7 +13690,7 @@ local Items = {
 			allstat = 12,
 		},
 	},
-	item_twrpg_mage_lord_icon = {
+	item_championrpg_mage_lord_icon = {
 		displayName = "Mage Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -13701,7 +13701,7 @@ local Items = {
 			skilldamagepercent = 0.005,
 		},
 	},
-	item_twrpg_wings_of_death_icon = {
+	item_championrpg_wings_of_death_icon = {
 		displayName = "Wings of Death Icon",
 		type = "Icon",
 		rank = "none",
@@ -13712,7 +13712,7 @@ local Items = {
 			hpregen = 6,
 		},
 	},
-	item_twrpg_guardian_angel_icon = {
+	item_championrpg_guardian_angel_icon = {
 		displayName = "Guardian Angel Icon",
 		type = "Icon",
 		rank = "none",
@@ -13723,7 +13723,7 @@ local Items = {
 			drpercent = 0.01,
 		},
 	},
-	item_twrpg_corrupt_angel_icon = {
+	item_championrpg_corrupt_angel_icon = {
 		displayName = "Corrupt Angel Icon",
 		type = "Icon",
 		rank = "none",
@@ -13734,7 +13734,7 @@ local Items = {
 			critchancepercent = 0.005,
 		},
 	},
-	item_twrpg_everfrost_icon = {
+	item_championrpg_everfrost_icon = {
 		displayName = "Everfrost Icon",
 		type = "Icon",
 		rank = "none",
@@ -13746,7 +13746,7 @@ local Items = {
 			mp = 120,
 		},
 	},
-	item_twrpg_spider_lord_icon = {
+	item_championrpg_spider_lord_icon = {
 		displayName = "Spider Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -13759,7 +13759,7 @@ local Items = {
 			mpregen = 3,
 		},
 	},
-	item_twrpg_demon_lord_icon = {
+	item_championrpg_demon_lord_icon = {
 		displayName = "Demon Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -13771,7 +13771,7 @@ local Items = {
 			drpercent = 0.01,
 		},
 	},
-	item_twrpg_corruptor_icon = {
+	item_championrpg_corruptor_icon = {
 		displayName = "Corruptor Icon",
 		type = "Icon",
 		rank = "none",
@@ -13784,7 +13784,7 @@ local Items = {
 			drpercent = 0.01,
 		},
 	},
-	item_twrpg_turtle_lord_icon = {
+	item_championrpg_turtle_lord_icon = {
 		displayName = "Turtle Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -13797,7 +13797,7 @@ local Items = {
 			mpregen = 3,
 		},
 	},
-	item_twrpg_flame_nightmare_icon = {
+	item_championrpg_flame_nightmare_icon = {
 		displayName = "Flame Nightmare Icon",
 		type = "Icon",
 		rank = "none",
@@ -13809,7 +13809,7 @@ local Items = {
 			hpregen = 1.5,
 		},
 	},
-	item_twrpg_skeletal_king_icon = {
+	item_championrpg_skeletal_king_icon = {
 		displayName = "Skeletal King Icon",
 		type = "Icon",
 		rank = "none",
@@ -13821,7 +13821,7 @@ local Items = {
 			hpregen = 7.5,
 		},
 	},
-	item_twrpg_zombie_lord_icon = {
+	item_championrpg_zombie_lord_icon = {
 		displayName = "Zombie Lord Icon",
 		type = "Icon",
 		rank = "none",
@@ -13834,7 +13834,7 @@ local Items = {
 			drpercent = 0.02,
 		},
 	},
-	item_twrpg_ancient_ent_icon = {
+	item_championrpg_ancient_ent_icon = {
 		displayName = "Ancient Ent Icon",
 		type = "Icon",
 		rank = "none",
@@ -13847,7 +13847,7 @@ local Items = {
 			mpregen = 6,
 		},
 	},
-	item_twrpg_archangel_icon = {
+	item_championrpg_archangel_icon = {
 		displayName = "Archangel Icon",
 		type = "Icon",
 		rank = "none",
@@ -13858,7 +13858,7 @@ local Items = {
 			drpercent = 0.02,
 		},
 	},
-	item_twrpg_shadow_dragon_icon = {
+	item_championrpg_shadow_dragon_icon = {
 		displayName = "Shadow Dragon Icon",
 		type = "Icon",
 		rank = "none",
@@ -13868,7 +13868,7 @@ local Items = {
 			damagedealtpercent = 0.01,
 		},
 	},
-	item_twrpg_master_icon = {
+	item_championrpg_master_icon = {
 		displayName = "Master Icon",
 		type = "Icon",
 		rank = "none",
@@ -13886,7 +13886,7 @@ local Items = {
 			mpregen = 5,
 		},
 	},
-	item_twrpg_grandmaster_icon = {
+	item_championrpg_grandmaster_icon = {
 		displayName = "Grandmaster Icon",
 		type = "Icon",
 		rank = "none",
@@ -13907,7 +13907,7 @@ local Items = {
 		},
 		passive = { "Deltirama ~ Gnosis personal loot drop rate increased by 50%" },
 	},
-	item_twrpg_legend_icon = {
+	item_championrpg_legend_icon = {
 		displayName = "Legend Icon",
 		type = "Icon",
 		rank = "none",
@@ -13933,7 +13933,7 @@ local Items = {
 			"Increases MAIN STAT by 2% for 30 seconds",
 		},
 	},
-	item_twrpg_glasses = {
+	item_championrpg_glasses = {
 		displayName = "Glasses",
 		type = "Misc",
 		rank = "none",
@@ -13941,7 +13941,7 @@ local Items = {
 		equipSlot = nil,
 		passive = { "Your night vision becomes better." },
 	},
-	item_twrpg_mithril_pickaxe = {
+	item_championrpg_mithril_pickaxe = {
 		displayName = "Mithril Pickaxe",
 		type = "Pickaxe",
 		rank = "[Epic]",
@@ -13950,7 +13950,7 @@ local Items = {
 		tier = "Deltirama",
 		active = { "Mining Speed: Once every 8 seconds" },
 	},
-	item_twrpg_abyssal_pickaxe = {
+	item_championrpg_abyssal_pickaxe = {
 		displayName = "Abyssal Pickaxe",
 		type = "Pickaxe",
 		rank = "[Epic]",
@@ -13959,7 +13959,7 @@ local Items = {
 		tier = "Neptinos",
 		active = { "Mining Speed: Once every 6 seconds", "Can mine Giant Deposit" },
 	},
-	item_twrpg_chaos_pickaxe = {
+	item_championrpg_chaos_pickaxe = {
 		displayName = "Chaos Pickaxe",
 		type = "Pickaxe",
 		rank = "[Epic]",
@@ -13968,7 +13968,7 @@ local Items = {
 		tier = "Alteia",
 		active = { "Mining Speed: Once every 4 seconds", "Can mine Giant Deposit and Chaos Deposit" },
 	},
-	item_twrpg_wing_frame = {
+	item_championrpg_wing_frame = {
 		displayName = "Wing Frame",
 		type = "Material",
 		rank = "[Epic]",

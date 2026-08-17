@@ -2,7 +2,7 @@
 """Shared loading, normalisation and emit helpers for the content build.
 
 Source of truth is `research/` (read-only). Nothing in this package may edit it.
-Everything under `game/dota_addons/twrpg/scripts/npc/` and `.../vscripts/data/`
+Everything under `game/dota_addons/championrpg/scripts/npc/` and `.../vscripts/data/`
 is generated and must never be hand-edited.
 """
 import json
@@ -12,7 +12,7 @@ import re
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 RAW = os.path.join(ROOT, "research", "raw")
 EXTRACTED = os.path.join(ROOT, "research", "extracted")
-ADDON = os.path.join(ROOT, "game", "dota_addons", "twrpg")
+ADDON = os.path.join(ROOT, "game", "dota_addons", "championrpg")
 NPC = os.path.join(ADDON, "scripts", "npc")
 VSCRIPTS = os.path.join(ADDON, "scripts", "vscripts")
 DATA = os.path.join(VSCRIPTS, "data")
@@ -59,19 +59,19 @@ def slug(name):
 
 
 def unit_key(name):
-    return "npc_twrpg_" + slug(name)
+    return "npc_championrpg_" + slug(name)
 
 
 def item_key(name):
-    return "item_twrpg_" + slug(name)
+    return "item_championrpg_" + slug(name)
 
 
 def ability_key(name):
-    return "twrpg_" + slug(name)
+    return "championrpg_" + slug(name)
 
 
 def hero_key(hero_class):
-    return "npc_dota_hero_twrpg_" + slug(hero_class)
+    return "npc_dota_hero_championrpg_" + slug(hero_class)
 
 
 # ------------------------------------------------------------------ numbers
